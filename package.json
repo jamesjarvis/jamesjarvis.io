@@ -1,0 +1,39 @@
+{
+  "name": "jamesjarvis.io",
+  "private": true,
+  "description": "Personal website for James Jarvis",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "yarn develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "dependencies": {
+    "gatsby": "^2.0.76",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesjarvis/jamesjarvis.io"
+  },
+  "bugs": {
+    "url": "https://github.com/jamesjarvis/jamesjarvis.io/issues"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-react-app": "^3.0.5",
+    "eslint-plugin-flowtype": "2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.15.3",
+    "babel-eslint": "^10.0.1"
+  }
+}
