@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{133:function(n,e,t){"use strict";t.r(e),t.d(e,"default",function(){return i});var r=t(7),a=t.n(r),o=t(0),u=t.n(o),i=function(n){function e(){return n.apply(this,arguments)||this}return a()(e,n),e.prototype.render=function(){return u.a.createElement(u.a.Fragment,null,u.a.createElement("h1",null,"James Jarvis"),u.a.createElement("h3",null,"Personal site, coming soon..."))},e}(u.a.Component)}}]);
+//# sourceMappingURL=component---src-pages-index-jsx-93f4cd2340559abab0e2.js.map
