@@ -18,12 +18,5 @@ module.exports = {
         trackingId: 'UA-133320080-1',
       },
     },
-    `gatsby-plugin-emotion`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
   ],
 };
