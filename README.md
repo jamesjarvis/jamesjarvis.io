@@ -1,5 +1,7 @@
 # jamesjarvis.io
 
+[![CircleCI](https://circleci.com/gh/jamesjarvis/jamesjarvis.io.svg?style=svg)](https://circleci.com/gh/jamesjarvis/jamesjarvis.io)
+
 Welcome to jamesjarvis.io - my personal site, accessible at (you guessed it!) https://jamesjarvis.io
 
 Been meaning to make one for ages.
