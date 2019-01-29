@@ -1,12 +1,12 @@
 import React from 'react';
+import Wrapper from '../components/wrapper';
 
 export default class Index extends React.Component {
   render() {
     return (
-      <>
-        <h1>James Jarvis</h1>
-        <h3>Personal site, coming soon...</h3>
-      </>
+      <Wrapper>
+        <div className="content">Hi, Welcome to my site</div>
+      </Wrapper>
     );
   }
 }

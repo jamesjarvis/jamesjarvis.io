@@ -18,5 +18,14 @@ module.exports = {
         trackingId: 'UA-133320080-1',
       },
     },
+    `gatsby-plugin-sass`,
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Major Mono Display', 'Roboto Mono'],
+        },
+      },
+    },
   ],
 };

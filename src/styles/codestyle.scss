@@ -1,0 +1,22 @@
+%codeShared {
+  color: #4d4d4d;
+  letter-spacing: 0.05ch;
+  font-weight: lighter;
+}
+
+.python {
+  ul::before {
+    @extend %codeShared;
+    content: "nav=['";
+  }
+
+  ul::after {
+    @extend %codeShared;
+    content: "']"
+  }
+
+  li + li::before {
+    @extend %codeShared;
+    content: "'],['";
+  }
+}
