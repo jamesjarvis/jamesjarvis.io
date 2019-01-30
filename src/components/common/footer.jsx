@@ -8,9 +8,9 @@ export default class Footer extends React.Component {
         <Name
           words={[
             { word: 'I', faint: false },
-            { word: 'Am', faint: false },
-            { word: 'The', faint: true },
-            { word: 'Real', faint: true },
+            { word: 'am', faint: false },
+            { word: 'the', faint: true },
+            { word: 'real', faint: true },
             { word: 'James', faint: false },
             { word: 'Jarvis', faint: false },
           ]}

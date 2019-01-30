@@ -21,6 +21,7 @@
 
   ul::after {
     @extend %codeShared;
+    padding-right: 1ch;
     content: "']";
   }
 }
