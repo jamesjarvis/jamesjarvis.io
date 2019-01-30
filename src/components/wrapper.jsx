@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
-import Header from './common/header';
-import Footer from './common/footer';
+import Header from './common/header/header';
+import Footer from './common/footer/footer';
 
 export default class Wrapper extends React.Component {
   render() {
