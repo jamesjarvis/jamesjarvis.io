@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{180:function(n){n.exports={pages:[{componentChunkName:"component---src-pages-index-jsx",jsonName:"index",path:"/"}],dataPaths:{index:"173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"}}}}]);
-//# sourceMappingURL=pages-manifest-b53858013c0c133c0bf4.js.map
