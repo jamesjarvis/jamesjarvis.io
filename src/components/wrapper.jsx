@@ -11,7 +11,11 @@ export default class Wrapper extends React.Component {
         <Helmet>
           <title>James Jarvis</title>
           <meta name="description" content="James Jarvis' personal site" />
-          <meta name="keywords" cpntent="personal,site,portfolio,developer" />
+          <meta name="keywords" content="personal,site,portfolio,developer" />
+          <meta
+            name="google-site-verification"
+            content="qUT9bwH-WOAeZymmzvqBCmYdGu73nhhAPtRbBJbEabM"
+          />
         </Helmet>
         <Header />
         {this.props.children}

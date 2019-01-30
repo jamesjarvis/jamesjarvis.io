@@ -4,7 +4,16 @@
   font-weight: lighter;
 }
 
+%listJoin {
+  li + li::before {
+    @extend %codeShared;
+    content: "','";
+  }
+}
+
 .python {
+  @extend %listJoin;
+
   ul::before {
     @extend %codeShared;
     content: "nav=['";
@@ -12,11 +21,37 @@
 
   ul::after {
     @extend %codeShared;
-    content: "']"
+    content: "']";
+  }
+}
+
+.javascript {
+  @extend %listJoin;
+  
+  ul::before {
+    @extend %codeShared;
+    content: "const nav=['";
+  }
+
+  ul::after {
+    @extend %codeShared;
+    content: "'];";
+  }
+}
+
+.java {
+  ul::before {
+    @extend %codeShared;
+    content: "String[] nav=[\"";
   }
 
   li + li::before {
     @extend %codeShared;
-    content: "'],['";
+    content: "\",\"";
+  }
+
+  ul::after {
+    @extend %codeShared;
+    content: "\"];";
   }
 }
