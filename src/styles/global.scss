@@ -1,16 +1,17 @@
 html {
-  padding: 50px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Titillium Web", sans-serif;
   letter-spacing: 0.5ch;
   max-width: 800px;
   margin: auto;
 }
 
-.content {
-  margin: auto;
+.title {
   text-align: center;
-  padding: 50px 0;
-  height: 100%;
+}
+
+.content {
+  text-align: center;
+  padding: 30px 0;
   z-index: 0;
 }
 
@@ -21,39 +22,39 @@ html {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
- 
+
 /*=== Optional Delays, change values here  ===*/
 .one {
--webkit-animation-delay: 0.4s;
--moz-animation-delay: 0.4s;
-animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
- 
+
 .two {
--webkit-animation-delay: 1.7s;
--moz-animation-delay: 1.7s;
-animation-delay: 1.7s;
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+  animation-delay: 1.7s;
 }
- 
+
 .three {
--webkit-animation-delay: 2.3s;
--moz-animation-delay: 2.3s;
-animation-delay: 2.3s;
+  -webkit-animation-delay: 2.3s;
+  -moz-animation-delay: 2.3s;
+  animation-delay: 2.3s;
 }
- 
+
 .four {
--webkit-animation-delay: 3.3s;
--moz-animation-delay: 3.3s;
-animation-delay: 3.3s;
+  -webkit-animation-delay: 3.3s;
+  -moz-animation-delay: 3.3s;
+  animation-delay: 3.3s;
 }
- 
+
 /*=== Animations start here  ===*/
 /*=== FADE IN  ===*/
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
   }
- 
+
   to {
     opacity: 1;
   }
@@ -62,18 +63,17 @@ animation-delay: 3.3s;
   from {
     opacity: 0;
   }
- 
+
   to {
     opacity: 1;
   }
 }
- 
+
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
- 
- 
+
 /*=== FADE IN DOWN ===*/
 @-webkit-keyframes fadeInDown {
   from {
@@ -81,7 +81,7 @@ animation-delay: 3.3s;
     -webkit-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
   }
- 
+
   to {
     opacity: 1;
     -webkit-transform: none;
@@ -94,19 +94,19 @@ animation-delay: 3.3s;
     -webkit-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
   }
- 
+
   to {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
- 
+
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
- 
+
 /*==== FADE IN UP ===*/
 @-webkit-keyframes fadeInUp {
   from {
@@ -114,7 +114,7 @@ animation-delay: 3.3s;
     -webkit-transform: translate3d(0, 50%, 0);
     transform: translate3d(0, 50%, 0);
   }
- 
+
   to {
     opacity: 1;
     -webkit-transform: none;
@@ -127,19 +127,18 @@ animation-delay: 3.3s;
     -webkit-transform: translate3d(0, 50%, 0);
     transform: translate3d(0, 50%, 0);
   }
- 
+
   to {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
 }
- 
+
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
-
 
 @supports (-webkit-appearance: none) {
   .translucent {
@@ -153,9 +152,21 @@ animation-delay: 3.3s;
   .translucent {
     // background-color: #ffffffd5;
     text-shadow: 0ch 0ch 1ch white;
-    background: -moz-linear-gradient(top, $backgroundColor 75%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, $backgroundColor 75%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, $backgroundColor 75%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$backgroundColor, endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(
+      top,
+      $backgroundColor 75%,
+      rgba(255, 255, 255, 0) 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      top,
+      $backgroundColor 75%,
+      rgba(255, 255, 255, 0) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      $backgroundColor 75%,
+      rgba(255, 255, 255, 0) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$backgroundColor, endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
   }
 }

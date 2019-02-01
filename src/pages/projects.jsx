@@ -1,10 +1,10 @@
 import React from 'react';
 import Wrapper from '../components/wrapper';
 
-export default class Index extends React.Component {
+export default class Projects extends React.Component {
   render() {
     return (
-      <Wrapper>
+      <Wrapper title="Projects">
         <div className="content">Projects I have worked on</div>
       </Wrapper>
     );

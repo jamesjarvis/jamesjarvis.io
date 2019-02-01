@@ -4,7 +4,7 @@ import Wrapper from '../components/wrapper';
 export default class Index extends React.Component {
   render() {
     return (
-      <Wrapper>
+      <Wrapper title="Home">
         <h1 className="title animate fadeInUp one">Hi, Welcome to my site.</h1>
         <p className="content animate fadeInUp two">
           I'm just trying to think of things to put on here for now. If you would like to check back
