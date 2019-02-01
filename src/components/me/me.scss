@@ -1,0 +1,8 @@
+$shadow :#000000ad;
+
+.avatar {
+  border-radius: 50%;
+  -webkit-box-shadow: 0 8px 6px -5px $shadow;
+  -moz-box-shadow: 0 8px 6px -5px $shadow;
+       box-shadow: 0 8px 6px -5px $shadow;
+}

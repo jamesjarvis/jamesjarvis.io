@@ -6,10 +6,10 @@ import './name.scss';
 
 const Name = ({ words }) => (
   <div className="nameWrapper">
-    {words.map((word, id) => {
+    {words.map(word => {
       const link = word.faint ? '/really' : '/';
       return (
-        <Link id={id} to={link} className={`line ${word.faint ? 'faint' : ''}`}>
+        <Link key={`name-${word.word}`} to={link} className={`line ${word.faint ? 'faint' : ''}`}>
           <Scramble
             className={`line`}
             autoStart

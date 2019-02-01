@@ -68,6 +68,17 @@ function SEO({ description, lang, meta, keywords, title }) {
   );
 }
 
+const detailsQuery = graphql`
+  query DefaultSEOQuery {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
+  }
+`;
+
 SEO.defaultProps = {
   description: '',
   lang: `en`,
@@ -85,14 +96,3 @@ SEO.propTypes = {
 };
 
 export default SEO;
-
-const detailsQuery = graphql`
-  query DefaultSEOQuery {
-    site {
-      siteMetadata {
-        title
-        description
-      }
-    }
-  }
-`;
