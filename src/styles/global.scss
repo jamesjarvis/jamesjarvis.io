@@ -1,8 +1,8 @@
-html {
+html, body {
   font-family: "Titillium Web", sans-serif;
   letter-spacing: 0.5ch;
-  max-width: 800px;
-  margin: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
@@ -169,4 +169,30 @@ html {
     ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$backgroundColor, endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
   }
+}
+
+/*=== FADE IN  ===*/
+$width: 150px;
+@-webkit-keyframes growWidth {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: $width;
+  }
+}
+@keyframes growWidth {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: $width;
+  }
+}
+
+.growWidth {
+  -webkit-animation-name: growWidth;
+  animation-name: growWidth;
 }

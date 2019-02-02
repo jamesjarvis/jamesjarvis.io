@@ -1,8 +1,37 @@
-$shadow :#000000ad;
+$shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 25px 0 rgba(0, 0, 0, 0.15);
 
-.avatar {
-  border-radius: 50%;
-  -webkit-box-shadow: 0 8px 6px -5px $shadow;
-  -moz-box-shadow: 0 8px 6px -5px $shadow;
-       box-shadow: 0 8px 6px -5px $shadow;
+#me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .avatar {
+    div {
+      -webkit-box-shadow: $shadow;
+      -moz-box-shadow: $shadow;
+      box-shadow: $shadow;
+      border-radius: 50%;
+      transition: all 0.2s ease-in-out;
+    }
+
+    :hover {
+      transform: scale(1.05);
+    }
+
+    img:hover {
+      transform: none;
+    }
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  hr {
+    height: 1px;
+    width: 100px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.301);
+  }
 }
