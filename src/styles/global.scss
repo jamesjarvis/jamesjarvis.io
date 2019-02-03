@@ -19,6 +19,17 @@ body {
   z-index: 0;
 }
 
+a {
+  text-decoration: none;
+  color: $linkColor;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    letter-spacing: 0.20ch;
+    color: $linkHover;
+  }
+}
+
 /*=== Trigger  ===*/
 .animate {
   -webkit-animation-duration: 0.8s;

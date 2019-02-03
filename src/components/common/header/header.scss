@@ -27,16 +27,5 @@ header {
     li {
       display: inline;
     }
-
-    a {
-      text-decoration: none;
-      color: $linkColor;
-      transition: all .2s ease-in-out;
-
-      &:hover {
-        letter-spacing: 0.20ch;
-        color: $linkHover;
-      }
-    }
   }
 }

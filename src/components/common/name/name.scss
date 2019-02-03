@@ -1,4 +1,4 @@
-@import '../../../styles/colors.scss';
+@import "../../../styles/colors.scss";
 
 .nameWrapper {
   position: absolute;
@@ -7,20 +7,17 @@
   padding: 5px;
   display: flex;
   flex-direction: column;
-  font-family: 'Major Mono Display', monospace;
+  font-family: "Major Mono Display", monospace;
   letter-spacing: 0.3ch;
   font-size: 30px;
 
   .line {
     margin-left: auto;
     margin-right: 0;
+    text-decoration: none;
+    color: $mainFont;
   }
   .faint {
     color: lighten($color: $mainFont, $amount: 70);
   }
-}
-
-a{
-  text-decoration: none;
-  color: $mainFont;
 }

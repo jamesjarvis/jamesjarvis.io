@@ -59,6 +59,7 @@ class Me extends React.Component {
                     <div
                       className={`animate ${bioShow}`}
                       id={'bio'}
+                      // eslint-disable-next-line react/no-danger
                       dangerouslySetInnerHTML={{ __html: bio.html }}
                     />
                   </AnimateHeight>
