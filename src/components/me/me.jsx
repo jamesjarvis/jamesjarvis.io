@@ -36,7 +36,7 @@ class Me extends React.Component {
         render={data => {
           const { info, bio } = data;
           const bioShow = this.state.show ? 'fadeInDown' : 'fadeOutUp';
-          const arrowShow = this.state.show ? 'upsideDown' : 'upsideUp';
+          const arrowShow = this.state.show ? 'upsideDown' : 'upsideUp bounce';
           return (
             <div id={'me'}>
               <div className={'avatar animate fadeInUp one'} onClick={this.toggleShow}>
@@ -63,11 +63,16 @@ class Me extends React.Component {
                       dangerouslySetInnerHTML={{ __html: bio.html }}
                     />
                   </AnimateHeight>
-                  <span id={'arrow'} className={`animate ${arrowShow}`} onClick={this.toggleShow}>
+                  <span
+                    id={'arrow'}
+                    className={`animate fadeInUp two`}
+                    onClick={this.toggleShow}
+                    tooltip="clickme"
+                  >
                     <FontAwesomeIcon
                       icon="angle-down"
                       prefix={'fab'}
-                      className={`animate fadeInUp two`}
+                      className={`animate ${arrowShow}`}
                     />
                   </span>
                 </>
