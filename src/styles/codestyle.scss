@@ -1,5 +1,7 @@
+@import './colors.scss';
+
 %codeShared {
-  color: #9e9e9e;
+  color: $lightFont;
   letter-spacing: 0.05ch;
   font-weight: lighter;
 }

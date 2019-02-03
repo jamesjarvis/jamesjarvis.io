@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { library } from '@fortawesome/fontawesome-svg-core';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import Header from './common/header/header';
 import Footer from './common/footer/footer';
 import SEO from './common/seo';
 import './wrapper.scss';
 
-library.add(faAngleDown);
+library.add(faAngleDown, fab);
 
 const Wrapper = ({ title, children }) => (
   <div id={'body'}>

@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.14",
+    "@fortawesome/free-brands-svg-icons": "^5.7.1",
     "@fortawesome/free-solid-svg-icons": "^5.7.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "gatsby": "^2.0.76",
@@ -24,10 +25,12 @@
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.0.17",
     "gatsby-transformer-json": "^2.1.8",
+    "gatsby-transformer-remark": "^2.2.3",
     "gatsby-transformer-sharp": "^2.1.13",
     "node-sass": "^4.11.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.1",
+    "react-animate-height": "^2.0.7",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-scramble": "^0.2.0"

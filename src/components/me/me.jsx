@@ -3,27 +3,9 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import AnimateHeight from 'react-animate-height';
+import Socials from '../socials/socials';
 import './me.scss';
-// import { isAbsolute } from 'path';
-
-// const Me = ({ showDescription }) => (
-//   <StaticQuery
-//     query={query}
-//     render={data => {
-//       const content = data.allContentJson.edges[0].node;
-//       return (
-//         <div id={'me'}>
-//           <div className={'avatar animate fadeInUp one'}>
-//             <Img fixed={data.avatar.childImageSharp.avatar} />
-//           </div>
-//           <h1 className={'animate fadeInUp two'}>{content.name}</h1>
-//           <FontAwesomeIcon icon="angle-down" className={'animate fadeInUp two'} />
-//           {showDescription && <p className={'animate fadeInUp three'}>{content.aboutMe}</p>}
-//         </div>
-//       );
-//     }}
-//   />
-// );
 
 class Me extends React.Component {
   constructor(props) {
@@ -31,6 +13,20 @@ class Me extends React.Component {
     this.state = {
       show: false,
     };
+    this.toggleShow = this.toggleShow.bind(this);
+  }
+
+  toggleShow() {
+    if (this.state.show) {
+      this.setState({
+        show: false,
+      });
+      return false;
+    }
+    this.setState({
+      show: true,
+    });
+    return true;
   }
 
   render() {
@@ -38,18 +34,44 @@ class Me extends React.Component {
       <StaticQuery
         query={query}
         render={data => {
-          const content = data.allContentJson.edges[0].node;
+          const { info, bio } = data;
+          const bioShow = this.state.show ? 'fadeInDown' : 'fadeOutUp';
+          const arrowShow = this.state.show ? 'upsideDown' : 'upsideUp';
           return (
             <div id={'me'}>
-              <div className={'avatar animate fadeInUp one'}>
+              <div className={'avatar animate fadeInUp one'} onClick={this.toggleShow}>
                 <Img fixed={data.avatar.childImageSharp.avatar} />
               </div>
-              <h1 className={'animate fadeInUp two'}>{content.name}</h1>
-              <hr className={'animate growWidth two'} />
-              {this.props.showDescription && this.state.show && (
-                <p className={'animate fadeInUp three'}>{content.aboutMe}</p>
+              <h1 id={'name'} className={'animate fadeInUp two'}>
+                {info.name}
+              </h1>
+              <h2 id={'title'} className={'animate fadeInDown two'}>
+                {info.title}
+              </h2>
+              <hr className={`animate growWidth two`} />
+              {this.props.showDescription && (
+                <>
+                  <AnimateHeight
+                    duration={500}
+                    delay={this.state.show ? 0 : 300}
+                    height={this.state.show ? 'auto' : 0}
+                  >
+                    <div
+                      className={`animate ${bioShow}`}
+                      id={'bio'}
+                      dangerouslySetInnerHTML={{ __html: bio.html }}
+                    />
+                  </AnimateHeight>
+                  <span id={'arrow'} className={`animate ${arrowShow}`} onClick={this.toggleShow}>
+                    <FontAwesomeIcon
+                      icon="angle-down"
+                      prefix={'fab'}
+                      className={`animate fadeInUp two`}
+                    />
+                  </span>
+                </>
               )}
-              <FontAwesomeIcon icon="angle-down" className={'animate fadeInUp two'} />
+              <Socials socials={info.socials} />
             </div>
           );
         }}
@@ -60,14 +82,17 @@ class Me extends React.Component {
 
 const query = graphql`
   query {
-    allContentJson {
-      edges {
-        node {
-          name
-          title
-          aboutMe
-        }
+    info: aboutJson {
+      name
+      title
+      socials {
+        icon
+        url
+        text
       }
+    }
+    bio: markdownRemark {
+      html
     }
     avatar: file(relativePath: { eq: "avatar.jpg" }) {
       childImageSharp {

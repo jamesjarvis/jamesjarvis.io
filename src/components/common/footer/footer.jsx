@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <Name
+        {/* <Name
           words={[
             { word: 'I', faint: false },
             { word: 'Am', faint: false },
@@ -15,7 +15,7 @@ export default class Footer extends React.Component {
             { word: 'JAmes', faint: false },
             { word: 'JArvis', faint: false },
           ]}
-        />
+        /> */}
       </footer>
     );
   }

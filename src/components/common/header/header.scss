@@ -1,3 +1,5 @@
+@import '../../../styles/colors.scss';
+
 header {
   font-family: 'Roboto Mono', monospace;
   top: 0;
@@ -28,16 +30,12 @@ header {
 
     a {
       text-decoration: none;
-      color: #004196;
-      transition: all ease-in-out;
+      color: $linkColor;
+      transition: all .2s ease-in-out;
 
       &:hover {
-        transform: scale(1.5);
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-        transition-duration: 0.3s;
-        transition-property: transform;
-        color: red;
-        transition-property: color;
+        letter-spacing: 0.20ch;
+        color: $linkHover;
       }
     }
   }

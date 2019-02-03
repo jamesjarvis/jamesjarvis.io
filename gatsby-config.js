@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `content`,
-        path: `${__dirname}/assets/content/`,
+        name: `about`,
+        path: `${__dirname}/assets/content/about/`,
       },
     },
     {
@@ -42,8 +42,9 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
+    `gatsby-transformer-remark`,
   ],
 };

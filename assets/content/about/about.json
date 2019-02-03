@@ -1,0 +1,37 @@
+{
+  "name": "James Jarvis",
+  "title": "Software Engineer, Explorer",
+  "aboutMe": "Hi, I'm James. I'm currently on industrial placement at Cisco Systems in between my studies at the University of Kent. I am passionate about photography/videography, I love to build things and I am always searching for cheap plane tickets somewhere. Feel free to reach out to me below regarding professional work, or just for a chat!",
+  "socials": [
+    {
+      "platform" : "LinkedIn",
+      "icon": "linkedin-in",
+      "text": "Connect with me!",
+      "url": "https://www.linkedin.com/in/mrjamesjarvis/"
+    },
+    {
+      "platform" : "GitHub",
+      "icon": "github",
+      "text": "Critique my code!",
+      "url": "https://github.com/jamesjarvis"
+    },
+    {
+      "platform" : "Keybase",
+      "icon": "keybase",
+      "text": "View my proofs!",
+      "url": "https://keybase.io/jamesjarvis"
+    },
+    {
+      "platform" : "Instagram",
+      "icon": "instagram",
+      "text": "Follow me!",
+      "url": "https://www.instagram.com/jamjarvis/"
+    },
+    {
+      "platform" : "YouTube",
+      "icon": "youtube",
+      "text": "Watch my videos!",
+      "url": "https://www.youtube.com/c/JamesJarvis1998"
+    }
+  ]
+}

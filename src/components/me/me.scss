@@ -1,6 +1,8 @@
+@import "../../styles/colors.scss";
 $shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 25px 0 rgba(0, 0, 0, 0.15);
 
 #me {
+  margin-top: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,15 +25,32 @@ $shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 25px 0 rgba(0, 0, 0, 0.15);
     }
   }
 
-  h1 {
+  #name {
     margin: 0;
-    padding: 0;
+    text-align: center;
+  }
+
+  #title {
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 0.18ch;
+    color: $lightFont;
   }
 
   hr {
+    padding: 0;
+    margin: 10px 0 10px 0;
     height: 1px;
-    width: 100px;
+    width: 100%;
+    min-width: 20px;
+    max-width: 100px;
     border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.301);
+    border-top: 1px solid $lightFont;
+  }
+
+  #bio {
+    max-width: 600px;
+
+    letter-spacing: 0.1ch;
   }
 }

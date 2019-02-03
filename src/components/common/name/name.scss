@@ -1,3 +1,5 @@
+@import '../../../styles/colors.scss';
+
 .nameWrapper {
   position: absolute;
   right: 0;
@@ -14,11 +16,11 @@
     margin-right: 0;
   }
   .faint {
-    color: lighten($color: #000000, $amount: 70);
+    color: lighten($color: $mainFont, $amount: 70);
   }
 }
 
 a{
   text-decoration: none;
-  color: black;
+  color: $mainFont;
 }
