@@ -8,8 +8,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/src/`,
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
       },
     },
     {
@@ -27,17 +27,37 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        trackingId: 'UA-133320080-1',
+        name: `projects`,
+        path: `${__dirname}/assets/content/projects/`,
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/assets/content/blog/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-133320080-1`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-web-font-loader`,
       options: {
         google: {
           families: ['Major Mono Display', 'Roboto Mono', 'Titillium Web'],
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: './assets/images/avatar.jpg',
       },
     },
     `gatsby-plugin-react-helmet`,

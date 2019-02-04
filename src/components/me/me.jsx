@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
+import { Link, StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AnimateHeight from 'react-animate-height';
@@ -37,10 +37,12 @@ class Me extends React.Component {
           const { info, bio } = data;
           const bioShow = this.state.show ? 'fadeInDown' : 'fadeOutUp';
           const arrowShow = this.state.show ? 'upsideDown' : 'upsideUp bounce';
+          const avatar = children =>
+            this.props.showDescription ? children : <Link to="/">{children}</Link>;
           return (
             <div id={'me'}>
               <div className={'avatar animate fadeInUp one'} onClick={this.toggleShow}>
-                <Img fixed={data.avatar.childImageSharp.avatar} />
+                {avatar(<Img fluid={data.avatar.childImageSharp.avatar} />)}
               </div>
               <h1 id={'name'} className={'animate fadeInUp two'}>
                 {info.name}
@@ -102,8 +104,8 @@ const query = graphql`
     }
     avatar: file(relativePath: { eq: "avatar.jpg" }) {
       childImageSharp {
-        avatar: fixed(width: 200, height: 200) {
-          ...GatsbyImageSharpFixed
+        avatar: fluid(maxWidth: 400, quality: 100) {
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }

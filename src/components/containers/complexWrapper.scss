@@ -1,0 +1,36 @@
+#content {
+  display: flex;
+  position: relative;
+  margin: 0;
+
+  $leftWidth: 300px;
+
+  letter-spacing: 0.15ch;
+
+  @media (min-width: 750px) {
+    #content_left {
+      width: $leftWidth;
+      position: fixed;
+      z-index: 1;
+      height: 100%;
+    }
+    #main {
+      width: 100%;
+      margin-top: 80px;
+      margin-bottom: 50px;
+      padding-left: $leftWidth;
+      max-width: 800px;
+    }
+  }
+  @media (max-width: 750px) {
+    #content_left {
+      display: none;
+    }
+    #main {
+      width: 100%;
+      margin-top: 80px;
+      margin-bottom: 50px;
+      padding: 0 40px;
+    }
+  }
+}

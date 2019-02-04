@@ -1,5 +1,5 @@
 import React from 'react';
-import Wrapper from '../components/wrapper';
+import Wrapper from '../components/containers/wrapper';
 import Me from '../components/me/me';
 
 export default class Index extends React.Component {

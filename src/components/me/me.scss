@@ -2,12 +2,19 @@
 $shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 25px 0 rgba(0, 0, 0, 0.15);
 
 #me {
-  margin-top: auto;
+  // margin-top: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 40px;
 
   .avatar {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+
     div {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -42,7 +49,7 @@ $shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 25px 0 rgba(0, 0, 0, 0.15);
   #title {
     margin: 0;
     font-size: 15px;
-    letter-spacing: 0.18ch;
+    letter-spacing: 0.06ch;
     color: $lightFont;
   }
 
