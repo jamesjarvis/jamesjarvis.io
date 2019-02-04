@@ -99,7 +99,7 @@ const query = graphql`
         text
       }
     }
-    bio: markdownRemark {
+    bio: markdownRemark(frontmatter: { type: { eq: "about" } }) {
       html
     }
     avatar: file(relativePath: { eq: "avatar.jpg" }) {
