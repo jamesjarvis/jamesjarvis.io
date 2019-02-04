@@ -28,7 +28,7 @@ Template.propTypes = {
 export default Template;
 
 export const pageQuery = graphql`
-  query BlogPostQuery($slug: String!) {
+  query ProjectPostQuery($slug: String!) {
     post: markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
