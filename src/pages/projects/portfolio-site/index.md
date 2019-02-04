@@ -1,7 +1,7 @@
 ---
 date: "2019-01"
 title: "Open Source Portfolio Website"
-tech: ["Javascript", "React", "Serverless"]
+tech: ["Javascript", "React", "GraphQL"]
 link: "https://jamesjarvis.io"
 source: "https://github.com/jamesjarvis/jamesjarvis.io"
 ---

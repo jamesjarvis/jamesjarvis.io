@@ -1,6 +1,7 @@
+/* eslint-disable react/no-danger */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Wrapper from '../components/containers/wrapper';
 import ComplexWrapper from '../components/containers/complexWrapper';
 import Tech from '../components/tech/tech';
@@ -10,6 +11,7 @@ const Template = ({ data }) => {
   return (
     <Wrapper title={post.frontmatter.title}>
       <ComplexWrapper>
+        <Link to="/blog">back</Link>
         <h1>{post.frontmatter.title}</h1>
         <span className={'date'}>
           {post.frontmatter.date}

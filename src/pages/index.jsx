@@ -6,7 +6,9 @@ export default class Index extends React.Component {
   render() {
     return (
       <Wrapper title="Home">
-        <Me showDescription />
+        <div id={'landing'}>
+          <Me showDescription />
+        </div>
       </Wrapper>
     );
   }

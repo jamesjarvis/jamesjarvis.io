@@ -25,6 +25,11 @@ h1 {
   font-size: 2em;
 }
 
+#landing {
+  margin-top: 15vh;
+  margin-bottom: 30px;
+}
+
 .date {
   &:before {
     content: " -- ";
@@ -35,5 +40,4 @@ h1 {
   }
 
   font-size: 15px;
-  // padding: 0 10px;
 }
