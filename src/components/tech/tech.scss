@@ -1,8 +1,8 @@
-@import '../../styles/colors.scss';
+@import "../../styles/colors.scss";
 
 #techs {
   &:before {
-    content: " -- "
+    content: " -- ";
   }
   padding-left: 13px;
   display: inline;

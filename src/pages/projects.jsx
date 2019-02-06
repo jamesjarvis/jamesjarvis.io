@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Wrapper from '../components/containers/wrapper';
 import ComplexWrapper from '../components/containers/complexWrapper';
 import Tech from '../components/tech/tech';
+import '../styles/tooltips.scss';
 
 const Projects = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
@@ -17,18 +20,52 @@ const Projects = ({ data }) => {
           .filter(
             post => post.node.frontmatter.title.length > 0 && post.node.fields.type === 'project'
           )
-          .map(({ node: post }) => (
-            <div className="project-preview" key={post.id}>
-              <h2>
-                <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
-              </h2>
-              <span className={'date'}>
-                {post.frontmatter.date}
-                <Tech techs={post.frontmatter.tech} />
-              </span>
-              <p>{post.excerpt}</p>
-            </div>
-          ))}
+          .map(({ node: post }) => {
+            const image = post.frontmatter.previewImage ? (
+              <Link to={post.fields.slug}>
+                <Img fluid={post.frontmatter.previewImage.childImageSharp.preview} />
+              </Link>
+            ) : (
+              <></>
+            );
+            const link = post.frontmatter.link ? (
+              <a href={post.frontmatter.link} tooltip="Check it out!">
+                <FontAwesomeIcon icon="link" prefix={'fas'} className={`link`} />
+              </a>
+            ) : (
+              <></>
+            );
+            const source = post.frontmatter.source ? (
+              <a href={post.frontmatter.source} tooltip="Clone it!">
+                <FontAwesomeIcon icon={['fab', 'github']} className={`link`} />
+              </a>
+            ) : (
+              <></>
+            );
+            const links =
+              post.frontmatter.source || post.frontmatter.link ? (
+                <span className={'links'}>
+                  {link}
+                  {source}
+                </span>
+              ) : (
+                <></>
+              );
+            return (
+              <div className="project-preview" key={post.id}>
+                <h2>
+                  <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
+                </h2>
+                {links}
+                <span className={'date'}>
+                  {post.frontmatter.date}
+                  <Tech techs={post.frontmatter.tech} />
+                </span>
+                {image}
+                <p>{post.excerpt}</p>
+              </div>
+            );
+          })}
       </ComplexWrapper>
     </Wrapper>
   );
@@ -55,6 +92,15 @@ export const query = graphql`
             title
             date(formatString: "MMMM, YYYY")
             tech
+            link
+            source
+            previewImage {
+              childImageSharp {
+                preview: fluid(maxWidth: 750, quality: 80) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
           }
           fields {
             slug

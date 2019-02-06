@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import Wrapper from '../components/containers/wrapper';
 import ComplexWrapper from '../components/containers/complexWrapper';
 import Tech from '../components/tech/tech';
@@ -17,18 +18,28 @@ const Blog = ({ data }) => {
           .filter(
             post => post.node.frontmatter.title.length > 0 && post.node.fields.type === 'post'
           )
-          .map(({ node: post }) => (
-            <div className="blog-preview" key={post.id}>
-              <h2>
-                <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
-              </h2>
-              <span className={'date'}>
-                {post.frontmatter.date}
-                {/* <Tech techs={post.frontmatter.tech} /> */}
-              </span>
-              <p>{post.excerpt}</p>
-            </div>
-          ))}
+          .map(({ node: post }) => {
+            const image = post.frontmatter.previewImage ? (
+              <Link to={post.fields.slug}>
+                <Img fluid={post.frontmatter.previewImage.childImageSharp.preview} />
+              </Link>
+            ) : (
+              <></>
+            );
+            return (
+              <div className="blog-preview" key={post.id}>
+                <h2>
+                  <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
+                </h2>
+                <span className={'date'}>
+                  {post.frontmatter.date}
+                  {/* <Tech techs={post.frontmatter.tech} /> */}
+                </span>
+                {image}
+                <p>{post.excerpt}</p>
+              </div>
+            );
+          })}
       </ComplexWrapper>
     </Wrapper>
   );
@@ -55,6 +66,13 @@ export const query = graphql`
             title
             date(formatString: "MMMM, YYYY")
             tech
+            previewImage {
+              childImageSharp {
+                preview: fluid(maxWidth: 750, quality: 80) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
           }
           fields {
             slug

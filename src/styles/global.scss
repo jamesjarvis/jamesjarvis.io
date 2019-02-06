@@ -1,5 +1,5 @@
-@import './colors.scss';
-@import './animations.scss';
+@import "./colors.scss";
+@import "./animations.scss";
 
 html,
 body {
@@ -13,16 +13,24 @@ body {
 a {
   text-decoration: none;
   color: $linkColor;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
-    letter-spacing: 0.20ch;
+    letter-spacing: 0.2ch;
     color: $linkHover;
   }
 }
 
 h1 {
   font-size: 2em;
+}
+
+blockquote {
+  color: $lightFont;
+  
+  p:before {
+    content: '-- ';
+  }
 }
 
 #landing {
@@ -40,4 +48,14 @@ h1 {
   }
 
   font-size: 15px;
+}
+
+.links {
+  display: block;
+  padding-bottom: 8px;
+
+  .link {
+    padding-right: 10px;
+    font-size: 25px;
+  }
 }
