@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { OutboundLink } from 'gatsby-plugin-gtag';
 import Wrapper from '../components/containers/wrapper';
 import ComplexWrapper from '../components/containers/complexWrapper';
 import Tech from '../components/tech/tech';
@@ -11,16 +12,16 @@ import '../styles/tooltips.scss';
 const Template = ({ data }) => {
   const { post } = data; // data.markdownRemark holds our post data
   const link = post.frontmatter.link ? (
-    <a href={post.frontmatter.link} tooltip="Check it out!">
+    <OutboundLink href={post.frontmatter.link} tooltip="Check it out!">
       <FontAwesomeIcon icon="link" prefix={'fas'} className={`link`} />
-    </a>
+    </OutboundLink>
   ) : (
     <></>
   );
   const source = post.frontmatter.source ? (
-    <a href={post.frontmatter.source} tooltip="Clone it!">
+    <OutboundLink href={post.frontmatter.source} tooltip="Clone it!">
       <FontAwesomeIcon icon={['fab', 'github']} className={`link`} />
-    </a>
+    </OutboundLink>
   ) : (
     <></>
   );

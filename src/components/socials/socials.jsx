@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { OutboundLink } from 'gatsby-plugin-gtag';
 import './socials.scss';
 
 const Socials = ({ showHover, socials }) => (
   <div id={'socials'} className={'animate fadeInUp three'}>
     {socials.map(social => (
-      <a key={social.icon} id={social.icon} href={social.url} className={`icon`}>
+      <OutboundLink key={social.icon} id={social.icon} href={social.url} className={`icon`}>
         <FontAwesomeIcon icon={['fab', social.icon]} />
-      </a>
+      </OutboundLink>
     ))}
   </div>
 );

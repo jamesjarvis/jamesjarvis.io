@@ -5855,12 +5855,10 @@ gatsby-plugin-favicon@^3.1.5:
     html-react-parser "^0.4.6"
     lodash "^4.17.10"
 
-gatsby-plugin-google-analytics@^2.0.10:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.10.tgz#3111d23132b4c8bd78ed67d6721e0296659d029f"
-  integrity sha512-lOl9L4B/O6jHi1q+dMPVsl4rumn/A1O7MBf2gqkRXswIhdBf7h5S6n+A6KAsJZOnO3cF/HPJPVU/+uaFp/O76Q==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
+gatsby-plugin-gtag@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-gtag/-/gatsby-plugin-gtag-1.0.7.tgz#15c73e1b4a9c86da241efacbeb4eb389056c4ce0"
+  integrity sha512-FlGHCni3pLQ2FrKIol/zm/DP4slLpPLRpw/v+RAH4oFPWOa1cGzQ6COLWjjqKxoQp54TnRj2uTFdpqTWIqkK3g==
 
 gatsby-plugin-page-creator@^2.0.5:
   version "2.0.5"
