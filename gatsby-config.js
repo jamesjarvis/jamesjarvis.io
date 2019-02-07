@@ -50,7 +50,7 @@ module.exports = {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
         google: {
-          families: ['Major Mono Display', 'Roboto Mono', 'Titillium Web'],
+          families: ['Roboto Mono', 'Titillium Web'],
         },
       },
     },
