@@ -1,5 +1,5 @@
 ---
-date: "2019-01"
+date: "2019-02"
 title: "🖥 Open Source Portfolio Website"
 tech: ["Javascript", "React", "GraphQL"]
 link: "https://jamesjarvis.io"

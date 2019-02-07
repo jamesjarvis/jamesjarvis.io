@@ -7,13 +7,19 @@ const NavBar = ({ language }) => (
   <nav className={`navbar ${language}`}>
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/" activeClassName={'active'}>
+          Home
+        </Link>
       </li>
       <li>
-        <Link to="/projects">Projects</Link>
+        <Link to="/projects" activeClassName={'active'}>
+          Projects
+        </Link>
       </li>
       <li>
-        <Link to="/blog">Blog</Link>
+        <Link to="/blog" activeClassName={'active'}>
+          Blog
+        </Link>
       </li>
     </ul>
   </nav>

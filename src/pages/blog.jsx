@@ -5,6 +5,7 @@ import Img from 'gatsby-image';
 import Wrapper from '../components/containers/wrapper';
 import ComplexWrapper from '../components/containers/complexWrapper';
 import Tech from '../components/tech/tech';
+import '../styles/postLists.scss';
 
 const Blog = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
@@ -14,32 +15,34 @@ const Blog = ({ data }) => {
       <ComplexWrapper>
         <h1>{info.title}</h1>
         <p>{info.about}</p>
-        {posts
-          .filter(
-            post => post.node.frontmatter.title.length > 0 && post.node.fields.type === 'post'
-          )
-          .map(({ node: post }) => {
-            const image = post.frontmatter.previewImage ? (
-              <Link to={post.fields.slug}>
-                <Img fluid={post.frontmatter.previewImage.childImageSharp.preview} />
-              </Link>
-            ) : (
-              <></>
-            );
-            return (
-              <div className="blog-preview" key={post.id}>
-                <h2>
-                  <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
-                </h2>
-                <span className={'date'}>
-                  {post.frontmatter.date}
-                  {/* <Tech techs={post.frontmatter.tech} /> */}
-                </span>
-                {image}
-                <p>{post.excerpt}</p>
-              </div>
-            );
-          })}
+        <ul className={'posts'}>
+          {posts
+            .filter(
+              post => post.node.frontmatter.title.length > 0 && post.node.fields.type === 'post'
+            )
+            .map(({ node: post }) => {
+              const image = post.frontmatter.previewImage ? (
+                <Link to={post.fields.slug}>
+                  <Img fluid={post.frontmatter.previewImage.childImageSharp.preview} />
+                </Link>
+              ) : (
+                <></>
+              );
+              return (
+                <li className="postPreview" key={post.id}>
+                  <h2>
+                    <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
+                  </h2>
+                  <span className={'date'}>
+                    {post.frontmatter.date}
+                    {/* <Tech techs={post.frontmatter.tech} /> */}
+                  </span>
+                  {image}
+                  <p>{post.excerpt}</p>
+                </li>
+              );
+            })}
+        </ul>
       </ComplexWrapper>
     </Wrapper>
   );

@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Wrapper from '../components/containers/wrapper';
 import ComplexWrapper from '../components/containers/complexWrapper';
 import Tech from '../components/tech/tech';
+import '../styles/postLists.scss';
 import '../styles/tooltips.scss';
 
 const Projects = ({ data }) => {
@@ -16,56 +17,61 @@ const Projects = ({ data }) => {
       <ComplexWrapper>
         <h1>{info.title}</h1>
         <p>{info.about}</p>
-        {posts
-          .filter(
-            post => post.node.frontmatter.title.length > 0 && post.node.fields.type === 'project'
-          )
-          .map(({ node: post }) => {
-            const image = post.frontmatter.previewImage ? (
-              <Link to={post.fields.slug}>
-                <Img fluid={post.frontmatter.previewImage.childImageSharp.preview} />
-              </Link>
-            ) : (
-              <></>
-            );
-            const link = post.frontmatter.link ? (
-              <a href={post.frontmatter.link} tooltip="Check it out!">
-                <FontAwesomeIcon icon="link" prefix={'fas'} className={`link`} />
-              </a>
-            ) : (
-              <></>
-            );
-            const source = post.frontmatter.source ? (
-              <a href={post.frontmatter.source} tooltip="Clone it!">
-                <FontAwesomeIcon icon={['fab', 'github']} className={`link`} />
-              </a>
-            ) : (
-              <></>
-            );
-            const links =
-              post.frontmatter.source || post.frontmatter.link ? (
-                <span className={'links'}>
-                  {link}
-                  {source}
-                </span>
+        <ul className={'posts'}>
+          {posts
+            .filter(
+              post => post.node.frontmatter.title.length > 0 && post.node.fields.type === 'project'
+            )
+            .map(({ node: post }) => {
+              const image = post.frontmatter.previewImage ? (
+                <Link to={post.fields.slug}>
+                  <Img fluid={post.frontmatter.previewImage.childImageSharp.preview} />
+                </Link>
               ) : (
                 <></>
               );
-            return (
-              <div className="project-preview" key={post.id}>
-                <h2>
-                  <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
-                </h2>
-                {links}
-                <span className={'date'}>
-                  {post.frontmatter.date}
-                  <Tech techs={post.frontmatter.tech} />
-                </span>
-                {image}
-                <p>{post.excerpt}</p>
-              </div>
-            );
-          })}
+              const link = post.frontmatter.link ? (
+                <a href={post.frontmatter.link} tooltip="Check it out!">
+                  <FontAwesomeIcon icon="link" prefix={'fas'} className={`link`} />
+                </a>
+              ) : (
+                <></>
+              );
+              const source = post.frontmatter.source ? (
+                <a href={post.frontmatter.source} tooltip="Clone it!">
+                  <FontAwesomeIcon icon={['fab', 'github']} className={`link`} />
+                </a>
+              ) : (
+                <></>
+              );
+              const links =
+                post.frontmatter.source || post.frontmatter.link ? (
+                  <span className={'links'}>
+                    {link}
+                    {source}
+                  </span>
+                ) : (
+                  <></>
+                );
+              return (
+                <li className="postPreview" key={post.id}>
+                  <h2>
+                    <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
+                  </h2>
+                  {links}
+                  <span className={'date'}>
+                    {post.frontmatter.date}
+                    <Tech techs={post.frontmatter.tech} />
+                  </span>
+                  {image}
+                  <p>
+                    {post.excerpt}
+                    <Link to={post.fields.slug}> read more</Link>
+                  </p>
+                </li>
+              );
+            })}
+        </ul>
       </ComplexWrapper>
     </Wrapper>
   );
