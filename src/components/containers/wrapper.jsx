@@ -10,9 +10,9 @@ import './wrapper.scss';
 
 library.add(faAngleDown, fab, faLink);
 
-const Wrapper = ({ title, children }) => (
+const Wrapper = ({ title, children, image, description, keywords }) => (
   <div id={'wrapper'}>
-    <SEO title={title} />
+    <SEO title={title} image={image} description={description} keywords={keywords} />
     <Header />
     {children}
     <Footer />
@@ -21,11 +21,21 @@ const Wrapper = ({ title, children }) => (
 
 Wrapper.defaultProps = {
   title: null,
+  image: null,
+  description: null,
+  keywords: null,
 };
 
 Wrapper.propTypes = {
   children: PropTypes.any.isRequired,
   title: PropTypes.string,
+  description: PropTypes.string,
+  image: PropTypes.shape({
+    src: PropTypes.string.isRequired,
+    height: PropTypes.number.isRequired,
+    width: PropTypes.number.isRequired,
+  }),
+  keywords: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default Wrapper;

@@ -10,41 +10,48 @@ import Tech from '../components/tech/tech';
 import '../styles/tooltips.scss';
 
 const Template = ({ data }) => {
-  const { post } = data; // data.markdownRemark holds our post data
-  const link = post.frontmatter.link ? (
-    <OutboundLink href={post.frontmatter.link} tooltip="Check it out!">
+  const {
+    post: {
+      excerpt,
+      html,
+      frontmatter: { link, source, title, date, tech, previewImage },
+    },
+  } = data;
+  const postLink = link ? (
+    <OutboundLink href={link} tooltip="Check it out!">
       <FontAwesomeIcon icon="link" prefix={'fas'} className={`link`} />
     </OutboundLink>
   ) : (
     <></>
   );
-  const source = post.frontmatter.source ? (
-    <OutboundLink href={post.frontmatter.source} tooltip="Clone it!">
+  const postSource = source ? (
+    <OutboundLink href={source} tooltip="Clone it!">
       <FontAwesomeIcon icon={['fab', 'github']} className={`link`} />
     </OutboundLink>
   ) : (
     <></>
   );
   const links =
-    post.frontmatter.source || post.frontmatter.link ? (
+    source || link ? (
       <span className={'links'}>
-        {link}
-        {source}
+        {postLink}
+        {postSource}
       </span>
     ) : (
       <></>
     );
+  const image = previewImage ? previewImage.childImageSharp.resize : null;
   return (
-    <Wrapper title={post.frontmatter.title}>
+    <Wrapper title={title} description={excerpt} image={image}>
       <ComplexWrapper>
         <Link to="/projects">back</Link>
-        <h1>{post.frontmatter.title}</h1>
+        <h1>{title}</h1>
         {links}
         <span className={'date'}>
-          {post.frontmatter.date}
-          <Tech techs={post.frontmatter.tech} />
+          {date}
+          <Tech techs={tech} />
         </span>
-        <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
       </ComplexWrapper>
     </Wrapper>
   );
@@ -60,12 +67,22 @@ export const pageQuery = graphql`
   query ProjectPostQuery($slug: String!) {
     post: markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      excerpt(pruneLength: 200)
       frontmatter {
         title
         date(formatString: "MMMM, YYYY")
         tech
         link
         source
+        previewImage {
+          childImageSharp {
+            resize(width: 1200) {
+              src
+              height
+              width
+            }
+          }
+        }
       }
     }
   }

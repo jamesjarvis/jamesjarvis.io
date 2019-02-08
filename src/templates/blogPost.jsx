@@ -4,20 +4,23 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import Wrapper from '../components/containers/wrapper';
 import ComplexWrapper from '../components/containers/complexWrapper';
-import Tech from '../components/tech/tech';
 
 const Template = ({ data }) => {
-  const { post } = data; // data.markdownRemark holds our post data
+  const {
+    post: {
+      excerpt,
+      html,
+      frontmatter: { title, date, previewImage },
+    },
+  } = data;
+  const image = previewImage ? previewImage.childImageSharp.resize : null;
   return (
-    <Wrapper title={post.frontmatter.title}>
+    <Wrapper title={title} description={excerpt} image={image}>
       <ComplexWrapper>
         <Link to="/blog">back</Link>
-        <h1>{post.frontmatter.title}</h1>
-        <span className={'date'}>
-          {post.frontmatter.date}
-          {/* <Tech techs={post.frontmatter.tech} /> */}
-        </span>
-        <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <h1>{title}</h1>
+        <span className={'date'}>{date}</span>
+        <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
       </ComplexWrapper>
     </Wrapper>
   );
@@ -33,10 +36,20 @@ export const pageQuery = graphql`
   query BlogPostQuery($slug: String!) {
     post: markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      excerpt(pruneLength: 200)
       frontmatter {
         title
         date(formatString: "MMMM, YYYY")
         tech
+        previewImage {
+          childImageSharp {
+            resize(width: 1200) {
+              src
+              height
+              width
+            }
+          }
+        }
       }
     }
   }

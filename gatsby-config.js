@@ -3,6 +3,16 @@ module.exports = {
     title: `James Jarvis`,
     siteUrl: `https://jamesjarvis.io`,
     description: `Personal site of James Jarvis`,
+    author: 'James Jarvis',
+    keywords: [
+      'personal',
+      'site',
+      'portfolio',
+      'developer',
+      'film-maker',
+      'photographer',
+      'One Second Every Day',
+    ],
   },
   plugins: [
     {
