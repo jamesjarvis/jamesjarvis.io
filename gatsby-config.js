@@ -6,6 +6,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `UA-133320080-2`,
+        head: true,
+        anonymize: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
@@ -38,14 +46,6 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/assets/content/blog/`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-gtag`,
-      options: {
-        trackingId: `UA-133320080-1`,
-        head: true,
-        anonymize: true,
       },
     },
     {
