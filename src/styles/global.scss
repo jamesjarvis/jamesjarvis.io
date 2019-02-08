@@ -1,10 +1,10 @@
-@import "./colors.scss";
+@import "./_colors.scss";
 @import "./animations.scss";
 
 html,
 body {
   font-family: "Titillium Web", sans-serif;
-  letter-spacing: 0.5ch;
+  letter-spacing: 0.11ch;
   margin: 0;
   padding: 0;
   color: $mainFont;
@@ -16,7 +16,7 @@ a {
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    letter-spacing: 0.2ch;
+    letter-spacing: 0.14ch;
     color: $linkHover;
   }
 }

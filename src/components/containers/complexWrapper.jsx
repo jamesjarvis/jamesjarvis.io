@@ -4,12 +4,12 @@ import Me from '../me/me';
 import './complexWrapper.scss';
 
 const ComplexWrapper = ({ children }) => (
-  <div id={'content'}>
+  <main id={'content'}>
     <aside id={'content_left'}>
       <Me />
     </aside>
     <section id={'main'}>{children}</section>
-  </div>
+  </main>
 );
 
 ComplexWrapper.propTypes = {

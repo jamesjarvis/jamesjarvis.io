@@ -60,10 +60,10 @@ const Projects = ({ data }) => {
                     <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
                   </h2>
                   {links}
-                  <span className={'date'}>
+                  <time className={'date'}>
                     {post.frontmatter.date}
                     <Tech techs={post.frontmatter.tech} />
-                  </span>
+                  </time>
                   {image}
                   <p>
                     {post.excerpt}

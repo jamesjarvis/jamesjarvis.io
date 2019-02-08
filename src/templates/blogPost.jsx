@@ -18,9 +18,11 @@ const Template = ({ data }) => {
     <Wrapper title={title} description={excerpt} image={image}>
       <ComplexWrapper>
         <Link to="/blog">back</Link>
-        <h1>{title}</h1>
-        <span className={'date'}>{date}</span>
-        <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
+        <article>
+          <h1>{title}</h1>
+          <time className={'date'}>{date}</time>
+          <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
+        </article>
       </ComplexWrapper>
     </Wrapper>
   );

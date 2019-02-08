@@ -156,37 +156,6 @@
   animation-name: fadeOutUp;
 }
 
-@supports (-webkit-appearance: none) {
-  .translucent {
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    background-color: #ffffff4b;
-  }
-}
-@supports not (-webkit-backdrop-filter: blur(8px)) {
-  $backgroundColor: #ffffffd5;
-  .translucent {
-    // background-color: #ffffffd5;
-    text-shadow: 0ch 0ch 1ch white;
-    background: -moz-linear-gradient(
-      top,
-      $backgroundColor 75%,
-      rgba(255, 255, 255, 0) 100%
-    ); /* FF3.6-15 */
-    background: -webkit-linear-gradient(
-      top,
-      $backgroundColor 75%,
-      rgba(255, 255, 255, 0) 100%
-    ); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(
-      to bottom,
-      $backgroundColor 75%,
-      rgba(255, 255, 255, 0) 100%
-    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$backgroundColor, endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
-  }
-}
-
 /*=== GROW WIDTH  ===*/
 @-webkit-keyframes growWidth {
   from {
@@ -317,6 +286,8 @@
 }
 
 @keyframes bounce {
+  $top: -7px;
+  $middle: -3px;
   0%, 20%, 50%, 80%, 100% {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -324,16 +295,16 @@
     transform: translateY(0);
   }
   40% {
-    -moz-transform: translateY(-13px);
-    -ms-transform: translateY(-13px);
-    -webkit-transform: translateY(-13px);
-    transform: translateY(-13px);
+    -moz-transform: translateY($top);
+    -ms-transform: translateY($top);
+    -webkit-transform: translateY($top);
+    transform: translateY($top);
   }
   60% {
-    -moz-transform: translateY(-6px);
-    -ms-transform: translateY(-6px);
-    -webkit-transform: translateY(-6px);
-    transform: translateY(-6px);
+    -moz-transform: translateY($middle);
+    -ms-transform: translateY($middle);
+    -webkit-transform: translateY($middle);
+    transform: translateY($middle);
   }
 }
 

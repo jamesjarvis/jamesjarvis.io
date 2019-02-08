@@ -40,7 +40,7 @@ class Me extends React.Component {
           const avatar = children =>
             this.props.showDescription ? children : <Link to="/">{children}</Link>;
           return (
-            <div id={'me'}>
+            <section id={'me'}>
               <div className={'avatar animate fadeInUp one'} onClick={this.toggleShow}>
                 {avatar(<Img fluid={data.avatar.childImageSharp.avatar} />)}
               </div>
@@ -50,7 +50,7 @@ class Me extends React.Component {
               <h2 id={'title'} className={'animate fadeInDown two'}>
                 {info.title}
               </h2>
-              <hr className={`animate growWidth two`} />
+              {/* <hr className={`animate growWidth two`} /> */}
               {this.props.showDescription && (
                 <>
                   <AnimateHeight
@@ -58,7 +58,7 @@ class Me extends React.Component {
                     delay={this.state.show ? 0 : 300}
                     height={this.state.show ? 'auto' : 0}
                   >
-                    <div
+                    <p
                       className={`animate ${bioShow}`}
                       id={'bio'}
                       // eslint-disable-next-line react/no-danger
@@ -80,7 +80,7 @@ class Me extends React.Component {
                 </>
               )}
               <Socials socials={info.socials} />
-            </div>
+            </section>
           );
         }}
       />

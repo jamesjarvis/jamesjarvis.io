@@ -1,9 +1,8 @@
-@import "../../styles/colors.scss";
+@import "../../styles/_colors.scss";
 @import "../../styles/tooltips.scss";
 $shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 25px 0 rgba(0, 0, 0, 0.15);
 
 #me {
-  // margin-top: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +13,7 @@ $shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 25px 0 rgba(0, 0, 0, 0.15);
   .avatar {
     width: 200px;
     height: 200px;
-    padding: 5px;
+    padding-bottom: 13px;
 
     div {
       -webkit-border-radius: 50%;
@@ -45,6 +44,7 @@ $shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 25px 0 rgba(0, 0, 0, 0.15);
   #name {
     margin: 0;
     text-align: center;
+    letter-spacing: 0.1ch;
   }
 
   #title {
@@ -67,8 +67,7 @@ $shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 25px 0 rgba(0, 0, 0, 0.15);
 
   #bio {
     max-width: 600px;
-
-    letter-spacing: 0.1ch;
+    text-align: center;
   }
 
   #arrow {
