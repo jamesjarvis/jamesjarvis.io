@@ -34,21 +34,28 @@ class Me extends React.Component {
       <StaticQuery
         query={query}
         render={data => {
-          const { info, bio } = data;
+          const {
+            info: { name, title, socials },
+            bio: { html },
+            avatarImg: {
+              childImageSharp: { avatar },
+            },
+          } = data;
           const bioShow = this.state.show ? 'fadeInDown' : 'fadeOutUp';
           const arrowShow = this.state.show ? 'upsideDown' : 'upsideUp bounce';
-          const avatar = children =>
+          const metaAvatar = children =>
             this.props.showDescription ? children : <Link to="/">{children}</Link>;
+          console.log(html);
           return (
             <section id={'me'}>
               <div className={'avatar animate fadeInUp one'} onClick={this.toggleShow}>
-                {avatar(<Img fluid={data.avatar.childImageSharp.avatar} />)}
+                {metaAvatar(<Img fluid={avatar} />)}
               </div>
               <h1 id={'name'} className={'animate fadeInUp two'}>
-                {info.name}
+                {name}
               </h1>
               <h2 id={'title'} className={'animate fadeInDown two'}>
-                {info.title}
+                {title}
               </h2>
               <hr className={`animate growWidth two`} />
               {this.props.showDescription && (
@@ -58,11 +65,11 @@ class Me extends React.Component {
                     delay={this.state.show ? 0 : 300}
                     height={this.state.show ? 'auto' : 0}
                   >
-                    <p
+                    <summary
                       className={`animate ${bioShow}`}
                       id={'bio'}
                       // eslint-disable-next-line react/no-danger
-                      dangerouslySetInnerHTML={{ __html: bio.html }}
+                      dangerouslySetInnerHTML={{ __html: html }}
                     />
                   </AnimateHeight>
                   <span
@@ -79,7 +86,7 @@ class Me extends React.Component {
                   </span>
                 </>
               )}
-              <Socials socials={info.socials} />
+              <Socials socials={socials} />
             </section>
           );
         }}
@@ -102,7 +109,7 @@ const query = graphql`
     bio: markdownRemark(frontmatter: { type: { eq: "about" } }) {
       html
     }
-    avatar: file(relativePath: { eq: "avatar.jpg" }) {
+    avatarImg: file(relativePath: { eq: "images/avatar.jpg" }) {
       childImageSharp {
         avatar: fluid(maxWidth: 400, quality: 100) {
           ...GatsbyImageSharpFluid_tracedSVG

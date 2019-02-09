@@ -1,4 +1,5 @@
 ---
+type: project
 date: "2016-06"
 title: "🎥 One Second Every Day"
 tech: ["Film-making", "Journaling"]

@@ -1,4 +1,5 @@
 ---
+type: project
 date: "2018-12"
 title: "🎵 Musish: The Unofficial, Open Source Apple Music Web Player"
 tech: ["Javascript", "React", "Serverless"]

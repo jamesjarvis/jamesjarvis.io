@@ -1,4 +1,5 @@
 ---
+type: project
 date: "2019-02"
 title: "🖥 Open Source Portfolio Website"
 tech: ["Javascript", "React", "GraphQL"]
