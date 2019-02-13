@@ -45,7 +45,6 @@ class Me extends React.Component {
           const arrowShow = this.state.show ? 'upsideDown' : 'upsideUp bounce';
           const metaAvatar = children =>
             this.props.showDescription ? children : <Link to="/">{children}</Link>;
-          console.log(html);
           return (
             <section id={'me'}>
               <div className={'avatar animate fadeInUp one'} onClick={this.toggleShow}>
