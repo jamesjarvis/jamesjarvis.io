@@ -56,7 +56,6 @@ class Me extends React.Component {
               <h2 id={'title'} className={'animate fadeInDown two'}>
                 {title}
               </h2>
-              <hr className={`animate growWidth two`} />
               {this.props.showDescription && (
                 <>
                   <AnimateHeight
