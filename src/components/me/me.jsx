@@ -35,7 +35,7 @@ class Me extends React.Component {
         query={query}
         render={data => {
           const {
-            info: { name, title, socials },
+            info: { name, title, email, socials },
             bio: { html },
             avatarImg: {
               childImageSharp: { avatar },
@@ -48,7 +48,7 @@ class Me extends React.Component {
           return (
             <section id={'me'}>
               <div className={'avatar animate fadeInUp one'} onClick={this.toggleShow}>
-                {metaAvatar(<Img fluid={avatar} />)}
+                {metaAvatar(<Img fluid={avatar} title={'Oh look its me'} />)}
               </div>
               <h1 id={'name'} className={'animate fadeInUp two'}>
                 {name}
@@ -84,7 +84,7 @@ class Me extends React.Component {
                   </span>
                 </>
               )}
-              <Socials socials={socials} />
+              <Socials socials={socials} email={email} />
             </section>
           );
         }}
@@ -98,6 +98,12 @@ const query = graphql`
     info: aboutJson {
       name
       title
+      email {
+        address
+        subject
+        body
+        text
+      }
       socials {
         icon
         url

@@ -1,6 +1,12 @@
 {
   "name": "James Jarvis",
   "title": "Software Engineer, Explorer",
+  "email": {
+    "address": "hello@jamesjarvis.io",
+    "text": "Say hi!",
+    "body": "Loved your website! Care to exchange information?",
+    "subject": "Just saw your site!"
+  },
   "socials": [
     {
       "platform" : "LinkedIn",
