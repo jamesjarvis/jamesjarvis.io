@@ -12,11 +12,14 @@ class Me extends React.Component {
     super(props);
     this.state = {
       show: false,
+      rick: 0,
     };
     this.toggleShow = this.toggleShow.bind(this);
+    this.rick = this.rick.bind(this);
   }
 
   toggleShow() {
+    this.rick();
     if (this.state.show) {
       this.setState({
         show: false,
@@ -27,6 +30,12 @@ class Me extends React.Component {
       show: true,
     });
     return true;
+  }
+
+  rick() {
+    this.setState(prevState => ({
+      rick: prevState.rick + 1,
+    }));
   }
 
   render() {
@@ -47,9 +56,18 @@ class Me extends React.Component {
             this.props.showDescription ? children : <Link to="/">{children}</Link>;
           return (
             <section id={'me'}>
-              <div className={'avatar animate fadeInUp one'} onClick={this.toggleShow}>
-                {metaAvatar(<Img fluid={avatar} title={'Oh look its me'} />)}
-              </div>
+              {this.state.rick < 3 ? (
+                <div className={'avatar animate fadeInUp one'} onClick={this.toggleShow}>
+                  {metaAvatar(<Img fluid={avatar} title={"Oh look it's me"} />)}
+                </div>
+              ) : (
+                <img
+                  src="https://media.giphy.com/media/LXONhtCmN32YU/giphy.gif"
+                  className={'rick'}
+                  alt="Internet memes die hard"
+                  title="Internet memes die hard"
+                />
+              )}
               <h1 id={'name'} className={'animate fadeInUp two'}>
                 {name}
               </h1>
