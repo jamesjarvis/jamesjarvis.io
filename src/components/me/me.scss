@@ -10,6 +10,27 @@ $shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 25px 0 rgba(0, 0, 0, 0.15);
   height: 100%;
   padding: 0 40px;
 
+  .rick {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 13px;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  }
+
   .avatar {
     width: 200px;
     height: 200px;
