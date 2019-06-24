@@ -18,6 +18,16 @@ You can watch my whole adult life back to back [here](https://www.youtube.com/pl
 
 > Do one thing every day that scares you - [Various Sources](https://quoteinvestigator.com/2013/08/09/scare/)
 
+## 20 Years Old
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aROoZL6x8sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+From 23rd June 2018 to 23rd June 2019.
+
+I moved to California for a year to pursue my dreams of Silicon Valley. Travelled by car more than I have ever before, became a much better developer, became somewhat American and much more independant.
+
+Made some incredible memories and international friends this year, but the pace isn't slowing down any time soon!
+
 ## 19 Years Old
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nhmEgzpafPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
