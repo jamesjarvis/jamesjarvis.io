@@ -50,7 +50,7 @@
     "url": "https://github.com/jamesjarvis/jamesjarvis.io/issues"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^6.7.0",
