@@ -5452,7 +5452,7 @@ gatsby-plugin-sass@^2.1.26:
     "@babel/runtime" "^7.7.6"
     sass-loader "^7.3.1"
 
-gatsby-plugin-sharp@^2.0.20:
+gatsby-plugin-sharp@^2.3.8:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.3.8.tgz#71ad4cb2fd9829a6be5b517705c97f9e37c585b8"
   integrity sha512-paRIZvg6lVxDhUwPlKGg5WpRQWtghHfXx92g3K7vYKtb0uIYpNUHgvb3qhUDWT/lFULxeHxAB2oO4fYoPdKoWw==
@@ -5556,7 +5556,7 @@ gatsby-remark-responsive-iframe@^2.2.30:
     lodash "^4.17.15"
     unist-util-visit "^1.4.1"
 
-gatsby-source-filesystem@^2.0.17:
+gatsby-source-filesystem@^2.1.6:
   version "2.1.42"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.42.tgz#422fb6452ce86859df8b2d8c9f6953e2b492eae6"
   integrity sha512-kX1Uclv4M9C+MB6tfvY7URkpQ7Zl6+ESrf5DhcBN2+faaXLjaN7DzbWOlyzMI/lBlvA39ukCh9gSSlx807TJsA==
@@ -10236,7 +10236,7 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-animate-height@^2.0.7:
+react-animate-height@^2.0.17:
   version "2.0.17"
   resolved "https://registry.yarnpkg.com/react-animate-height/-/react-animate-height-2.0.17.tgz#a07d9dcd0028eb93e99a4148b7d6deb7b5fe81f9"
   integrity sha512-cumTv/vCZ1MudkqXsLXGW6XO7EbGWIV0uZzkZVBf5HlHQ7n1GkbCsQl44SVo9nlA9/p+4XqWh4yn1Cc37Gri6A==
