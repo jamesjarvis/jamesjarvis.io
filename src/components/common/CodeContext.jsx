@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const defaultState = {
-  language: 'java',
+  language: 'go',
   changeLanguage: () => {},
 };
 
@@ -10,7 +10,7 @@ const CodeContext = React.createContext(defaultState);
 
 class CodeProvider extends React.Component {
   state = {
-    language: 'java',
+    language: 'go',
   };
 
   changeLanguage = language => {
@@ -18,6 +18,9 @@ class CodeProvider extends React.Component {
     switch (language.toLowerCase()) {
       case 'javascript':
         newLanguage = 'javascript';
+        break;
+      case 'typescript':
+        newLanguage = 'typescript';
         break;
       case 'react':
         newLanguage = 'javascript';
@@ -28,8 +31,17 @@ class CodeProvider extends React.Component {
       case 'java':
         newLanguage = 'java';
         break;
+      case 'bash':
+        newLanguage = 'bash';
+        break;
+      case 'go':
+        newLanguage = 'go';
+        break;
+      case 'graphql':
+        newLanguage = 'graphql';
+        break;
       default:
-        newLanguage = 'java';
+        newLanguage = 'go';
     }
     this.setState({ language: newLanguage });
   };

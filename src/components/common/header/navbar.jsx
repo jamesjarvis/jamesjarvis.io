@@ -16,11 +16,6 @@ const NavBar = ({ language }) => (
           Projects
         </Link>
       </li>
-      <li>
-        <Link to="/blog" activeClassName={'active'}>
-          Blog
-        </Link>
-      </li>
     </ul>
   </nav>
 );

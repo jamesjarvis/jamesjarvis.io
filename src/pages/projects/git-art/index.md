@@ -2,7 +2,7 @@
 type: project
 date: "2019-02"
 title: "🖌 Git Art"
-tech: ["Javascript", "React", "Shell"]
+tech: ["Javascript", "React", "Bash"]
 link: "https://jamesjarvis.github.io/git-art/"
 source: "https://github.com/jamesjarvis/git-art"
 previewImage: "./git-art.png"

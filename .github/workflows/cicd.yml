@@ -1,12 +1,9 @@
 name: CI
 
-on:
-  push:
-    branches:
-      - master
+on: [push, pull_request]
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
@@ -34,12 +31,10 @@ jobs:
       - name: build
         run: yarn build
 
-      - name: cname-copy
-        run: cp ./CNAME ./public/CNAME
-
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2.5.0
-        env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./public
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/master' # Only deploy from master branch
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./public
+          cname: jamesjarvis.io
