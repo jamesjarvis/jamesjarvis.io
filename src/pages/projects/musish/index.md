@@ -34,6 +34,9 @@ According to Google Analytics, we have had over 50,000 unique users on Musi.sh f
 
 Some notable mentions:
 
+- [Business Insider Tech 100 2019 #97](https://www.businessinsider.com/uk-tech-100-2019-most-important-interesting-and-impactful-people-uk-tech-2019-9?r=US&IR=T#97-the-undergraduate-students-who-beat-apple-to-building-a-web-player-for-apple-music-4)
+- [University of Kent homepage](https://web.archive.org/web/20200322103909/https://www.kent.ac.uk/)
+- [University of Kent profile](https://web.archive.org/web/20200322104018/https://www.kent.ac.uk/courses/profiles/undergraduate/computer-science-year-industry-musish)
 - [9to5Mac](https://9to5mac.com/2019/01/18/apple-music-web/)
 - [9to5Mac again](https://9to5mac.com/2019/01/21/apple-music-mac-app/)
 - [Gizmodo](https://gizmodo.com/how-to-play-apple-music-from-the-web-1831977569)
