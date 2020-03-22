@@ -4,8 +4,10 @@
 <url> <loc>https://jamesjarvis.io/projects/musish/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jamesjarvis.io/projects/one-second-every-day/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jamesjarvis.io/projects/portfolio-site/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jamesjarvis.io/projects/predictions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jamesjarvis.io/projects/speedtest/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jamesjarvis.io/projects/whatsupkent/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jamesjarvis.io/content/about/aboutMe/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jamesjarvis.io/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jamesjarvis.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jamesjarvis.io/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
