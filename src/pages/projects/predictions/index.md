@@ -6,7 +6,7 @@ tech: ["Python"]
 source: "https://github.com/jamesjarvis/corona-infection-prediction-uk"
 ---
 
-<img src="https://raw.githubusercontent.com/jamesjarvis/corona-infection-prediction-uk/master/plots/logistical/confirmedcases/logistic-plot.png" width="800px">
+<img src="https://raw.githubusercontent.com/jamesjarvis/corona-infection-prediction-uk/master/plots/logistical/confirmedcases/logistic-plot.png" width="100%">
 
 This project was a slightly morbid experiment with data plotting and predictions.
 

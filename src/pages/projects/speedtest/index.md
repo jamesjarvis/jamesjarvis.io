@@ -7,7 +7,7 @@ link: "https://docs.google.com/spreadsheets/d/14zlZ_uNWS6K2Gvyf4sXMoyiGnk4NEURDn
 previewImage: "./speedtest-calendar.png"
 ---
 
-<iframe width="560" height="450" seamless frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3g5Eej1JB5I7-o8skZ2sbiAqdNuEeRRvS4AjKsIfhiP1sUhtUjcrHOqrGUalwqNQLCq8QetaNe035/pubchart?oid=1937794798&amp;format=interactive"></iframe>
+<iframe width="100%" height="650" seamless frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3g5Eej1JB5I7-o8skZ2sbiAqdNuEeRRvS4AjKsIfhiP1sUhtUjcrHOqrGUalwqNQLCq8QetaNe035/pubchart?oid=1937794798&amp;format=interactive"></iframe>
 
 ![Speedtest calendar](./speedtest-calendar.png)
 
