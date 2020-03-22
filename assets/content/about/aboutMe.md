@@ -1,6 +1,9 @@
 ---
 type: about
 path: '/'
+date: "2020-03"
+title: "👨‍💻 About me"
+tech: ["No Tech Here"]
 ---
 
 Hi, I'm James.
