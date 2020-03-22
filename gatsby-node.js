@@ -22,9 +22,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       case 'projects':
         type = 'project';
         break;
-      case 'blog':
-        type = 'post';
-        break;
     }
 
     createNodeField({
@@ -54,10 +51,9 @@ exports.createPages = ({ graphql, actions }) => {
       }
     `).then(result => {
       result.data.allMarkdownRemark.edges.map(({ node }) => {
-        const templatePath =
-          node.fields.type === 'project'
-            ? './src/templates/project.jsx'
-            : './src/templates/blogPost.jsx';
+        // If you ever add different pages again, you need to change the templatePath
+        // based on the node.fields.type
+        const templatePath = './src/templates/project.jsx';
         createPage({
           path: node.fields.slug,
           component: path.resolve(templatePath),

@@ -58,3 +58,71 @@
     content: "\"];";
   }
 }
+
+.go {
+  ul::before {
+    @extend %codeShared;
+    content: "nav := []string{\"";
+  }
+
+  li + li::before {
+    @extend %codeShared;
+    content: "\",\"";
+  }
+
+  ul::after {
+    @extend %codeShared;
+    content: "\"}";
+  }
+}
+
+.graphql {
+  ul::before {
+    @extend %codeShared;
+    content: "\"links\": [{\"id\":\"";
+  }
+
+  li + li::before {
+    @extend %codeShared;
+    content: "\"},{\"id\":\"";
+  }
+
+  ul::after {
+    @extend %codeShared;
+    content: "\"}]";
+  }
+}
+
+.typescript {
+  ul::before {
+    @extend %codeShared;
+    content: "var nav[:string] = [\"";
+  }
+
+  li + li::before {
+    @extend %codeShared;
+    content: "\",\"";
+  }
+
+  ul::after {
+    @extend %codeShared;
+    content: "\"]";
+  }
+}
+
+.bash {
+  ul::before {
+    @extend %codeShared;
+    content: "nav = (";
+  }
+
+  li + li::before {
+    @extend %codeShared;
+    content: "  ";
+  }
+
+  ul::after {
+    @extend %codeShared;
+    content: ")";
+  }
+}
