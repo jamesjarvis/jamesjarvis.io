@@ -24,7 +24,7 @@
         "categories:performance": [
           "error",
           {
-            "minScore": 0.8
+            "minScore": 0.4
           }
         ],
         "first-contentful-paint": [
@@ -54,7 +54,10 @@
         "font-display": "warn",
         "color-contrast": "warn",
         "uses-responsive-images": "warn",
-        "duplicate-id": "warn"
+        "duplicate-id": "warn",
+        "image-aspect-ratio": "warn",
+        "uses-passive-event-listeners": "warn",
+        "no-document-write": "warn"
       }
     },
     "upload": {
