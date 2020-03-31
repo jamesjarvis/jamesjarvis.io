@@ -3,7 +3,10 @@
     "collect": {
       "url": ["/", "/projects", "/projects/musish/"],
       "numberOfRuns": 3,
-      "staticDistDir": "./public"
+      "staticDistDir": "./public",
+      "settings": {
+        "emulatedFormFactor": "desktop"
+      }
     },
     "assert": {
       "preset": "lighthouse:recommended",
