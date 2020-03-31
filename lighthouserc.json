@@ -1,7 +1,17 @@
 {
   "ci": {
     "collect": {
-      "url": ["/", "/projects", "/projects/musish/"],
+      "url": [
+        "/",
+        "/projects",
+        "/projects/musish/",
+        "/projects/git-art/",
+        "/projects/one-second-every-day/",
+        "/projects/portfolio-site/",
+        "/projects/predictions/",
+        "/projects/speedtest/",
+        "/projects/whatsupkent/"
+      ],
       "numberOfRuns": 3,
       "staticDistDir": "./public",
       "settings": {
