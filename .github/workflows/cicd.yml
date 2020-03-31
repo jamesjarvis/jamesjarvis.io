@@ -31,6 +31,11 @@ jobs:
       - name: build
         run: yarn build
 
+      - name: Run Lighthouse analysis
+        uses: treosh/lighthouse-ci-action@v2
+        with:
+          configPath: './lighthouserc.json'
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master' # Only deploy from master branch
