@@ -133,7 +133,7 @@ const query = graphql`
     }
     avatarImg: file(relativePath: { eq: "images/avatar.jpg" }) {
       childImageSharp {
-        avatar: fluid(maxWidth: 400, quality: 90) {
+        avatar: fluid(maxWidth: 200, quality: 80) {
           ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }

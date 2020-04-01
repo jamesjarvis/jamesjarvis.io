@@ -68,8 +68,27 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 750,
+              maxWidth: 800,
+              linkImagesToOriginal: true,
+              withWebp: true,
+              tracedSVG: true,
+              quality: 50
             },
+          },
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 560,
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+              noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+              urlOverrides: [
+                {
+                  id: 'youtube',
+                  embedURL: (videoId) => `https://www.youtube-nocookie.com/embed/${videoId}`,
+                }
+              ] //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
+            }
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
