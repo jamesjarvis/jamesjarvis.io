@@ -40,6 +40,7 @@ jobs:
           runs: 3
 
   build:
+    if: github.ref == 'refs/heads/master' # Only build properly from master branch
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@master
@@ -69,7 +70,6 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/master' # Only deploy from master branch
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
