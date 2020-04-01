@@ -20,7 +20,7 @@ You can watch my whole adult life back to back [here](https://www.youtube.com/pl
 
 ## 20 Years Old
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aROoZL6x8sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="My life at 20 years old" width="560" height="315" src="https://www.youtube-nocookie.com/embed/aROoZL6x8sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 From 23rd June 2018 to 23rd June 2019.
 
@@ -30,7 +30,7 @@ Made some incredible memories and international friends this year, but the pace 
 
 ## 19 Years Old
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nhmEgzpafPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="My life at 19 years old" width="560" height="315" src="https://www.youtube-nocookie.com/embed/nhmEgzpafPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 From 23rd June 2017 to 23rd June 2018.
 
@@ -40,7 +40,7 @@ Had an amazing year, and I’ve loved documenting it like this. I can’t wait t
 
 ## 18 Years Old
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2JItNd1gNx0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="My life at 18 years old" width="560" height="315" src="https://www.youtube-nocookie.com/embed/2JItNd1gNx0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 From 23rd June 2016 to 23rd June 2017.
 

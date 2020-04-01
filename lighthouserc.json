@@ -1,0 +1,68 @@
+{
+  "ci": {
+    "collect": {
+      "url": [
+        "/",
+        "/projects",
+        "/projects/musish/",
+        "/projects/git-art/",
+        "/projects/one-second-every-day/",
+        "/projects/portfolio-site/",
+        "/projects/predictions/",
+        "/projects/speedtest/",
+        "/projects/whatsupkent/"
+      ],
+      "numberOfRuns": 3,
+      "staticDistDir": "./public",
+      "settings": {
+        "emulatedFormFactor": "desktop"
+      }
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+        "categories:performance": [
+          "error",
+          {
+            "minScore": 0.4
+          }
+        ],
+        "first-contentful-paint": [
+          "warn",
+          {
+            "maxNumericValue": 2500,
+            "aggregationMethod": "optimistic"
+          }
+        ],
+        "interactive": [
+          "warn",
+          {
+            "maxNumericValue": 5000,
+            "aggregationMethod": "optimistic"
+          }
+        ],
+        "uses-long-cache-ttl": "off",
+        "uses-http2": "off",
+        "redirects-http": "off",
+        "uses-rel-preconnect": "off",
+        "tap-targets": "warn",
+        "service-worker": "off",
+        "offline-start-url": "off",
+        "works-offline": "off",
+        "link-name": "warn",
+        "link-text": "warn",
+        "font-display": "warn",
+        "color-contrast": "warn",
+        "uses-responsive-images": "warn",
+        "duplicate-id": "warn",
+        "image-aspect-ratio": "warn",
+        "uses-passive-event-listeners": "warn",
+        "no-document-write": "warn",
+        "uses-text-compression": "warn"
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}
