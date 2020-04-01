@@ -57,7 +57,8 @@
         "duplicate-id": "warn",
         "image-aspect-ratio": "warn",
         "uses-passive-event-listeners": "warn",
-        "no-document-write": "warn"
+        "no-document-write": "warn",
+        "uses-text-compression": "warn"
       }
     },
     "upload": {
