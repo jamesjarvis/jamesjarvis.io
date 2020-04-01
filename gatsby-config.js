@@ -1,3 +1,11 @@
+const activeEnv = process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development";
+
+console.log(`Using environment config: '${activeEnv}'`);
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: `James Jarvis`,
@@ -19,7 +27,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: `UA-133320080-2`,
+        trackingId: process.env.GA_TRACKING_ID,
         head: true,
         anonymize: true,
       },
@@ -98,6 +106,7 @@ module.exports = {
           },
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
+          'gatsby-remark-google-analytics-track-links'
         ],
       },
     },
