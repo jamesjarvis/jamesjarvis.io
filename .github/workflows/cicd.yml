@@ -31,7 +31,13 @@ jobs:
       - name: build
         run: GATSBY_ACTIVE_ENV=staging yarn build
 
-        # This is where the lighthouse should go
+      - name: Run Lighthouse analysis
+        uses: treosh/lighthouse-ci-action@v2
+        with:
+          configPath: "./lighthouserc.json"
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          runs: 3
 
   build:
     runs-on: ubuntu-18.04
@@ -60,14 +66,6 @@ jobs:
 
       - name: build
         run: yarn build
-
-      - name: Run Lighthouse analysis
-        uses: treosh/lighthouse-ci-action@v2
-        with:
-          configPath: "./lighthouserc.json"
-          uploadArtifacts: true
-          temporaryPublicStorage: true
-          runs: 3
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
