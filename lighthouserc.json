@@ -58,7 +58,8 @@
         "image-aspect-ratio": "warn",
         "uses-passive-event-listeners": "warn",
         "no-document-write": "warn",
-        "uses-text-compression": "warn"
+        "uses-text-compression": "warn",
+        "frame-title": "warn"
       }
     },
     "upload": {
