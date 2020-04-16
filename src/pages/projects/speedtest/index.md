@@ -3,7 +3,7 @@ type: project
 date: "2020-01"
 title: "⚡️ Automated speedtest internet monitoring"
 tech: ["IFTTT", "Google Sheets"]
-link: "https://docs.google.com/spreadsheets/d/14zlZ_uNWS6K2Gvyf4sXMoyiGnk4NEURDnzkeZhzdHOg/edit?usp=sharing"
+link: "https://docs.google.com/spreadsheets/d/1Udh7RxzvDuee_nN1OzuufP0qBc5Eta1V4tpMkG4BKQc/edit?usp=sharing"
 previewImage: "./speedtest-calendar.png"
 ---
 
