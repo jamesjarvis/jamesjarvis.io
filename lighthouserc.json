@@ -59,7 +59,8 @@
         "uses-passive-event-listeners": "warn",
         "no-document-write": "warn",
         "uses-text-compression": "warn",
-        "frame-title": "warn"
+        "frame-title": "warn",
+        "offscreen-images": "warn"
       }
     },
     "upload": {
