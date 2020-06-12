@@ -1,17 +1,20 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
+import { StaticQuery, graphql } from "gatsby";
 
 const SEO = ({ title, image, description, keywords, lang, meta }) => (
   <StaticQuery
     query={detailsQuery}
-    render={data => {
+    render={(data) => {
       const metaTitle = title || data.site.siteMetadata.title;
       const templateTitle = title ? `%s | ${data.site.siteMetadata.title}` : ``;
       const metaDescription = description || data.site.siteMetadata.description;
       const metaKeywords = keywords || data.site.siteMetadata.keywords;
-      const metaImage = image && image.src ? `${data.site.siteMetadata.siteUrl}${image.src}` : null;
+      const metaImage =
+        image && image.src
+          ? `${data.site.siteMetadata.siteUrl}${image.src}`
+          : null;
       return (
         <Helmet
           htmlAttributes={{
@@ -37,7 +40,7 @@ const SEO = ({ title, image, description, keywords, lang, meta }) => (
               content: `website`,
             },
             {
-              name: 'twitter:creator',
+              name: "twitter:creator",
               content: data.site.siteMetadata.author,
             },
             {
@@ -61,26 +64,26 @@ const SEO = ({ title, image, description, keywords, lang, meta }) => (
               metaImage
                 ? [
                     {
-                      property: 'og:image',
+                      property: "og:image",
                       content: metaImage,
                     },
                     {
-                      property: 'og:image:width',
+                      property: "og:image:width",
                       content: image.width,
                     },
                     {
-                      property: 'og:image:height',
+                      property: "og:image:height",
                       content: image.height,
                     },
                     {
-                      name: 'twitter:card',
-                      content: 'summary_large_image',
+                      name: "twitter:card",
+                      content: "summary_large_image",
                     },
                   ]
                 : [
                     {
-                      name: 'twitter:card',
-                      content: 'summary',
+                      name: "twitter:card",
+                      content: "summary",
                     },
                   ]
             )

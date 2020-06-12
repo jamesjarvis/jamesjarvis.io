@@ -1,8 +1,8 @@
 import React from 'react';
 import './footer.scss';
 
-export default class Footer extends React.Component {
-  render() {
-    return <footer />;
-  }
-}
+const Footer = () => (
+  <footer />
+);
+
+export default Footer;

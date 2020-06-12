@@ -1,13 +1,12 @@
 import React from "react";
 import Wrapper from "../components/containers/wrapper";
-import Me from "../components/me/me";
 
-const Index = () => (
-  <Wrapper title="Home">
+const NotFoundPage = () => (
+  <Wrapper title="Lost?">
     <main id={"landing"}>
-      <Me showDescription />
+      <h1>Ya seem lost?</h1>
     </main>
   </Wrapper>
 );
 
-export default Index;
+export default NotFoundPage;
