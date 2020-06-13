@@ -22,7 +22,8 @@ const Projects = ({ data }) => {
           {posts
             .filter(
               (post) =>
-                post.node.frontmatter.title.length > 0
+                post.node.frontmatter.title.length > 0 &&
+                post.node.frontmatter.type == "project"
             )
             .map(({ node: post }) => {
               const image = post.frontmatter.previewImage ? (
@@ -114,6 +115,7 @@ export const pageQuery = graphql`
           excerpt(pruneLength: 250)
           id
           frontmatter {
+            type
             title
             date(formatString: "MMMM, YYYY")
             tech
