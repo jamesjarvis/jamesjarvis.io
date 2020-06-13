@@ -7,20 +7,62 @@ require("dotenv").config({
 });
 
 module.exports = {
+  pathPrefix: "__GATSBY_IPFS_PATH_PREFIX__",
   siteMetadata: {
     title: `James Jarvis`,
-    siteUrl: `https://jamesjarvis.io`,
+    author: {
+      name: `James Jarvis`,
+      title: `Software Engineer, Explorer`,
+      email: {
+        address: "hello@jamesjarvis.io",
+        text: "Say hi!",
+        body: "Loved your website! Care to exchange information?",
+        subject: "Just saw your site!",
+      },
+    },
+    siteUrl: `https://ipfs.jamesjarvis.io`,
     description: `Personal site of James Jarvis`,
-    author: 'James Jarvis',
+    socials: [
+      {
+        platform: "LinkedIn",
+        icon: "linkedin-in",
+        text: "Connect with me!",
+        url: "https://www.linkedin.com/in/mrjamesjarvis/",
+      },
+      {
+        platform: "GitHub",
+        icon: "github",
+        text: "Critique my code!",
+        url: "https://github.com/jamesjarvis",
+      },
+      {
+        platform: "Keybase",
+        icon: "keybase",
+        text: "View my proofs!",
+        url: "https://keybase.io/jamesjarvis",
+      },
+      {
+        platform: "Instagram",
+        icon: "instagram",
+        text: "Follow me!",
+        url: "https://www.instagram.com/jamjarvis/",
+      },
+      {
+        platform: "YouTube",
+        icon: "youtube",
+        text: "Watch my videos!",
+        url: "https://www.youtube.com/c/JamesJarvis1998",
+      },
+    ],
     keywords: [
-      'personal',
-      'site',
-      'portfolio',
-      'developer',
-      'software',
-      'engineer',
-      'film-maker',
-      'One Second Every Day',
+      "personal",
+      "site",
+      "portfolio",
+      "developer",
+      "software",
+      "engineer",
+      "film-maker",
+      "One Second Every Day",
     ],
   },
   plugins: [
@@ -116,5 +158,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
     `gatsby-plugin-sitemap`,
+    // 'gatsby-plugin-ipfs',
   ],
 };
