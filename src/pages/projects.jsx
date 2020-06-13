@@ -22,8 +22,7 @@ const Projects = ({ data }) => {
           {posts
             .filter(
               (post) =>
-                post.node.frontmatter.title.length > 0 &&
-                post.node.fields.type === "project"
+                post.node.frontmatter.title.length > 0
             )
             .map(({ node: post }) => {
               const image = post.frontmatter.previewImage ? (
@@ -103,7 +102,7 @@ Projects.propTypes = {
 
 export default Projects;
 
-export const query = graphql`
+export const pageQuery = graphql`
   query ProjectsQuery {
     info: projectsJson {
       title
@@ -123,14 +122,13 @@ export const query = graphql`
             previewImage {
               childImageSharp {
                 preview: fluid(maxWidth: 800, quality: 70) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }
           }
           fields {
             slug
-            type
           }
         }
       }

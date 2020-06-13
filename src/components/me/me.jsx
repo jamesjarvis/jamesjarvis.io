@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
@@ -19,7 +19,7 @@ const Me = ({ data, showDescription }) => {
     },
   } = useStaticQuery(query);
 
-  const [rick, setRick] = useState(0)
+  const [rick, setRick] = useState(0);
   const metaAvatar = (children) =>
     showDescription ? children : <Link to="/">{children}</Link>;
 
@@ -28,7 +28,7 @@ const Me = ({ data, showDescription }) => {
       {rick < 3 ? (
         <div
           className={"avatar animate fadeInUp one"}
-          onClick={() => setRick(rick+1)}
+          onClick={() => setRick(rick + 1)}
         >
           {metaAvatar(<Img fluid={avatar} title={"Oh look it's me"} />)}
         </div>
@@ -47,12 +47,12 @@ const Me = ({ data, showDescription }) => {
         {title}
       </h2>
       {showDescription && (
-            <summary
-              className={`animate fadeInUp two`}
-              id={"bio"}
-              // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{ __html: html }}
-            />
+        <summary
+          className={`animate fadeInUp two`}
+          id={"bio"}
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
       )}
       <Socials socials={socials} email={email} />
     </section>
@@ -80,28 +80,13 @@ const query = graphql`
         }
       }
     }
-    info: aboutJson {
-      name
-      title
-      email {
-        address
-        subject
-        body
-        text
-      }
-      socials {
-        icon
-        url
-        text
-      }
-    }
     bio: markdownRemark(frontmatter: { type: { eq: "about" } }) {
       html
     }
-    avatarImg: file(relativePath: { eq: "images/avatar.jpg" }) {
+    avatarImg: file(relativePath: { eq: "avatar.jpg" }) {
       childImageSharp {
-        avatar: fluid(maxWidth: 200, quality: 80) {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
+        avatar: fluid(maxWidth: 200, quality: 70) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

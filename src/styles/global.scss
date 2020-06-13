@@ -64,3 +64,22 @@ blockquote {
     height: 25px;
   }
 }
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-height: 500px;
+
+  .large {
+    font-size: 7em;
+  }
+  .medium {
+    font-size: 2em;
+  }
+  .small {
+    font-size: 1em;
+  }
+}

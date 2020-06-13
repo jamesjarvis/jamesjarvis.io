@@ -66,6 +66,7 @@ module.exports = {
     ],
   },
   plugins: [
+    'gatsby-plugin-ipfs',
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
@@ -77,15 +78,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`,
+        name: `content`,
+        path: `${__dirname}/assets/content`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `assets`,
-        path: `${__dirname}/assets/`,
+        name: `images`,
+        path: `${__dirname}/assets/images`,
       },
     },
     {
@@ -96,21 +97,19 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `James Jarvis`,
-        short_name: `James Jarvis`,
-        start_url: `/`,
-        background_color: `#000000`,
-        theme_color: `#004196`,
-        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
-        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
-        display: `standalone`,
-        icon: `assets/images/avatar.jpg`, // This path is relative to the root of the site.
-        include_favicon: true, // Include favicon
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `James Jarvis`,
+    //     short_name: `James Jarvis`,
+    //     start_url: `/`,
+    //     background_color: `#000000`,
+    //     theme_color: `#004196`,
+    //     display: `minimal-ui`,
+    //     icon: `assets/images/avatar.jpg`, // This path is relative to the root of the site.
+    //     include_favicon: true, // Include favicon
+    //   },
+    // },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -121,7 +120,6 @@ module.exports = {
               maxWidth: 800,
               linkImagesToOriginal: true,
               withWebp: true,
-              tracedSVG: true,
               quality: 50
             },
           },
@@ -157,7 +155,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
-    `gatsby-plugin-sitemap`,
-    // 'gatsby-plugin-ipfs',
+    // `gatsby-plugin-sitemap`,
   ],
 };

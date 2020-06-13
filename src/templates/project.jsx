@@ -1,13 +1,13 @@
 /* eslint-disable react/no-danger */
-import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql, Link } from 'gatsby';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { OutboundLink } from 'gatsby-plugin-gtag';
-import Wrapper from '../components/containers/wrapper';
-import ComplexWrapper from '../components/containers/complexWrapper';
-import Tech from '../components/tech/tech';
-import '../styles/tooltips.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql, Link } from "gatsby";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { OutboundLink } from "gatsby-plugin-gtag";
+import Wrapper from "../components/containers/wrapper";
+import ComplexWrapper from "../components/containers/complexWrapper";
+import Tech from "../components/tech/tech";
+import "../styles/tooltips.scss";
 
 const Template = ({ data }) => {
   const {
@@ -19,28 +19,28 @@ const Template = ({ data }) => {
   } = data;
   const postLink = link ? (
     <OutboundLink href={link} tooltip="Check it out!">
-      <FontAwesomeIcon icon="link" prefix={'fas'} className={`link`} />
+      <FontAwesomeIcon icon="link" prefix={"fas"} className={`link`} />
     </OutboundLink>
   ) : (
     <></>
   );
   const postSource = source ? (
     <OutboundLink href={source} tooltip="Clone it!">
-      <FontAwesomeIcon icon={['fab', 'github']} className={`link`} />
+      <FontAwesomeIcon icon={["fab", "github"]} className={`link`} />
     </OutboundLink>
   ) : (
     <></>
   );
   const links =
     source || link ? (
-      <span className={'links'}>
+      <span className={"links"}>
         {postLink}
         {postSource}
       </span>
     ) : (
       <></>
     );
-  const image = previewImage ? previewImage.childImageSharp.resize : null;
+  const image = previewImage ? previewImage.childImageSharp.fixed : null;
   return (
     <Wrapper title={title} description={excerpt} image={image}>
       <ComplexWrapper>
@@ -48,11 +48,14 @@ const Template = ({ data }) => {
         <article>
           <h1>{title}</h1>
           {links}
-          <time className={'date'}>
+          <time className={"date"}>
             {date}
             <Tech techs={tech} />
           </time>
-          <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
+          <div
+            className="blog-post-content"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
         </article>
       </ComplexWrapper>
     </Wrapper>
@@ -78,11 +81,14 @@ export const pageQuery = graphql`
         source
         previewImage {
           childImageSharp {
-            resize(width: 1200) {
-              src
-              height
-              width
+            fixed(width: 1200) {
+              ...GatsbyImageSharpFixed
             }
+            # resize(width: 1200) {
+            #   src
+            #   height
+            #   width
+            # }
           }
         }
       }

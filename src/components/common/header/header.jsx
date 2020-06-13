@@ -1,13 +1,16 @@
-import React from 'react';
-import NavBar from './navbar';
-import '../../../styles/codestyle.scss';
-import './header.scss';
-import CodeContext from '../CodeContext';
+import React, { useContext } from "react";
+import "../../../styles/codestyle.scss";
+import CodeContext from "../CodeContext";
+import "./header.scss";
+import NavBar from "./navbar";
 
-const Header = () => (
-  <header className="translucent">
-    <CodeContext.Consumer>{({ language }) => <NavBar language={language} />}</CodeContext.Consumer>
-  </header>
-);
+const Header = () => {
+  const { language } = useContext(CodeContext);
+  return (
+    <header className="translucent">
+      <NavBar language={language} />
+    </header>
+  );
+};
 
 export default Header;
