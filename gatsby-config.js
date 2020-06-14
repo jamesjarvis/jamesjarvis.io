@@ -66,7 +66,7 @@ module.exports = {
     ],
   },
   plugins: [
-    'gatsby-plugin-ipfs',
+    // 'gatsby-plugin-ipfs',
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
