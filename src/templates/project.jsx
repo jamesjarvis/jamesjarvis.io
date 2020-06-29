@@ -1,11 +1,13 @@
 /* eslint-disable react/no-danger */
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql, Link } from "gatsby";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { graphql, Link } from "gatsby";
 import { OutboundLink } from "gatsby-plugin-gtag";
-import Wrapper from "../components/containers/wrapper";
+import PropTypes from "prop-types";
+import React from "react";
 import ComplexWrapper from "../components/containers/complexWrapper";
+import Wrapper from "../components/containers/wrapper";
 import Tech from "../components/tech/tech";
 import "../styles/tooltips.scss";
 
@@ -19,14 +21,14 @@ const Template = ({ data }) => {
   } = data;
   const postLink = link ? (
     <OutboundLink href={link} tooltip="Check it out!">
-      <FontAwesomeIcon icon="link" prefix={"fas"} className={`link`} />
+      <FontAwesomeIcon icon={faLink} className={`link`} />
     </OutboundLink>
   ) : (
     <></>
   );
   const postSource = source ? (
     <OutboundLink href={source} tooltip="Clone it!">
-      <FontAwesomeIcon icon={["fab", "github"]} className={`link`} />
+      <FontAwesomeIcon icon={faGithub} className={`link`} />
     </OutboundLink>
   ) : (
     <></>

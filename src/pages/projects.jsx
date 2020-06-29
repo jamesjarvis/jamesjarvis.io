@@ -1,11 +1,13 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
-import Img from "gatsby-image";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { graphql, Link } from "gatsby";
+import Img from "gatsby-image";
 import { OutboundLink } from "gatsby-plugin-gtag";
-import Wrapper from "../components/containers/wrapper";
+import PropTypes from "prop-types";
+import React from "react";
 import ComplexWrapper from "../components/containers/complexWrapper";
+import Wrapper from "../components/containers/wrapper";
 import Tech from "../components/tech/tech";
 import "../styles/postLists.scss";
 import "../styles/tooltips.scss";
@@ -42,11 +44,7 @@ const Projects = ({ data }) => {
                   href={post.frontmatter.link}
                   tooltip="Check it out!"
                 >
-                  <FontAwesomeIcon
-                    icon="link"
-                    prefix={"fas"}
-                    className={`link`}
-                  />
+                  <FontAwesomeIcon icon={faLink} className={`link`} />
                 </OutboundLink>
               ) : (
                 <></>
@@ -56,10 +54,7 @@ const Projects = ({ data }) => {
                   href={post.frontmatter.source}
                   tooltip="Clone it!"
                 >
-                  <FontAwesomeIcon
-                    icon={["fab", "github"]}
-                    className={`link`}
-                  />
+                  <FontAwesomeIcon icon={faGithub} className={`link`} />
                 </OutboundLink>
               ) : (
                 <></>
