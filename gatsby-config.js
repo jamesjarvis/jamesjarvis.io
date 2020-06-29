@@ -7,23 +7,66 @@ require("dotenv").config({
 });
 
 module.exports = {
+  pathPrefix: "__GATSBY_IPFS_PATH_PREFIX__",
   siteMetadata: {
     title: `James Jarvis`,
+    author: {
+      name: `James Jarvis`,
+      title: `Software Engineer, Explorer`,
+      email: {
+        address: "hello@jamesjarvis.io",
+        text: "Say hi!",
+        body: "Loved your website! Care to exchange information?",
+        subject: "Just saw your site!",
+      },
+    },
     siteUrl: `https://jamesjarvis.io`,
     description: `Personal site of James Jarvis`,
-    author: 'James Jarvis',
+    socials: [
+      {
+        platform: "LinkedIn",
+        icon: "linkedin-in",
+        text: "Connect with me!",
+        url: "https://www.linkedin.com/in/mrjamesjarvis/",
+      },
+      {
+        platform: "GitHub",
+        icon: "github",
+        text: "Critique my code!",
+        url: "https://github.com/jamesjarvis",
+      },
+      {
+        platform: "Keybase",
+        icon: "keybase",
+        text: "View my proofs!",
+        url: "https://keybase.io/jamesjarvis",
+      },
+      {
+        platform: "Instagram",
+        icon: "instagram",
+        text: "Follow me!",
+        url: "https://www.instagram.com/jamjarvis/",
+      },
+      {
+        platform: "YouTube",
+        icon: "youtube",
+        text: "Watch my videos!",
+        url: "https://www.youtube.com/c/JamesJarvis1998",
+      },
+    ],
     keywords: [
-      'personal',
-      'site',
-      'portfolio',
-      'developer',
-      'software',
-      'engineer',
-      'film-maker',
-      'One Second Every Day',
+      "personal",
+      "site",
+      "portfolio",
+      "developer",
+      "software",
+      "engineer",
+      "film-maker",
+      "One Second Every Day",
     ],
   },
   plugins: [
+    // 'gatsby-plugin-ipfs',
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
@@ -35,15 +78,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`,
+        name: `content`,
+        path: `${__dirname}/assets/content`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `assets`,
-        path: `${__dirname}/assets/`,
+        name: `images`,
+        path: `${__dirname}/assets/images`,
       },
     },
     {
@@ -62,9 +105,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#004196`,
-        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
-        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
-        display: `standalone`,
+        display: `minimal-ui`,
         icon: `assets/images/avatar.jpg`, // This path is relative to the root of the site.
         include_favicon: true, // Include favicon
       },
@@ -79,7 +120,6 @@ module.exports = {
               maxWidth: 800,
               linkImagesToOriginal: true,
               withWebp: true,
-              tracedSVG: true,
               quality: 50
             },
           },

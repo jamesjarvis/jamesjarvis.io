@@ -44,7 +44,9 @@ So, I moved back in with the 'rents.
 
 Our internet here is provided by [Virgin Media](https://www.virginmedia.com/), on a 350mb/s(!!) plan.
 Now unfortunately thanks to the [Raspberry Pi I am using](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/), the Ethernet port only supports 100 Base.
-As a result, none of the speedtests will actually reach 250mb/s (but if it drops below that, then we should see a difference).
+As a result, none of the speedtests will actually reach 350mb/s (but if it drops below that, then we should see a difference).
+
+(Update - June 2020), upgraded to a [newer Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/), so should be able to show faster speeds.
 
 However, this connection actually has far more significant variance, with the most noticeable pattern contained within the upload speedtest (presumably virgin media throttles this channel to support more downloads at peak times).
 Something also to note is that this environment has ~ 5x more devices on the network, which could be a bit of an issue as well.

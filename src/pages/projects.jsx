@@ -1,14 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link, graphql } from 'gatsby';
-import Img from 'gatsby-image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { OutboundLink } from 'gatsby-plugin-gtag';
-import Wrapper from '../components/containers/wrapper';
-import ComplexWrapper from '../components/containers/complexWrapper';
-import Tech from '../components/tech/tech';
-import '../styles/postLists.scss';
-import '../styles/tooltips.scss';
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { graphql, Link } from "gatsby";
+import Img from "gatsby-image";
+import { OutboundLink } from "gatsby-plugin-gtag";
+import PropTypes from "prop-types";
+import React from "react";
+import ComplexWrapper from "../components/containers/complexWrapper";
+import Wrapper from "../components/containers/wrapper";
+import Tech from "../components/tech/tech";
+import "../styles/postLists.scss";
+import "../styles/tooltips.scss";
 
 const Projects = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
@@ -18,36 +20,48 @@ const Projects = ({ data }) => {
       <ComplexWrapper>
         <h1>{info.title}</h1>
         <p>{info.about}</p>
-        <ul className={'posts'}>
+        <ul className={"posts"}>
           {posts
             .filter(
-              post => post.node.frontmatter.title.length > 0 && post.node.fields.type === 'project'
+              (post) =>
+                post.node.frontmatter.title.length > 0 &&
+                post.node.frontmatter.type == "project"
             )
             .map(({ node: post }) => {
               const image = post.frontmatter.previewImage ? (
                 <Link to={post.fields.slug}>
-                  <Img fluid={post.frontmatter.previewImage.childImageSharp.preview} />
+                  <Img
+                    fluid={
+                      post.frontmatter.previewImage.childImageSharp.preview
+                    }
+                  />
                 </Link>
               ) : (
                 <></>
               );
               const link = post.frontmatter.link ? (
-                <OutboundLink href={post.frontmatter.link} tooltip="Check it out!">
-                  <FontAwesomeIcon icon="link" prefix={'fas'} className={`link`} />
+                <OutboundLink
+                  href={post.frontmatter.link}
+                  tooltip="Check it out!"
+                >
+                  <FontAwesomeIcon icon={faLink} className={`link`} />
                 </OutboundLink>
               ) : (
                 <></>
               );
               const source = post.frontmatter.source ? (
-                <OutboundLink href={post.frontmatter.source} tooltip="Clone it!">
-                  <FontAwesomeIcon icon={['fab', 'github']} className={`link`} />
+                <OutboundLink
+                  href={post.frontmatter.source}
+                  tooltip="Clone it!"
+                >
+                  <FontAwesomeIcon icon={faGithub} className={`link`} />
                 </OutboundLink>
               ) : (
                 <></>
               );
               const links =
                 post.frontmatter.source || post.frontmatter.link ? (
-                  <span className={'links'}>
+                  <span className={"links"}>
                     {link}
                     {source}
                   </span>
@@ -60,7 +74,7 @@ const Projects = ({ data }) => {
                     <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
                   </h2>
                   {links}
-                  <time className={'date'}>
+                  <time className={"date"}>
                     {post.frontmatter.date}
                     <Tech techs={post.frontmatter.tech} />
                   </time>
@@ -84,7 +98,7 @@ Projects.propTypes = {
 
 export default Projects;
 
-export const query = graphql`
+export const pageQuery = graphql`
   query ProjectsQuery {
     info: projectsJson {
       title
@@ -96,6 +110,7 @@ export const query = graphql`
           excerpt(pruneLength: 250)
           id
           frontmatter {
+            type
             title
             date(formatString: "MMMM, YYYY")
             tech
@@ -104,14 +119,13 @@ export const query = graphql`
             previewImage {
               childImageSharp {
                 preview: fluid(maxWidth: 800, quality: 70) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }
           }
           fields {
             slug
-            type
           }
         }
       }

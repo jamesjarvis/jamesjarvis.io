@@ -1,69 +1,65 @@
-const path = require('path');
+const path = require("path");
 
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` });
+    const slug = createFilePath({ node, getNode });
     createNodeField({
       node,
-      name: 'slug',
+      name: "slug",
       value: slug,
-    });
-
-    const dirSplit = path.parse(slug).dir.split(path.sep);
-    if (dirSplit.length > 0 && dirSplit[0] === '') {
-      dirSplit.shift(); // because path starts with /, '' is always at position 0
-    }
-
-    let type = 'page';
-    switch (dirSplit[0]) {
-      case 'projects':
-        type = 'project';
-        break;
-    }
-
-    createNodeField({
-      node,
-      name: 'type',
-      value: type,
     });
   }
 };
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  return new Promise((resolve, reject) => {
-    graphql(`
+  const blogPost = path.resolve("./src/templates/project.jsx");
+  const result = await graphql(
+    `
       {
-        allMarkdownRemark {
+        allMarkdownRemark(
+          sort: { fields: [frontmatter___date], order: DESC }
+          limit: 1000
+        ) {
           edges {
             node {
               fields {
                 slug
-                type
+              }
+              frontmatter {
+                title
               }
             }
           }
         }
       }
-    `).then(result => {
-      result.data.allMarkdownRemark.edges.map(({ node }) => {
-        // If you ever add different pages again, you need to change the templatePath
-        // based on the node.fields.type
-        const templatePath = './src/templates/project.jsx';
-        createPage({
-          path: node.fields.slug,
-          component: path.resolve(templatePath),
-          context: {
-            // Data passed to context is available in page queries as GraphQL variables.
-            slug: node.fields.slug,
-          },
-        });
-      });
-      resolve();
+    `
+  );
+
+  if (result.errors) {
+    throw result.errors;
+  }
+
+  // Create posts pages.
+  const posts = result.data.allMarkdownRemark.edges;
+
+  posts.forEach((post, index) => {
+    const previous = index === posts.length - 1 ? null : posts[index + 1].node;
+    const next = index === 0 ? null : posts[index - 1].node;
+    const slug = post.node.fields.slug;
+
+    createPage({
+      path: slug,
+      component: blogPost,
+      context: {
+        slug: slug,
+        previous,
+        next,
+      },
     });
   });
 };
