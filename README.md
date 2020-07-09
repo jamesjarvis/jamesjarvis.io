@@ -1,6 +1,8 @@
 # jamesjarvis.io
 
-Welcome to jamesjarvis.io - my personal site, accessible at (you guessed it!) https://jamesjarvis.io
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jamesjarvis/jamesjarvis.io.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jamesjarvis/jamesjarvis.io/context:javascript)
+
+Welcome to jamesjarvis.io - my personal site, accessible at (you guessed it!) <https://jamesjarvis.io>
 
 Been meaning to make one for ages.
 
@@ -13,7 +15,7 @@ yarn start
 
 If you want to copy this for yourself, its pretty simple to set it up completely for your own purposes.
 After you have cloned the repository, and would like to set up the github actions CI/CD on github pages, just follow these instructions:
-https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-gatsby
+<https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-gatsby>
 
 Some small additions to that for this particular project:
 
