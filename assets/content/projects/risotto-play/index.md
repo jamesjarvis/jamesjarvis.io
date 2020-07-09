@@ -10,7 +10,7 @@ previewImage: "./risotto-play.png"
 
 ![Risotto Play](./risotto-play.png)
 
-Sometime back in 2018, a friend of mine started building his own programming language, ["Risotto"](https://github.com/risotto/risotto) (although I wanted the name to be "Ravioli" so the syntax could be ["Ravioli Ravioli, give me the formuoli"](https://www.youtube.com/watch?v=z9r8Swai8_g&feature=youtu.be&t=32), but I digress).
+Sometime back in 2018, a friend of mine started building his own programming language, "Risotto" [(GitHub link)](https://github.com/risotto/risotto) (although I wanted the name to be "Ravioli" so the syntax could be "Ravioli Ravioli, give me the formuoli" [(lol I know I'm immature)](https://www.youtube.com/watch?v=z9r8Swai8_g&feature=youtu.be&t=32), but I digress).
 
 Anywho, I've enjoyed using services such as [The Go Play Space](https://goplay.space/) and [Repl](https://repl.it/) in the past, and wanted to replicate this kind of environment (whilst paying 0 for hosting) for Risotto.
 

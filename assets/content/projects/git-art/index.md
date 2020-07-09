@@ -10,7 +10,7 @@ previewImage: "./git-art.png"
 
 ![Git Art](./git-art.png)
 
-My roommate [Tim](https://www.linkedin.com/in/timothylee0/) and I decided to start challenging ourselves with little applications we could develop.
+My roommate Tim [(his LinkedIn)](https://www.linkedin.com/in/timothylee0/) and I decided to start challenging ourselves with little applications we could develop.
 
 The first thing we thought of was a way to decorate your GitHub activity board, example below:
 

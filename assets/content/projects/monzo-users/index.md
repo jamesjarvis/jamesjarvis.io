@@ -10,7 +10,7 @@ previewImage: "./monzo-users.png"
 
 ![Monzo Users](./monzo-users.png)
 
-[Monzo](monzo.com) is a digital "challenger" bank from the UK.
+Monzo [(here)](monzo.com) is a digital "challenger" bank from the UK.
 
 I thought it would be interesting to use GitHub to automatically update and store data regarding the growth of Monzo's current account user numbers.
 
