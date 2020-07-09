@@ -12,7 +12,7 @@ previewImage: "./subject_type_dropdown.png"
 
 In October 2019, I was looking for a challenge.
 
-[University](https://www.kent.ac.uk/) was going ok, but I didn't feel stimulated enough, and wanted to see what else there was on offer.
+University [(look mum, I'm on the front page!)](https://web.archive.org/web/20200322103909/https://www.kent.ac.uk/) was going ok, but I didn't feel stimulated enough, and wanted to see what else there was on offer.
 Turns out paying £9k per year to learn from 20 year old textbooks isn't exactly riveting, so I was looking to see what other interesting lectures I could discover on campus.
 Also, my friends and I liked to use disused seminar rooms to work in since the library was often overcrowded and I wanted an easy way to discover which seminar rooms were not being used.
 

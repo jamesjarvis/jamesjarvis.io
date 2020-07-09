@@ -11,7 +11,7 @@ previewImage: "./speedtest-calendar.png"
 
 A quick monitoring project.
 
-As anyone from the UK will know, our internet speeds [aren't quite up to par with the rest of the developed world](https://www.speedtest.net/global-index).
+As anyone from the UK will know, our internet speeds aren't quite up to par with the rest of the developed world [(Don't believe me? Check it out)](https://www.speedtest.net/global-index).
 From personal experience, I very rarely achieve the advertised internet speeds, even when directly connected to the router.
 Similarly, some ISP's I have used seem to have loads of dropouts, and fairly poor response to criticisms of speed.
 So, I though I would try to monitor the internet a bit closer, I had a spare RPI hanging around not really doing much besides a minecraft server, and thought it would be an interesting experiment.

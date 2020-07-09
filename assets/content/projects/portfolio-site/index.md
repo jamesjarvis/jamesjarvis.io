@@ -8,8 +8,8 @@ source: "https://github.com/jamesjarvis/jamesjarvis.io"
 previewImage: "./jamesjarvisio.png"
 ---
 
-This very site you are reading, is open source, under the A-GPL licence with all the source code hosted on [GitHub](https://github.com/jamesjarvis/jamesjarvis.io).
-You may fork it and fill in your own data if you wish, which is surprisingly easy to do, all thanks to [Gatsby](https://www.gatsbyjs.org/)!
+This very site you are reading, is open source, under the A-GPL licence with all the source code hosted on GitHub [(fork off)](https://github.com/jamesjarvis/jamesjarvis.io).
+You may fork it and fill in your own data if you wish, which is surprisingly easy to do, all thanks to GatsbyJS [(link)](https://www.gatsbyjs.org/)!
 
 I created this with GatsbyJS as I wanted to have my own personal portfolio site which simply consumes data stored externally (though within the same repo), rather than hard coding everything, which I felt was the issue with many other portfolio sites.
 
@@ -17,7 +17,7 @@ Now, I wanted to have a personal site so I could have a place to publicise the w
 
 I am a little bit cheap however, so after spending \$30 on domain fees I didn't want to spend any more money on actually hosting it. Which brings me to some of my favourite pieces of tech: the free kind.
 
-## How to host for no cost whatsoever.
+## How to host for no cost whatsoever
 
 Since we are already using GitHub as a way to host our source code (for free!), we might as well use the latest and greatest [GitHub Pages](https://pages.github.com) to host the page source files for free as well! (I know right!??).
 

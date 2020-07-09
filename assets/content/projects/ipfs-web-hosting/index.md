@@ -10,8 +10,8 @@ previewImage: "./IPFS_logo.png"
 
 ![IPFS Logo](./IPFS_logo.png)
 
-2020 has been defined by [The Lockdown](https://www.bbc.co.uk/news/uk-52084517).
-From March to July (and perhaps again, if the [second wave](https://www.bbc.co.uk/news/uk-53159918) is to come), basically everything shut down and we were all forced to spend time with family, and do nothing.
+2020 has been defined by The Lockdown [(yay?)](https://www.bbc.co.uk/news/uk-52084517).
+From March to July (and perhaps again, if the [(potential)](https://www.bbc.co.uk/news/uk-53159918) second wave is to come), basically everything shut down and we were all forced to spend time with family, and do nothing.
 
 Well, around this time I was thinking "what are the problems humanity will face in the next 100 years?", and at some point I will write a little post outlining my daft ideas.
 

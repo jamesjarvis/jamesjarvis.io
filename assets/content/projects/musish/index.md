@@ -14,7 +14,7 @@ previewImage: "./musish.png"
 
 On December 1st 2018, a group of friends and I attended the MLH Local Hack Day in San Francisco.
 
-Made by [myself](https://jamesjarvis.io), [Brychan](https://brychan.io), [Raphaël](https://raphaelvigee.com), and [Filip](https://www.linkedin.com/in/filip-grebowski-b24810116/).
+Made by myself [(me)](https://jamesjarvis.io), Brychan [(link)](https://brychan.io), Raphael [(link)](https://raphaelvigee.com), and Filip [(link)](https://www.linkedin.com/in/filip-grebowski-b24810116/).
 
 This particular hackathon was sponsored by GitHub and Microsoft, and had a theme of creating the best open source project for the community. We came first in San Francisco for our project.
 

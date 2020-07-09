@@ -8,7 +8,7 @@ link: "https://www.youtube.com/playlist?list=PLkusHjaZhA7nFyNLqDfw2zXeXfs3KfxgE"
 
 Since the 23rd June 2016, my 18th birthday, I have been recording one second of every day of my life.
 
-This all started out after watching [Cesar Kuriyama's](http://www.cesarkuriyama.com) [fantastic TED talk](https://www.ted.com/talks/cesar_kuriyama_one_second_every_day) on his project of the same name and nature.
+This all started out after watching Cesar Kuriyama's [(link)](http://www.cesarkuriyama.com) fantastic TED talk [(link)](https://www.ted.com/talks/cesar_kuriyama_one_second_every_day) on his project of the same name and nature.
 
 I wouldn't be lying if I said this has been one of my favourite projects I have ever embarked on in my life. As my care for social media has dwindled, this project has remained. I started this project with the goal of making myself accountable to do at least one worthwhile thing every day, and it has flourished into a way to reflect on my growth as a person.
 

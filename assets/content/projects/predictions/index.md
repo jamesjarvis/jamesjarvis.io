@@ -1,7 +1,7 @@
 ---
 type: project
 date: "2020-03"
-title: "📈 COVID-19 (Coronavirus) automatic predictions"
+title: "🦠 COVID-19 (Coronavirus) automatic predictions"
 tech: ["Python"]
 source: "https://github.com/jamesjarvis/corona-infection-prediction-uk"
 ---
