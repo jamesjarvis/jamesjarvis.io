@@ -1,10 +1,8 @@
 ---
 type: project
-date: "2020-07"
+date: "2020-08"
 title: "👨‍🎓 Graduating in a Pandemic/Recession"
 tech: ["Opinion"]
-# link: "https://jamesjarvis.github.io/monzo-users/"
-# source: "https://github.com/jamesjarvis/monzo-users"
 previewImage: "./graduation.jpg"
 ---
 
