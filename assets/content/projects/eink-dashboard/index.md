@@ -1,7 +1,7 @@
 ---
 type: project
 date: "2020-06"
-title: "📊 E-Ink Dashboard"
+title: "☔️ E-Ink Weather Dashboard"
 tech: ["Raspberry Pi", "Python"]
 source: "https://github.com/jamesjarvis/eink-dashboard"
 previewImage: "./display.jpg"
@@ -33,9 +33,10 @@ Normally, I keep it in *weather* mode, whereby every 10 minutes it will update a
 - [The next time the ISS will pass overhead](http://www.isstracker.com/)
 - Weather radar of the UK [(just because it looks cool)](https://www.metoffice.gov.uk/public/weather/observation/rainfall-radar#?map=Rainfall&zoom=5)
 
+I won't lie, the 3 hour rainwall forecast is nowhere near as accurate as [DarkSky](https://darksky.net/) was, and the display panel I was sent didn't display red's anywhere near as vibrantly as other panels I have seen (I think it was just a faulty panel but I couldn't be bothered to pay for shipping to China and wait another month), but overall it's worked exactly as I have envisioned!
+
 There's also the *cowsay* mode, whose sole purpose is to present a random dad joke every hour, in the popular [linux cli tool](https://en.wikipedia.org/wiki/Cowsay) format.
 
-<!-- TODO: Cowsay mode picture -->
 ![Cowsay mode](./display_cowsay.jpg)
 
 ## How to build it?
