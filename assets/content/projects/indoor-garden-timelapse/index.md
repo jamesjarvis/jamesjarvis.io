@@ -3,9 +3,8 @@ type: project
 date: "2020-06"
 title: "📸 Indoor Garden Timelapse"
 tech: ["Raspberry Pi", "Bash"]
-# link: "https://jamesjarvis.github.io/monzo-users/"
-# source: "https://github.com/jamesjarvis/monzo-users"
-previewImage: "./timelapse.gif"
+link: "https://youtu.be/DiBl9JMlBUI"
+previewImage: "./garden-screenshot.jpg"
 ---
 
 ![Indoor Garden Timelapse](./timelapse.gif)
@@ -24,7 +23,7 @@ So, I bought the [Raspberry Pi Zero W camera combo](https://thepihut.com/product
 
 The end result is this cute little video:
 
-<!-- TODO: insert video -->
+`youtube: DiBl9JMlBUI`
 
 This little video was the result of 2 months of growing and almost 200GB of images!
 I set up the camera to take a photo every 30 seconds (which in hindsight was a little bit too often, and the final video only took a frame each 16 minutes)
@@ -111,6 +110,18 @@ Basically all this script does is download the latest images from the RPI, delet
 
 Then it triggers a rendering job that takes *absolutely FOREVER* to create a h.265 encoded timelapse of it all.
 (Originally I used h.264 but h.265 took up honestly 1/8th of the space without losing much quality which is fantastic!)
+
+P.S. The gif at the start of the page is generated with a one liner:
+
+```bash
+ffmpeg -ss 3 -t 20 -i /Volumes/JARVIS-SSD/filtered-timelapse.mp4 -filter_complex "[0:v] fps=10,scale=480:-1,split [a][b];[a] palettegen [p];[b][p] paletteuse" /Volumes/JARVIS-SSD/timelapse.gif
+```
+
+However, gifs are rather inefficient, the better option would be an [animated webp](https://developers.google.com/speed/webp/faq) image, which is unfortunately not supported by GatsbyJS, nor some [old browsers](https://caniuse.com/#search=webp), but it would be 10% the size of the gif version (and better quality!) - to generate it I used the following command:
+
+```bash
+ffmpeg -ss 3 -t 20 -i /Volumes/JARVIS-SSD/filtered-timelapse.mp4 -filter_complex "[0:v] fps=10,scale=640:-1" -vcodec libwebp -lossless 1 -q 30 -preset default -loop 0 -an -vsync 0 /Volumes/JARVIS-SSD/timelapse.webp -y
+```
 
 Hope you've enjoyed!
 

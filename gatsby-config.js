@@ -144,7 +144,19 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          'gatsby-remark-prismjs',
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              showLineNumbers: false,
+              // Customize the prompt used in shell output
+              // Values below are default
+              prompt: {
+                user: "root",
+                host: "localhost",
+                global: false,
+              },
+            },
+          },
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-google-analytics-track-links'
         ],
