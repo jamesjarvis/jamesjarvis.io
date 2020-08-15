@@ -23,7 +23,7 @@ Well, there's a few modes (in case I ever get bored).
 
 Normally, I keep it in *weather* mode, whereby every 10 minutes it will update and show the following:
 
-![Weather mode](./display_weather_map.jpg)
+![Weather mode](./display_weather.jpg)
 
 - Temperature
 - Current weather conditions
