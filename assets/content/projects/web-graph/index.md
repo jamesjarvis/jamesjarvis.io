@@ -3,6 +3,7 @@ type: project
 date: "2020-09"
 title: "⠪ Graphing the Internet"
 tech: ["Raspberry Pi", "Go"]
+source: "https://github.com/jamesjarvis/web-graph"
 # link: "https://youtu.be/DiBl9JMlBUI"
 # previewImage: "./garden-screenshot.jpg"
 ---
