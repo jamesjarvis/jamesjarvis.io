@@ -26,7 +26,35 @@ If you want to find out your own backlinks from an actual SEO service, skip to [
 
 ## Part 1: Building a link spider
 
+I attempted and revisited this several times (to improve performance, mainly), but it basically started because I was heading to [the middle of nowhere](https://en.wikipedia.org/wiki/Wales) for a family holiday and I wanted to leave my laptop back at home doing some crawling while I couldn't hear the fans.
 
+Originally, I thought I would just write the crawler from scratch (it's not hard to do tbf), but then I stumbled across [Colly](http://go-colly.org/) that looked like it could speed up development for me.
+
+My original version just used a basic colly set up, with a simple postgresql db set up to record pages visited, and links from page to page.
+Simple enough, and took an hour or so to code, so I left it running the evening before we left to see how far it could go.
+
+Well, when I came back 4 days later I found that the fans had stopped, and discovered that the process had killed itself after scraping only 1.5 million links over 36 hours (averaging only ~12 links per second).
+
+I couldn't see an obvious reason why it would have crapped itself, so I had a deeper look using go's fantastic inbuilt [pprof](https://pkg.go.dev/net/http/pprof) tool for delving into the internal stats of any go app.
+
+What I had found out was that the crawler had likely ran out of memory, but most surprising to me was that colly's crawlers seemed to just spawn another process for each `a[href]` element found, causing them to spawn hundreds of goroutines every second.
+
+This is a bit daft, so the first improvement I made was to switch to colly's [queue mode](http://go-colly.org/docs/examples/queue/), as that seemed to handle colly's goroutine obsession.
+
+Secondly, let's focus on that paltry 12 links/second.
+The first improvement I could think of was just [*spawning more processes*](https://youtu.be/uNy_MLr8mXA), but the new bottleneck became the way that I was pushing data to postgresql.
+
+Previously, I was just creating a new insert transaction every time a new link was found, that was hammering my db with well over 2000 transactions per second and likely being the reason why all of these goroutines were hanging around for so long.
+
+So, I moved to **batching**, by creating *n* database workers, I could happily push as much data into them through some go channels, and then I could consume up to *x* links at a time from these channels, and whack those in the database in one go.
+
+Obviously, this introduces a whole bunch of fun async issues, such as potential duplicates and foreign key constraints (this can be solved by reorganising the db structure), and to that I say *fuck it*; `ON CONFLICT DO NOTHING`, turning a blind eye to those issues I should probably engineer out of this.
+
+The only thing I did kinda care about was removing duplicates from being added to the channel, since if I was going to add 5000 links, with 4000 of those potential duplicates, it would seriously slow down any transaction.
+
+For this, I just used a simple [LRU Cache](https://www.interviewcake.com/concept/java/lru-cache) called [golang-lru](https://github.com/hashicorp/golang-lru) to filter out some of the most common URLs.
+
+In the current iteration (that I'm not going to bother improving for the foreseeable future and you can critique [here](https://github.com/jamesjarvis/web-graph)), I managed to collect ~ TODO links in TODO days.
 
 ## Part 2: Actual SEO services for finding your own backlinks
 
