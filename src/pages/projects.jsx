@@ -29,7 +29,11 @@ const Projects = ({ data }) => {
             )
             .map(({ node: post }) => {
               const image = post.frontmatter.previewImage ? (
-                <Link to={post.fields.slug}>
+                <Link
+                  to={post.fields.slug}
+                  alt={post.frontmatter.title}
+                  title={post.frontmatter.title}
+                >
                   <Img
                     fluid={
                       post.frontmatter.previewImage.childImageSharp.preview
@@ -43,6 +47,8 @@ const Projects = ({ data }) => {
                 <OutboundLink
                   href={post.frontmatter.link}
                   tooltip="Check it out!"
+                  alt="Webpage link"
+                  title="Webpage link"
                 >
                   <FontAwesomeIcon icon={faLink} className={`link`} />
                 </OutboundLink>
@@ -53,6 +59,8 @@ const Projects = ({ data }) => {
                 <OutboundLink
                   href={post.frontmatter.source}
                   tooltip="Clone it!"
+                  alt="Source code"
+                  title="Source code"
                 >
                   <FontAwesomeIcon icon={faGithub} className={`link`} />
                 </OutboundLink>

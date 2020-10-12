@@ -21,7 +21,13 @@ const Me = ({ data, showDescription }) => {
 
   const [rick, setRick] = useState(0);
   const metaAvatar = (children) =>
-    showDescription ? children : <Link to="/">{children}</Link>;
+    showDescription ? (
+      children
+    ) : (
+      <Link to="/" title="Oh look it's me">
+        {children}
+      </Link>
+    );
 
   return (
     <section id={"me"}>

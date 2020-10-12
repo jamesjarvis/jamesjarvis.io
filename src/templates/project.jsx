@@ -20,14 +20,14 @@ const Template = ({ data }) => {
     },
   } = data;
   const postLink = link ? (
-    <OutboundLink href={link} tooltip="Check it out!">
+    <OutboundLink href={link} tooltip="Check it out!" alt="Webpage link">
       <FontAwesomeIcon icon={faLink} className={`link`} />
     </OutboundLink>
   ) : (
     <></>
   );
   const postSource = source ? (
-    <OutboundLink href={source} tooltip="Clone it!">
+    <OutboundLink href={source} tooltip="Clone it!" alt="Source code">
       <FontAwesomeIcon icon={faGithub} className={`link`} />
     </OutboundLink>
   ) : (
