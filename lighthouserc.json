@@ -60,7 +60,8 @@
         "no-document-write": "warn",
         "uses-text-compression": "warn",
         "frame-title": "warn",
-        "offscreen-images": "warn"
+        "offscreen-images": "warn",
+        "total-byte-weight": "warn"
       }
     },
     "upload": {
