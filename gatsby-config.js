@@ -20,6 +20,8 @@ module.exports = {
         subject: "Just saw your site!",
       },
     },
+    webmentionUrl: `https://webmention.io/jamesjarvis.io/webmention`,
+    pingbackUrl: `https://webmention.io/jamesjarvis.io/xmlrpc`,
     siteUrl: `https://jamesjarvis.io`,
     description: `Personal site of James Jarvis`,
     socials: [

@@ -92,7 +92,10 @@ const SEO = ({ title, image, description, keywords, lang, meta }) => {
             : []
         )
         .concat(meta)}
-    />
+    >
+      <link rel="webmention" href={data.site.siteMetadata.webmentionUrl} />
+      <link rel="pingback" href={data.site.siteMetadata.pingbackUrl} />
+    </Helmet>
   );
 };
 
@@ -107,6 +110,8 @@ const detailsQuery = graphql`
         author {
           name
         }
+        webmentionUrl
+        pingbackUrl
       }
     }
   }
