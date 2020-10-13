@@ -21,6 +21,12 @@ a {
   }
 }
 
+a.nolinkstyle {
+  color: $mainFont;
+  letter-spacing: 0.11ch;
+  text-decoration: none;
+}
+
 h1 {
   font-size: 2em;
 }

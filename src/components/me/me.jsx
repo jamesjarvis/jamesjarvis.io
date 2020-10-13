@@ -53,7 +53,7 @@ const Me = ({ data, showDescription }) => {
         />
       )}
       <h1 id={"name"} className={"animate fadeInUp two p-name"}>
-        <Link to="/" className="u-url u-uid" rel="me">
+        <Link to="/" className="u-url u-uid nolinkstyle" rel="me">
           {name}
         </Link>
       </h1>

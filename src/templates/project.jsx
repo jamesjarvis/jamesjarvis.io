@@ -17,6 +17,7 @@ const Template = ({ data }) => {
     post: {
       excerpt,
       html,
+      fields: { slug },
       frontmatter: { link, source, title, date, tech, previewImage },
     },
   } = data;
@@ -50,7 +51,9 @@ const Template = ({ data }) => {
       <ComplexWrapper>
         <Link to="/projects">back</Link>
         <article className="h-entry">
-          <h1 className="p-name">{title}</h1>
+          <Link to={slug} className="u-url nolinkstyle">
+            <h1 className="p-name">{title}</h1>
+          </Link>
           {links}
           <time
             className={"date dt-published"}
@@ -80,6 +83,9 @@ export const pageQuery = graphql`
     post: markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       excerpt(pruneLength: 200)
+      fields {
+        slug
+      }
       frontmatter {
         title
         date
