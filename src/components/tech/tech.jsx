@@ -10,7 +10,7 @@ const Tech = ({ showHover, techs }) => {
       {techs.map((tech, id) => (
         <span
           key={tech}
-          className={"tech"}
+          className={"tech p-category"}
           onMouseOver={() => changeLanguage(tech)}
           onFocus={() => changeLanguage(tech)}
           onClick={() => changeLanguage(tech)}

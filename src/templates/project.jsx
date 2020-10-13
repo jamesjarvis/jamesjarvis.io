@@ -4,6 +4,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { graphql, Link } from "gatsby";
 import { OutboundLink } from "gatsby-plugin-gtag";
+import moment from "moment";
 import PropTypes from "prop-types";
 import React from "react";
 import ComplexWrapper from "../components/containers/complexWrapper";
@@ -43,6 +44,7 @@ const Template = ({ data }) => {
       <></>
     );
   const image = previewImage ? previewImage.childImageSharp.fixed : null;
+  const newDate = moment(date);
   return (
     <Wrapper title={title} description={excerpt} image={image}>
       <ComplexWrapper>
@@ -50,8 +52,11 @@ const Template = ({ data }) => {
         <article className="h-entry">
           <h1 className="p-name">{title}</h1>
           {links}
-          <time className={"date"}>
-            {date}
+          <time
+            className={"date dt-published"}
+            dateTime={newDate.toISOString()}
+          >
+            {newDate.format("MMMM YYYY")}
             <Tech techs={tech} />
           </time>
           <div
@@ -77,7 +82,7 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 200)
       frontmatter {
         title
-        date(formatString: "MMMM, YYYY")
+        date
         tech
         link
         source

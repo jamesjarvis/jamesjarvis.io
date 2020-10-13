@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { graphql, Link } from "gatsby";
 import Img from "gatsby-image";
 import { OutboundLink } from "gatsby-plugin-gtag";
+import moment from "moment";
 import PropTypes from "prop-types";
 import React from "react";
 import ComplexWrapper from "../components/containers/complexWrapper";
@@ -78,6 +79,7 @@ const Projects = ({ data }) => {
                   ) : (
                     <></>
                   );
+                const date = moment(post.frontmatter.date);
                 return (
                   <li className="postPreview h-entry" key={post.id}>
                     <h2>
@@ -86,8 +88,11 @@ const Projects = ({ data }) => {
                       </Link>
                     </h2>
                     {links}
-                    <time className={"date"}>
-                      {post.frontmatter.date}
+                    <time
+                      className={"date dt-published"}
+                      dateTime={date.toISOString()}
+                    >
+                      {date.format("MMMM YYYY")}
                       <Tech techs={post.frontmatter.tech} />
                     </time>
                     {image}
@@ -125,7 +130,7 @@ export const pageQuery = graphql`
           frontmatter {
             type
             title
-            date(formatString: "MMMM, YYYY")
+            date
             tech
             link
             source
