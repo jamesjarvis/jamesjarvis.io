@@ -24,19 +24,25 @@ const Me = ({ data, showDescription }) => {
     showDescription ? (
       children
     ) : (
-      <Link to="/" title="Oh look it's me">
+      <Link to="/" title="Oh look it's me" className="u-url">
         {children}
       </Link>
     );
 
   return (
-    <section id={"me"}>
+    <section id={"me"} className="h-card">
       {rick < 3 ? (
         <div
           className={"avatar animate fadeInUp one"}
           onClick={() => setRick(rick + 1)}
         >
-          {metaAvatar(<Img fluid={avatar} title={"Oh look it's me"} />)}
+          {metaAvatar(
+            <Img
+              fluid={avatar}
+              title={"Oh look it's me"}
+              className={"u-logo u-photo"}
+            />
+          )}
         </div>
       ) : (
         <img
@@ -46,10 +52,10 @@ const Me = ({ data, showDescription }) => {
           title="Internet memes die hard"
         />
       )}
-      <h1 id={"name"} className={"animate fadeInUp two"}>
+      <h1 id={"name"} className={"animate fadeInUp two p-name"}>
         {name}
       </h1>
-      <h2 id={"title"} className={"animate fadeInDown two"}>
+      <h2 id={"title"} className={"animate fadeInDown two p-job-title"}>
         {title}
       </h2>
       {showDescription && (

@@ -1,13 +1,18 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Header from '../common/header/header';
-import Footer from '../common/footer/footer';
-import SEO from '../common/seo';
-import './wrapper.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import Header from "../common/header/header";
+import Footer from "../common/footer/footer";
+import SEO from "../common/seo";
+import "./wrapper.scss";
 
 const Wrapper = ({ title, children, image, description, keywords }) => (
-  <div id={'wrapper'}>
-    <SEO title={title} image={image} description={description} keywords={keywords} />
+  <div id={"wrapper"}>
+    <SEO
+      title={title}
+      image={image}
+      description={description}
+      keywords={keywords}
+    />
     <Header />
     {children}
     <Footer />

@@ -18,83 +18,88 @@ const Projects = ({ data }) => {
   return (
     <Wrapper title="Projects">
       <ComplexWrapper>
-        <h1>{info.title}</h1>
-        <p>{info.about}</p>
-        <ul className={"posts"}>
-          {posts
-            .filter(
-              (post) =>
-                post.node.frontmatter.title.length > 0 &&
-                post.node.frontmatter.type == "project"
-            )
-            .map(({ node: post }) => {
-              const image = post.frontmatter.previewImage ? (
-                <Link
-                  to={post.fields.slug}
-                  alt={post.frontmatter.title}
-                  title={post.frontmatter.title}
-                >
-                  <Img
-                    fluid={
-                      post.frontmatter.previewImage.childImageSharp.preview
-                    }
-                  />
-                </Link>
-              ) : (
-                <></>
-              );
-              const link = post.frontmatter.link ? (
-                <OutboundLink
-                  href={post.frontmatter.link}
-                  tooltip="Check it out!"
-                  alt="Webpage link"
-                  title="Webpage link"
-                >
-                  <FontAwesomeIcon icon={faLink} className={`link`} />
-                </OutboundLink>
-              ) : (
-                <></>
-              );
-              const source = post.frontmatter.source ? (
-                <OutboundLink
-                  href={post.frontmatter.source}
-                  tooltip="Clone it!"
-                  alt="Source code"
-                  title="Source code"
-                >
-                  <FontAwesomeIcon icon={faGithub} className={`link`} />
-                </OutboundLink>
-              ) : (
-                <></>
-              );
-              const links =
-                post.frontmatter.source || post.frontmatter.link ? (
-                  <span className={"links"}>
-                    {link}
-                    {source}
-                  </span>
+        <div className="h-feed">
+          <h1 className="p-name">{info.title}</h1>
+          <p className="p-summary">{info.about}</p>
+          <ul className={"posts"}>
+            {posts
+              .filter(
+                (post) =>
+                  post.node.frontmatter.title.length > 0 &&
+                  post.node.frontmatter.type == "project"
+              )
+              .map(({ node: post }) => {
+                const image = post.frontmatter.previewImage ? (
+                  <Link
+                    to={post.fields.slug}
+                    alt={post.frontmatter.title}
+                    title={post.frontmatter.title}
+                  >
+                    <Img
+                      className="u-photo"
+                      fluid={
+                        post.frontmatter.previewImage.childImageSharp.preview
+                      }
+                    />
+                  </Link>
                 ) : (
                   <></>
                 );
-              return (
-                <li className="postPreview" key={post.id}>
-                  <h2>
-                    <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
-                  </h2>
-                  {links}
-                  <time className={"date"}>
-                    {post.frontmatter.date}
-                    <Tech techs={post.frontmatter.tech} />
-                  </time>
-                  {image}
-                  <p>
-                    {post.excerpt}
-                    <Link to={post.fields.slug}> read more</Link>
-                  </p>
-                </li>
-              );
-            })}
-        </ul>
+                const link = post.frontmatter.link ? (
+                  <OutboundLink
+                    href={post.frontmatter.link}
+                    tooltip="Check it out!"
+                    alt="Webpage link"
+                    title="Webpage link"
+                  >
+                    <FontAwesomeIcon icon={faLink} className={`link`} />
+                  </OutboundLink>
+                ) : (
+                  <></>
+                );
+                const source = post.frontmatter.source ? (
+                  <OutboundLink
+                    href={post.frontmatter.source}
+                    tooltip="Clone it!"
+                    alt="Source code"
+                    title="Source code"
+                  >
+                    <FontAwesomeIcon icon={faGithub} className={`link`} />
+                  </OutboundLink>
+                ) : (
+                  <></>
+                );
+                const links =
+                  post.frontmatter.source || post.frontmatter.link ? (
+                    <span className={"links"}>
+                      {link}
+                      {source}
+                    </span>
+                  ) : (
+                    <></>
+                  );
+                return (
+                  <li className="postPreview h-entry" key={post.id}>
+                    <h2>
+                      <Link to={post.fields.slug} className="u-url p-name">
+                        {post.frontmatter.title}
+                      </Link>
+                    </h2>
+                    {links}
+                    <time className={"date"}>
+                      {post.frontmatter.date}
+                      <Tech techs={post.frontmatter.tech} />
+                    </time>
+                    {image}
+                    <p className="p-summary">
+                      {post.excerpt}
+                      <Link to={post.fields.slug}> read more</Link>
+                    </p>
+                  </li>
+                );
+              })}
+          </ul>
+        </div>
       </ComplexWrapper>
     </Wrapper>
   );

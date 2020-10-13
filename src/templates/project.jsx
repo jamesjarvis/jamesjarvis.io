@@ -47,15 +47,15 @@ const Template = ({ data }) => {
     <Wrapper title={title} description={excerpt} image={image}>
       <ComplexWrapper>
         <Link to="/projects">back</Link>
-        <article>
-          <h1>{title}</h1>
+        <article className="h-entry">
+          <h1 className="p-name">{title}</h1>
           {links}
           <time className={"date"}>
             {date}
             <Tech techs={tech} />
           </time>
           <div
-            className="blog-post-content"
+            className="blog-post-content e-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </article>
