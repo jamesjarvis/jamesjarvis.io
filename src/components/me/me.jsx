@@ -24,7 +24,7 @@ const Me = ({ data, showDescription }) => {
     showDescription ? (
       children
     ) : (
-      <Link to="/" title="Oh look it's me" className="u-url">
+      <Link to="/" title="Oh look it's me" rel="me" className="u-url u-uid">
         {children}
       </Link>
     );
@@ -53,14 +53,16 @@ const Me = ({ data, showDescription }) => {
         />
       )}
       <h1 id={"name"} className={"animate fadeInUp two p-name"}>
-        {name}
+        <Link to="/" className="u-url u-uid" rel="me">
+          {name}
+        </Link>
       </h1>
       <h2 id={"title"} className={"animate fadeInDown two p-job-title"}>
         {title}
       </h2>
       {showDescription && (
         <summary
-          className={`animate fadeInUp two`}
+          className={`animate fadeInUp two p-note`}
           id={"bio"}
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: html }}
