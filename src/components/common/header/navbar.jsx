@@ -7,7 +7,7 @@ const NavBar = ({ language }) => (
   <nav className={`navbar ${language}`}>
     <ul>
       <li>
-        <Link to="/" activeClassName={'active'}>
+        <Link to="/" rel="me" activeClassName={'active'}>
           Home
         </Link>
       </li>

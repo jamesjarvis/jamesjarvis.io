@@ -33,6 +33,7 @@ const Socials = ({ showHover, socials, email }) => {
             className={`icon`}
             aria-label={social.text}
             title={social.text}
+            rel={"me"}
           >
             <FontAwesomeIcon icon={icons[social.icon]} />
           </OutboundLink>
