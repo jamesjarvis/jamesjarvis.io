@@ -17,9 +17,9 @@ I mean, sure I had built a little program that could follow and store links on t
 
 So, in this chapter I am going to go through how we have improved this service to become the beautifully graphical service that is:
 
-<https://jamesjarvis.github.io/web-graph/>
+[jamesjarvis.github.io/web-graph](https://jamesjarvis.github.io/web-graph/)
 
-> NOTE: By default, the graph starts from <https://jamesjarvis.io>, but if you want to change it to start from a page of your choosing (provided it has managed to scrape that part of the web already), you can give it a shot by changing the url query parameter such as: <https://jamesjarvis.github.io/web-graph/?url=https://en.wikipedia.org/wiki/London>
+> NOTE: By default, the graph starts from [jamesjarvis.io](https://jamesjarvis.io), but if you want to change it to start from a page of your choosing (provided it has managed to scrape that part of the web already), you can give it a shot by changing the url query parameter such as: [/?url=https://en.wikipedia.org/wiki/London](https://jamesjarvis.github.io/web-graph/?url=https://en.wikipedia.org/wiki/London)
 
 ## Part 1: Maintaining state
 
@@ -69,7 +69,7 @@ Eventually, I wanted to expose this information, but in an easily cacheable and 
 
 Enter: an API service.
 
-You can actually check it out if you want at <https://api.jamesjarvis.io>.
+You can actually check it out if you want at [api.jamesjarvis.io](https://api.jamesjarvis.io).
 
 It's been set up to be as easily cache-able (thanks to cloudflare) as possible, and it's open for anyone to use, provided you're aware it's hitting the shitbox in my attic and I don't want my ISP to throw me off their network.
 
@@ -78,10 +78,10 @@ Indexes help a lot as well! Once the DB grew to >100k items queries used to take
 
 Some fun things you can do with it:
 
-- Find all pages at a particular host (limited to 100): <https://api.jamesjarvis.io/pages/en.wikipedia.org>
-- Get an overview of a particular page (just URL, host and links from, limited to 100): <https://api.jamesjarvis.io/page/e518da42a48097ceb7648a9961428e300f2db545>
-- Find all links *from* a particular page (limited to 100): <https://api.jamesjarvis.io/linksFrom/e518da42a48097ceb7648a9961428e300f2db545>
-- Find all links *to* a particular page (limited to 100): <https://api.jamesjarvis.io/linksTo/e518da42a48097ceb7648a9961428e300f2db545>
+- Find all pages at a particular host (limited to 100): [/pages/en.wikipedia.org](https://api.jamesjarvis.io/pages/en.wikipedia.org)
+- Get an overview of a particular page (just URL, host and links from, limited to 100): [/page/HASH](https://api.jamesjarvis.io/page/e518da42a48097ceb7648a9961428e300f2db545)
+- Find all links *from* a particular page (limited to 100): [/linksFrom/HASH](https://api.jamesjarvis.io/linksFrom/e518da42a48097ceb7648a9961428e300f2db545)
+- Find all links *to* a particular page (limited to 100): [/linksTo/HASH](https://api.jamesjarvis.io/linksTo/e518da42a48097ceb7648a9961428e300f2db545)
 
 The last one is currently not being used by myself, though I may make an inverse graph traversal, whereby you can discover all the pages that link to a page...
 
@@ -97,11 +97,11 @@ Yup, it's slow as shit and is as reliable as my ISP (who apparently work on a *b
 
 ![Look mum, I've crashed my browser!](./web-graph.png)
 
-Check it out at <https://jamesjarvis.github.io/web-graph/> , and if you want to start from a website of your choosing, you can modify the url query param like: `https://jamesjarvis.github.io/web-graph/?url={your_page_here}`.
+Check it out at [jamesjarvis.github.io/web-graph](https://jamesjarvis.github.io/web-graph/) , and if you want to start from a website of your choosing, you can modify the url query param like: `https://jamesjarvis.github.io/web-graph/?url={your_page_here}`.
 
 Because I couldn't be bothered to set up a proper react application + build process for this project, the whole thing is in one html file, and actually transpiles the required javascript from reactJS source on load time - maybe not the fastest but hey this isn't exactly a performance project + it's so easy to deploy.
 
-You can check out the whole front-end source at <https://github.com/jamesjarvis/web-graph/blob/master/frontend/index.html>, ~200 lines is all you need for this *beauty*.
+You can check out the whole front-end source [here](https://github.com/jamesjarvis/web-graph/blob/master/frontend/index.html), ~200 lines is all you need for this *beauty*.
 
 I ended up using a react wrapper around [D3.js](https://d3js.org) for the actual graphing, and it made me remember just how much I love and hate javascript.
 It's a rocky relationship.
@@ -114,7 +114,7 @@ My personal record was `1874 nodes` and `3556 links` expanded before my browser 
 1. Hardware can be a real bottleneck, next time use an SSD for IO intensive operations.
 2. Building services to be resilient to failure is extremely liberating.
 3. JavaScript still sucks to use, package management is still hell and documentation is generally just a bit weak, considering you get zero type information from the language itself.
-4. Proper database indexes are the difference between life and death.
+4. Proper database indexes are the difference between good and shit.
 5. Caching is still amazing.
 
 Some of my favourite snippets of code:
@@ -126,7 +126,7 @@ We are also able to pre-fetch a number of items from the queue's file if we want
 
 This also enables an easy method of gracefully shutting down the program.
 
-```golang
+```go
 linkProcessor, err := linkprocessor.NewLinkProcessor(
 	linkStorage,
 	500,
@@ -166,7 +166,7 @@ This is a slightly improved version from the original post.
 This turns out to be a great way to convert a message by message insert operation into a batchable operation.
 It also works as a great way to rate limit database operations, as you can still fill up the channel up to the buffer size, and slowly drain it at whatever rate you choose.
 
-```golang
+```go
 func (pb *PageBatcher) Worker(endSignal <-chan bool, doneChan chan<- bool) {
 	// We want it to die on the endSignal, but otherwise keep looping
 	for {
