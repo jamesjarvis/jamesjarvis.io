@@ -83,9 +83,9 @@ I mean, sure I had built a little program that could follow and store links on t
 <p>Same here.
 I mean, sure I had built a little program that could follow and store links on the internet, but it couldn't be ran continuously (could not store the crawling state between runs), and there was just no easy way to traverse or visualise the graph <em>yawn</em>.</p>
 <p>So, in this chapter I am going to go through how we have improved this service to become the beautifully graphical service that is:</p>
-<p><a class="siteLink" href="https://jamesjarvis.github.io/web-graph/" title="https://jamesjarvis.github.io/web-graph/" target="_blank" rel="noopener nofollow noreferrer">https://jamesjarvis.github.io/web-graph/</a></p>
+<p><a class="siteLink" href="https://jamesjarvis.github.io/web-graph/" title="jamesjarvis.github.io/web-graph" target="_blank" rel="noopener nofollow noreferrer">jamesjarvis.github.io/web-graph</a></p>
 <blockquote>
-<p>NOTE: By default, the graph starts from <a class="siteLink" href="https://jamesjarvis.io" title="https://jamesjarvis.io" target="_blank" rel="noopener nofollow noreferrer">https://jamesjarvis.io</a>, but if you want to change it to start from a page of your choosing (provided it has managed to scrape that part of the web already), you can give it a shot by changing the url query parameter such as: <a class="siteLink" href="https://jamesjarvis.github.io/web-graph/?url=https://en.wikipedia.org/wiki/London" title="https://jamesjarvis.github.io/web-graph/?url=https://en.wikipedia.org/wiki/London" target="_blank" rel="noopener nofollow noreferrer">https://jamesjarvis.github.io/web-graph/?url=https://en.wikipedia.org/wiki/London</a></p>
+<p>NOTE: By default, the graph starts from <a class="siteLink" href="https://jamesjarvis.io" title="jamesjarvis.io" target="_blank" rel="noopener nofollow noreferrer">jamesjarvis.io</a>, but if you want to change it to start from a page of your choosing (provided it has managed to scrape that part of the web already), you can give it a shot by changing the url query parameter such as: <a class="siteLink" href="https://jamesjarvis.github.io/web-graph/?url=https://en.wikipedia.org/wiki/London" title="/?url=https://en.wikipedia.org/wiki/London" target="_blank" rel="noopener nofollow noreferrer">/?url=https://en.wikipedia.org/wiki/London</a></p>
 </blockquote>
 <h2>Part 1: Maintaining state</h2>
 <p>So I wanted to eventually run this service on a raspberry pi 4 I currently have just sitting in my attic doing <a class="siteLink" href="../speedtest/" title="occasional speedtests">occasional speedtests</a>.</p>
@@ -160,16 +160,16 @@ I mean, sure I had built a little program that could follow and store links on t
     </span></p>
 <p>Eventually, I wanted to expose this information, but in an easily cacheable and web friendly way.</p>
 <p>Enter: an API service.</p>
-<p>You can actually check it out if you want at <a class="siteLink" href="https://api.jamesjarvis.io" title="https://api.jamesjarvis.io" target="_blank" rel="noopener nofollow noreferrer">https://api.jamesjarvis.io</a>.</p>
+<p>You can actually check it out if you want at <a class="siteLink" href="https://api.jamesjarvis.io" title="api.jamesjarvis.io" target="_blank" rel="noopener nofollow noreferrer">api.jamesjarvis.io</a>.</p>
 <p>It's been set up to be as easily cache-able (thanks to cloudflare) as possible, and it's open for anyone to use, provided you're aware it's hitting the shitbox in my attic and I don't want my ISP to throw me off their network.</p>
 <p>Also, I used different queries than the first iteration of this project, in order to speed it up.
 Indexes help a lot as well! Once the DB grew to >100k items queries used to take minutes, and now after some enthusiastic indexing can take &#x3C;1s.</p>
 <p>Some fun things you can do with it:</p>
 <ul>
-<li>Find all pages at a particular host (limited to 100): <a class="siteLink" href="https://api.jamesjarvis.io/pages/en.wikipedia.org" title="https://api.jamesjarvis.io/pages/en.wikipedia.org" target="_blank" rel="noopener nofollow noreferrer">https://api.jamesjarvis.io/pages/en.wikipedia.org</a></li>
-<li>Get an overview of a particular page (just URL, host and links from, limited to 100): <a class="siteLink" href="https://api.jamesjarvis.io/page/e518da42a48097ceb7648a9961428e300f2db545" title="https://api.jamesjarvis.io/page/e518da42a48097ceb7648a9961428e300f2db545" target="_blank" rel="noopener nofollow noreferrer">https://api.jamesjarvis.io/page/e518da42a48097ceb7648a9961428e300f2db545</a></li>
-<li>Find all links <em>from</em> a particular page (limited to 100): <a class="siteLink" href="https://api.jamesjarvis.io/linksFrom/e518da42a48097ceb7648a9961428e300f2db545" title="https://api.jamesjarvis.io/linksFrom/e518da42a48097ceb7648a9961428e300f2db545" target="_blank" rel="noopener nofollow noreferrer">https://api.jamesjarvis.io/linksFrom/e518da42a48097ceb7648a9961428e300f2db545</a></li>
-<li>Find all links <em>to</em> a particular page (limited to 100): <a class="siteLink" href="https://api.jamesjarvis.io/linksTo/e518da42a48097ceb7648a9961428e300f2db545" title="https://api.jamesjarvis.io/linksTo/e518da42a48097ceb7648a9961428e300f2db545" target="_blank" rel="noopener nofollow noreferrer">https://api.jamesjarvis.io/linksTo/e518da42a48097ceb7648a9961428e300f2db545</a></li>
+<li>Find all pages at a particular host (limited to 100): <a class="siteLink" href="https://api.jamesjarvis.io/pages/en.wikipedia.org" title="/pages/en.wikipedia.org" target="_blank" rel="noopener nofollow noreferrer">/pages/en.wikipedia.org</a></li>
+<li>Get an overview of a particular page (just URL, host and links from, limited to 100): <a class="siteLink" href="https://api.jamesjarvis.io/page/e518da42a48097ceb7648a9961428e300f2db545" title="/page/HASH" target="_blank" rel="noopener nofollow noreferrer">/page/HASH</a></li>
+<li>Find all links <em>from</em> a particular page (limited to 100): <a class="siteLink" href="https://api.jamesjarvis.io/linksFrom/e518da42a48097ceb7648a9961428e300f2db545" title="/linksFrom/HASH" target="_blank" rel="noopener nofollow noreferrer">/linksFrom/HASH</a></li>
+<li>Find all links <em>to</em> a particular page (limited to 100): <a class="siteLink" href="https://api.jamesjarvis.io/linksTo/e518da42a48097ceb7648a9961428e300f2db545" title="/linksTo/HASH" target="_blank" rel="noopener nofollow noreferrer">/linksTo/HASH</a></li>
 </ul>
 <p>The last one is currently not being used by myself, though I may make an inverse graph traversal, whereby you can discover all the pages that link to a page...</p>
 <p>I've also set up my <a class="siteLink" href="../eink-dashboard/" title="e-ink display">e-ink display</a> to monitor the number of <a class="siteLink" href="https://api.jamesjarvis.io/countPages" title="URL's crawled" target="_blank" rel="noopener nofollow noreferrer">URL's crawled</a> and <a class="siteLink" href="https://api.jamesjarvis.io/countLinks" title="links found" target="_blank" rel="noopener nofollow noreferrer">links found</a> for my own amusement as well.</p>
@@ -226,9 +226,9 @@ Indexes help a lot as well! Once the DB grew to >100k items queries used to take
       </picture>
   </a>
     </span></p>
-<p>Check it out at <a class="siteLink" href="https://jamesjarvis.github.io/web-graph/" title="https://jamesjarvis.github.io/web-graph/" target="_blank" rel="noopener nofollow noreferrer">https://jamesjarvis.github.io/web-graph/</a> , and if you want to start from a website of your choosing, you can modify the url query param like: <code class="language-text">https://jamesjarvis.github.io/web-graph/?url={your_page_here}</code>.</p>
+<p>Check it out at <a class="siteLink" href="https://jamesjarvis.github.io/web-graph/" title="jamesjarvis.github.io/web-graph" target="_blank" rel="noopener nofollow noreferrer">jamesjarvis.github.io/web-graph</a> , and if you want to start from a website of your choosing, you can modify the url query param like: <code class="language-text">https://jamesjarvis.github.io/web-graph/?url={your_page_here}</code>.</p>
 <p>Because I couldn't be bothered to set up a proper react application + build process for this project, the whole thing is in one html file, and actually transpiles the required javascript from reactJS source on load time - maybe not the fastest but hey this isn't exactly a performance project + it's so easy to deploy.</p>
-<p>You can check out the whole front-end source at <a class="siteLink" href="https://github.com/jamesjarvis/web-graph/blob/master/frontend/index.html" title="https://github.com/jamesjarvis/web-graph/blob/master/frontend/index.html" target="_blank" rel="noopener nofollow noreferrer">https://github.com/jamesjarvis/web-graph/blob/master/frontend/index.html</a>, ~200 lines is all you need for this <em>beauty</em>.</p>
+<p>You can check out the whole front-end source <a class="siteLink" href="https://github.com/jamesjarvis/web-graph/blob/master/frontend/index.html" title="here" target="_blank" rel="noopener nofollow noreferrer">here</a>, ~200 lines is all you need for this <em>beauty</em>.</p>
 <p>I ended up using a react wrapper around <a class="siteLink" href="https://d3js.org" title="D3.js" target="_blank" rel="noopener nofollow noreferrer">D3.js</a> for the actual graphing, and it made me remember just how much I love and hate javascript.
 It's a rocky relationship.</p>
 <p>You'll also notice that running this site is very cpu intensive, and yes it is, nothing more to add really.
@@ -238,7 +238,7 @@ My personal record was <code class="language-text">1874 nodes</code> and <code c
 <li>Hardware can be a real bottleneck, next time use an SSD for IO intensive operations.</li>
 <li>Building services to be resilient to failure is extremely liberating.</li>
 <li>JavaScript still sucks to use, package management is still hell and documentation is generally just a bit weak, considering you get zero type information from the language itself.</li>
-<li>Proper database indexes are the difference between life and death.</li>
+<li>Proper database indexes are the difference between good and shit.</li>
 <li>Caching is still amazing.</li>
 </ol>
 <p>Some of my favourite snippets of code:</p>
@@ -246,69 +246,69 @@ My personal record was <code class="language-text">1874 nodes</code> and <code c
 <p>Look how neat this is, as waiting to read from the queue channel / sending to the processing channel are both blocking operations, this works as fast as these two components.
 We are also able to pre-fetch a number of items from the queue's file if we wanted to improve performance a bit.</p>
 <p>This also enables an easy method of gracefully shutting down the program.</p>
-<div class="gatsby-highlight" data-language="golang"><pre class="language-golang"><code class="language-golang">linkProcessor, err := linkprocessor.NewLinkProcessor(
-	linkStorage,
-	500,
-	queue,
-	1,
-)
-failOnError(err, &quot;Could not initialise link processor&quot;)
+<div class="gatsby-highlight" data-language="go"><pre class="language-go"><code class="language-go">linkProcessor<span class="token punctuation">,</span> err <span class="token operator">:=</span> linkprocessor<span class="token punctuation">.</span><span class="token function">NewLinkProcessor</span><span class="token punctuation">(</span>
+	linkStorage<span class="token punctuation">,</span>
+	<span class="token number">500</span><span class="token punctuation">,</span>
+	queue<span class="token punctuation">,</span>
+	<span class="token number">1</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span>
+<span class="token function">failOnError</span><span class="token punctuation">(</span>err<span class="token punctuation">,</span> <span class="token string">"Could not initialise link processor"</span><span class="token punctuation">)</span>
 
-log.Println(&quot;Begin processing...&quot;)
-urlProcessingChan := linkProcessor.SpawnWorkers(2)
+log<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"Begin processing..."</span><span class="token punctuation">)</span>
+urlProcessingChan <span class="token operator">:=</span> linkProcessor<span class="token punctuation">.</span><span class="token function">SpawnWorkers</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span>
 
-sigs := make(chan os.Signal, 4)
-signal.Notify(sigs, syscall.SIGTERM, syscall.SIGINT, syscall.SIGHUP, syscall.SIGKILL)
-ticker := time.NewTicker(10 * time.Minute)
-defer ticker.Stop()
-processing := true
-for processing {
-	select {
-	case s := &lt;-sigs:
-		processing = false
-		log.Printf(&quot;Received signal %s, shutting down gracefully...\n&quot;, s)
-	case url := &lt;-queue.DeQueue():
-		urlProcessingChan &lt;- url
-	case &lt;-ticker.C:
-		log.Printf(&quot;%d urls in the queue&quot;, queue.Length())
-	}
-}
+sigs <span class="token operator">:=</span> <span class="token function">make</span><span class="token punctuation">(</span><span class="token keyword">chan</span> os<span class="token punctuation">.</span>Signal<span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span>
+signal<span class="token punctuation">.</span><span class="token function">Notify</span><span class="token punctuation">(</span>sigs<span class="token punctuation">,</span> syscall<span class="token punctuation">.</span>SIGTERM<span class="token punctuation">,</span> syscall<span class="token punctuation">.</span>SIGINT<span class="token punctuation">,</span> syscall<span class="token punctuation">.</span>SIGHUP<span class="token punctuation">,</span> syscall<span class="token punctuation">.</span>SIGKILL<span class="token punctuation">)</span>
+ticker <span class="token operator">:=</span> time<span class="token punctuation">.</span><span class="token function">NewTicker</span><span class="token punctuation">(</span><span class="token number">10</span> <span class="token operator">*</span> time<span class="token punctuation">.</span>Minute<span class="token punctuation">)</span>
+<span class="token keyword">defer</span> ticker<span class="token punctuation">.</span><span class="token function">Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+processing <span class="token operator">:=</span> <span class="token boolean">true</span>
+<span class="token keyword">for</span> processing <span class="token punctuation">{</span>
+	<span class="token keyword">select</span> <span class="token punctuation">{</span>
+	<span class="token keyword">case</span> s <span class="token operator">:=</span> <span class="token operator">&lt;-</span>sigs<span class="token punctuation">:</span>
+		processing <span class="token operator">=</span> <span class="token boolean">false</span>
+		log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">"Received signal %s, shutting down gracefully...\n"</span><span class="token punctuation">,</span> s<span class="token punctuation">)</span>
+	<span class="token keyword">case</span> url <span class="token operator">:=</span> <span class="token operator">&lt;-</span>queue<span class="token punctuation">.</span><span class="token function">DeQueue</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+		urlProcessingChan <span class="token operator">&lt;-</span> url
+	<span class="token keyword">case</span> <span class="token operator">&lt;-</span>ticker<span class="token punctuation">.</span>C<span class="token punctuation">:</span>
+		log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">"%d urls in the queue"</span><span class="token punctuation">,</span> queue<span class="token punctuation">.</span><span class="token function">Length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
 
-&lt;-linkProcessor.GracefulShutdown()
-log.Println(&quot;===== Shut down link processor =====&quot;)</code></pre></div>
+<span class="token operator">&lt;-</span>linkProcessor<span class="token punctuation">.</span><span class="token function">GracefulShutdown</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+log<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"===== Shut down link processor ====="</span><span class="token punctuation">)</span></code></pre></div>
 <h3>Periodic batcher from a buffered channel</h3>
 <p>This is a slightly improved version from the original post.</p>
 <p>This turns out to be a great way to convert a message by message insert operation into a batchable operation.
 It also works as a great way to rate limit database operations, as you can still fill up the channel up to the buffer size, and slowly drain it at whatever rate you choose.</p>
-<div class="gatsby-highlight" data-language="golang"><pre class="language-golang"><code class="language-golang">func (pb *PageBatcher) Worker(endSignal &lt;-chan bool, doneChan chan&lt;- bool) {
-	// We want it to die on the endSignal, but otherwise keep looping
-	for {
-		select {
-		case &lt;-endSignal:
-			doneChan &lt;- true
-			return
-		case &lt;-time.After(100 * time.Millisecond):
-			var pages []*Page
+<div class="gatsby-highlight" data-language="go"><pre class="language-go"><code class="language-go"><span class="token keyword">func</span> <span class="token punctuation">(</span>pb <span class="token operator">*</span>PageBatcher<span class="token punctuation">)</span> <span class="token function">Worker</span><span class="token punctuation">(</span>endSignal <span class="token operator">&lt;-</span><span class="token keyword">chan</span> <span class="token builtin">bool</span><span class="token punctuation">,</span> doneChan <span class="token keyword">chan</span><span class="token operator">&lt;-</span> <span class="token builtin">bool</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token comment">// We want it to die on the endSignal, but otherwise keep looping</span>
+	<span class="token keyword">for</span> <span class="token punctuation">{</span>
+		<span class="token keyword">select</span> <span class="token punctuation">{</span>
+		<span class="token keyword">case</span> <span class="token operator">&lt;-</span>endSignal<span class="token punctuation">:</span>
+			doneChan <span class="token operator">&lt;-</span> <span class="token boolean">true</span>
+			<span class="token keyword">return</span>
+		<span class="token keyword">case</span> <span class="token operator">&lt;-</span>time<span class="token punctuation">.</span><span class="token function">After</span><span class="token punctuation">(</span><span class="token number">100</span> <span class="token operator">*</span> time<span class="token punctuation">.</span>Millisecond<span class="token punctuation">)</span><span class="token punctuation">:</span>
+			<span class="token keyword">var</span> pages <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token operator">*</span>Page
 
-		Remaining:
-			for i := 0; i &lt; pb.maxBatch; i++ {
-				select {
-				case page := &lt;-pb.bufChan:
-					pages = append(pages, page)
-				default:
-					break Remaining
-				}
-			}
+		Remaining<span class="token punctuation">:</span>
+			<span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> pb<span class="token punctuation">.</span>maxBatch<span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+				<span class="token keyword">select</span> <span class="token punctuation">{</span>
+				<span class="token keyword">case</span> page <span class="token operator">:=</span> <span class="token operator">&lt;-</span>pb<span class="token punctuation">.</span>bufChan<span class="token punctuation">:</span>
+					pages <span class="token operator">=</span> <span class="token function">append</span><span class="token punctuation">(</span>pages<span class="token punctuation">,</span> page<span class="token punctuation">)</span>
+				<span class="token keyword">default</span><span class="token punctuation">:</span>
+					<span class="token keyword">break</span> Remaining
+				<span class="token punctuation">}</span>
+			<span class="token punctuation">}</span>
 
-			if len(pages) == 0 {
-				break
-			}
+			<span class="token keyword">if</span> <span class="token function">len</span><span class="token punctuation">(</span>pages<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token punctuation">{</span>
+				<span class="token keyword">break</span>
+			<span class="token punctuation">}</span>
 
-			// The batch processing
-			err := pb.s.BatchAddPages(pages)
-			if err != nil {
-				log.Printf(&quot;Batch adding pages failed!: %e&quot;, err)
-			}
-		}
-	}
-}</code></pre></div></div></article></section></main><footer></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/projects/mapping-the-internet-part-two/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-8b4a7dbbc64fb7f6739f.js"],"app":["/app-3ec6d999dca5c20ac1b4.js"],"component---src-pages-404-jsx":["/component---src-pages-404-jsx-28195230eaf8efada326.js"],"component---src-pages-index-jsx":["/component---src-pages-index-jsx-f29a67923f189d361591.js"],"component---src-pages-projects-jsx":["/component---src-pages-projects-jsx-a5e326ee8e0295471859.js"],"component---src-templates-project-jsx":["/component---src-templates-project-jsx-1d074ba8da8111c13604.js"]};/*]]>*/</script><script src="/polyfill-8b4a7dbbc64fb7f6739f.js" nomodule=""></script><script src="/webpack-runtime-9a9a2285c9828644d1bf.js" async=""></script><script src="/styles-c2fe8482057191dca484.js" async=""></script><script src="/cb1608f2-25f4560fe1906a4297e8.js" async=""></script><script src="/a9a7754c-efcb1b4385c0af8166c4.js" async=""></script><script src="/c72e14a1146056e84dab732189fff1f69507dd13-513332066f4e438a1b11.js" async=""></script><script src="/7cc629e5281c057c37ee473b7c131bea451563ba-639b975a3b5a4ab6a5cc.js" async=""></script><script src="/component---src-templates-project-jsx-1d074ba8da8111c13604.js" async=""></script><script src="/app-3ec6d999dca5c20ac1b4.js" async=""></script><script src="/framework-376edee25eb5f5cd8260.js" async=""></script><script src="/commons-22c5da258f1829118268.js" async=""></script></body></html>
+			<span class="token comment">// The batch processing</span>
+			err <span class="token operator">:=</span> pb<span class="token punctuation">.</span>s<span class="token punctuation">.</span><span class="token function">BatchAddPages</span><span class="token punctuation">(</span>pages<span class="token punctuation">)</span>
+			<span class="token keyword">if</span> err <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+				log<span class="token punctuation">.</span><span class="token function">Printf</span><span class="token punctuation">(</span><span class="token string">"Batch adding pages failed!: %e"</span><span class="token punctuation">,</span> err<span class="token punctuation">)</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div></div></article></section></main><footer></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/projects/mapping-the-internet-part-two/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-8b4a7dbbc64fb7f6739f.js"],"app":["/app-3ec6d999dca5c20ac1b4.js"],"component---src-pages-404-jsx":["/component---src-pages-404-jsx-28195230eaf8efada326.js"],"component---src-pages-index-jsx":["/component---src-pages-index-jsx-f29a67923f189d361591.js"],"component---src-pages-projects-jsx":["/component---src-pages-projects-jsx-a5e326ee8e0295471859.js"],"component---src-templates-project-jsx":["/component---src-templates-project-jsx-1d074ba8da8111c13604.js"]};/*]]>*/</script><script src="/polyfill-8b4a7dbbc64fb7f6739f.js" nomodule=""></script><script src="/webpack-runtime-9a9a2285c9828644d1bf.js" async=""></script><script src="/styles-c2fe8482057191dca484.js" async=""></script><script src="/cb1608f2-25f4560fe1906a4297e8.js" async=""></script><script src="/a9a7754c-efcb1b4385c0af8166c4.js" async=""></script><script src="/c72e14a1146056e84dab732189fff1f69507dd13-513332066f4e438a1b11.js" async=""></script><script src="/7cc629e5281c057c37ee473b7c131bea451563ba-639b975a3b5a4ab6a5cc.js" async=""></script><script src="/component---src-templates-project-jsx-1d074ba8da8111c13604.js" async=""></script><script src="/app-3ec6d999dca5c20ac1b4.js" async=""></script><script src="/framework-376edee25eb5f5cd8260.js" async=""></script><script src="/commons-22c5da258f1829118268.js" async=""></script></body></html>
