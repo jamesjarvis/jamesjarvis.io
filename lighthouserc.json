@@ -25,7 +25,7 @@
             "numberOfRuns": 3,
             "staticDistDir": "./public",
             "settings": {
-                "emulatedFormFactor": "desktop"
+                "formFactor": "desktop"
             }
         },
         "assert": {
