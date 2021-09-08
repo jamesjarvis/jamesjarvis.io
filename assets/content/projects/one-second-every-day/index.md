@@ -1,6 +1,6 @@
 ---
 type: project
-date: "2016-06"
+date: "2021-06"
 title: "🎥 One Second Every Day"
 tech: ["Film-making", "Journaling"]
 link: "https://www.youtube.com/playlist?list=PLkusHjaZhA7nFyNLqDfw2zXeXfs3KfxgE"
@@ -17,6 +17,20 @@ This could mean anything, it could be that I visited a place/did something for t
 You can watch [my whole adult life back to back](https://www.youtube.com/playlist?list=PLkusHjaZhA7nFyNLqDfw2zXeXfs3KfxgE), or if you'd rather watch something a little bit cooler, you can check out some of my other videos on youtube where I have recorded some more ambitious moments. Or alternatively, one of my [favourite videos](https://www.youtube.com/watch?v=WxfZkMm3wcg) of all time.
 
 > Do one thing every day that scares you - [Various Sources](https://quoteinvestigator.com/2013/08/09/scare/)
+
+## 22 Years Old
+
+`youtube: Iw0WANu2XTk`
+
+From 23rd June 2020 to 23rd June 2021.
+
+First year in full time work (at a smol company called ThoughtMachine) and first year I missed a few days filming!
+
+With most of my life + lifestyle banned under pandemic restrictions it’s been a bit quieter than I would have liked, and there’s been some tough times, but things will change!
+
+Kicked off this year climbing a mountain, exploring Cornwall, spending a lot of time sat behind a computer, had a wonderful Christmas with the family, walked dozens of kilometres hanging out with my dad, and then walked 42k in one day with Sam!
+
+I built a dashboard, link scraper and a few other things, shaved my head, impulse bought an old bmw as a semi fixer-upper, travelled to Scotland the day after lockdowns started to lift and ended the year starting to see people again!
 
 ## 21 Years Old
 
