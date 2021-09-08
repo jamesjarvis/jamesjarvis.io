@@ -4,10 +4,10 @@ date: "2020-01"
 title: "⚡️ Automated speedtest internet monitoring"
 tech: ["IFTTT", "Google Sheets"]
 link: "https://docs.google.com/spreadsheets/d/1Udh7RxzvDuee_nN1OzuufP0qBc5Eta1V4tpMkG4BKQc/edit?usp=sharing"
-previewImage: "./speedtest-calendar.png"
+previewImage: "./speedtest-calendar-updated.png"
 ---
 
-![Speedtest calendar](./speedtest-calendar.png)
+![Speedtest calendar](./speedtest-calendar-updated.png)
 
 A quick monitoring project.
 
@@ -24,7 +24,7 @@ Inspiration thanks to [this project](https://makezine.com/projects/send-ticket-i
 
 <iframe title="University accommodation speedtest results" width="100%" height="650" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3YSLPrb0yc1ojf6e7nxZ8EBW_3vrpvtDJzRqdw4ay8TEackXMFCkMy2hRk-9hVjTg0-8ZnUDPoZnF/pubchart?oid=1937794798&amp;format=interactive"></iframe>
 
-<iframe title="University week speedtest heatmap" width="100%" height="650" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3YSLPrb0yc1ojf6e7nxZ8EBW_3vrpvtDJzRqdw4ay8TEackXMFCkMy2hRk-9hVjTg0-8ZnUDPoZnF/pubhtml?gid=1159029228&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe title="University week speedtest heatmap" width="100%" height="650" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3YSLPrb0yc1ojf6e7nxZ8EBW_3vrpvtDJzRqdw4ay8TEackXMFCkMy2hRk-9hVjTg0-8ZnUDPoZnF/pubhtml?gid=1353413610&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 Whilst at university, my internet was being provided by [BT](https://www.bt.com/), and the fastest we could supposedly get was 35mb download speeds.
 However, we were having constant dropouts and nothing was being done about it.
@@ -35,9 +35,9 @@ Other interesting insights from this data include seeing how the [Coronavirus in
 
 ## Part 2: Back Home
 
-<iframe title="Home speedtest results" width="100%" height="650" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3YSLPrb0yc1ojf6e7nxZ8EBW_3vrpvtDJzRqdw4ay8TEackXMFCkMy2hRk-9hVjTg0-8ZnUDPoZnF/pubchart?oid=1832331031&amp;format=interactive"></iframe>
+<iframe title="Home speedtest results" width="100%" height="650" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3YSLPrb0yc1ojf6e7nxZ8EBW_3vrpvtDJzRqdw4ay8TEackXMFCkMy2hRk-9hVjTg0-8ZnUDPoZnF/pubchart?oid=1087168737&amp;format=interactive"></iframe>
 
-<iframe title="Home week speedtest heatmap" width="100%" height="650" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3YSLPrb0yc1ojf6e7nxZ8EBW_3vrpvtDJzRqdw4ay8TEackXMFCkMy2hRk-9hVjTg0-8ZnUDPoZnF/pubhtml?gid=1555637032&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe title="Home week speedtest heatmap" width="100%" height="650" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR3YSLPrb0yc1ojf6e7nxZ8EBW_3vrpvtDJzRqdw4ay8TEackXMFCkMy2hRk-9hVjTg0-8ZnUDPoZnF/pubhtml?gid=545090524&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 As mentioned previously, thanks to [Coronavirus](https://coronavirus.data.gov.uk/), the university campus (and all associated societies, events, basically anything fun) just [abruptly stopped](https://www.kent.ac.uk/coronavirus).
 So, I moved back in with the 'rents.

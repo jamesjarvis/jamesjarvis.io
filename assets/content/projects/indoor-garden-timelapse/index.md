@@ -23,7 +23,7 @@ So, I bought the [Raspberry Pi Zero W camera combo](https://thepihut.com/product
 
 The end result is this cute little video:
 
-`youtube: DiBl9JMlBUI`
+`video: https://www.youtube-nocookie.com/embed/DiBl9JMlBUI`
 
 This little video was the result of 2 months of growing and almost 200GB of images!
 I set up the camera to take a photo every 30 seconds (which in hindsight was a little bit too often, and the final video only took a frame each 16 minutes)
