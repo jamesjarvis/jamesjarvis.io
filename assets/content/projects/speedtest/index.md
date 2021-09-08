@@ -4,10 +4,10 @@ date: "2020-01"
 title: "⚡️ Automated speedtest internet monitoring"
 tech: ["IFTTT", "Google Sheets"]
 link: "https://docs.google.com/spreadsheets/d/1Udh7RxzvDuee_nN1OzuufP0qBc5Eta1V4tpMkG4BKQc/edit?usp=sharing"
-previewImage: "./speedtest-calendar.png"
+previewImage: "./speedtest-calendar-updated.png"
 ---
 
-![Speedtest calendar](./speedtest-calendar.png)
+![Speedtest calendar](./speedtest-calendar-updated.png)
 
 A quick monitoring project.
 
