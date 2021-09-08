@@ -20,7 +20,7 @@ You can watch [my whole adult life back to back](https://www.youtube.com/playlis
 
 ## 22 Years Old
 
-`youtube: Iw0WANu2XTk`
+`video: https://www.youtube-nocookie.com/embed/Iw0WANu2XTk`
 
 From 23rd June 2020 to 23rd June 2021.
 
@@ -34,7 +34,7 @@ I built a dashboard, link scraper and a few other things, shaved my head, impuls
 
 ## 21 Years Old
 
-`youtube: mRPCmN24fRs`
+`video: https://www.youtube-nocookie.com/embed/mRPCmN24fRs`
 
 From 23rd June 2019 to 23rd June 2020.
 
@@ -45,7 +45,7 @@ Lockdown meant I had to slow down a bit, enjoy time with the family and celebrat
 
 ## 20 Years Old
 
-`youtube: aROoZL6x8sk`
+`video: https://www.youtube-nocookie.com/embed/aROoZL6x8sk`
 
 From 23rd June 2018 to 23rd June 2019.
 
@@ -55,7 +55,7 @@ Made some incredible memories and international friends this year, but the pace 
 
 ## 19 Years Old
 
-`youtube: nhmEgzpafPc`
+`video: https://www.youtube-nocookie.com/embed/nhmEgzpafPc`
 
 From 23rd June 2017 to 23rd June 2018.
 
@@ -65,7 +65,7 @@ Had an amazing year, and I’ve loved documenting it like this. I can’t wait t
 
 ## 18 Years Old
 
-`youtube: 2JItNd1gNx0`
+`video: https://www.youtube-nocookie.com/embed/2JItNd1gNx0`
 
 From 23rd June 2016 to 23rd June 2017.
 
