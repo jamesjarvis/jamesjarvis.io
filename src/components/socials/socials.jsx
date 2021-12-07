@@ -23,7 +23,7 @@ const Socials = ({ showHover, socials, email }) => {
   };
 
   return (
-    <div id={"socials"} className={"animate fadeInUp three"}>
+    <div className={"animate fadeInUp three"}>
       {socials.map((social, i) => (
         <React.Fragment key={`social_${i + 1}`}>
           <OutboundLink
