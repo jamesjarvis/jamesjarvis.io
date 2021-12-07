@@ -23,10 +23,7 @@
                 "/about/aboutMe/"
             ],
             "numberOfRuns": 3,
-            "staticDistDir": "./public",
-            "settings": {
-                "formFactor": "desktop"
-            }
+            "staticDistDir": "./public"
         },
         "assert": {
             "preset": "lighthouse:recommended",
@@ -72,7 +69,18 @@
                 "frame-title": "warn",
                 "offscreen-images": "warn",
                 "total-byte-weight": "warn",
-                "errors-in-console": "warn"
+                "errors-in-console": "warn",
+                "csp-xss": "warn",
+                "efficient-animated-content": "warn",
+                "maskable-icon": "off",
+                "unused-javascript": "warn",
+                "non-composited-animations": "off",
+                "inspector-issues": "off",
+                "valid-source-maps": "off",
+                "unsized-images": "warn",
+                "content-width": "warn",
+                "image-size-responsive": "warn",
+                "unused-css-rules": "warn"
             }
         },
         "upload": {
