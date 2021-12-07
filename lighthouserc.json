@@ -23,10 +23,7 @@
                 "/about/aboutMe/"
             ],
             "numberOfRuns": 3,
-            "staticDistDir": "./public",
-            "settings": {
-                "formFactor": "desktop"
-            }
+            "staticDistDir": "./public"
         },
         "assert": {
             "preset": "lighthouse:recommended",
