@@ -76,7 +76,10 @@
                 "unused-javascript": "warn",
                 "non-composited-animations": "off",
                 "inspector-issues": "off",
-                "valid-source-maps": "off"
+                "valid-source-maps": "off",
+                "unsized-images": "warn",
+                "content-width": "warn",
+                "image-size-responsive": "warn"
             }
         },
         "upload": {
