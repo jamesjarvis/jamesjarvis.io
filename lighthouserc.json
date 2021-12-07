@@ -79,7 +79,8 @@
                 "valid-source-maps": "off",
                 "unsized-images": "warn",
                 "content-width": "warn",
-                "image-size-responsive": "warn"
+                "image-size-responsive": "warn",
+                "unused-css-rules": "warn"
             }
         },
         "upload": {
