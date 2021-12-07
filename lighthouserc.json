@@ -69,7 +69,14 @@
                 "frame-title": "warn",
                 "offscreen-images": "warn",
                 "total-byte-weight": "warn",
-                "errors-in-console": "warn"
+                "errors-in-console": "warn",
+                "csp-xss": "warn",
+                "efficient-animated-content": "warn",
+                "maskable-icon": "off",
+                "unused-javascript": "warn",
+                "non-composited-animations": "off",
+                "inspector-issues": "off",
+                "valid-source-maps": "off"
             }
         },
         "upload": {
