@@ -2,7 +2,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { graphql, Link } from "gatsby";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import { OutboundLink } from "gatsby-plugin-gtag";
 import moment from "moment";
 import PropTypes from "prop-types";
@@ -36,12 +36,9 @@ const Projects = ({ data }) => {
                     alt={post.frontmatter.title}
                     title={post.frontmatter.title}
                   >
-                    <Img
-                      className="u-photo"
-                      fluid={
-                        post.frontmatter.previewImage.childImageSharp.preview
-                      }
-                    />
+                    <GatsbyImage
+                      image={post.frontmatter.previewImage.childImageSharp.preview}
+                      className="u-photo" />
                   </Link>
                 ) : (
                   <></>
@@ -116,37 +113,34 @@ Projects.propTypes = {
 
 export default Projects;
 
-export const pageQuery = graphql`
-  query ProjectsQuery {
-    info: projectsJson {
-      title
-      about
-    }
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 250)
-          id
-          frontmatter {
-            type
-            title
-            date
-            tech
-            link
-            source
-            previewImage {
-              childImageSharp {
-                preview: fluid(maxWidth: 800, quality: 70) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
-              }
+export const pageQuery = graphql`query ProjectsQuery {
+  info: projectsJson {
+    title
+    about
+  }
+  allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}) {
+    edges {
+      node {
+        excerpt(pruneLength: 250)
+        id
+        frontmatter {
+          type
+          title
+          date
+          tech
+          link
+          source
+          previewImage {
+            childImageSharp {
+              preview: gatsbyImageData(width: 800, quality: 70, layout: CONSTRAINED)
             }
           }
-          fields {
-            slug
-          }
+        }
+        fields {
+          slug
         }
       }
     }
   }
+}
 `;
