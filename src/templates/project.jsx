@@ -44,7 +44,7 @@ const Template = ({ data }) => {
     ) : (
       <></>
     );
-  const image = previewImage ? previewImage.childImageSharp.fixed : null;
+  const image = previewImage ? previewImage.childImageSharp.gatsbyImageData : null;
   const newDate = moment(date);
   return (
     <Wrapper title={title} description={excerpt} image={image}>
@@ -79,32 +79,25 @@ Template.propTypes = {
 export default Template;
 
 export const pageQuery = graphql`
-  query ProjectPostQuery($slug: String!) {
-    post: markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      excerpt(pruneLength: 200)
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-        date
-        tech
-        link
-        source
-        previewImage {
-          childImageSharp {
-            fixed(width: 1200) {
-              ...GatsbyImageSharpFixed
-            }
-            # resize(width: 1200) {
-            #   src
-            #   height
-            #   width
-            # }
-          }
+query ProjectPostQuery($slug: String!) {
+  post: markdownRemark(fields: {slug: {eq: $slug}}) {
+    html
+    excerpt(pruneLength: 200)
+    fields {
+      slug
+    }
+    frontmatter {
+      title
+      date
+      tech
+      link
+      source
+      previewImage {
+        childImageSharp {
+          gatsbyImageData(width: 1200, layout: FIXED)
         }
       }
     }
   }
+}
 `;

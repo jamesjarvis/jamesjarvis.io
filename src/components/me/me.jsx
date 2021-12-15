@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, useStaticQuery } from "gatsby";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import Socials from "../socials/socials";
 import "./me.scss";
 
@@ -37,11 +37,7 @@ const Me = ({ data, showDescription }) => {
           onClick={() => setRick(rick + 1)}
         >
           {metaAvatar(
-            <Img
-              fluid={avatar}
-              title={"Oh look it's me"}
-              className={"u-logo u-photo"}
-            />
+            <GatsbyImage image={avatar} title={"Oh look it's me"} className={"u-logo u-photo"} />
           )}
         </div>
       ) : (
@@ -73,38 +69,35 @@ const Me = ({ data, showDescription }) => {
   );
 };
 
-const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        author {
-          name
-          title
-          email {
-            address
-            text
-            body
-            subject
-          }
-        }
-        socials {
-          icon
+const query = graphql`{
+  site {
+    siteMetadata {
+      author {
+        name
+        title
+        email {
+          address
           text
-          url
+          body
+          subject
         }
       }
-    }
-    bio: markdownRemark(frontmatter: { type: { eq: "about" } }) {
-      html
-    }
-    avatarImg: file(relativePath: { eq: "avatar.jpg" }) {
-      childImageSharp {
-        avatar: fluid(maxWidth: 200, quality: 70) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
+      socials {
+        icon
+        text
+        url
       }
     }
   }
+  bio: markdownRemark(frontmatter: {type: {eq: "about"}}) {
+    html
+  }
+  avatarImg: file(relativePath: {eq: "avatar.jpg"}) {
+    childImageSharp {
+      avatar: gatsbyImageData(width: 200, quality: 70, layout: CONSTRAINED)
+    }
+  }
+}
 `;
 
 Me.defaultProps = {
