@@ -5292,22 +5292,6 @@ gatsby-cli@^4.4.0:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^2.14.0:
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-2.14.0.tgz#ad0030d11776073cdc6a119f4b81e150f3921aef"
-  integrity sha512-HDMb1XMqysup9raLYWB0wIQU568R9qPounF7iAwjf2esFUVV5mdBTvxEpune/7yG0RmwhNPhgrEZo2rBHeJf7A==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
-    ci-info "2.0.0"
-    configstore "^5.0.1"
-    file-type "^16.5.3"
-    fs-extra "^10.0.0"
-    got "^11.8.2"
-    node-object-hash "^2.3.9"
-    proper-lockfile "^4.1.2"
-    tmp "^0.2.1"
-    xdg-basedir "^4.0.0"
-
 gatsby-core-utils@^3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.4.0.tgz#6d5658dc045dcf60a314d4f2d0bc85e260659837"
@@ -5613,40 +5597,40 @@ gatsby-remark-google-analytics-track-links@^1.0.2:
   dependencies:
     unist-util-visit "2.0.3"
 
-gatsby-remark-images@^5.11.0:
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-5.11.0.tgz#9c6eb9b5922e3e956aac9a9e1f3950cdf9dcff04"
-  integrity sha512-KP5dWp8AQ6wwhFN4+IIKvxAm2BsL6HyvLU9w61HxvDtYrT7aRRAHj2YFPaPrgeJQ5ncAzwn+knB5Ofy4a/wx0g==
+gatsby-remark-images@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-6.4.0.tgz#8a4c72a133bfedd056c432f071f3e1a3c66d2f34"
+  integrity sha512-yrrX96C15pvxquAL/jQb/5Kl0nUu0yNzEDtE1lB7f2bTuxdIRDkF7UM6pfEhp0N00a3ECD+eMf2QXHn/yo2tvg==
   dependencies:
     "@babel/runtime" "^7.15.4"
     chalk "^4.1.2"
     cheerio "^1.0.0-rc.10"
-    gatsby-core-utils "^2.14.0"
+    gatsby-core-utils "^3.4.0"
     is-relative-url "^3.0.0"
     lodash "^4.17.21"
     mdast-util-definitions "^4.0.0"
     potrace "^2.1.8"
-    query-string "^6.13.3"
+    query-string "^6.14.1"
     unist-util-select "^3.0.4"
     unist-util-visit-parents "^3.1.1"
 
-gatsby-remark-prismjs@^5.11.0:
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-5.11.0.tgz#ca823b7b5def06a5b4d33e8d8e2e1126451f6b3f"
-  integrity sha512-WrS074GqW0st5chlYxTrFxLZLjAubWvNdw23DYW8qcaAfnH527hmgEDQgynjVnkSxhxbhnhTqT5MYWBdTBLk5A==
+gatsby-remark-prismjs@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-6.4.0.tgz#24008dd30c42aa554d3b0ef089c39ff4867b300e"
+  integrity sha512-ObQzuMWl+Q5ryp0q9JVOfdoBkLV1gXi2yMaEP8PjBSfrYXNWTtNluc52aPpDny4BkzzxNtpEFK+dkglMP5DblA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     parse-numeric-range "^1.2.0"
     unist-util-visit "^2.0.3"
 
-gatsby-remark-responsive-iframe@^4.11.0:
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-4.11.0.tgz#fc4f14043dca829735b189095358c12a2a4185e7"
-  integrity sha512-b4Nl9wOzRIjxRUHSkwKDczsKvSF5l8FcUf37Mbnecx+eTzfvQtMccIG87C488C5FTBsOh44jjokhR9QwqnWkww==
+gatsby-remark-responsive-iframe@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-5.4.0.tgz#b546e71da0ce0c5b3ed28ab1c45541ee579de2db"
+  integrity sha512-iW0JC9R9gNdCd00mTiUTxxgQmYiwGjY9K0xxP8pk4cOL+661ghG+bBWY+npu7lgz50RPFdKejE+7COIVPWJ8HQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     cheerio "^1.0.0-rc.10"
-    common-tags "^1.8.0"
+    common-tags "^1.8.2"
     lodash "^4.17.21"
     unist-util-visit "^2.0.3"
 
@@ -8325,7 +8309,7 @@ node-gyp-build@^4.2.3:
   resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.3.0.tgz#9f256b03e5826150be39c764bf51e993946d71a3"
   integrity sha512-iWjXZvmboq0ja1pUGULQBexmxq8CV4xBhX7VDOTbL7ZR4FOowwY/VOtRxBN/yKxmdGoIp4j5ysNT4u3S2pDQ3Q==
 
-node-object-hash@^2.3.10, node-object-hash@^2.3.9:
+node-object-hash@^2.3.10:
   version "2.3.10"
   resolved "https://registry.yarnpkg.com/node-object-hash/-/node-object-hash-2.3.10.tgz#4b0c1a3a8239e955f0db71f8e00b38b5c0b33992"
   integrity sha512-jY5dPJzw6NHd/KPSfPKJ+IHoFS81/tJ43r34ZeNMXGzCOM8jwQDCD12HYayKIB6MuznrnqIYy2e891NA2g0ibA==
@@ -9492,7 +9476,7 @@ qs@^6.9.4:
   dependencies:
     side-channel "^1.0.4"
 
-query-string@^6.13.3, query-string@^6.13.8, query-string@^6.14.1:
+query-string@^6.13.8, query-string@^6.14.1:
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.14.1.tgz#7ac2dca46da7f309449ba0f86b1fd28255b0c86a"
   integrity sha512-XDxAeVmpfu1/6IjyT/gXHOl+S0vQ9owggJ30hhWKdHAsNPOcasn5o9BW0eejZqL2e4vMjhAxoW3jVHcD6mbcYw==
