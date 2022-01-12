@@ -5579,10 +5579,10 @@ gatsby-cli@^4.4.0:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.4.0.tgz#6d5658dc045dcf60a314d4f2d0bc85e260659837"
-  integrity sha512-dYQpyo1BLGJzxQOXgGs1Fbj7jzGj5cKAIPYz2hz2l4Aus6skwjjaUlOjZlrWIahNHoLkx3mH0f5y6E8205T/aQ==
+gatsby-core-utils@^3.4.0, gatsby-core-utils@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.5.0.tgz#b4b95252c3a06dd1883b13918746550d3f782035"
+  integrity sha512-hv0biKZytTJgO8mghiDF0mqlDTu8AbapcK1KU25m1NkvnossuVOU/5fyMqPUXRE9BBD5OT6wJQqHCmiSmoxDEQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
     ci-info "2.0.0"
@@ -5590,6 +5590,7 @@ gatsby-core-utils@^3.4.0:
     file-type "^16.5.3"
     fs-extra "^10.0.0"
     got "^11.8.3"
+    lock "^1.1.0"
     node-object-hash "^2.3.10"
     proper-lockfile "^4.1.2"
     tmp "^0.2.1"
@@ -5892,15 +5893,15 @@ gatsby-remark-google-analytics-track-links@^1.0.2:
   dependencies:
     unist-util-visit "2.0.3"
 
-gatsby-remark-images@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-6.4.0.tgz#8a4c72a133bfedd056c432f071f3e1a3c66d2f34"
-  integrity sha512-yrrX96C15pvxquAL/jQb/5Kl0nUu0yNzEDtE1lB7f2bTuxdIRDkF7UM6pfEhp0N00a3ECD+eMf2QXHn/yo2tvg==
+gatsby-remark-images@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-6.5.0.tgz#7f7713fb13f41d19d6a96478c7a010056463503a"
+  integrity sha512-dB/9ZKQLlRKRYezmwVpy0ttYyfnRWZBlZa0YrCY6GXYMKwzFSkYg9JOsm/ZmCnBD2MdEdtSGXpnJ3YvMwrFAxA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     chalk "^4.1.2"
     cheerio "^1.0.0-rc.10"
-    gatsby-core-utils "^3.4.0"
+    gatsby-core-utils "^3.5.0"
     is-relative-url "^3.0.0"
     lodash "^4.17.21"
     mdast-util-definitions "^4.0.0"
@@ -7818,7 +7819,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lock@^1.0.0:
+lock@^1.0.0, lock@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/lock/-/lock-1.1.0.tgz#53157499d1653b136ca66451071fca615703fa55"
   integrity sha1-UxV0mdFlOxNspmRRBx/KYVcD+lU=

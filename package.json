@@ -31,7 +31,7 @@
         "gatsby-remark-copy-linked-files": "^5.4.0",
         "gatsby-remark-embed-video": "^3.1.1",
         "gatsby-remark-google-analytics-track-links": "^1.0.2",
-        "gatsby-remark-images": "^6.4.0",
+        "gatsby-remark-images": "^6.5.0",
         "gatsby-remark-prismjs": "^6.4.0",
         "gatsby-remark-responsive-iframe": "^5.5.0",
         "gatsby-source-filesystem": "^4.4.0",
