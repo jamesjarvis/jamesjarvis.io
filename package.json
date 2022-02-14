@@ -46,7 +46,7 @@
         "react-helmet": "^6.1.0",
         "react-obfuscate": "^3.6.2",
         "sass": "^1.49.7",
-        "sharp": "^0.30.0"
+        "sharp": "^0.30.1"
     },
     "repository": {
         "type": "git",
