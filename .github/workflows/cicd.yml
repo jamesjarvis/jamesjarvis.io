@@ -36,7 +36,7 @@ jobs:
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
 
       - name: Run Lighthouse analysis
-        uses: treosh/lighthouse-ci-action@v8
+        uses: treosh/lighthouse-ci-action@9.3.0
         with:
           configPath: "./lighthouserc.json"
           uploadArtifacts: true
