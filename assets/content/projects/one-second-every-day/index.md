@@ -1,6 +1,6 @@
 ---
 type: project
-date: "2021-06"
+date: "2022-06"
 title: "🎥 One Second Every Day"
 tech: ["Film-making", "Journaling"]
 link: "https://www.youtube.com/playlist?list=PLkusHjaZhA7nFyNLqDfw2zXeXfs3KfxgE"
@@ -17,6 +17,20 @@ This could mean anything, it could be that I visited a place/did something for t
 You can watch [my whole adult life back to back](https://www.youtube.com/playlist?list=PLkusHjaZhA7nFyNLqDfw2zXeXfs3KfxgE), or if you'd rather watch something a little bit cooler, you can check out some of my other videos on youtube where I have recorded some more ambitious moments. Or alternatively, one of my [favourite videos](https://www.youtube.com/watch?v=WxfZkMm3wcg) of all time.
 
 > Do one thing every day that scares you - [Various Sources](https://quoteinvestigator.com/2013/08/09/scare/)
+
+## 23 Years Old
+
+`video: https://www.youtube-nocookie.com/embed/yV09NppzBfA`
+
+From 23rd June 2021 to 23rd June 2022.
+
+As the world slowly started to shake off the pandemic I decided to move to London with Konrad. Then I immediately got COVID *facepalm*.
+
+Living in my favourite city in the world for a whole year has been a lot of fun (and v expensive), making some new friends and getting used to a bit more of a settled down lifestyle, although it is a bit scary!
+
+I've continued with my hobby of making and breaking lots of software, sailed on the Thames, hiked Snowdonia, and met Feiyang!
+
+My love-hate relationship with the BMW has continued, from having to almost scrap it in November to driving it 3000 miles around Europe in June; I finally drove to the Italian lakes!
 
 ## 22 Years Old
 
