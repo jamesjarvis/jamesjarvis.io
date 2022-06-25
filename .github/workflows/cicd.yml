@@ -3,7 +3,7 @@ name: CI
 on: [push]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -35,18 +35,46 @@ jobs:
           CI: true
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
 
-      - name: Run Lighthouse analysis
-        uses: treosh/lighthouse-ci-action@v8
+      - name: Upload built state
+        uses: actions/upload-artifact@v1
         with:
-          configPath: "./lighthouserc.json"
-          uploadArtifacts: true
-          temporaryPublicStorage: true
-          runs: 3
+          name: site
+          path: public
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: success() && github.ref == 'refs/heads/master'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Download compiled site
+        uses: actions/download-artifact@v1
+        with:
+          name: site
+          path: public
       - name: Deploy
-        if: github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           cname: jamesjarvis.io
+
+  lighthouse:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Download compiled site
+        uses: actions/download-artifact@v1
+        with:
+          name: site
+          path: public
+      - name: Run Lighthouse analysis
+        uses: treosh/lighthouse-ci-action@v9
+        with:
+          configPath: "./lighthouserc.json"
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          runs: 3
