@@ -36,7 +36,7 @@ jobs:
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
 
       - name: Upload built state
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: site
           path: public
