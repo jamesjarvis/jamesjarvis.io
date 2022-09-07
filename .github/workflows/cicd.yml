@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
 
       - name: setup node
         uses: actions/setup-node@v3.4.1
@@ -47,7 +47,7 @@ jobs:
     if: success() && github.ref == 'refs/heads/master'
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
       - name: Download compiled site
         uses: actions/download-artifact@v1
         with:
@@ -65,7 +65,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
       - name: Download compiled site
         uses: actions/download-artifact@v1
         with:
