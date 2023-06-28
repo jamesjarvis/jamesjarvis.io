@@ -8,32 +8,14 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: setup node
-        uses: actions/setup-node@v3.4.1
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          node-version: '18'
-          cache: 'yarn'
-
-      - name: install
-        run: yarn install
-
-      - name: Caching Gatsby
-        id: gatsby-cache-build
-        uses: actions/cache@v3
-        with:
-          path: |
-            public
-            .cache
-          key: ${{ runner.os }}-gatsby-build-${{ github.run_id }}
-          restore-keys: |
-            ${{ runner.os }}-gatsby-build-
+          hugo-version: '0.114.1'
+          extended: true
 
       - name: Build
-        run: yarn build --log-pages
-        env:
-          GATSBY_ACTIVE_ENV: ${{ contains(github.ref, 'master') && 'production' || 'staging'}}
-          CI: true
-          GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
+        run: hugo --minify
 
       - name: Upload built state
         uses: actions/upload-artifact@v1

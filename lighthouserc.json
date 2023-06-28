@@ -3,24 +3,8 @@
         "collect": {
             "url": [
                 "/",
-                "/projects",
-                "/projects/musish/",
-                "/projects/git-art/",
-                "/projects/one-second-every-day/",
-                "/projects/portfolio-site/",
-                "/projects/predictions/",
-                "/projects/speedtest/",
-                "/projects/whatsupkent/",
-                "/projects/mapping-the-internet-part-two/",
-                "/projects/mappyboi/",
-                "/projects/backlink-crawler/",
-                "/projects/uni-memoirs/",
-                "/projects/eink-dashboard/",
-                "/projects/indoor-garden-timelapse/",
-                "/projects/ipfs-web-hosting/",
-                "/projects/risotto-play/",
-                "/projects/monzo-users/",
-                "/about/aboutMe/"
+                "/posts",
+                "/tags"
             ],
             "numberOfRuns": 3,
             "staticDistDir": "./public"
