@@ -63,7 +63,7 @@ That's not necessarily a bad thing.
 
 I have never jumped out my comfort zone, tried more things, met more people, changed my opinions as much as I did at university.
 
-You can see from [my One Second Everyday videos]({{<ref "tags/one-second-everyday">}}) just how amazing the experience was.
+You can see from [my One Second Everyday videos]({{<ref "tags">}}) just how amazing the experience was.
 
 What I loved was the sheer concentration of people all similar age, all *trying* to learn about something they are interested in.
 

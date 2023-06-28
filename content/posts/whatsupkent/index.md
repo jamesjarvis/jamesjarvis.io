@@ -1,14 +1,9 @@
 ---
-type: project
-date: "2019-11"
 title: "📆 WhatsUpKent: Everything happening at the University of Kent"
-tech: ["Go", "TypeScript", "GraphQL"]
-link: "https://whatsupkent.com"
-source: "https://github.com/jamesjarvis/WhatsUpKent"
-previewImage: "./subject_type_dropdown.png"
+date: 2019-11-04
+tags: ["web-dev"]
+summary: "Finding out better lectures than the ones I was paying for"
 ---
-
-![WhatsUpKent](./subject_type_dropdown.png)
 
 In October 2019, I was looking for a challenge.
 
@@ -33,6 +28,7 @@ As always, the [frontend](https://github.com/jamesjarvis/WhatsUpKent-UI) was hos
 
 Overall, the project was a success.
 It managed to scrape (and continuously check for updates and re-scrape) thousands of lectures and seminars on campus, from all students, and all courses.
+It was hosted at [whatsupkent.com](https://whatsupkent.com), with the backend code hosted in [GitHub](https://github.com/jamesjarvis/WhatsUpKent).
 Unfortunately, I decided to close down the service before the uni got mad at me (also, I couldn't be bothered to pay the £5 a month hosting fees), but relaunching it would be as easy as pie if demand ever increases for a service like this.
 
 ## A few screenshots
