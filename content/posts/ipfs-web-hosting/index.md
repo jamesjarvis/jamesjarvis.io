@@ -1,14 +1,9 @@
 ---
-type: project
-date: "2020-05"
 title: "📦 IPFS Web Hosting"
-tech: ["Raspberry Pi", "IPFS", "Gatsby"]
-link: "https://ipfs.jamesjarvis.io"
-# source: "https://github.com/jamesjarvis/monzo-users"
-previewImage: "./IPFS_logo.png"
+date: 2020-05-02
+tags: ["raspberry-pi"]
+summary: "I thought IPFS was supposed to be permament..."
 ---
-
-![IPFS Logo](./IPFS_logo.png)
 
 2020 has been defined by The Lockdown [(yay?)](https://www.bbc.co.uk/news/uk-52084517).
 From March to July (and perhaps again, if the [(potential)](https://www.bbc.co.uk/news/uk-53159918) second wave is to come), basically everything shut down and we were all forced to spend time with family, and do nothing.
@@ -37,7 +32,7 @@ Now, more detail:
 
 ## GatsbyJS sucks with IPFS
 
-This website is (currently) built with GatsbyJS, [as outlined here](../portfolio-site).
+This website is (currently) built with GatsbyJS, [as outlined here]({{<ref "posts/portfolio-site">}}).
 
 Only thing is, GatsbyJS does not support relative links by default.
 Sure, you can enable [gatsby-plugin-ipfs](https://www.gatsbyjs.org/packages/gatsby-plugin-ipfs/) to try and fix the relative urls problem, but it is not compatible with most other plugins.
