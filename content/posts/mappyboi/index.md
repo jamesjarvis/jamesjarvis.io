@@ -1,13 +1,11 @@
 ---
-type: project
-date: "2020-12"
-title: "📍 Visualising location history"
-tech: ["Go", "Javascript"]
-source: "https://github.com/jamesjarvis/mappyboi"
-previewImage: "./mappyboi.png"
+title: ":map: Visualising location history"
+date: 2020-12-01
+tags: ["web-dev"]
+summary: "Where did he come from, where did he go?"
 ---
 
-![Location History](./mappyboi.png)
+[Check it out on GitHub!](https://github.com/jamesjarvis/mappyboi)
 
 So this one is more of a revisit than a totally unique project, but this all came about thanks to a little sprinkling of *dependency hell*.
 
