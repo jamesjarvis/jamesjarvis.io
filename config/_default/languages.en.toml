@@ -12,13 +12,13 @@ rtl = false
 dateFormat = "2 January 2006"
 
 # mainSections = ["section1", "section2"]
-# description = "My awesome website"
+description = "Personal Website of James Jarvis"
 
 [author]
 name = "James Jarvis"
 image = "img/author.jpg"
 headline = "Software Engineer, Explorer"
-bio = "What the fuck am I doing"
+bio = "I code, therefore I am"
 links = [
   { email = "mailto:hello@jamesjarvis.io" },
 #   { link = "https://link-to-some-website.com/" },

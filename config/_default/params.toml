@@ -31,7 +31,7 @@ showScrollToTop = true
 [homepage]
 layout = "profile"    # valid options: page, profile, custom
 showRecent = true
-recentLimit = 5
+recentLimit = 3
 
 [article]
 showDate = true
