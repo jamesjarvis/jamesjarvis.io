@@ -1,11 +1,6 @@
 {
     "ci": {
         "collect": {
-            "url": [
-                "/",
-                "/posts",
-                "/tags"
-            ],
             "numberOfRuns": 3,
             "staticDistDir": "./public"
         },
