@@ -1,14 +1,9 @@
 ---
-type: project
-date: "2018-12"
 title: "🎵 Musish: The Unofficial, Open Source Apple Music Web Player"
-tech: ["Javascript", "React", "Serverless"]
-link: "https://musi.sh"
-source: "https://github.com/musish/musish"
-previewImage: "./musish.png"
+date: 2018-12-12
+tags: ["web-dev"]
+summary: "How I was kinda developer-famous for 5 minutes"
 ---
-
-![Musi.sh](./musish.png)
 
 ![Github Stars](https://img.shields.io/github/stars/Musish/Musish.svg?style=social)
 
@@ -24,7 +19,7 @@ Well, as was [hilariously summarised in a comment on Macrumors](https://forums.m
 
 <!-- ![iTunes competitor](./iTunesCompetitor.GIF) -->
 
-Musi.sh (Musish) is an open source project now, using the A-GPL license, and as of February 2019, has over [1400 stars](https://github.com/Musish/Musish/stargazers), and [9 contributors](https://github.com/Musish/Musish/graphs/contributors).
+Musi.sh (Musish) is an [open source project](https://github.com/musish/musish) now, using the A-GPL license, and as of February 2019, has over [1400 stars](https://github.com/Musish/Musish/stargazers), and [9 contributors](https://github.com/Musish/Musish/graphs/contributors).
 
 We released it (sent out a few emails) while walking around Central Park, NY on the 18th January 2019. We weren't really prepared with what was to come, and have since had quite a few articles written about it.
 
