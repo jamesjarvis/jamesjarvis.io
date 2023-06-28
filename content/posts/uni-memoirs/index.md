@@ -67,7 +67,7 @@ You can see from [my One Second Everyday videos]({{<ref "tags/one-second-everyda
 
 What I loved was the sheer concentration of people all similar age, all *trying* to learn about something they are interested in.
 
-I used to tag along to lectures from different courses, and made [WhatsUpKent]({{<ref "posts/whatsupken">}}), a little web app to make it easy for others to do the same.
+I used to tag along to lectures from different courses, and made [WhatsUpKent]({{<ref "posts/whatsupkent">}}), a little web app to make it easy for others to do the same.
 There's nothing like walking out of a databases lecture and into a lecture on quantum mechanics, and then into a lecture on postmodern cartoons.
 
 This curiosity and the knowledge that "yeah, I can actually do that if I want" is something that I treasure from my time at Kent, and I have to shout out the Travel Society, Sailing Club and Kayaking Club and all my housemates for being absolute legends 🙌.
