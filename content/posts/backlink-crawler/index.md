@@ -1,11 +1,8 @@
 ---
-type: project
-date: "2020-10"
 title: "⠪ Mapping the Internet (?)"
-tech: ["Go"]
-source: "https://github.com/jamesjarvis/web-graph"
-# link: "https://youtu.be/DiBl9JMlBUI"
-previewImage: "./jamesjarvis-backlinks-query.png"
+date: 2020-10-04
+tags: ["go", "raspberry-pi"]
+summary: "Links on links on links, man"
 ---
 
 Once upon a time I was looking at my website, and I realised that I tend to link to a lot of random sites within each post I write.
