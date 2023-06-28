@@ -1,7 +1,7 @@
 ---
 title: ":umbrella: E-Ink Weather Dashboard"
 date: 2020-06-20
-tags: ["raspberry pi", "python", "hardware"]
+tags: ["raspberry pi", "hardware"]
 summary: "Fun little rarely updating dashboard."
 ---
 

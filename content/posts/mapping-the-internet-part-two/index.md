@@ -1,16 +1,11 @@
 ---
-type: project
-date: "2021-02"
 title: "⠪ Mapping the Internet, part deux"
-tech: ["Go", "JavaScript", "Postgres"]
-source: "https://github.com/jamesjarvis/web-graph"
-link: "https://jamesjarvis.github.io/web-graph/"
-previewImage: "./the-start-of-interdependent-links.png"
+date: 2021-02-05
+tags: ["raspberry-pi", "web-dev"]
+summary: "Links on links on links with a UI, man"
 ---
 
-![Starting the links](./the-start-of-interdependent-links.png)
-
-Did reading the previous instalment of "mapping the internet" [read here](../backlink-crawler/) leave you a bit... underwhelmed?
+Did reading the previous instalment of "mapping the internet" [read here]({{<ref "posts/backlink-crawler">}}) leave you a bit... underwhelmed?
 
 Same here.
 I mean, sure I had built a little program that could follow and store links on the internet, but it couldn't be ran continuously (could not store the crawling state between runs), and there was just no easy way to traverse or visualise the graph *yawn*.
@@ -23,7 +18,7 @@ So, in this chapter I am going to go through how we have improved this service t
 
 ## Part 1: Maintaining state
 
-So I wanted to eventually run this service on a raspberry pi 4 I currently have just sitting in my attic doing [occasional speedtests](../speedtest/).
+So I wanted to eventually run this service on a raspberry pi 4 I currently have just sitting in my attic doing [occasional speedtests]({{<ref "posts/speedtest">}}).
 
 I've also decided that I want to be able to stop and start the crawls (say, when performing an upgrade), without losing any data between runs.
 
@@ -85,7 +80,7 @@ Some fun things you can do with it:
 
 The last one is currently not being used by myself, though I may make an inverse graph traversal, whereby you can discover all the pages that link to a page...
 
-I've also set up my [e-ink display](../eink-dashboard/) to monitor the number of [URL's crawled](https://api.jamesjarvis.io/countPages) and [links found](https://api.jamesjarvis.io/countLinks) for my own amusement as well.
+I've also set up my [e-ink display]({{<ref "posts/eink-dashboard">}}) to monitor the number of [URL's crawled](https://api.jamesjarvis.io/countPages) and [links found](https://api.jamesjarvis.io/countLinks) for my own amusement as well.
 
 ### Self hosted??
 
