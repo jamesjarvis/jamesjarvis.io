@@ -1,12 +1,9 @@
 ---
-type: project
-date: "2020-08"
 title: "👨‍🎓 Graduating in a Pandemic/Recession"
-tech: ["Opinion"]
-previewImage: "./graduation.jpg"
+date: 2020-08-01
+tags: ["reflection"]
+summary: "Well, that was underwhelming..."
 ---
-
-![My Graduation](./graduation.jpg)
 
 So yeah, that text message above is the only celebration of completing university that I have...
 
@@ -25,7 +22,7 @@ The United Kingdom follows a [three tier classification system](https://en.wikip
 
 For me, I now have a First Class Honours Bachelors of Science degree in Computer Science (Artificial Intelligence) with a year in industry.
 
-As is typical with [most things I do](../speedtest), I logged these grades (including per module and per assignment, but that's too boring to share) into a spreadsheet.
+As is typical with [most things I do]({{<ref "posts/speedtest">}}), I logged these grades (including per module and per assignment, but that's too boring to share) into a spreadsheet.
 
 I made the spreadsheet back in year 1, when I realised the path of least resistance of uni was to just work harder in the early years, to give yourself some headroom later on to get worse grades (or to just take a holiday and not work as hard as you should - like I tended to do).
 This turned out to be a good idea, as even though I ended up with `80.3%` overall, you can see the trendline moving downwards!
@@ -40,7 +37,7 @@ Well, any additional effort I put in to get above 70% was kinda pointless, and p
 
 I actually started looking for my next job before I graduated, and to be honest *most of the recruiters didn't ask my grade*, not even my predicted.
 
-What they cared about most was my personal projects, previous work experience at Cisco, and [Musish](../musish).
+What they cared about most was my personal projects, previous work experience at Cisco, and [Musish]({{<ref "posts/musish">}}).
 
 ## But at what cost?
 
@@ -66,11 +63,11 @@ That's not necessarily a bad thing.
 
 I have never jumped out my comfort zone, tried more things, met more people, changed my opinions as much as I did at university.
 
-You can see from [my One Second Everyday videos](../one-second-every-day) just how amazing the experience was.
+You can see from [my One Second Everyday videos]({{<ref "tags/one-second-everyday">}}) just how amazing the experience was.
 
 What I loved was the sheer concentration of people all similar age, all *trying* to learn about something they are interested in.
 
-I used to tag along to lectures from different courses, and made [WhatsUpKent](../whatsupkent), a little web app to make it easy for others to do the same.
+I used to tag along to lectures from different courses, and made [WhatsUpKent]({{<ref "posts/whatsupken">}}), a little web app to make it easy for others to do the same.
 There's nothing like walking out of a databases lecture and into a lecture on quantum mechanics, and then into a lecture on postmodern cartoons.
 
 This curiosity and the knowledge that "yeah, I can actually do that if I want" is something that I treasure from my time at Kent, and I have to shout out the Travel Society, Sailing Club and Kayaking Club and all my housemates for being absolute legends 🙌.
