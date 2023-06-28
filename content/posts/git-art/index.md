@@ -1,14 +1,9 @@
 ---
-type: project
-date: "2019-02"
-title: "🖌 Git Art"
-tech: ["Javascript", "React", "Bash"]
-link: "https://jamesjarvis.github.io/git-art/"
-source: "https://github.com/jamesjarvis/git-art"
-previewImage: "./git-art.png"
+title: ":pen: Git Art"
+date: 2019-02-05
+tags: ["web-dev", "bash"]
+summary: "Commit stuff, with _style_"
 ---
-
-![Git Art](./git-art.png)
 
 My roommate Tim [(his LinkedIn)](https://www.linkedin.com/in/timothylee0/) and I decided to start challenging ourselves with little applications we could develop.
 
@@ -22,5 +17,7 @@ This is thanks to a feature/flaw in git that allows you to create commits (even 
 Therefore, all we need to do to generate a cute little activity graph is to simply work out the date ranges required, how many commits to make each day, and to generate a script that allows the user to do this.
 
 We used React for the front end, and wrote simple JavaScript functions to generate the bash script which is available for you to download and run.
+
+[Check out the website](https://jamesjarvis.github.io/git-art/), or if you'd prefer, [jump straight to the code](https://github.com/jamesjarvis/git-art)
 
 Made open source under the [WTFPL licence](http://www.wtfpl.net).
