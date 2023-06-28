@@ -1,16 +1,13 @@
 # jamesjarvis.io
 
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jamesjarvis/jamesjarvis.io.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jamesjarvis/jamesjarvis.io/context:javascript)
-
 Welcome to jamesjarvis.io - my personal site, accessible at (you guessed it!) <https://jamesjarvis.io>
 
-Been meaning to make one for ages.
+This site is now a static website generated using Hugo.
 
 To test locally, clone the repo, then run the following:
 
 ```bash
-yarn
-yarn start
+hugo server
 ```
 
 If you want to copy this for yourself, its pretty simple to set it up completely for your own purposes.

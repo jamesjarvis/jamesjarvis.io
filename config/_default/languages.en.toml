@@ -1,0 +1,38 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+
+title = "James Jarvis"
+
+[params]
+isoCode = "en"
+displayName = "EN"
+rtl = false
+
+dateFormat = "2 January 2006"
+
+# mainSections = ["section1", "section2"]
+description = "Personal Website of James Jarvis"
+
+[author]
+name = "James Jarvis"
+image = "img/author.jpg"
+headline = "Software Engineer, Explorer"
+bio = "I code, therefore I am"
+links = [
+  { email = "mailto:hello@jamesjarvis.io" },
+#   { link = "https://link-to-some-website.com/" },
+#   { codepen = "https://codepen.io/username" },
+#   { dev = "https://dev.to/username" },
+  { github = "https://github.com/jamesjarvis" },
+#   { google = "https://www.google.com/" },
+#   { instagram = "https://instagram.com/username" },
+#   { keybase = "https://keybase.io/username" },
+#   { kickstarter = "https://www.kickstarter.com/profile/username" },
+  { linkedin = "https://linkedin.com/in/mrjamesjarvis" },
+#   { mastodon = "https://mastodon.instance/@username" },
+#   { medium = "https://medium.com/username" },
+#   { slack = "https://workspace.url/team/userid" },
+#   { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+  { youtube = "https://youtube.com/@mrjamesjarvis" },
+]

@@ -1,7 +1,0 @@
-.posts {
-  list-style: none;
-  padding: 0;
-  .postPreview + .postPreview::before {
-    content: ' -----------------------------';
-  }
-}
