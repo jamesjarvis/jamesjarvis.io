@@ -6,7 +6,7 @@ description: "Personal website of James Jarvis"
 Hi, I'm James.
 
 I'm passionate about learning, building 'cool' stuff and travelling.
-If you want a quick catch up on who I am, skip straight to [my One Second Everyday]({{ < ref "tags/one-second-everyday" > }}).
+If you want a quick catch up on who I am, skip straight to [my One Second Everyday]({{< ref "tags/one-second-everyday" >}}).
 
 At the moment, I can generally be found in and around [London, UK](https://en.wikipedia.org/wiki/London), or online by clicking on any of the links above.
 
