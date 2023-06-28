@@ -1,10 +1,8 @@
 ---
-type: project
-date: "2020-06"
 title: "📸 Indoor Garden Timelapse"
-tech: ["Raspberry Pi", "Bash"]
-link: "https://youtu.be/DiBl9JMlBUI"
-previewImage: "./garden-screenshot.jpg"
+date: 2020-06-02
+tags: ["raspberry-pi"]
+summary: "Watching plants grow"
 ---
 
 ![Indoor Garden Timelapse](./timelapse.gif)
@@ -23,7 +21,7 @@ So, I bought the [Raspberry Pi Zero W camera combo](https://thepihut.com/product
 
 The end result is this cute little video:
 
-`video: https://www.youtube-nocookie.com/embed/DiBl9JMlBUI`
+{{< youtube DiBl9JMlBUI >}}
 
 This little video was the result of 2 months of growing and almost 200GB of images!
 I set up the camera to take a photo every 30 seconds (which in hindsight was a little bit too often, and the final video only took a frame each 16 minutes)
