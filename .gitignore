@@ -3,3 +3,4 @@
 
 # Hugo files
 .hugo_build.lock
+_gen/

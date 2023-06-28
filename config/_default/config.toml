@@ -7,7 +7,12 @@ defaultContentLanguage = "en"
 
 enableRobotsTXT = true
 paginate = 10
-summaryLength = 0
+summaryLength = 10
+
+colorScheme = "ocean"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+[permalinks]
+posts = '/posts/:year/:month/:title/'

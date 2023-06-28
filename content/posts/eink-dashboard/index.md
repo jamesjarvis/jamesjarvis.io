@@ -1,13 +1,9 @@
 ---
-type: project
-date: "2020-06"
-title: "☔️ E-Ink Weather Dashboard"
-tech: ["Raspberry Pi", "Python"]
-source: "https://github.com/jamesjarvis/eink-dashboard"
-previewImage: "./display.jpg"
+title: ":umbrella: E-Ink Weather Dashboard"
+date: 2020-06-20
+tags: ["raspberry pi", "python", "hardware"]
+summary: "Fun little rarely updating dashboard."
 ---
-
-![The Display](./display.jpg)
 
 Another one of my lockdown projects...
 
