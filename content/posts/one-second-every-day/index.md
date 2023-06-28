@@ -2,7 +2,7 @@
 title: ":movie_camera: One Second Every Day"
 date: 2023-06-23
 tags: ["one-second-everyday"]
-summary: "Commit stuff, with _style_"
+summary: "Since the 23rd June 2016, my 18th birthday, I have been recording one second of every day of my life."
 ---
 
 Since the 23rd June 2016, my 18th birthday, I have been recording one second of every day of my life.
