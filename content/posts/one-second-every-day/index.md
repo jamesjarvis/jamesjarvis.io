@@ -1,9 +1,8 @@
 ---
-type: project
-date: "2022-06"
-title: "🎥 One Second Every Day"
-tech: ["Film-making", "Journaling"]
-link: "https://www.youtube.com/playlist?list=PLkusHjaZhA7nFyNLqDfw2zXeXfs3KfxgE"
+title: ":movie_camera: One Second Every Day"
+date: 2023-06-23
+tags: ["one-second-everyday"]
+summary: "Commit stuff, with _style_"
 ---
 
 Since the 23rd June 2016, my 18th birthday, I have been recording one second of every day of my life.
@@ -20,7 +19,7 @@ You can watch [my whole adult life back to back](https://www.youtube.com/playlis
 
 ## 24 Years Old
 
-`video: https://www.youtube-nocookie.com/embed/QCvCP7k04H8`
+{{< youtube QCvCP7k04H8 >}}
 
 From 23rd June 2022 to 23rd June 2023.
 
@@ -40,7 +39,7 @@ My Mum has been our rock. Feiyang has been there for everything. I wish my paren
 
 ## 23 Years Old
 
-`video: https://www.youtube-nocookie.com/embed/yV09NppzBfA`
+{{< youtube yV09NppzBfA >}}
 
 From 23rd June 2021 to 23rd June 2022.
 
@@ -54,7 +53,7 @@ My love-hate relationship with the BMW has continued, from having to almost scra
 
 ## 22 Years Old
 
-`video: https://www.youtube-nocookie.com/embed/Iw0WANu2XTk`
+{{< youtube Iw0WANu2XTk >}}
 
 From 23rd June 2020 to 23rd June 2021.
 
@@ -68,7 +67,7 @@ I built a dashboard, link scraper and a few other things, shaved my head, impuls
 
 ## 21 Years Old
 
-`video: https://www.youtube-nocookie.com/embed/mRPCmN24fRs`
+{{< youtube mRPCmN24fRs >}}
 
 From 23rd June 2019 to 23rd June 2020.
 
@@ -79,7 +78,7 @@ Lockdown meant I had to slow down a bit, enjoy time with the family and celebrat
 
 ## 20 Years Old
 
-`video: https://www.youtube-nocookie.com/embed/aROoZL6x8sk`
+{{< youtube aROoZL6x8sk >}}
 
 From 23rd June 2018 to 23rd June 2019.
 
@@ -89,7 +88,7 @@ Made some incredible memories and international friends this year, but the pace 
 
 ## 19 Years Old
 
-`video: https://www.youtube-nocookie.com/embed/nhmEgzpafPc`
+{{< youtube nhmEgzpafPc >}}
 
 From 23rd June 2017 to 23rd June 2018.
 
@@ -99,7 +98,7 @@ Had an amazing year, and I’ve loved documenting it like this. I can’t wait t
 
 ## 18 Years Old
 
-`video: https://www.youtube-nocookie.com/embed/2JItNd1gNx0`
+{{< youtube 2JItNd1gNx0 >}}
 
 From 23rd June 2016 to 23rd June 2017.
 
