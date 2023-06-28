@@ -1,14 +1,11 @@
 ---
-type: project
-date: "2019-02"
 title: "🖥 Open Source Portfolio Website"
-tech: ["Javascript", "React", "GraphQL"]
-link: "https://jamesjarvis.io"
-source: "https://github.com/jamesjarvis/jamesjarvis.io"
-previewImage: "./jamesjarvisio.png"
+date: 2019-02-02
+tags: ["web-dev"]
+summary: "I wanted a personal website, I made a personal website."
 ---
 
-This very site you are reading, is open source, under the A-GPL licence with all the source code hosted on GitHub [(fork off)](https://github.com/jamesjarvis/jamesjarvis.io).
+[This very site]({{<ref "/">}}) you are reading, is open source, under the A-GPL licence with all the source code hosted on GitHub [(fork off)](https://github.com/jamesjarvis/jamesjarvis.io).
 You may fork it and fill in your own data if you wish, which is surprisingly easy to do, all thanks to GatsbyJS [(link)](https://www.gatsbyjs.org/)!
 
 I created this with GatsbyJS as I wanted to have my own personal portfolio site which simply consumes data stored externally (though within the same repo), rather than hard coding everything, which I felt was the issue with many other portfolio sites.
