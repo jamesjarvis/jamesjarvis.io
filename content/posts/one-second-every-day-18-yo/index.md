@@ -1,5 +1,5 @@
 ---
-title: ":movie_camera: One Second Every Day - 18 Years Old"
+title: "18 Years Old"
 date: 2017-06-23
 tags: ["one-second-everyday"]
 videos: ["https://youtu.be/2JItNd1gNx0"]
