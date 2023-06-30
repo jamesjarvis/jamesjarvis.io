@@ -54,7 +54,7 @@ jobs:
           name: site
           path: public
       - name: Run Lighthouse analysis
-        uses: treosh/lighthouse-ci-action@v9
+        uses: treosh/lighthouse-ci-action@v10
         with:
           configPath: "./lighthouserc.json"
           uploadArtifacts: true
