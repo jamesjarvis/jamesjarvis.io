@@ -3,9 +3,11 @@ title: "📸 Indoor Garden Timelapse"
 date: 2020-06-02
 tags: ["raspberry-pi"]
 summary: "Watching plants grow"
+videos: ["https://youtu.be/DiBl9JMlBUI"]
+lastmod: 2023-06-30
 ---
 
-![Indoor Garden Timelapse](./timelapse.gif)
+![Indoor Garden Timelapse](./timelapse.gif "Who knew plants could move so fast?")
 
 Another lockdown project!
 

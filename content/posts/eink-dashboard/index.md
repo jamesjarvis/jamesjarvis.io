@@ -3,6 +3,7 @@ title: ":umbrella: E-Ink Weather Dashboard"
 date: 2020-06-20
 tags: ["raspberry pi", "hardware"]
 summary: "Fun little rarely updating dashboard."
+lastmod: 2023-06-30
 ---
 
 Another one of my lockdown projects...
@@ -19,7 +20,7 @@ Well, there's a few modes (in case I ever get bored).
 
 Normally, I keep it in *weather* mode, whereby every 10 minutes it will update and show the following:
 
-![Weather mode](./display_weather.jpg)
+![Weather mode](./display_weather.jpg "The red splotches are rain")
 
 - Temperature
 - Current weather conditions
@@ -33,13 +34,13 @@ I won't lie, the 3 hour rainwall forecast is nowhere near as accurate as [DarkSk
 
 There's also the *cowsay* mode, whose sole purpose is to present a random dad joke every hour, in the popular [linux cli tool](https://en.wikipedia.org/wiki/Cowsay) format.
 
-![Cowsay mode](./display_cowsay.jpg)
+![Cowsay mode](./display_cowsay.jpg "cowsay moo")
 
 ## How to build it?
 
 It's relatively simple, really...
 
-![The hardware](./display_pi.jpg)
+![The hardware](./display_pi.jpg "I like raw materials just as much as I like an easy assembly")
 
 You only need a few components: A [Raspberry Pi Zero W](https://amzn.to/2DWrynQ), an e-ink display (I chose [this 7.5" 2 colour display from Waveshare](https://amzn.to/2E5lol0)), and *something* to mount it all one.
 

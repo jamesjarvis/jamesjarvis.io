@@ -2,7 +2,8 @@
 title: ":movie_camera: One Second Every Day - 21 Years Old"
 date: 2020-06-23
 tags: ["one-second-everyday"]
-summary: "21 Years Old"
+videos: ["https://youtu.be/mRPCmN24fRs"]
+lastmod: 2023-06-30
 ---
 
 {{< youtube mRPCmN24fRs >}}

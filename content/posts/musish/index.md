@@ -3,6 +3,7 @@ title: "🎵 Musish: The Unofficial, Open Source Apple Music Web Player"
 date: 2018-12-12
 tags: ["web-dev"]
 summary: "How I was kinda developer-famous for 5 minutes"
+lastmod: 2023-06-30
 ---
 
 ![Github Stars](https://img.shields.io/github/stars/Musish/Musish.svg?style=social)
@@ -16,8 +17,6 @@ This particular hackathon was sponsored by GitHub and Microsoft, and had a theme
 We decided to make an [Apple Music web player](https://musi.sh), since pretty much every single other music streaming platform already had one. Some people aren't sure why Apple Music would need a web player, since surely you could just use iTunes for that?
 
 Well, as was [hilariously summarised in a comment on Macrumors](https://forums.macrumors.com/threads/apple-music-gets-another-unofficial-web-player-with-launch-of-musish.2166187/#post-27018681), iTunes isn't exactly lightweight.
-
-<!-- ![iTunes competitor](./iTunesCompetitor.GIF) -->
 
 Musi.sh (Musish) is an [open source project](https://github.com/musish/musish) now, using the A-GPL license, and as of February 2019, has over [1400 stars](https://github.com/Musish/Musish/stargazers), and [9 contributors](https://github.com/Musish/Musish/graphs/contributors).
 
@@ -44,6 +43,6 @@ Some notable mentions:
 
 Also, we made it to #1 and #2 on GitHub trending for all JavaScript projects and all languages respectively on the 19th January 2019, which was our favourite achievement of all!
 
-![JavaScript trending](./javascript_trending.png)
+![JavaScript trending](./javascript_trending.png "Number 1 on JavaScript trending")
 
-![All languages trending](./all_trending.png)
+![All languages trending](./all_trending.png "Number 2 on GitHub trending")

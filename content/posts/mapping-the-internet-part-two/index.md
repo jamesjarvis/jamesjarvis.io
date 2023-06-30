@@ -3,6 +3,7 @@ title: "⠪ Mapping the Internet, part deux"
 date: 2021-02-05
 tags: ["raspberry-pi", "web-dev"]
 summary: "Links on links on links with a UI, man"
+lastmod: 2023-06-30
 ---
 
 Did reading the previous instalment of "mapping the internet" [read here]({{<ref "posts/backlink-crawler">}}) leave you a bit... underwhelmed?
@@ -58,7 +59,7 @@ Nice and easy.
 
 ## Part 2: Making the data easy to query
 
-![Splashscreen for the API](./api-splashscreen.png)
+![Splashscreen for the API](./api-splashscreen.png "Screenshot of the API splashscreen")
 
 Eventually, I wanted to expose this information, but in an easily cacheable and web friendly way.
 
