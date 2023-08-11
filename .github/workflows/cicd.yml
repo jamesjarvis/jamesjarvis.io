@@ -41,6 +41,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           cname: jamesjarvis.io
+          force_orphan: true
 
   lighthouse:
     needs: build
