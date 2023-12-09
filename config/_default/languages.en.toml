@@ -34,5 +34,7 @@ links = [
 #   { medium = "https://medium.com/username" },
 #   { slack = "https://workspace.url/team/userid" },
 #   { stack-overflow = "https://stackoverflow.com/users/userid/username" },
-  { youtube = "https://youtube.com/@mrjamesjarvis" },
+  # { youtube = "https://youtube.com/@mrjamesjarvis" },
+  # { polarsteps = "https://www.polarsteps.com/JamesJarvis" },
+  # { goodreads = "https://goodreads.com/james_jarvis" }
 ]
