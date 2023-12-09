@@ -50,7 +50,7 @@ showTableOfContents = true
 showTaxonomies = true
 showWordCount = false
 showComments = false
-sharingLinks = ["twitter", "linkedin", "email"]
+sharingLinks = ["email", "twitter", "linkedin"]
 
 [list]
 showBreadcrumbs = true
