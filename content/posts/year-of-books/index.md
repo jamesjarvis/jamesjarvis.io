@@ -45,7 +45,6 @@ This is the start of my efforts to contribute to this goal, hello!
 
 (not provided)
 
-
 ## Staff Engineer: Leadership Beyond the Management Track
 
 5/5 :star:
@@ -53,13 +52,11 @@ This is the start of my efforts to contribute to this goal, hello!
 Very interesting read, and a sure addition to my bookshelf I’ll be referring to for years to come!
 Very well laid out references too
 
-
 ## 1984
 
 5/5 :star:
 
 (not provided)
-
 
 ## 21 Lessons for the 21st Century
 
@@ -67,13 +64,11 @@ Very well laid out references too
 
 Not quite as interesting as the more historical/informational Sapiens and Homo Deus, but still good to read. Contains more opinions than I’d probably say necessary but still insightful!
 
-
 ## Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones
 
 5/5 :star:
 
 Whilst itself not containing anything groundbreaking, I would recommend reading this at least once (ideally repeat reading it every few years) to remind you to focus on your priorities and motivate you to not become a “fair weather person”.
-
 
 ## Value(s): Building a Better World for All
 
@@ -81,13 +76,11 @@ Whilst itself not containing anything groundbreaking, I would recommend reading 
 
 I appreciate the reflective focus of this book. I recall lots of focus on the impacts of the global pandemic and the global financial crisis (of which his section on the unravelling of the crisis from his perspective as a trader was my favourite). However I am left with a feeling that perhaps I haven’t learnt much, if anything what I have come away with is a renewed appreciation of planning for adverse scenarios and aligning incentive structures/markets for a shared purpose. Perhaps this is one of those books that aim only to ignite questions.
 
-
 ## What If? 2: Additional Serious Scientific Answers to Absurd Hypothetical Questions (What If?, #2)
 
 4/5 :star:
 
 (not provided)
-
 
 ## Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers
 
@@ -98,7 +91,6 @@ Having read this recently after finishing the similar but less focused “This i
 For me, much of the contents of the book detailing NotPetya and WannaCry have been published elsewhere, but I find more curiosity in the US defence exercises conducted on the electricity grid.
 Highly recommended read, along with “this is how they tell me the world ends”, but beware that this book will play on (perhaps very accurate) fears of the Russian state, at every opportunity.
 
-
 ## Amp It Up: Leading for Hypergrowth by Raising Expectations, Increasing Urgency, and Elevating Intensity
 
 4/5 :star:
@@ -106,7 +98,6 @@ Highly recommended read, along with “this is how they tell me the world ends�
 Interesting read. As with any leadership book it is generally an ego massage for the writer, however this one does bear some important messages. He describes the importance of having a product mindset for yourself (delivering value, building diverse but relevant experience), and of the difference between “drivers” and “passengers”.
 
 I’m not sure what the key takeaway would be that I’ll implement in my own life, but it’s a good thing to read occasionally to remind yourself to stay on the track creating the most value
-
 
 ## The Happiest Man on Earth
 
@@ -116,13 +107,11 @@ I’m not sure it’s possible to give this book a bad review. Eddie is clearly 
 Reading this you are jerked into reflection on your own position in life.
 The audible narration is also fantastic, and a great match with what you would imagine the author sounds like.
 
-
 ## Becoming
 
 5/5 :star:
 
 An inspiring book from the coolest First Family of modern times. It is reassuringly honest from a political perspective, and is a recommended read for any young person scared of their own social mobility
-
 
 ## That Will Never Work: The Birth of Netflix and the Amazing Life of an Idea
 
@@ -130,13 +119,11 @@ An inspiring book from the coolest First Family of modern times. It is reassurin
 
 One of a limited set of exciting and insightful biographies of influential entrepreneurs. The story of Netflix is different from what I first imagined, but my main takeaway would have to be Randolph’s Rules!
 
-
 ## How Not To Be a Boy
 
 5/5 :star:
 
 I’ll be honest, I’ve never actually watched any of Webb’s work. However I can’t recommend this book enough. His message is rarely told from such a first hand perspective, and it’s one that I feel will become more mainstream in the years to come. Personally I still don’t quite understand football, either.
-
 
 ## Bad Blood: Secrets and Lies in a Silicon Valley Startup
 
@@ -144,13 +131,11 @@ I’ll be honest, I’ve never actually watched any of Webb’s work. However I 
 
 Believable if only in its disheartening representation of Silicon Valley. If you are just looking for a summary of the wrongdoings of Elizabeth Holmes, then this might be a bit overkill and a documentary will suffice. However the events portrayed in this book are an insightful mix of Lying, Cheating, and Sociopathic tendencies.
 
-
 ## The Light We Carry: Overcoming in Uncertain Times
 
 3/5 :star:
 
 Having read Becoming quite recently (and being very pleased with it!), I’m not sure this book offers much more value or new insights. My main takeaway from this book would have to be Grandma Robinson’s tips on teaching independence.
-
 
 ## Wild: From Lost to Found on the Pacific Crest Trail
 
@@ -162,7 +147,6 @@ However, what did I expect?
 I had an assumption this would be another privileged person travelling for the fun of it. Rather, this was a genuinely troubled person attempting to reset by taking on the biggest challenge they could imagine, alone.
 Some parts did not resonate with me and that’s ok, the experience is nonetheless valid.
 
-
 ## The Culture Map: Breaking Through the Invisible Boundaries of Global Business
 
 4/5 :star:
@@ -170,14 +154,12 @@ Some parts did not resonate with me and that’s ok, the experience is nonethele
 Erin delivers a clear, concise set of personal anecdotes and a framework for rationalising the effects of culture on communication. The book is very focused on the context of business, but the lessons learnt can be applied to any cross cultural communication.
 I’d recommend this for anyone engaging in long term cooperation (business or otherwise) with people from multiple diverse countries.
 
-
 ## Chavs: The Demonization of the Working Class
 
 3/5 :star:
 
 This book is perhaps a bit too long, and bounces around the topics of class warfare, race and immigration, with little structure.
 I admire it for sharing extremely relevant stories from Britain’s political past, but I’m not left with the impression that this book has been impartial in its investigation.
-
 
 ## Build: An Unorthodox Guide to Making Things Worth Making
 
@@ -190,7 +172,6 @@ Some parts felt needlessly petty (a constant revert back to why google is awful)
 
 In general, I found the book very enjoyable to read, however I would be concerned with repeating all but the product focused points. I fear most organisations would not tolerate such abrasiveness.
 
-
 ## Rich Dad, Poor Dad
 
 5/5 :star:
@@ -198,13 +179,11 @@ In general, I found the book very enjoyable to read, however I would be concerne
 To be honest, I don’t know what to do with this information. But this is a good framework for analysing your current position (cashflow and balance sheet) and making steps to prioritise asset building.
 In the UK it’s a little less impactful to “pay yourself first”, and many recurrent tax efficient investment schemes are not available. However this book is probably one of the most impactful triggers for learning more on the subject!
 
-
 ## 12 Rules for Life: An Antidote to Chaos
 
 3/5 :star:
 
 The book is far too long, contains numerous logical errors or contradictions, is both harsh and heartfelt and I fail to see what I actually learnt from this book. That being said, I don’t think it is completely without value, and to the right audience it clearly resonates. I just think it should be called “12 vague themes for struggling young men” instead.
-
 
 ## Outliers: The Story of Success
 
@@ -212,13 +191,13 @@ The book is far too long, contains numerous logical errors or contradictions, is
 
 Outliers is one popular science book that is well worth reading.
 He proposes the concept that “genius” is a combination of:
+
 - A sufficiently high IQ (though beyond 120 has negligible effects)
 - Proper upbringing (concerted cultivation, as he notes in a few case studies)
 - Practical intelligence (derived from the latter upbringing)
 - Situational luck (noting similarities of prominent figures and their economic situations during formative years).
 
 Anyone who falls trap to society’s worshipping of the “lone genius” should read this book to zoom out a little. A related book for the latter chapters around the power distance law and cultural effects on education and work, I would recommend “The Culture Map”.
-
 
 ## Permanent Record
 
@@ -229,7 +208,6 @@ Something I didn’t expect to take away from this book would be an understand o
 The book provides an insightful (yet slightly dull) overview of his time contracting and training through the intelligence community, until ultimately suffering from a burst of epileptic illness, and after spending considerable time indoors, monitoring the traumatic events occurring throughout the Arab Spring, he forms a clearer view of where his own government is failing their people.
 
 My review of Edward’s character is overwhelmingly positive. From his description of events, given his oath to the American people, he did the right thing by disclosing wrongdoings of the 5 eyes governments.
-
 
 ## "Surely You're Joking, Mr. Feynman!": Adventures of a Curious Character
 
@@ -242,7 +220,6 @@ I’m not sure what I expected when going into this book, but it is very much fo
 His mind was certainly a curious one, and it is extremely refreshing to hear someone detail the ins and outs of his lifelong(!) passion, enthusiasm and energy for all things science. Additionally, after around 1945 the extracurricular focus of his life gets progressively saucier, having switched subjects, cracked safes, learnt languages, moved countries, played in a “band”, frequented bars, drew models professionally, and repeatedly mentioned his adoration of women! Although his “womanising” manner may appear a bit out of fashion nowadays.
 
 Whilst I wouldn’t consider him a direct role model, his curiosity is infectious, and I wish all readers absorb at least some of his passion!
-
 
 ## Less Is More: How Degrowth Will Save the World
 
@@ -258,6 +235,7 @@ Something I don’t agree with, or at least haven’t formed a good enough of an
 
 Regulation and individual behavioural changes alone are a tough thing to rely on, which this book unfortunately primarily suggests.
 I however primarily like the concepts of:
+
 - Mandatory N year guarantees on new products
 - Community share-stations for seldom used goods
 - Limitations on lowest-highest compensation ratios
@@ -266,7 +244,6 @@ I however primarily like the concepts of:
 
 Overall, I think this is a good book for the future generation to read, but I don’t expect much action to come along with it, until the public is genuinely aware of the societal problems we will face if we continue to exceed our planetary quotas.
 
-
 ## The Power of Habit: Why We Do What We Do in Life and Business
 
 4/5 :star:
@@ -274,7 +251,6 @@ Overall, I think this is a good book for the future generation to read, but I do
 A good book, but not one I would recommend as a “must read”. The author presents many insightful case studies, although some of which are slightly dubious, and I would have preferred a less opinionated form of writing, presenting the facts first.
 
 The key takeaway for me, is identification of the cue, routine and reward habit loop; keystone habits; and that a habit exists primarily within the basal ganglia, and away from conscious thought.
-
 
 ## Life Time
 
@@ -285,7 +261,6 @@ An interesting book, although I’ll admit that a combination of my reading time
 My main takeaway would be that “sleep is important”, with a side order of “when you take medication or eat food in relation to sleep is important”.
 
 I’ll admit that I’m not the perfect target audience, as I don’t feel reading this book has given me the filtered information I need to actively improve my own health, although I have absorbed the gist of it.
-
 
 ## The Everything Store: Jeff Bezos and the Age of Amazon
 
