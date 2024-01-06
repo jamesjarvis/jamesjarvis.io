@@ -36,5 +36,6 @@ links = [
 #   { stack-overflow = "https://stackoverflow.com/users/userid/username" },
   # { youtube = "https://youtube.com/@mrjamesjarvis" },
   # { polarsteps = "https://www.polarsteps.com/JamesJarvis" },
-  # { goodreads = "https://goodreads.com/james_jarvis" }
+  # { goodreads = "https://goodreads.com/james_jarvis" },
+  { rss = "https://jamesjarvis.io/index.xml" }
 ]
