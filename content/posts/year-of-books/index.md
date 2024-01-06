@@ -49,7 +49,7 @@ This is the start of my efforts to contribute to this goal, hello!
 ## Staff Engineer: Leadership Beyond the Management Track
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3tLEIy7)
 
 Very interesting read, and a sure addition to my bookshelf I’ll be referring to for years to come!
 Very well laid out references too
@@ -57,14 +57,14 @@ Very well laid out references too
 ## 1984
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3H9Jt7O)
 
 (not provided)
 
 ## 21 Lessons for the 21st Century
 
 4/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3NUKq7z)
 
 Not quite as interesting as the more historical/informational Sapiens and Homo Deus, but still good to read. Contains more opinions than I’d probably say necessary but still insightful!
 
@@ -78,21 +78,21 @@ Whilst itself not containing anything groundbreaking, I would recommend reading 
 ## Value(s): Building a Better World for All
 
 4/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/4aOzouk)
 
 I appreciate the reflective focus of this book. I recall lots of focus on the impacts of the global pandemic and the global financial crisis (of which his section on the unravelling of the crisis from his perspective as a trader was my favourite). However I am left with a feeling that perhaps I haven’t learnt much, if anything what I have come away with is a renewed appreciation of planning for adverse scenarios and aligning incentive structures/markets for a shared purpose. Perhaps this is one of those books that aim only to ignite questions.
 
 ## What If? 2: Additional Serious Scientific Answers to Absurd Hypothetical Questions (What If?, #2)
 
 4/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3H9gXmF)
 
 (not provided)
 
 ## Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/4aM6MSr)
 
 Having read this recently after finishing the similar but less focused “This is how they tell me the world ends”, I’m left ironically with a greater sense of dread from this book.
 “Sandworm” does more to focus directly on the Russian links to various high profile hacks in the 2010’s, and notes the direct and indirect links these have had with the Russian/Ukraine conflicts of the 2010’s and 2020’s.
@@ -102,7 +102,7 @@ Highly recommended read, along with “this is how they tell me the world ends�
 ## Amp It Up: Leading for Hypergrowth by Raising Expectations, Increasing Urgency, and Elevating Intensity
 
 4/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/4aJjLo9)
 
 Interesting read. As with any leadership book it is generally an ego massage for the writer, however this one does bear some important messages. He describes the importance of having a product mindset for yourself (delivering value, building diverse but relevant experience), and of the difference between “drivers” and “passengers”.
 
@@ -111,7 +111,7 @@ I’m not sure what the key takeaway would be that I’ll implement in my own li
 ## The Happiest Man on Earth
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3S7qpNH)
 
 I’m not sure it’s possible to give this book a bad review. Eddie is clearly a very inspiring spirit, having lived through the hardest of times and still left with a kindness in his heart.
 Reading this you are jerked into reflection on your own position in life.
@@ -120,42 +120,42 @@ The audible narration is also fantastic, and a great match with what you would i
 ## Becoming
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3S8NxdF)
 
 An inspiring book from the coolest First Family of modern times. It is reassuringly honest from a political perspective, and is a recommended read for any young person scared of their own social mobility
 
 ## That Will Never Work: The Birth of Netflix and the Amazing Life of an Idea
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/48oYL4j)
 
 One of a limited set of exciting and insightful biographies of influential entrepreneurs. The story of Netflix is different from what I first imagined, but my main takeaway would have to be Randolph’s Rules!
 
 ## How Not To Be a Boy
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/41MfGv8)
 
 I’ll be honest, I’ve never actually watched any of Webb’s work. However I can’t recommend this book enough. His message is rarely told from such a first hand perspective, and it’s one that I feel will become more mainstream in the years to come. Personally I still don’t quite understand football, either.
 
 ## Bad Blood: Secrets and Lies in a Silicon Valley Startup
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3H8kiSV)
 
 Believable if only in its disheartening representation of Silicon Valley. If you are just looking for a summary of the wrongdoings of Elizabeth Holmes, then this might be a bit overkill and a documentary will suffice. However the events portrayed in this book are an insightful mix of Lying, Cheating, and Sociopathic tendencies.
 
 ## The Light We Carry: Overcoming in Uncertain Times
 
 3/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/47ydOI0)
 
 Having read Becoming quite recently (and being very pleased with it!), I’m not sure this book offers much more value or new insights. My main takeaway from this book would have to be Grandma Robinson’s tips on teaching independence.
 
 ## Wild: From Lost to Found on the Pacific Crest Trail
 
 4/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3RW3nbs)
 
 I’m ashamed to admit I started reading this book with an expectation of what I would get out of it. Much like the outcome of Sheryl’s journey, the whole purpose of reading this is about the journey of the unknown.
 Some parts I felt myself prematurely repelled against (cheating, lying, emotional manipulation, inability to face consequences, sexual promiscuity, assumptions for help, naivety, heroin addiction, swallowing her mother’s ashes).
@@ -166,7 +166,7 @@ Some parts did not resonate with me and that’s ok, the experience is nonethele
 ## The Culture Map: Breaking Through the Invisible Boundaries of Global Business
 
 4/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/48o5ziH)
 
 Erin delivers a clear, concise set of personal anecdotes and a framework for rationalising the effects of culture on communication. The book is very focused on the context of business, but the lessons learnt can be applied to any cross cultural communication.
 I’d recommend this for anyone engaging in long term cooperation (business or otherwise) with people from multiple diverse countries.
@@ -174,7 +174,7 @@ I’d recommend this for anyone engaging in long term cooperation (business or o
 ## Chavs: The Demonization of the Working Class
 
 3/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3tHoxSm)
 
 This book is perhaps a bit too long, and bounces around the topics of class warfare, race and immigration, with little structure.
 I admire it for sharing extremely relevant stories from Britain’s political past, but I’m not left with the impression that this book has been impartial in its investigation.
@@ -182,7 +182,7 @@ I admire it for sharing extremely relevant stories from Britain’s political pa
 ## Build: An Unorthodox Guide to Making Things Worth Making
 
 4/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/47polF6)
 
 To begin, I see other reviewers comment on Tony’s personal failures and unhealthy leadership styles. I can’t comment on this context as the sum total of what I know about this man comes from this book, so I shall only refer to the book review.
 
@@ -194,7 +194,7 @@ In general, I found the book very enjoyable to read, however I would be concerne
 ## Rich Dad, Poor Dad
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/47psOYj)
 
 To be honest, I don’t know what to do with this information. But this is a good framework for analysing your current position (cashflow and balance sheet) and making steps to prioritise asset building.
 In the UK it’s a little less impactful to “pay yourself first”, and many recurrent tax efficient investment schemes are not available. However this book is probably one of the most impactful triggers for learning more on the subject!
@@ -202,14 +202,14 @@ In the UK it’s a little less impactful to “pay yourself first”, and many r
 ## 12 Rules for Life: An Antidote to Chaos
 
 3/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3vrPlGV)
 
 The book is far too long, contains numerous logical errors or contradictions, is both harsh and heartfelt and I fail to see what I actually learnt from this book. That being said, I don’t think it is completely without value, and to the right audience it clearly resonates. I just think it should be called “12 vague themes for struggling young men” instead.
 
 ## Outliers: The Story of Success
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3RPR2oR)
 
 Outliers is one popular science book that is well worth reading.
 He proposes the concept that “genius” is a combination of:
@@ -224,7 +224,7 @@ Anyone who falls trap to society’s worshipping of the “lone genius” should
 ## Permanent Record
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3H5f4HL)
 
 Something I didn’t expect to take away from this book would be an understand of how manipulatively flawed it’s intelligence organisations are structured. The fact that security clearance is not necessarily related to public/private roles seems strange.
 
@@ -235,7 +235,7 @@ My review of Edward’s character is overwhelmingly positive. From his descripti
 ## "Surely You're Joking, Mr. Feynman!": Adventures of a Curious Character
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3tS6icV)
 
 The tales do occasionally come off as a bit show-offish, and he is clearly a bit arrogant of his own abilities. However it’s possible that this was entirely reasonable!
 
@@ -248,7 +248,7 @@ Whilst I wouldn’t consider him a direct role model, his curiosity is infectiou
 ## Less Is More: How Degrowth Will Save the World
 
 5/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/48D3sId)
 
 I thoroughly agree, with about 50% of the solutions in this book, and the remainder I feel are too optimistic and not realistic.
 
@@ -272,7 +272,7 @@ Overall, I think this is a good book for the future generation to read, but I do
 ## The Power of Habit: Why We Do What We Do in Life and Business
 
 4/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3Ha6CXF)
 
 A good book, but not one I would recommend as a “must read”. The author presents many insightful case studies, although some of which are slightly dubious, and I would have preferred a less opinionated form of writing, presenting the facts first.
 
@@ -281,7 +281,7 @@ The key takeaway for me, is identification of the cue, routine and reward habit 
 ## Life Time
 
 4/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3vnpEau)
 
 An interesting book, although I’ll admit that a combination of my reading times, and the bombardment of unfamiliar medical terms/acronyms meant the book had an ironically sleep inducing quality!
 
@@ -292,7 +292,7 @@ I’ll admit that I’m not the perfect target audience, as I don’t feel readi
 ## The Everything Store: Jeff Bezos and the Age of Amazon
 
 4/5 :star:
-[find online](https://amzn.to/3tI5Q0O)
+[find online](https://amzn.to/3TTNrJ9)
 
 A great autobiography of Amazon and its infamous founder. However it is starting to show its age a bit. Quite poetic considering the opening chapter describes a conversation with Bezos, who questions whether the book is being written too soon.
 
