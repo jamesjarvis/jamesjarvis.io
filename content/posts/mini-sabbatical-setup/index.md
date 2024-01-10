@@ -1,14 +1,20 @@
 ---
-title: "🌏 Reflecting on my Mini Sabbatical"
+title: "🤔 Setting up for a Mini Sabbatical"
 date: 2024-01-09
 tags: ["reflection"]
-summary: "117 days living, working and travelling in South East Asia"
+summary: "Preparing for 117 days living, working and travelling in South East Asia"
 ---
 
 Between August and November 2023, I paused my normal life in London, and spent some time working and travelling around South East Asia (primarily Singapore).
-This blog post is my non-exhaustive attempt at summarising what I experienced, and what I learnt during this time.
+This series of blog posts is my non-exhaustive attempt at summarising what I experienced, and what I learnt during this time.
 Obviously there are some personal/professional things that I don't feel comfortable writing about so publicly, and many things I have already forgotten!
 That being said, I feel I have had enough time to digest and reflect on everything that took place.
+
+This is a 3 part series of posts:
+
+- [Setting up for a Mini-Sabbatical]({{<ref "/posts/mini-sabbatical-reflection">}}) (you are here!)
+- Reflections on 3 months living and working in Singapore (🚧 Under Construction)
+- Reflections on 6 weeks of travel around South East Asia (🚧 Under Construction)
 
 ## Why?
 
@@ -86,6 +92,12 @@ So, we agreed on the duration, and queued up my secondment, so the dates were se
 31st July -> 27th November.
 
 ## Pre-departure
+
+Preparing for a sabbatical is half the battle.
+If you aren't clear on what you want to do, and you haven't prepared for it, you may end up just twiddling your thumbs for 3 months!
+
+For my particular case, I had to get a few travel things organised before setting off, as I already had a fairly good idea of what I wanted to do, and how to do it (I just wanted to travel, experience new cultures, meet the girlfriend's family, and journal).
+If you are planning your own sabbaticaly, I'd encourage you to think about what you want to focus on during this valuable time!
 
 ### Visas and Vaccinations
 
