@@ -71,9 +71,11 @@ This isn't necessarily an entirely bad thing, during these crunch time periods t
 The problems can come when you fail to sufficiently separate work and life, leading to work encroaching on the precious sanctuary of your personal life.
 I unfortunately saw this happening to me, so I put my foot down and started planning for a period of time where I deliberately remove myself from this style of work for a bit.
 
+Having now come back from this trip, several people at my work have come up to me expressing how much they want to do the same - some have even put plans in motion to do so!
+So I feel this emotion is much more common than I had first thought, and we could all do with some extended time off from work every now and then.
+
 Additionally, I had felt that I was starting to stagnate as an Engineer, and I wanted a new medium to challenge myself with.
-Thankfully my manager was very receptive to this, and whilst he took a 3 week break of his own, he allowed me to get a slight flavour of management in his place.
-// TODO: Link to reflection on management.
+Thankfully my manager was very receptive to this, and whilst he took a 3 week break of his own, he allowed me to get a slight flavour of management in his place (see: [Trialling out management](#trialling-out-management)).
 
 ## How?
 
@@ -139,4 +141,117 @@ Overall, vaccinations were the easiest part of this to organise.
 
 ### Wrapping up work
 
-// Talk about winding down responsibiliies and trying out management for a bit.
+Since I had planned this so far in advance, myself and my manager had months to prepare for this time off from normal work duties.
+When this process started, I was tech-leading a relatively significant chunk of work for one of Thought Machines major version releases (these can be notoriously large), so there was no doubt that at least half of the 6 months before setting off would be dedicated to completing this stream of work.
+Afterwards however, I had nothing concretely planned, so let's skip forward to that bit.
+
+#### Handing off responsibility
+
+Before you head off for an extended time from work (or quit!), it's common courtesy to give plenty of heads-up to your team to make sure you aren't going to place any undue stress on people unknowingly.
+
+For myself, aside from the above mentioned workstream, I only had a few low-importance things I was sole owner of, so I had kept a fairly good [Bus Factor](https://en.wikipedia.org/wiki/Bus_factor)!
+
+At the time, I had been running informal knowledge shares and discussion sessions for around 2 years within my team, partly to practise public speaking / whiteboard skills, but also to encourage healthy forms of debate and open conversations around tricky problems and upcoming feature ideas with the wider team.
+However, after 2 years it had started becoming a bit stale, and I felt it needed a change of leadership to reinvigorate the concept.
+
+The way I went about doing this was not perfect, but I like to adhere to a "fail fast" strategy.
+My original method for this, was to give a notice to the team, calling for a new organiser.
+When one didn't appear after around a week, I assumed this represented a resounding vote of low value work.
+So I decided to cancel all upcoming calendar invitations, in the hope that the team would organically arrive to the conclusion sooner or later that knowledge shares are probably a good thing to do, and a leader would emerge.
+
+All of a sudden, uproar!
+
+You see, even though it was clear these sessions would no longer be formally organised, and it is against good faith to block up meeting rooms with empty meetings, the team felt we had suddenly lost the ability to ever book the same (large) meeting room at the coveted 4pm Thursday cadence again.
+
+I didn't quite understand this, but fair enough.
+Fail fast, move on.
+I quickly rebooked the same room with a placeholder session, assigned someone from the team as "owner" and used this mishap as a wake up call to find a new owner quick.
+
+I was pleased to see that coming back these sessions were still happening, with a new runner, a little bit differently than I had thought, but that was the goal!
+
+#### Trialling out management
+
+A weird section in my recent career, but one I found very insightful.
+
+My manager went on a 3 week holiday, and given my apparently alright organisational skills during time as a tech lead, we thought it could be a fun challenge to try and have me fill his shoes for a few weeks.
+
+Obviously, whilst I'm fine playing around with my own career, we didn't want this impacting any of my teammates, so there were no significant challenges for myself (no upcoming reviews, no significant ongoing work, no resourcing constraints, no unresolved pay disputes, etc), and we anticipated this would be plain sailing.
+Primarily due to the fact that most of the heavy lifting had already been done for me, this was indeed luckily plain sailing!
+
+I had a few small challenges, around battling a bit for resources with the other managers, and attempting to have serious productive conversations with my peers about their career, when I am technically still at their same level, but it was fun!
+
+Three things that really stuck out for me were:
+
+- Transparency is key (even on the seemingly unimportant things).
+  - I had some feedback from the director that I hadn't been as transparent as I could have been regarding department level goings-on.
+  His point being that as you learn more about department level changes, it begins to break down that barrier between management/non-management, and can help you be more engaged with the company.
+  Transparency is something I value so it shocked me to realise I was failing myself!
+  From that point I started each standup with a quick recap of the managers meetings, obviously avoiding mentioning things that introduce too much uncertainty.
+- 1:1's are the best.
+  - You have individual challenges with each person having their own motivations and personality types, but just having time to sit down and work out how each person can best work towards their own goals (or find them!) is both a fun challenge, and extremely rewarding in the long run (if it works!).
+- I am currently **terrible** at politics.
+  - I'm starting to believe that being an effective manager is 80% down to your skills in politics. Unfortunately I have much to learn here.
+
+I'm extremely grateful for the opportunity, but I think I'm not at the stage in my career where this is something I want to pursue full time.
+
+#### On-call lead
+
+At work we have various on-call rotations, split by domains of the product.
+I was part of the Contracts and Scheduling rotation (primarily covering End of Day operations like interest accrual, but also almost any event within the bank that requires a logical execution to be performed on an event, such as cashback application).
+The current on-call lead was taking part in the rotation to Singapore I was about to depart on, so she asked if I would fancy giving it a go.
+
+Sure, why not?
+
+What followed was again a bit chaotic, but thanks to **fail fast** there were no long term issues.
+
+The main issue was a sudden influx of new people who wanted to join the rota (we had a lot of engineers who joined, and were now becoming tenured enough to warrant addition to the rota), this was a good thing as we had slowly been losing people from the rota over the last year, and our production-running experience bus factor was dangerously low.
+My opinion was that since everyone else I knew learnt "on the job", these engineers could too.
+So I accepted almost everybody who applied into the rota, with the provision that they should self-arrange a shadow on-call session with an experienced member in the months before their first week of oncall.
+
+I also encouraged more senior members of the rota to slowly remove themselves, to make way for new talent, and to free up their own time for more valuable pursuits in technical design.
+
+The issue was, that the new applicants simply did not know what they did not know.
+They never expected they needed any hands-on training, as they felt capable debugging all code on `master`, but had apparently never had the chance or insight to debug an instance running the older versions of our product.
+
+Whilst our clients were not impacted, the first month of this new round of oncallers did feel quite chaotic at times, as people rapidly ramped up their understanding of and skills working with older versions of our product, in hostile situations.
+
+Coming back to the situation now, 7 months later, turns out I was right.
+All of these new oncallers are performing well, and are now much better at handling support requests than when they started.
+It may not be the best method of teaching, but [see one, do one, teach one](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9258902/) does tend to work for most skills, albeit a little chaotically.
+
+Something that wasn't chaotic was organisation of the new rota.
+
+Imagine you're organising a meetup with your friends, and you are trying to work out when everyone will be free.
+Now imagine you are trying to organise a 6 month block where at least two of you will be free for entire week chunks.
+Now imagine the same friend cannot be "free" more frequently than 1 out of 6 weeks.
+Now imagine you have 25 friends trying to organise this together, and need to be able to account for last minute illnesses mid way through.
+
+This was previously a nightmare, but I introduced a google sheet with some fancy colour formatting + scheduling formulas, then gave everyone access at once to allocate their own desired/if-i-have-to/cannot-do periods.
+After a few days we had a rock solid rota for 6 months, with backups for each week, all requiring much less effort on the rota lead's part than previous methods.
+
+Again, I'm very grateful for the opportunity, and would like to try it again in the future.
+However at the current company it is an unfortunately thankless role, so there is little incentive to take part.
+
+#### Working abroad
+
+A bit of fun, I decided to organise a 3 day remote-work holiday with some coworkers in Nice, France.
+
+To make sure this wouldn't be seen as a complete jolly by the rest of the company, we designated these days as "reset days" where we could finally work on some designs for long outstanding tech-debt / product improvement ideas that were not officially in the roadmap.
+
+As a bit of a cathartic release, and a lot of fun with some good friends, it was a success!
+
+This is something I want to to much more of, but the political capital I spent trying to get this approved was probably not worth it.
+
+#### Preparing for the rest of the year
+
+Then, the rest of the year!
+
+I spent a good deal of time planning for what kind of impact I wanted to have on my Singapore rotation, as well as discussing my career goals with my manager to make sure my upcoming work would allow me to progress on this front.
+
+Unfortunately, the rotation to Singapore to assist with production support is not viewed as a valuable activity for an engineer in my company (despite the high price tag associated), so this 3 month block was assumed to delay my promotion goals.
+
+Additionally, I would be missing out on a "design" phase in the company, where many of the "cool" upcoming projects are divided amongst hopeful tech-leads, like a sounder of pigs at a trough.
+
+Losing this was a bit of a blow to me professionally, but if you are planning on going for a sabbatical, you will face similar challenges.
+I knew personally this 4 months chunk out of everyday work, achieving some of my own life goals was going to be far more valuable than the opportunity cost of a bit more time doing the same old work.
+Your mileage may vary, but I strongly encourage anyone to at least consider a sabbatical at some point in their career - ideally multiple!
