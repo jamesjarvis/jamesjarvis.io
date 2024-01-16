@@ -1,6 +1,6 @@
 ---
 title: "🌏 Reflecting on my travels around South East Asia"
-date: 2024-02-01
+date: 2024-03-01
 tags: ["reflection"]
 summary: "My reflections, ramblings and favourite memories from 6 weeks of travel around South East Asia"
 ---
