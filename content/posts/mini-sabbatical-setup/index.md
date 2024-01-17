@@ -31,7 +31,7 @@ So became the goal of "meet the family"!
 ### Rebound from grief
 
 In December 2022, I was quite heavily affected by the passing of my Grandmother, after her long and exhausting battle with Bone Cancer.
-Those who knew us knew how close we were, and her passing seriously rocked my emotional foundations, in addition to that of my Mother, Father and Sister.
+Those who knew us knew how close we were, and her passing seriously rocked my emotional foundations, in addition to that of my family.
 
 I try to make sure I take away at least one maxim from each fundamental moment or figure in my life.
 From my Nan, these were innumerable, but to pick a few:
@@ -64,6 +64,7 @@ So with me, I packed a diary, and I designated 2023 as a year of "learning".
 From August 2022 to June 2023, work became insanely busy, with a sequence of "death march" mismanaged development cycles that sucked a lot of the spare energy out of me, as I tech-lead two large streams of work.
 We seemed to have this concept of the "hero developer" at the company I worked, who could/would work tirelessly to deliver an almost impossible feat of code-smashing.
 Each time we burn out a "hero" we say to ourselves `woah that was crazy, we can't do that again!`, but somehow we always repeat the same mistake.
+
 I'm sure many other companies suffer the same delusions.
 
 This isn't necessarily an entirely bad thing, during these crunch time periods the rate of learning is dramatically increased (partially due to the rate of mistakes also increasing), and you have the ability to grow much stronger professionally, having survived these challenges.
@@ -124,7 +125,8 @@ The [application website](https://bio.visaforchina.cn/LON3_EN/qianzhengyewu) had
 In the end, as with most bureacratic issues, once you talk to a reasonable person, the issue becomes a non-issue, and they were mostly ok with me applying a few months in advance.
 They even granted me a 2 year Visa instead of my requested 3 month one!
 
-The only hiccup I had while applying, was that during my visa appointment, sat in front of the application interviewer, they asked to see my flight tickets, which I hadn't booked! The Visa rules had changed in between me booking the appointment, and it actually taking place, so I needed to hurriedly book return flights from London to Beijing (not cheap!) whilst sat in front of the interviewer.
+The only hiccup I had while applying, was that during my visa appointment, sat in front of the application interviewer, they asked to see my flight tickets, which I hadn't booked!
+The Visa rules had changed in between me booking the appointment, and it actually taking place, so I needed to hurriedly book return flights from London to Beijing (not cheap!) whilst sat in front of the interviewer.
 Let me just say, that was one of the most stressful and expensive mornings of my life!
 
 Not least because the first set of tickets I hurriedly bought, were non-refundable, and I had spelt my own name wrong on the tickets! 🤦‍♂️
@@ -142,30 +144,17 @@ Overall, vaccinations were the easiest part of this to organise.
 ### Wrapping up work
 
 Since I had planned this so far in advance, myself and my manager had months to prepare for this time off from normal work duties.
-When this process started, I was tech-leading a relatively significant chunk of work for one of Thought Machines major version releases (these can be notoriously large), so there was no doubt that at least half of the 6 months before setting off would be dedicated to completing this stream of work.
+When this process started, I was tech-leading a relatively significant chunk of work for one of the company's (notoriously large) major version releases, so at least half of the 6 months before setting off would be dedicated to completing this stream of work.
 Afterwards however, I had nothing concretely planned, so let's skip forward to that bit.
 
 #### Handing off responsibility
 
-Before you head off for an extended time from work (or quit!), it's common courtesy to give plenty of heads-up to your team to make sure you aren't going to place any undue stress on people unknowingly.
+Before you head off for an extended time from work (or quit!), it's common courtesy to give plenty of heads-up to your team to make sure you aren't going to place any undue stress on people.
 
 For myself, aside from the above mentioned workstream, I only had a few low-importance things I was sole owner of, so I had kept a fairly good [Bus Factor](https://en.wikipedia.org/wiki/Bus_factor)!
 
 At the time, I had been running informal knowledge shares and discussion sessions for around 2 years within my team, partly to practise public speaking / whiteboard skills, but also to encourage healthy forms of debate and open conversations around tricky problems and upcoming feature ideas with the wider team.
 However, after 2 years it had started becoming a bit stale, and I felt it needed a change of leadership to reinvigorate the concept.
-
-The way I went about doing this was not perfect, but I like to adhere to a "fail fast" strategy.
-My original method for this, was to give a notice to the team, calling for a new organiser.
-When one didn't appear after around a week, I assumed this represented a resounding vote of low value work.
-So I decided to cancel all upcoming calendar invitations, in the hope that the team would organically arrive to the conclusion sooner or later that knowledge shares are probably a good thing to do, and a leader would emerge.
-
-All of a sudden, uproar!
-
-You see, even though it was clear these sessions would no longer be formally organised, and it is against good faith to block up meeting rooms with empty meetings, the team felt we had suddenly lost the ability to ever book the same (large) meeting room at the coveted 4pm Thursday cadence again.
-
-I didn't quite understand this, but fair enough.
-Fail fast, move on.
-I quickly rebooked the same room with a placeholder session, assigned someone from the team as "owner" and used this mishap as a wake up call to find a new owner quick.
 
 I was pleased to see that coming back these sessions were still happening, with a new runner, a little bit differently than I had thought, but that was the goal!
 
@@ -175,59 +164,51 @@ A weird section in my recent career, but one I found very insightful.
 
 My manager went on a 3 week holiday, and given my apparently alright organisational skills during time as a tech lead, we thought it could be a fun challenge to try and have me fill his shoes for a few weeks.
 
-Obviously, whilst I'm fine playing around with my own career, we didn't want this impacting any of my teammates, so there were no significant challenges for myself (no upcoming reviews, no significant ongoing work, no resourcing constraints, no unresolved pay disputes, etc), and we anticipated this would be plain sailing.
-Primarily due to the fact that most of the heavy lifting had already been done for me, this was indeed luckily plain sailing!
+Obviously, whilst I'm fine playing around with my own career, we didn't want this impacting any of my teammates, so there were no significant challenges for myself (no upcoming reviews, no significant ongoing work, no resourcing constraints, no unresolved pay disputes, etc), and we (correctly) anticipated this would be plain sailing.
 
-I had a few small challenges, around battling a bit for resources with the other managers, and attempting to have serious productive conversations with my peers about their career, when I am technically still at their same level, but it was fun!
+I had a few small challenges, around battling a bit for resources with the other managers, and attempting to have serious productive conversations with my peers and friends about their career, but it was fun!
 
 Three things that really stuck out for me were:
 
 - Transparency is key (even on the seemingly unimportant things).
   - I had some feedback from the director that I hadn't been as transparent as I could have been regarding department level goings-on.
-  His point being that as you learn more about department level changes, it begins to break down that barrier between management/non-management, and can help you be more engaged with the company.
+  His point being that as you learn more about department level changes, it begins to break down that barrier between management/non-management, and can employees engage with the company.
   Transparency is something I value so it shocked me to realise I was failing myself!
   From that point I started each standup with a quick recap of the managers meetings, obviously avoiding mentioning things that introduce too much uncertainty.
 - 1:1's are the best.
   - You have individual challenges with each person having their own motivations and personality types, but just having time to sit down and work out how each person can best work towards their own goals (or find them!) is both a fun challenge, and extremely rewarding in the long run (if it works!).
 - I am currently **terrible** at politics.
-  - I'm starting to believe that being an effective manager is 80% down to your skills in politics. Unfortunately I have much to learn here.
+  - I'm starting to believe that being an effective manager is 80% down to your skills in politics.
+  Unfortunately I have much to learn here.
 
-I'm extremely grateful for the opportunity, but I think I'm not at the stage in my career where this is something I want to pursue full time.
+I'm extremely grateful for the opportunity, but I think I can currently deliver the most value as an Individual Contributor.
 
 #### On-call lead
 
-At work we have various on-call rotations, split by domains of the product.
-I was part of the Contracts and Scheduling rotation (primarily covering End of Day operations like interest accrual, but also almost any event within the bank that requires a logical execution to be performed on an event, such as cashback application).
-The current on-call lead was taking part in the rotation to Singapore I was about to depart on, so she asked if I would fancy giving it a go.
+For 3 months I acted as lead of a core on-call rota.
 
-Sure, why not?
+A quick win was in optimising the rotation schedule:
 
-What followed was again a bit chaotic, but thanks to **fail fast** there were no long term issues.
+- For every week period, for the next 6 months we need 2 engineers available for on-call.
+- We also need to know who else may be able to act as a replacement, in case of illness.
+- We also need to space out shifts, to avoid burning out an engineer, but keep them frequent enough to grow skills.
+- We have ~20 engineers in this rota...
 
-The main issue was a sudden influx of new people who wanted to join the rota (we had a lot of engineers who joined, and were now becoming tenured enough to warrant addition to the rota), this was a good thing as we had slowly been losing people from the rota over the last year, and our production-running experience bus factor was dangerously low.
-My opinion was that since everyone else I knew learnt "on the job", these engineers could too.
+This was previously a nightmare, but I introduced a google sheet with some fancy scheduling formulas, then gave everyone access at once to allocate their own desired/if-i-have-to/cannot-do periods.
+After a few days we had a rock solid rota for 6 months, with backups for each week, all requiring much less effort on the rota lead's part than previous methods.
+Win-win!
+
+We also had a sudden influx of new people who wanted to join the rota (we had a lot of engineers who joined, and were now becoming tenured enough to warrant addition to the rota), this was a good thing as we had slowly been losing people from the rota over the last year, and our production-running experience bus factor was dangerously low.
+My opinion was that the most effective way to upskill a team quickly, is to follow a [see one, do one, teach one](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9258902/) approach.
 So I accepted almost everybody who applied into the rota, with the provision that they should self-arrange a shadow on-call session with an experienced member in the months before their first week of oncall.
 
 I also encouraged more senior members of the rota to slowly remove themselves, to make way for new talent, and to free up their own time for more valuable pursuits in technical design.
 
-The issue was, that the new applicants simply did not know what they did not know.
-They never expected they needed any hands-on training, as they felt capable debugging all code on `master`, but had apparently never had the chance or insight to debug an instance running the older versions of our product.
-
+The issue was, that the new applicants had somewhat underestimated the challenges of on-call.
 Whilst our clients were not impacted, the first month of this new round of oncallers did feel quite chaotic at times, as people rapidly ramped up their understanding of and skills working with older versions of our product, in hostile situations.
 
 Coming back to the situation now, 7 months later, turns out I was right.
 All of these new oncallers are performing well, and are now much better at handling support requests than when they started.
-It may not be the best method of teaching, but [see one, do one, teach one](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9258902/) does tend to work for most skills, albeit a little chaotically.
-
-Something that wasn't chaotic was organisation of the new rota.
-
-Imagine you're organising a meetup with your friends, and you are trying to work out when everyone will be free.
-Now imagine you are trying to organise a 6 month block where at least two of you will be free for entire week chunks.
-Now imagine the same friend cannot be "free" more frequently than 1 out of 6 weeks.
-Now imagine you have 25 friends trying to organise this together, and need to be able to account for last minute illnesses mid way through.
-
-This was previously a nightmare, but I introduced a google sheet with some fancy colour formatting + scheduling formulas, then gave everyone access at once to allocate their own desired/if-i-have-to/cannot-do periods.
-After a few days we had a rock solid rota for 6 months, with backups for each week, all requiring much less effort on the rota lead's part than previous methods.
 
 Again, I'm very grateful for the opportunity, and would like to try it again in the future.
 However at the current company it is an unfortunately thankless role, so there is little incentive to take part.
@@ -240,7 +221,7 @@ To make sure this wouldn't be seen as a complete jolly by the rest of the compan
 
 As a bit of a cathartic release, and a lot of fun with some good friends, it was a success!
 
-This is something I want to to much more of, but the political capital I spent trying to get this approved was probably not worth it.
+This is something I want to do much more of, but the political capital I spent trying to get this approved was probably not worth it.
 
 #### Preparing for the rest of the year
 
@@ -253,5 +234,7 @@ Unfortunately, the rotation to Singapore to assist with production support is no
 Additionally, I would be missing out on a "design" phase in the company, where many of the "cool" upcoming projects are divided amongst hopeful tech-leads, like a sounder of pigs at a trough.
 
 Losing this was a bit of a blow to me professionally, but if you are planning on going for a sabbatical, you will face similar challenges.
-I knew personally this 4 months chunk out of everyday work, achieving some of my own life goals was going to be far more valuable than the opportunity cost of a bit more time doing the same old work.
+
+I knew personally that this 4 months chunk out of everyday work, achieving some of my own life goals was going to be far more valuable than the opportunity cost of a bit more time in employment.
+
 Your mileage may vary, but I strongly encourage anyone to at least consider a sabbatical at some point in their career - ideally multiple!
