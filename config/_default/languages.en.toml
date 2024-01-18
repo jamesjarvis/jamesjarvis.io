@@ -16,6 +16,7 @@ description = "Personal Website of James Jarvis"
 
 [author]
 name = "James Jarvis"
+email = "hello@jamesjarvis.io"
 image = "img/author.jpg"
 headline = "Software Engineer, Explorer"
 bio = "I code, therefore I am"
