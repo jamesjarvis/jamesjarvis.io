@@ -61,7 +61,7 @@ paginationWidth = 1
 
 [sitemap]
 changeFreq = "weekly"
-# priority = 0.5
+priority = -1
 # excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
