@@ -13,7 +13,6 @@ enableSearch = true
 enableCodeCopy = false
 enableImageLazyLoading = true
 
-robots = "I do not want the content of this site used to train Large Language Models, nor any other AI for that matter."
 fingerprintAlgorithm = "sha256"
 
 [header]
@@ -61,7 +60,9 @@ groupByYear = true
 paginationWidth = 1
 
 [sitemap]
-excludedKinds = ["taxonomy", "term"]
+changeFreq = "weekly"
+# priority = 0.5
+# excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
 showTermCount = true
