@@ -68,6 +68,8 @@ While we are at it, I won't go into too much detail, but if you're even remotely
 
 - [Cloud Forest / Flower Dome](https://www.gardensbythebay.com.sg/en/things-to-do/attractions/cloud-forest.html)
   - Worlds tallest indoor waterfall. This was my very first stop, and I ended up going back here 3 more times just for the sheer beauty of it.
+- [Lau Pa Sat](https://www.laupasat.sg)
+  - I must have visited almost every stall here during my stay. I'm also a big fan of the big fans.
 - [Garden Rhapsody](https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/garden-rhapsody.html)
   - A **free light show**, **every day**! Such a nice atmosphere, you lay on the warm ground and look up at the lights.
 - [The Jewel Changi](https://www.jewelchangiairport.com/en/attractions/forest-valley.html)
