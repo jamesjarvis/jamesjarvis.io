@@ -86,6 +86,8 @@ While we are at it, I won't go into too much detail, but if you're even remotely
   - It sits on 1 Beach Road and is absolutely iconic of colonial Singapore. Just remember to go to the **writers bar** and not the **long bar**.
 - [Chijmes](https://chijmes.com.sg)
   - Strange one, it's a food court around an old church. Similar ish to [Mercato Mayfair](https://mercatometropolitano.com/mercato-mayfair/) in London.
+- [1-Arden](https://www.1-arden.sg)
+  - I stayed in this building, and would occasionally go to the top of the 51st floor to admire the field of boats stretching out into the distance, or to just watch the Marina light shows whilst enjoying a drink.
 - The list could go on, but I'm getting nostalgic now.
 
 The point here is, you don't get this kind of stuff without a good amount of support from the people running the country.
