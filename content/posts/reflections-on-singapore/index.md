@@ -39,7 +39,7 @@ After checking in and generally gawking at my new hotel, I enthusiastically chan
 I had been warned “you’ll be sweating after 5 minutes outside, and frozen after 5 minutes inside”, so I had packed a mix of shorts, trousers and hoodies.
 As it turns out, I was quite comfortable with both, as long as I didn’t move too much outside, or sit too still inside.
 
-On my second weekend I attempted the McCritchie reservoir hike - a 10km hike around one of the few naturally forested areas left in the centre of the island.
+On my second weekend I attempted the [MacRitchie Reservoir](https://beta.nparks.gov.sg/visit/parks/central-catchment-nature-reserve/activities/hiking-nature-walk) hike - a 10km hike around one of the few naturally forested areas left in the centre of the island.
 I highly recommend giving this a go if you visit, as you’ll be tripping over cicadas, frogs, monkeys, turtles, strangling figs and a whole host of other interesting flora and fauna.
 However, do go with a lot of water, sun cream, bug spray and very breathable clothing!
 My first naïve hike was performed in a cotton shirt and shorts and, by the end of it, I might as well had swam through the reservoir instead.
@@ -53,6 +53,42 @@ The challenge (besides my pathetic fitness level) is to run as far as you can be
 Realistically I only did this just under 20 times, but I loved it, and made some noticeable health improvements whilst out there.
 
 ## The government
+
+I'm a sucker for a good museum.
+I also love a well planned urban environment.
+
+As a consequence, it turns out I _really_ loved the [Singapore City Gallery](https://www.ura.gov.sg/Corporate/Singapore-City-Gallery)!
+I spent **hours** reading every little plaque about various iterative designs for how to use the reclaimed land on the south side of the island.
+Where waste goes, how they ensure energy and water security, to how they plan for the fittingly named [Urban Heat Island Effect](https://education.nationalgeographic.org/resource/urban-heat-island/), I am just continuously in awe at it all.
+
+I've always liked the idea of re-attempting a stint at Architecture (I originally went to visit my old university for an architecture open-day, before giving up and enrolling in computer science for the good old fashioned employment prospects).
+So for anyone interested in a similar thing - I recommend this museum.
+
+While we are at it, I won't go into too much detail, but if you're even remotely interested in Architecture or just museums in general, I'd highly recommend:
+
+- [Cloud Forest / Flower Dome](https://www.gardensbythebay.com.sg/en/things-to-do/attractions/cloud-forest.html)
+  - Worlds tallest indoor waterfall. This was my very first stop, and I ended up going back here 3 more times just for the sheer beauty of it.
+- [Garden Rhapsody](https://www.gardensbythebay.com.sg/en/things-to-do/calendar-of-events/garden-rhapsody.html)
+  - A **free light show**, **every day**! Such a nice atmosphere, you lay on the warm ground and look up at the lights.
+- [The Jewel Changi](https://www.jewelchangiairport.com/en/attractions/forest-valley.html)
+  - The waterfall is the big attraction, but just look at all those Orchids! The butterfly park and the walking net are the cherry on top.
+- [Marina Bay Sands](https://www.marinabaysands.com/attractions/sands-skypark.html)
+  - The building synonymous with Singapore goes without saying, but did you know you can also go for morning yoga for only 5 SGD more?
+- [Henderson Waves / Cable Car](https://www.mountfaberleisure.com)
+  - One is a bridge, one is a cable car. Neither are museums, but both are very pretty!
+- [The Supreme Court](https://www.judiciary.gov.sg/discover-the-courts)
+  - I don't think you can visit - but it looks like a UFO landed on a building...
+- [Atlas Bar](https://atlasbar.sg)
+  - BEAutiful art-deco style bar. Just don't try and enter in shorts and birkenstocks like I did. They don't like it.
+- [Raffles Hotel](https://www.raffles.com/singapore/)
+  - It sits on 1 Beach Road and is absolutely iconic of colonial Singapore. Just remember to go to the **writers bar** and not the **long bar**.
+- [Chijmes](https://chijmes.com.sg)
+  - Strange one, it's a food court around an old church. Similar ish to [Mercato Mayfair](https://mercatometropolitano.com/mercato-mayfair/) in London.
+- The list could go on, but I'm getting nostalgic now.
+
+The point here is, you don't get this kind of stuff without a good amount of support from the people running the country.
+
+Whilst "From third world to first" is still on my reading TODO list, I left with much more confidence in the competence of the government than I've ever got from living in the UK or the US.
 
 ## The people
 
