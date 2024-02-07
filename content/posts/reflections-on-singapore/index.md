@@ -1,6 +1,6 @@
 ---
 title: "🤔 Reflecting on 3 months living and working in Singapore"
-date: 2024-02-09
+date: 2024-02-07
 tags: ["reflection", "mini-sabbatical"]
 summary: "What I learned from my time working and living in the city-state of Singapore"
 ---
