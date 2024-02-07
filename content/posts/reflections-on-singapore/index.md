@@ -11,6 +11,18 @@ This is a 3 part series of posts:
 - [Reflections on 3 months living and working in Singapore]({{<ref "." >}}) (you are here!)
 - Reflections on 6 weeks of travel around South East Asia (🚧 Under Construction)
 
+## Preconception
+
+{{< lead >}}
+"Disneyland With the Death Penalty"
+William Gibson - [Wired, 1993](https://www.wired.com/1993/04/gibson-2/)
+{{< /lead >}}
+
+An often quoted metaphor, that draws responses from both crowds.
+"I like Disneyland, whats not to like about that?", "That's kinda dystopian".
+
+The country has progressed quite a bit in the 30 years since that was written, but it still echoes throughout general sentiment.
+
 ## Arrival
 
 I landed in Singapore on Monday, 1st August.
@@ -32,7 +44,7 @@ We cross the nation in 25 minutes.
 My base for the next 90 days is Raffles place, the original British landing site and previous colonial centre point of South East Asia.
 I find it fitting for my first foray into this part of the world.
 
-After checking in and generally gawking at my new hotel, I enthusiastically change into a pair of shorts, text a coworker-friend and head out for a few drinks to meet the rest of the crew I’ll be working with.
+After checking in and generally gawking at my new hotel, I enthusiastically change into a pair of shorts, text a co-worker-friend and head out for a few drinks to meet the rest of the crew I’ll be working with.
 
 ## The Weather
 
@@ -64,8 +76,82 @@ Where waste goes, how they ensure energy and water security, to how they plan fo
 I've always liked the idea of re-attempting a stint at Architecture (I originally went to visit my old university for an architecture open-day, before giving up and enrolling in computer science for the good old fashioned employment prospects).
 So for anyone interested in a similar thing - I recommend this museum.
 
-While we are at it, I won't go into too much detail, but if you're even remotely interested in Architecture or just museums in general, I'd highly recommend:
+Check out [The food and activities](#the-food-and-activities) for more recommendations.
 
+Also - NO CRIME!
+The European mind can hardly comprehend this, but you can genuinely accidentally leave your laptop in a cafe, and have full confidence it will still be there by the time you come back, hours later.
+There is no vandalism, and consequently there are actual public amenities available.
+
+The point here is, you don't get this kind of stuff without a good amount of support from the people running the country.
+
+Whilst "From third world to first" is still on my reading TODO list, I left with much more confidence in the competence of the government than I've ever got from living in the UK or the US.
+
+## The people
+
+A bit of a weird topic to reflect on, but I've found that any time I move somewhere for a while, I notice _something different_ about the people I am surrounded by.
+So I thought it's worth spending a bit of time reflecting on that.
+
+Of course, Singapore is more of an international transitory city than a closed-off city.
+A solid half of everyone I met was an immigrant, but they never seemed to feel "out of place" (aside from the construction/cleaning workers, who all appeared to be shuttled in to the country on the back of open roof vans every day).
+You can notice a great variety in the locals between Little India and Chinatown, but on the whole they seem to follow a few patterns:
+
+- They are typically quite wealthy (I never met ay of "the help", but I heard many people talking about how they hire "help")
+- They are very kind
+- They respect their community, and in general have a deep appreciation of their Country
+- They are very social, also amongst "co-workers"
+  - This was an interesting realisation, but I found myself hanging out with co-workers on the weekend quite quickly in Singapore, whereas that is less of a cultural norm in London (or perhaps that's just a reflection on me!)
+
+Honourable mention of course also goes out to my parents and my friends who came over to stay or travel with me for a few weeks.
+
+## The work
+
+Ah yes, that thing... the reason I was sent to Singapore...
+
+I'll be honest, the work was more difficult than I originally imagined.
+I was sent over with a vague mission of "improve < insert general description of company problem here >", and seemingly the only resource available to me was my own time.
+To make matters worse, the Singapore office of my company is less than one-fifth the size of the London headquarters, and is primarily a sales/marketing outpost, with only a handful of full time Engineers.
+In summary, it is a satellite office with no engineering leadership.
+
+As a result, I emphatically struggled to progress most of my initiatives I tried to introduce, which was a strange new frontier for me to encounter.
+In London, I can generally have confidence in relying on a support network of peers all around the org chart to progress or bounce ideas off of for a new initiative, and people are welcoming to trying new ideas.
+In Singapore, we required "consensus" and "approval from management" (read: London's approval) to do anything.
+This is strange to me, as this was even in domains wholly owned by the team out in Singapore.
+
+Furthermore, there was much less of a culture of challenging decisions.
+I'm quite happy to have my ideas challenged, as long as the approach is logical, and in return I'm quite happy with raising my objections to an idea if I think it is logically flawed.
+However, in the team I was placed in Singapore, this just was not happening.
+I'm yet to fully rationalise why that is.
+
+The other side to the work was working on-call.
+This has it's ups and downs, but in general was just a bit of a drain on energy.
+
+Overall, I liked the general vibes of working out in Singapore, but if I come again I would try and work for a company who:
+
+- Is focused on engineering/development in Singapore
+- Is either headquartered in Singapore, or has strong leadership presence.
+
+## The food and activities
+
+This point is almost too obvious to mention, but I LOVED the variety and quality of food, and the general atmosphere.
+
+I was staying by the Marina Bay, and a common "first day" activity when someone would visit was:
+
+1. Take the MRT to Gardens by the Bay
+2. Go to the Cloud Forest
+3. Watch the "super tree" light show
+4. Walk through the Marina Bay Sands hotel and shopping centre
+5. Watch the Marina Bay light and fountain show
+6. Either go left, and check out whatever festival is being ran in the car park
+7. Or go right, and watch some free outdoor concert
+8. Walk around the F1 track
+9. Either go past the Fullerton, towards Lau Pa Sat. Or past Raffles, towards any one of the other hawker markets for some dinner.
+
+I did this so many times, and never tired of it!
+
+I won't go into too much detail, but if you're even remotely interested in architecture, museums, hikes, or eating and drinking, I'd highly recommend:
+
+- [Singapore City Gallery](https://www.ura.gov.sg/Corporate/Singapore-City-Gallery)
+  - Obviously, I already mentioned this earlier.
 - [Cloud Forest / Flower Dome](https://www.gardensbythebay.com.sg/en/things-to-do/attractions/cloud-forest.html)
   - Worlds tallest indoor waterfall. This was my very first stop, and I ended up going back here 3 more times just for the sheer beauty of it.
 - [Lau Pa Sat](https://www.laupasat.sg)
@@ -81,7 +167,7 @@ While we are at it, I won't go into too much detail, but if you're even remotely
 - [The Supreme Court](https://www.judiciary.gov.sg/discover-the-courts)
   - I don't think you can visit - but it looks like a UFO landed on a building...
 - [Atlas Bar](https://atlasbar.sg)
-  - BEAutiful art-deco style bar. Just don't try and enter in shorts and birkenstocks like I did. They don't like it.
+  - BEAutiful art-deco style bar. Just don't try and enter in shorts and Birkenstocks like I did. They don't like it.
 - [Raffles Hotel](https://www.raffles.com/singapore/)
   - It sits on 1 Beach Road and is absolutely iconic of colonial Singapore. Just remember to go to the **writers bar** and not the **long bar**.
 - [Chijmes](https://chijmes.com.sg)
@@ -90,10 +176,4 @@ While we are at it, I won't go into too much detail, but if you're even remotely
   - I stayed in this building, and would occasionally go to the top of the 51st floor to admire the field of boats stretching out into the distance, or to just watch the Marina light shows whilst enjoying a drink.
 - The list could go on, but I'm getting nostalgic now.
 
-The point here is, you don't get this kind of stuff without a good amount of support from the people running the country.
-
-Whilst "From third world to first" is still on my reading TODO list, I left with much more confidence in the competence of the government than I've ever got from living in the UK or the US.
-
-## The people
-
-## The work
+In short, I'd be happy to go back!
