@@ -18,6 +18,8 @@ This is a 3 part series of posts:
 William Gibson - [Wired, 1993](https://www.wired.com/1993/04/gibson-2/)
 {{< /lead >}}
 
+![Marina Bay Sands aerial view](./marina-top-down.jpeg "A billionaire's playground")
+
 An often quoted metaphor, that draws responses from both crowds.
 "I like Disneyland, whats not to like about that?", "That's kinda dystopian".
 
@@ -25,12 +27,16 @@ The country has progressed quite a bit in the 30 years since that was written, b
 
 ## Arrival
 
+![Police robot](./police-bot.jpeg "Greeted by robocop")
+
 I landed in Singapore on Monday, 1st August.
 I was supposed to originally fly out a week prior, but delayed it due to having already booked tickets with my Dad to see our first ever Formula E (it’s a strange sport, we were sat inside! The races don't last particularly long, but give it a few more years and I could see it taking on Formula 1!)
 
 Heathrow was… Heathrow-ish?
 I checked in a bit early and had a few hours to kill, which I duly spent eating a microwaved fish and chips in the overcrowded Wetherspoons at Terminal 5.
 Anyway, premium economy was nice - I never realised you could have metal cutlery and wine on a plane!
+
+![Changi Airport](./changi-jewel-2.jpeg "The airport of the country is synonymous with the country itself")
 
 For those who haven’t yet experienced it, let me tell you, Singapore Changi airport is in a league of its own!
 It’s a masterpiece of architecture and dignified travel, and almost unimaginable to the average european flier.
@@ -41,15 +47,29 @@ I ask my driver how he finds Singapore.
 He says he loved his 30 years in residence, besides some feedback for the weather, and recommends a few touristy activities for me to try out once I settle in.
 We cross the nation in 25 minutes.
 
+![Skyscrapers](./skyscrapers.jpeg "Commute from the hotel to the office was 100 metres")
+
+![Raffles Place Skyscrapers](./raffles-skyscrapers.jpeg "The financial hub")
+
 My base for the next 90 days is Raffles place, the original British landing site and previous colonial centre point of South East Asia.
 I find it fitting for my first foray into this part of the world.
 
 After checking in and generally gawking at my new hotel, I enthusiastically change into a pair of shorts, text a co-worker-friend and head out for a few drinks to meet the rest of the crew I’ll be working with.
 
+![Chijmes](./chijmes.jpeg "Chijmes is a fun area for drinks, but I spent most time at Boat Quay")
+
 ## The Weather
 
 I had been warned “you’ll be sweating after 5 minutes outside, and frozen after 5 minutes inside”, so I had packed a mix of shorts, trousers and hoodies.
 As it turns out, I was quite comfortable with both, as long as I didn’t move too much outside, or sit too still inside.
+
+![Monkey](./monkey.jpeg "Monkeys are everywhere around MacRitchie, apparently they steal Koi fish from nearby house's ponds")
+
+![Lizard](./lizard.jpeg "Lizards are rarer, but can still be found around the botanical gardens")
+
+![Cicada](./cicada.jpeg "Cicadas are heard (read: will drive you insane), but rarely seen")
+
+![Strangling Fig](./strangling-fig.jpeg "These trees feel almost mystical, just wish they would grow more in Europe")
 
 On my second weekend I attempted the [MacRitchie Reservoir](https://beta.nparks.gov.sg/visit/parks/central-catchment-nature-reserve/activities/hiking-nature-walk) hike - a 10km hike around one of the few naturally forested areas left in the centre of the island.
 I highly recommend giving this a go if you visit, as you’ll be tripping over cicadas, frogs, monkeys, turtles, strangling figs and a whole host of other interesting flora and fauna.
@@ -59,12 +79,16 @@ My first naïve hike was performed in a cotton shirt and shorts and, by the end 
 A quick trip to Uniqlo fixed that, and I was lightly draped with breathable, practically disposable clothes for the remainder of my time there.
 If you are coming from a Northern European country, I’d probably recommend bringing 2 days worth of clothes with you, and just buy whatever you need once you arrive.
 
+![Yoga](./yoga.jpeg "Top tip: Sunrise yoga at the top of Marina Bay Sands is almost the same price as the normal ticket")
+
 A few weeks into my stay, I thought I’d try and take up running again.
 I figured the consistent 7am-7pm sunlight hours worked well with my optimistic morning jog + dip-in-the-pool-to-cool-off routine.
 The challenge (besides my pathetic fitness level) is to run as far as you can before the sun really starts to shine and you become too dehydrated to walk straight.
 Realistically I only did this just under 20 times, but I loved it, and made some noticeable health improvements whilst out there.
 
 ## The government
+
+![City Planning Museum](./city-planning.jpeg "Best museum in Singapore")
 
 I'm a sucker for a good museum.
 I also love a well planned urban environment.
@@ -73,10 +97,14 @@ As a consequence, it turns out I _really_ loved the [Singapore City Gallery](htt
 I spent **hours** reading every little plaque about various iterative designs for how to use the reclaimed land on the south side of the island.
 Where waste goes, how they ensure energy and water security, to how they plan for the fittingly named [Urban Heat Island Effect](https://education.nationalgeographic.org/resource/urban-heat-island/), I am just continuously in awe at it all.
 
+![Singaporean Supreme Court](./ufo-supreme-court.jpeg "The Supreme Court building looks as if a UFO landed on top")
+
 I've always liked the idea of re-attempting a stint at Architecture (I originally went to visit my old university for an architecture open-day, before giving up and enrolling in computer science for the good old fashioned employment prospects).
 So for anyone interested in a similar thing - I recommend this museum.
 
 Check out [The food and activities](#the-food-and-activities) for more recommendations.
+
+![Hawker Centre](./hawker.jpeg "You reserve a seat at a hawker centre by placing a packet of tissues, this is some strange unspoken rule")
 
 Also - NO CRIME!
 The European mind can hardly comprehend this, but you can genuinely accidentally leave your laptop in a cafe, and have full confidence it will still be there by the time you come back, hours later.
@@ -88,8 +116,12 @@ Whilst "From third world to first" is still on my reading TODO list, I left with
 
 ## The people
 
+![Arab Street](./arab-st.jpeg "Arab street is effectively a street of bars next to a Mosque")
+
 A bit of a weird topic to reflect on, but I've found that any time I move somewhere for a while, I notice _something different_ about the people I am surrounded by.
 So I thought it's worth spending a bit of time reflecting on that.
+
+![Shopping Centre](./shopping-centre.jpeg "Shopping is a national pastime")
 
 Of course, Singapore is more of an international transitory city than a closed-off city.
 A solid half of everyone I met was an immigrant, but they never seemed to feel "out of place" (aside from the construction/cleaning workers, who all appeared to be shuttled in to the country on the back of open roof vans every day).
@@ -101,9 +133,13 @@ You can notice a great variety in the locals between Little India and Chinatown,
 - They are very social, also amongst "co-workers"
   - This was an interesting realisation, but I found myself hanging out with co-workers on the weekend quite quickly in Singapore, whereas that is less of a cultural norm in London (or perhaps that's just a reflection on me!)
 
+![Temple](./temple.jpeg "Beautifully colourful Hindu temples")
+
 Honourable mention of course also goes out to my parents and my friends who came over to stay or travel with me for a few weeks.
 
 ## The work
+
+![Buildings](./buildings.jpeg "I didn't work in this building, but they do all blur into one")
 
 Ah yes, that thing... the reason I was sent to Singapore...
 
@@ -132,6 +168,8 @@ Overall, I liked the general vibes of working out in Singapore, but if I come ag
 
 ## The food and activities
 
+![F1](./f1-bridge.jpeg "My first F1 experience was unforgettable!")
+
 This point is almost too obvious to mention, but I LOVED the variety and quality of food, and the general atmosphere.
 
 I was staying by the Marina Bay, and a common "first day" activity when someone would visit was:
@@ -145,6 +183,8 @@ I was staying by the Marina Bay, and a common "first day" activity when someone 
 7. Or go right, and watch some free outdoor concert
 8. Walk around the F1 track
 9. Either go past the Fullerton, towards Lau Pa Sat. Or past Raffles, towards any one of the other hawker markets for some dinner.
+
+![Supertree Light Show](./supertree-light-show-3.jpeg "The light show runs 3 times a night")
 
 I did this so many times, and never tired of it!
 
@@ -177,3 +217,17 @@ I won't go into too much detail, but if you're even remotely interested in archi
 - The list could go on, but I'm getting nostalgic now.
 
 In short, I'd be happy to go back!
+
+![Clarke Quay](./clarke-quay.jpeg "Clarke Quay, and Boat Quay are the night life capitals - expensive drinks and easy acquaintances can be found here!")
+
+![Lau Pa Sat](./lau-pa-sat.jpeg "Lau Pa Sat, hands down the best hawker centre in Singapore")
+
+![Green Skyscraper](./green-skyscraper.jpeg "Singapore has some amazing green skyscraper planning restrictions - leading to skyscrapers that have an entirely foliage facade!")
+
+![Old vs new buildings](./old-vs-new.jpeg "Singaporean public housing is indistinguishable from private. Here is their most impressive one, overshadowing some traditional terraced houses")
+
+![Park Plaza](./park-plaza.jpeg "More green skyscraper laws produced this - an architectural marvel that triples its original footprint with new green spaces")
+
+![Raffles Hotel](./raffles-hotel.jpeg "Raffles Hotel. Singaporean sling is overpriced, but the Writers bar is worth visiting")
+
+![Sunset at Fullerton](./sunset-at-fullerton.jpeg "Sunset from the terrace at the Fullerton hotel")
