@@ -14,7 +14,7 @@ dateFormat = "2 January 2006"
 # mainSections = ["section1", "section2"]
 description = "Personal Website of James Jarvis"
 
-[author]
+[params.author]
 name = "James Jarvis"
 email = "hello@jamesjarvis.io"
 image = "img/author.jpg"

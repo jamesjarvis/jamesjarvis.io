@@ -1,7 +1,7 @@
 ---
 title: "🤔 Setting up for a Mini Sabbatical"
 date: 2024-01-17
-tags: ["reflection"]
+tags: ["reflection", "mini-sabbatical"]
 summary: "Preparing for 117 days living, working and travelling in South East Asia"
 ---
 
@@ -13,7 +13,7 @@ That being said, I feel I have had enough time to digest and reflect on everythi
 This is a 3 part series of posts:
 
 - [Setting up for a Mini-Sabbatical]({{<ref "/posts/mini-sabbatical-setup">}}) (you are here!)
-- Reflections on 3 months living and working in Singapore (🚧 Under Construction)
+- [Reflections on 3 months living and working in Singapore]({{<ref "/posts/reflections-on-singapore">}})
 - Reflections on 6 weeks of travel around South East Asia (🚧 Under Construction)
 
 ## Why?
@@ -100,7 +100,7 @@ Preparing for a sabbatical is half the battle.
 If you aren't clear on what you want to do, and you haven't prepared for it, you may end up just twiddling your thumbs for 3 months!
 
 For my particular case, I had to get a few travel things organised before setting off, as I already had a fairly good idea of what I wanted to do, and how to do it (I just wanted to travel, experience new cultures, meet the girlfriend's family, and journal).
-If you are planning your own sabbaticaly, I'd encourage you to think about what you want to focus on during this valuable time!
+If you are planning your own sabbatical, I'd encourage you to think about what you want to focus on during this valuable time!
 
 ### Visas and Vaccinations
 
@@ -108,7 +108,7 @@ For a long time, I didn't really know where I would end up going, so with the kn
 Once the dates were settled, I split this into 3 weeks of China, and 3 weeks of everywhere else, with the intention that China would be the first 3 weeks due to other scheduling constraints.
 For China we knew we wanted to spend around a week in Beijing, and travel to some other key places (Great Wall, Terracotta Army, Shanghai, Sichuan province for the food), so for the most part we just placed these on the map and connected the dots with what we could reasonably travel to by train.
 
-For the remaining 3 weeks, I wanted to try to mimick [Race Across the World](https://www.bbc.co.uk/programmes/m0002tvs) as much as possible, so despite it being shockingly cheap, I tried to avoid planes as much as possible whilst around South East Asia.
+For the remaining 3 weeks, I wanted to try to mimic [Race Across the World](https://www.bbc.co.uk/programmes/m0002tvs) as much as possible, so despite it being shockingly cheap, I tried to avoid planes as much as possible whilst around South East Asia.
 Once we had decided on Hong Kong being the last destination from the China portion, and knowing I had a return flight from Singapore to catch, it once again became a connect-the-dots exercise.
 
 #### Chinese Visa
@@ -122,7 +122,7 @@ I was applying in May/June so they were still ramping up and changing rules as I
 
 The [application website](https://bio.visaforchina.cn/LON3_EN/qianzhengyewu) had a slightly different set of rules to the [Chinese embassy site](http://gb.china-embassy.gov.cn/eng/visa/qzxz/) and I even contacted both the Singaporean embassy and the London embassy to see where would be best to apply from.
 
-In the end, as with most bureacratic issues, once you talk to a reasonable person, the issue becomes a non-issue, and they were mostly ok with me applying a few months in advance.
+In the end, as with most bureaucratic issues, once you talk to a reasonable person, the issue becomes a non-issue, and they were mostly ok with me applying a few months in advance.
 They even granted me a 2 year Visa instead of my requested 3 month one!
 
 The only hiccup I had while applying, was that during my visa appointment, sat in front of the application interviewer, they asked to see my flight tickets, which I hadn't booked!
@@ -215,7 +215,7 @@ However at the current company it is an unfortunately thankless role, so there i
 
 #### Working abroad
 
-A bit of fun, I decided to organise a 3 day remote-work holiday with some coworkers in Nice, France.
+A bit of fun, I decided to organise a 3 day remote-work holiday with some co-workers in Nice, France.
 
 To make sure this wouldn't be seen as a complete jolly by the rest of the company, we designated these days as "reset days" where we could finally work on some designs for long outstanding tech-debt / product improvement ideas that were not officially in the roadmap.
 
