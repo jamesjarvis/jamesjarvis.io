@@ -8,6 +8,8 @@ paginate = 20
 summaryLength = 10
 colorScheme = "ocean"
 
+timeout = '500s'
+
 [outputs]
 home = ["HTML", "RSS"]
 
