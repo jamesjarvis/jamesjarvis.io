@@ -31,7 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Download compiled site
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4
         with:
           name: site
           path: public
@@ -50,7 +50,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Download compiled site
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4
         with:
           name: site
           path: public
