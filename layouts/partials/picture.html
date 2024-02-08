@@ -40,6 +40,10 @@
       />
     </picture>
   {{ else }}
+    {{ if (eq .MediaType.SubType "gif") }}
+      {{ $lqip = false }}
+      {{ $webp = false }}
+    {{ end }}
     <picture
       {{ with $class }}class="{{ . }}"{{ end }}
       {{ if $lqip }}
