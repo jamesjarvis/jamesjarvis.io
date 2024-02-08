@@ -6,10 +6,6 @@
 {{ $lqip := .lqip | default false }}
 {{ $x2 := .x2 | default true }}
 
-<!-- Can specify width, and height is calculated from this. -->
-{{ $width := .width | default $img.Width }}
-{{ $height := div (float $img.Height) (float (div (float $img.Width) (float $width))) }}
-
 {{ with $img }}
   {{ if (eq .MediaType.SubType "svg") }}
     {{ $width := "" }}
@@ -52,6 +48,12 @@
         style="background-image:url(data:image/webp;base64,{{ $bg }});background-size:cover"
       {{ end }}
     >
+      {{ $width := .Width }}
+      {{ $height := .Height }}
+      {{ if $x2 }}
+        {{ $width = div .Width 2 }}
+        {{ $height = div .Height 2 }}
+      {{ end }}
       {{ if $webp }}
         <source
           {{ if lt .Width 660 }}
