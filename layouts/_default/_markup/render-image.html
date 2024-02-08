@@ -1,0 +1,23 @@
+{{ $altText := .Text }}
+{{ $caption := .Title }}
+{{ $class := "mx-auto my-0 rounded-md" }}
+{{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
+{{ $webp := $.Page.Site.Params.enableImageWebp | default true }}
+{{ $lqip := $.Page.Site.Params.enableImageLqip | default true }}
+
+<!-- get image URL from Markdown tag -->
+{{- $src := ( .Destination | safeURL ) -}}
+<!-- split # fragment and keep clean URL -->
+{{- $fragments := ( split $src "#" ) -}}
+{{- $src = index ($fragments ) 0 -}}
+<!-- get actual filename -->
+{{- $src = path.Base $src -}}
+<!-- check if it exists as a page resource -->
+{{- with ($.Page.Resources.ByType "image").GetMatch ( printf "%s" $src ) -}}
+  <figure>
+    <!-- <a href="{{ .RelPermalink }}"> -->
+      {{ partial "picture.html" (dict "img" . "alt" $altText "class" $class "lazy" $lazy "webp" $webp "lqip" $lqip ) }}
+    <!-- </a> -->
+    {{ with $caption }}<figcaption class="text-center">{{ . | markdownify }}</figcaption>{{ end }}
+  </figure>
+{{- end -}}
