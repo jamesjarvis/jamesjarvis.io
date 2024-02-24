@@ -14,7 +14,7 @@ This is a 3 part series of posts:
 
 - [Setting up for a Mini-Sabbatical]({{<ref "/posts/mini-sabbatical-setup">}}) (you are here!)
 - [Reflections on 3 months living and working in Singapore]({{<ref "/posts/reflections-on-singapore">}})
-- Reflections on 6 weeks of travel around South East Asia (🚧 Under Construction)
+- [Reflections on 6 weeks of travel around South East Asia]({{<ref "/posts/travelling-south-east-asia">}})
 
 ## Why?
 
