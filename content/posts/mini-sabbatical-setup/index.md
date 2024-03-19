@@ -10,11 +10,11 @@ This series of blog posts is my non-exhaustive attempt at summarising what I exp
 Obviously there are some personal/professional things that I don't feel comfortable writing about so publicly, and many things I have already forgotten!
 That being said, I feel I have had enough time to digest and reflect on everything that took place.
 
-This is a 3 part series of posts:
+This is a 4 part series of posts:
 
 - [Setting up for a Mini-Sabbatical]({{<ref "/posts/mini-sabbatical-setup">}}) (you are here!)
 - [Reflections on 3 months living and working in Singapore]({{<ref "/posts/reflections-on-singapore">}})
-- [Reflections on 6 weeks of travel around South East Asia]({{<ref "/posts/travelling-south-east-asia">}})
+- [Mini-Sabbatical Part 1: China]({{<ref "/posts/mini-sabbatical-1-china">}}) (you are here!)
 
 ## Why?
 
