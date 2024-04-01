@@ -14,7 +14,7 @@ This is a 4 part series of posts:
 
 - [Setting up for a Mini-Sabbatical]({{<ref "/posts/mini-sabbatical-setup">}}) (you are here!)
 - [Reflections on 3 months living and working in Singapore]({{<ref "/posts/reflections-on-singapore">}})
-- [Mini-Sabbatical Part 1: China]({{<ref "/posts/mini-sabbatical-1-china">}}) (you are here!)
+- [Mini-Sabbatical Part 1: China]({{<ref "/posts/mini-sabbatical-1-china">}})
 
 ## Why?
 
