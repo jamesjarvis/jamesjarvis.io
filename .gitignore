@@ -7,3 +7,5 @@ _gen/
 
 # Output files
 public/
+
+.obsidian
