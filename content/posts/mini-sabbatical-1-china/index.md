@@ -232,6 +232,8 @@ We were visiting in Autumn, and the red leaves and crisp air yielded some great 
 
 ![Feiyang and the Wang family](./gubei_family.jpeg "The Wangs")
 
+![Smol Cat in Gubei](./gubei_smol_cat.jpeg "We even found some smol cats")
+
 ### Cultural Site
 
 Once we peeled our eyes away from the colourful trees, we ended up stumbling into a few of the town's cultural heritage sites.
@@ -284,3 +286,8 @@ I don't know how, but these city planners had managed to cram an LED into every 
 The results were astonishing, with the already-too-good-to-be-true town transforming into a movie set overnight!
 
 I wish I took photos, but my phone was dead by this point, so you'll have to do with [what everyone else has already taken](https://letmegooglethat.com/?q=gubei+water+town+lights+at+night).
+
+It might seem a bit touristy (and it is), but I'd recommend giving Gubei a visit if you have a bit too much time in Beijing.
+It's a remarkably calming place.
+
+![Wangs in Gubei](./gubei_parents.jpeg)
