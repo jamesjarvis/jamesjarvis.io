@@ -1,15 +1,12 @@
 ---
-title: "🇨🇳 Mini-Sabbatical Part 1: China"
-date: 2024-03-01
-tags: ["reflection", "mini-sabbatical"]
-summary: "My reflections, ramblings and favourite memories from 6 weeks of travel around South East Asia"
+title: "🇨🇳 Mini-Sabbatical Part 1: Shanghai to Beijing"
+date: 2024-04-03
+tags: ["travel", "mini-sabbatical", "china"]
+summary: "Embarking on my mini-sabbatical, I must first enter China"
 ---
 
-This is a 4 part series of posts:
-
-- [Setting up for a Mini-Sabbatical]({{<ref "/posts/mini-sabbatical-setup">}})
-- [Reflections on 3 months living and working in Singapore]({{<ref "/posts/reflections-on-singapore">}})
-- [Mini-Sabbatical Part 1: China]({{<ref "." >}}) (you are here!)
+This is part of the **mini-sabbatical** series.
+Read more [here]({{< ref "/tags/mini-sabbatical" >}}).
 
 ## Landing in Shanghai
 
@@ -204,23 +201,86 @@ I called bull, even as I realised I also hadn't seen another westerner since lea
 
 ![Beijing Hotpot](./beijing_hotpot.jpeg "Traditional Beijing Hotpot")
 
+By this point in the trip, we've finally hit the weekend and Feiyang's parents have promised they would take us on a trip out of town!
+So we hop in the car for a few hours drive.
+I'm starting to worry about Feiyang's Dad's driving - my guy has a stronger glasses prescription than Stevie Wonder and drove 50mph on the hard shoulder when we were supposed to be stuck in a traffic jam.
+We made it though.
+
+![Driving to Gubei](./gubei_in_car.jpeg "")
+
+I'm completely clueless about what to do around here so I didn't even know the name of the place, but later found out we would be spending some evenings in Gubei Water Town!
 
 ## Gubei Water Town
 
+![Gubei Water Town entrance](./gubei_gate_me.jpeg "Traditional looking entrance, with a Starbucks inside. Highly recommend the Black Tea Soy Latte.")
+
+[Gubei Water Town](https://www.gubeiwatertown.com) was probably one of my favourite places I visited in China.
+
+I know, that's a bit of an uninspiring statement, since it's all quite artificial, but there was something about it I really enjoyed.
+As far as I know, the town is not actually a historical water town, but a replica of the Wuzhen Water Town from the south of China, and _only_ around 500 years old.
+
+But it's not just some quaint old village.
+The whole place has been converted to house discreet museums, tea houses, restaurants, activities and hot springs in amongst the ancient streets.
+Maybe it was more surprising for me since I couldn't read any of the maps.
+
+![Boat under a bridge at Gubei](./gubei_boat_under_bridge.jpeg "Willow trees enchant this village")
+
+Not least, I loved it because it was just so beautiful!
+We were visiting in Autumn, and the red leaves and crisp air yielded some great sights.
+
+![Gubei Tower](./gubei_tower.jpeg "Never did end up hiking to this tower, but I think it was smaller than it appeared")
+
+![Feiyang and the Wang family](./gubei_family.jpeg "The Wangs")
+
 ### Cultural Site
+
+Once we peeled our eyes away from the colourful trees, we ended up stumbling into a few of the town's cultural heritage sites.
+
+![Yongshun Dye House](./gubei_feiyang.jpeg "Yongshun Dye House was 90% instagram hotspot, 10% museum")
+
+A bit ashamed to admit I took almost no photos of the ancient textiles factory, alcohol distillery, replica villagers house or the public traditional chinese theatre.
+You just have to trust me that they existed, and were really interesting, I promise.
+
+I do however have this one **sick** photo of me surprising everyone at archery.
+
+![Me mastering archery](./gubei_archery_me.jpeg "If you look really closely, you can see my concentration face. If you look even closer you can see my opponent on the left was not impressed")
+
+Whilst I'm not actually much good at it, I at least wasn't useless, which can only be a welcome surprise for the people who have watched me choke on hotpot and fail to converse in basic sentences with them for the last week.
 
 ### Great Wall
 
+![The Great Wall](./gubei_great_wall_2.jpeg "長城")
+
+It's been looming over us since we arrived in Gubei.
+
+長城, _Changcheng_, Great Wall.
+
+You hear about it so much, "it can be seen from space", "500,000 people died building it", "the locals dismantled it to build houses".
+It feels like it should be a pilgrimage, an arduous trek up a mountain to touch this world wonder.
+
+Nah, turns out you can just take a cable car right to the top!
+
+![The Wangs on the Great Wall](./gubei_great_wall_family.jpeg)
+
+The views were incredible, but this stretch of the Great Wall (Simatai) is not particularly long, and you find yourself cut short, unable to go beyond a few of the towers, at which point the wall returns back to a ruinous state.
+
+![Great Wall again](./gubei_great_wall_5.jpeg "I stared at this view for ages, trying to sear it into my memory")
+
 ### Hot Springs
 
-## Back in Beijing
+In the evening, we returned back to Gubei and decided to visit one of the Hot Spring baths.
+By this time the temperature had plunged to ~3 degrees.
 
-### Olympic Park
+I had been to a few of these places before, I remember the [Széchenyi](https://szechenyibath.com) baths in Budapest, a vast hot pool to fit hundreds of people.
+When I last visited, the air was -15C, with the steam from the baths causing my towel to freeze solid.
 
-### Summer Palace
+These baths were much smaller and, calmer.
+There were maybe 10 small pools indoors and one outdoors, all at varying temperatures between 33 and 46 degrees, with varying mineral content.
 
-### Tian Tan Park
+I'm less used to this, so whilst Feiyang and her family jumped straight into the hottest one, I took my time to work my way up, lest I feel like the boiling frog!
 
-### Temples
+The view from the outside pool was mesmerising.
+I don't know how, but these city planners had managed to cram an LED into every single nook and crevice of each stone wall of Gubei.
+The results were astonishing, with the already-too-good-to-be-true town transforming into a movie set overnight!
 
-### Museums
+I wish I took photos, but my phone was dead by this point, so you'll have to do with [what everyone else has already taken](https://letmegooglethat.com/?q=gubei+water+town+lights+at+night).

@@ -5,11 +5,8 @@ tags: ["reflection", "mini-sabbatical"]
 summary: "What I learned from my time working and living in the city-state of Singapore"
 ---
 
-This is a 4 part series of posts:
-
-- [Setting up for a Mini-Sabbatical]({{<ref "/posts/mini-sabbatical-setup">}})
-- [Reflections on 3 months living and working in Singapore]({{<ref "." >}}) (you are here!)
-- [Mini-Sabbatical Part 1: China]({{<ref "/posts/mini-sabbatical-1-china">}})
+This is part of the **mini-sabbatical** series.
+Read more [here]({{< ref "/tags/mini-sabbatical" >}}).
 
 ## Preconception
 
