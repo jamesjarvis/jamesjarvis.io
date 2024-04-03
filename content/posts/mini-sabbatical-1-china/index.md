@@ -130,9 +130,11 @@ Day 4, have you settled in yet?
 Good.
 Let's go to the Capital.
 
+## Beijing
+
 ![Train to Beijing](./shanghai_to_beijing_train.jpeg "Trains are quick in China, Shangahi to Beijing in < 5 hours")
 
-## Meeting the GF's Family
+### Meeting the GF's Family
 
 ![Meeting the Family](./beijing_meeting_family.jpeg "We didn't mean to stand in height order")
 
@@ -157,6 +159,68 @@ A mere 20 years ago this would have been right in the boonies, as evident by the
 
 Nowadays however, this is prime commuter belt territory, and we took advantage of the tube system every day to get around.
 Weirdly, I had to scan my passport to enter the tube, why?
-Well, 
 
-## 
+### Belt and Road Summit
+
+Well, turns out the week we decided to come to Beijing was the week of the annual [Belt and Road Summit, with Putin in attendance](https://www.bbc.co.uk/news/world-asia-china-67143322).
+
+We would later find out that this high profile summit substantially changes Beijing for it's duration.
+For one, there was almost no pollution whatsoever (to later change).
+For another, the security was _tight_.
+
+![Beijing Qianmen East](./beijing_qianmen_east_me.jpeg "The yellow barrier in the background had passport checks")
+
+![Beijing Qianmen East, other direction](./beijing_qianmen_east.jpeg "We were happy though!")
+
+This was our current issue - if you wanted to get anywhere near Tiananmen square, you needed to scan your identification, and even then you are not actually allowed in the square, designed to hold 1 million people.
+Since 2021 you have needed to [book entrance to the square](https://english.beijing.gov.cn/latest/news/202111/t20211124_2543664.html), to avoid the spread of ~~contrarian ideas~~ COVID.
+
+![Beijing Guards](./beijing_guards.jpeg "These guys were more tourist attraction than guards")
+
+Given the fact that all museums and typical attractions were closed, we decided to spend the rest of the day visiting some of Feiyang's favourite districts, and going shopping to get me some slightly warmer clothing.
+
+Getting a few rental bikes was very easy via WeChat, and I must say that Beijing offer some of the most comfortable cycling paths I've ever experienced from a major city!
+
+![Cycling in Beijing](./beijing_cycling.jpeg "Cycling is _fantastic_ in Beijing")
+
+Not much else to note from our shopping trip, but it seems that Beijing may have accidentally hired too many reserve police for the week of the B+R Summit, we kept tripping over police cars and off duty officers.
+
+![Beijing Police on their break](./beijing_police_2.jpeg "Uniqlo must be a national security risk")
+
+### Qianhai
+
+![Cycling to Qianhai](./beijing_street_trees.jpeg)
+
+Beijing was all a bit of a blur, but I do remember Qianhai as one of my favourite spots.
+
+A short cycle away from Tiananmen Square, it is a little region surrounding Jingshan park and Qianhai lake, where you can get lost amongst old traditional houses-turned-shops, before eventually winding up around the lake for unbeatable sunset views.
+
+![Qianhai](./beijing_qianhai.jpeg "Secluded canal walk to the lake")
+
+![Qianhai Lake](./beijing_qianhai_above.jpeg "A great place to have a cocktail and watch the sun set")
+
+We met up with another of Feiyang's old friends here for hotpot, this time I didn't make a fool of myself, but some fascinated locals seemed to want to try out their broken English with me - they say they hadn't met a white person before.
+I called bull, even as I realised I also hadn't seen another westerner since leaving Singapore.
+
+![Beijing Hotpot](./beijing_hotpot.jpeg "Traditional Beijing Hotpot")
+
+
+## Gubei Water Town
+
+### Cultural Site
+
+### Great Wall
+
+### Hot Springs
+
+## Back in Beijing
+
+### Olympic Park
+
+### Summer Palace
+
+### Tian Tan Park
+
+### Temples
+
+### Museums
