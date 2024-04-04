@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+        with:
+          submodules: true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -30,6 +32,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
+        with:
+          sparse-checkout: |
+            lighthouserc.json
       - name: Download compiled site
         uses: actions/download-artifact@v4
         with:
