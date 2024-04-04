@@ -60,8 +60,6 @@ jobs:
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
     steps:
-      - name: Checkout
-        uses: actions/checkout@master
       - name: Download compiled site
         uses: actions/download-artifact@v4
         with:
