@@ -7,41 +7,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+        with:
+          submodules: true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.114.1'
+          hugo-version: '0.122.0'
           extended: true
 
+      - name: Cache generated files
+        id: cache-gen
+        uses: actions/cache@v4
+        with:
+          path: resources
+          key: hugo-resources-cache
+
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --gc --logLevel debug
 
       - name: Upload built state
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: site
           path: public
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    if: success() && github.ref == 'refs/heads/master'
-    steps:
-      - name: Checkout
-        uses: actions/checkout@master
-      - name: Download compiled site
-        uses: actions/download-artifact@v1
-        with:
-          name: site
-          path: public
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          cname: jamesjarvis.io
-          force_orphan: true
+          retention-days: 2
 
   lighthouse:
     needs: build
@@ -49,8 +39,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
+        with:
+          sparse-checkout: |
+            lighthouserc.json
       - name: Download compiled site
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4
         with:
           name: site
           path: public
@@ -61,3 +54,30 @@ jobs:
           uploadArtifacts: true
           temporaryPublicStorage: true
           runs: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: success() && github.ref == 'refs/heads/master'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+    steps:
+      - name: Download compiled site
+        uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: public
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

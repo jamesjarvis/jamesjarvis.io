@@ -232,6 +232,8 @@ We were visiting in Autumn, and the red leaves and crisp air yielded some great 
 
 ![Feiyang and the Wang family](./gubei_family.jpeg "The Wangs")
 
+![Me in Gubei](./gubei_me.jpeg "Me in Gubei")
+
 ![Smol Cat in Gubei](./gubei_smol_cat.jpeg "We even found some smol cats")
 
 ### Cultural Site
