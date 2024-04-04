@@ -16,8 +16,15 @@ jobs:
           hugo-version: '0.122.0'
           extended: true
 
+      - name: Cache generated files
+        id: cache-gen
+        uses: actions/cache@v4
+        with:
+          path: resources
+          key: hugo-resources-cache
+
       - name: Build
-        run: hugo --minify --logLevel debug
+        run: hugo --minify --gc --logLevel debug
 
       - name: Upload built state
         uses: actions/upload-artifact@v4
