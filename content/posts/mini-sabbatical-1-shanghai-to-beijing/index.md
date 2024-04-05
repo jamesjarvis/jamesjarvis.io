@@ -155,7 +155,8 @@ We are roughly 9 miles from central Beijing.
 A mere 20 years ago this would have been right in the boonies, as evident by the remnants of farms and military training grounds nearby (we actually awoke to the sounds of horns and distant marching beats!)
 
 Nowadays however, this is prime commuter belt territory, and we took advantage of the tube system every day to get around.
-Weirdly, I had to scan my passport to enter the tube, why?
+Weirdly, I had to scan my passport to enter the tube!
+Why?
 
 ### Belt and Road Summit
 
@@ -203,8 +204,9 @@ I called bull, even as I realised I also hadn't seen another westerner since lea
 
 By this point in the trip, we've finally hit the weekend and Feiyang's parents have promised they would take us on a trip out of town!
 So we hop in the car for a few hours drive.
-I'm starting to worry about Feiyang's Dad's driving - my guy has a stronger glasses prescription than Stevie Wonder and drove 50mph on the hard shoulder when we were supposed to be stuck in a traffic jam.
-We made it though.
+I'm starting to worry about Feiyang's Dad's driving.
+She gets her good eyesight from him, and he was making full use of the hard shoulder in each traffic jam.
+We eventually made it though.
 
 ![Driving to Gubei](./gubei_in_car.jpeg "")
 
@@ -266,7 +268,8 @@ Nah, turns out you can just take a cable car right to the top!
 
 ![The Wangs on the Great Wall](./gubei_great_wall_family.jpeg)
 
-The views were incredible, but this stretch of the Great Wall (Simatai) is not particularly long, and you find yourself cut short, unable to go beyond a few of the towers, at which point the wall returns back to a ruinous state.
+The views were incredible, but this stretch of the Great Wall (Simatai) is not particularly long.
+You find yourself cut short, unable to go beyond a few of the towers, beyond which the wall returns back to a ruinous state.
 
 ![Great Wall again](./gubei_great_wall_5.jpeg "I stared at this view for ages, trying to sear it into my memory")
 
@@ -281,7 +284,8 @@ When I last visited, the air was -15C, with the steam from the baths causing my 
 These baths were much smaller and, calmer.
 There were maybe 10 small pools indoors and one outdoors, all at varying temperatures between 33 and 46 degrees, with varying mineral content.
 
-I'm less used to this, so whilst Feiyang and her family jumped straight into the hottest one, I took my time to work my way up, lest I feel like the boiling frog!
+I'm less used to this, so whilst Feiyang and her family jumped straight into the hottest one, I took my time to work my way up.
+I don't want to feel like the boiling frog!
 
 The view from the outside pool was mesmerising.
 I don't know how, but these city planners had managed to cram an LED into every single nook and crevice of each stone wall of Gubei.
