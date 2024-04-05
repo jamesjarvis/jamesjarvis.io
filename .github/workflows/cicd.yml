@@ -21,7 +21,10 @@ jobs:
         uses: actions/cache@v4
         with:
           path: resources
-          key: hugo-resources-cache
+          # A cache is currently immutable, so restore nearest cache each time.
+          key: hugo-resources-cache-${{ github.run_id }}
+          restore-keys: |
+            hugo-resources-cache
 
       - name: Build
         run: hugo --minify --gc --logLevel debug
