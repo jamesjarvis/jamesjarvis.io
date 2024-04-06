@@ -80,6 +80,9 @@
               {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
                 ,{{ .RelPermalink }} {{ .Width }}w
               {{ end }}
+            {{ end }}
+            {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
+                ,{{ .RelPermalink }} {{ .Width }}w
             {{ end }}"
           {{ end }}
           sizes="100vw"
