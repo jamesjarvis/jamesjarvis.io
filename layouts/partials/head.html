@@ -17,9 +17,10 @@
   {{ $jsAppearance = $jsAppearance | resources.Minify | resources.Fingerprint $algorithm }}
   <script
     type="text/javascript"
-    src="{{ $jsAppearance.RelPermalink }}"
     integrity="{{ $jsAppearance.Data.Integrity }}"
-  ></script>
+  >
+    {{ $jsAppearance.Content }}
+  </script>
   {{ $cssScheme := resources.Get (printf "css/schemes/%s.css" (lower .Site.Params.colorScheme | default "congo")) }}
   {{ if not $cssScheme }}
     {{ $cssScheme = resources.Get "css/schemes/congo.css" }}
