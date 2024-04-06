@@ -3,7 +3,7 @@
         "collect": {
             "numberOfRuns": 1,
             "staticDistDir": "./public",
-            "maxAutodiscoverUrls": 30
+            "maxAutodiscoverUrls": 40
         },
         "assert": {
             "preset": "lighthouse:recommended",
