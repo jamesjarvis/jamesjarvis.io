@@ -60,7 +60,8 @@
                 "unsized-images": "warn",
                 "content-width": "warn",
                 "image-size-responsive": "warn",
-                "unused-css-rules": "warn"
+                "unused-css-rules": "warn",
+                "lcp-lazy-loaded": "warn"
             }
         },
         "upload": {
