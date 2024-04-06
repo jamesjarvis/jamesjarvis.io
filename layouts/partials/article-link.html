@@ -14,7 +14,7 @@
         {{ end }}"
         aria-label="{{ $.Title | emojify }}"
       >
-        {{- $alt := $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}
+        {{- $alt := $.Params.featureAlt | default $.Params.thumbnailAlt | default $.Title }}
         {{- $class := "w-24 rounded-md sm:w-40" }}
         <picture
           {{ with $class }}class="{{ . }}"{{ end }}
