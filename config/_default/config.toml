@@ -36,3 +36,6 @@ disable = true
 [privacy.youtube]
 disable = false
 privacyEnhanced = true
+
+[imaging]
+disableDate = true
