@@ -8,7 +8,7 @@ paginate = 20
 summaryLength = 10
 colorScheme = "ocean"
 
-timeout = '500s'
+timeout = '3000s'
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -36,3 +36,7 @@ disable = true
 [privacy.youtube]
 disable = false
 privacyEnhanced = true
+
+[imaging]
+quality = 75
+disableDate = true
