@@ -2,7 +2,8 @@
     "ci": {
         "collect": {
             "numberOfRuns": 1,
-            "staticDistDir": "./public"
+            "staticDistDir": "./public",
+            "maxAutodiscoverUrls": 20
         },
         "assert": {
             "preset": "lighthouse:recommended",
