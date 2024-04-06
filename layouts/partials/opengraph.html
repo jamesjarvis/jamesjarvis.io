@@ -35,7 +35,7 @@
 
 {{- with partial "_funcs/get-page-images" . }}
   {{- range . | first 6 }}
-    <meta property="og:image" content="{{ .Permalink }}">
+    <meta property="og:image" content="{{ (.Image.Resize "1320x webp").RelPermalink }}">
   {{- end }}
 {{- end }}
 
