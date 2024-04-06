@@ -11,7 +11,7 @@ colorScheme = "ocean"
 timeout = '1000s'
 
 [outputs]
-home = ["HTML", "RSS"]
+home = ["HTML", "RSS", "JSON"]
 
 [permalinks]
 posts = '/posts/:year/:month/:title/'
