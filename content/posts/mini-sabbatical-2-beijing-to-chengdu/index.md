@@ -1,6 +1,6 @@
 ---
 title: "🇨🇳 Mini-Sabbatical Part 2: Beijing to Chengdu"
-date: 2024-04-18
+date: 2024-04-10
 tags: ["travel", "mini-sabbatical", "china"]
 summary: "Travelling West to tick off bucket lists"
 ---
@@ -81,8 +81,52 @@ In the center of the Temple of Heaven is the Hall of Prayer for Good Harvests, a
 
 ![Temple of Heaven selfie](./beijing_tian_tan_selfie.jpeg)
 
+I am ashamed to admit that I learnt almost nothing from the countless temples we visited.
+Big fan of the architecture, but I just can't recall anything in particular that stood out about this temple.
+
 ### Lama Temple
+
+![Lama Temple](./beijing_temple_6.jpeg "The Lama Temple. Why can't all buildings be this pretty?")
+
+In an attempt to experience more, on recommendation from Feiyang's Mum, we went to visit the [Lama temple](https://en.wikipedia.org/wiki/Yonghe_Temple).
+
+This was the first Buddhist temple I had ever visited, and what first struck me as intriguing were the large communal [Censers](https://en.wikipedia.org/wiki/Censer).
+
+![Lama Temple Prayer](./beijing_temple.jpeg)
+
+The idea is that you pick up 3 sticks of incense (specifically 3, to transcend towards equilibrium, stability and infinity).
+Upon lighting your incense, you stand in front of the Censer, say your prayer and place them inside to burn with the rest.
+
+Very peaceful, I really enjoyed the atmosphere.
+I was also perhaps starting to get a bit lightheaded from all of the smoke.
 
 ### Summer Palace
 
+![Beijing Summer Palace](./beijing_summer_palace.jpeg)
+
+Summer Palace is a **must** visit if you are in Beijing for more than a week.
+
+Not to be confused with the "Old Summer Palace" (just down the road, but destroyed by the French+British in the mid-1800's), it is a wonderful example of traditional architecture blending in with nature.
+Of course, all places this beautiful are mired in some form of controversy.
+For the Summer Palace, a significant proportion of funds that were supposed to be used to upgrade the Chinese Navy were instead rerouted to expanding the Summer Palace in celebration of the Empress's 60th birthday.
+
+![View from the top of the Summer Palace](./beijing_summer_palace_view_2.jpeg "Stunning views from the top")
+
+Besides it's history, nowadays it is simply a tourist attraction that can be booked through WeChat, with great views over the surrounding area, and some great walking routes around the expansive and well maintained gardens.
+
+We were visiting in late October, so the nights were beginning to draw in a bit earlier, but sunset gave this place a mystical feeling, and as we walked back to the car, past street artists along the promenade of the lake, we took some time to slow down and watch the sun set.
+
+![Sunset](./beijing_summer_palace_family.jpeg)
+
 ### Museums
+
+Entering our second week in Beijing, we were struggling to find things to do.
+
+The issue with accidentally aligning our trip with the Belt and Road conference, was that whilst the weather was amazing the previous week, all major attractions near Tiananmen Square were shut.
+Now that the diplomats have left, a huge wave of bookings via WeChat meant that the Forbidden City along with most other attractions had sold out.
+**Top Tip: Book tickets on WeChat well in advance**.
+Supposedly 85k tickets are available for the forbidden city every day, and they sell out in minutes.
+
+Also weirdly enough, as soon as the diplomats left, the pollution came back.
+
+![Forbidden City Pollution](./beijing_forbidden_city_panorama.jpeg "Despite the health warning, we climbed up a hill to see this view")
