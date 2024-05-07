@@ -130,3 +130,88 @@ Supposedly 85k tickets are available for the forbidden city every day, and they 
 Also weirdly enough, as soon as the diplomats left, the pollution came back.
 
 ![Forbidden City Pollution](./beijing_forbidden_city_panorama.jpeg "Despite the health warning, we climbed up a hill to see this view")
+
+Better luck next time, I guess?
+
+I still have a few more things to see in Beijing before I can consider it "ticked off".
+
+![National Museum of China](./beijing_china_museum.jpeg "The National Museum of China")
+
+The National Museum of China is one of the largest museums in the world (I actually can't tell whether or not it is _the_ largest, it didn't feel as big as the Louvre to me).
+
+![The Road to Rejuvenation](./beijing_china_museum_sculpture.jpeg "The Road to Rejuvenation, this section covered the distressing starts of the cultural revolution")
+
+We saw one chunk of it, with the impressive [but quite politicised](https://www.nytimes.com/2011/04/04/world/asia/04museum.html) _The Road to Rejuvenation_ exhibit covering the highs and lows of the Chinese people over the last 200 years.
+Since the start of the CCP it has apparently been all highs.
+
+Of course, I'm not blind to propaganda from all sides, and naturally you wouldn't expect a museum funded by a government, showcasing all of the recent failures of that government.
+
+![Burning books](./beijing_china_museum_paintin.jpeg "He who controls the past controls the present")
+
+As we cycle back through Tiananmen Square to head back to the flat, I admire the famous smooth face on the wall, and wonder what he's seen over the years perched up there.
+
+![Mao](./beijing_tiananmen_square_mao.jpeg "I wanted to get closer but honestly couldn't figure out how to traverse the square, I think I needed another WeChat booking")
+
+## Xi'an
+
+I knew absolutely nothing about Xi'an (much as I did with the rest of China), but there are 2 things I will remember about Xi'an.
+The Wall, and the Statues.
+
+### Terracotta Army
+
+As we pull up to the compound early in the morning, we are faced by a veritable sea of [Aunties](https://www.trendyadventurer.com/post/chinese-aunties-pose-inspiration-insta-photo-dynamite).
+No need to worry though, having researched beforehand the fastest route to Pit 1, and armed with our younger legs we pace our way to the front, being some of the first to enter the halls that morning.
+
+![Terracotta Army](./xian_terracotta_army_close_2.jpeg "Thousands of intricate, lifesize soldiers, built around 70 generations ago")
+
+As the morning light streamed across the hall, it was a bit corny to say that it was a special sight, but it truly was.
+
+You can read up about the army from many other sources if you want to learn more, so I won't bore you too much.
+However something you might not have realised (I didn't) is that each soldier was once beautifully and vibrantly painted, and this paint was in fact still present when the soldiers were first unearthed in the 70's.
+
+![The kneeling soldier](./xian_terracotta_army_sculpture_close.jpeg "Imagine his armour a deep purple, with red and yellow accents")
+
+50 years of public display and tourism subsequently caused this paint to fade and flake away, cautionary tale of how tourism and the commercialisation of history can erode history itself.
+Leaving the museum, we walk past a McDonalds, Starbucks and a cinema, the irony entirely lost on us.
+
+### The Wall
+
+An almost perfect rectangle with a 14km circumference.
+
+![Xi'an city wall](./xian_city_wall_temple.jpeg)
+
+We [rented a couple of bikes](https://www.strava.com/activities/10106719484) and marvelled in amazement at what an architectural achievement it must have been to build this defence system so well, so long ago (though only around 500 years in all fairness).
+
+At night, there was some kind of theatrical performance inside the main building by the south gate, and the entire perimeter is lit up by LEDs, truly one of the best cities to visit whilst in China.
+
+### A park, some shops, and a Buddhist temple
+
+Outside of the wall are the usual suspects of cool places to visit in a chinese city: A park, some shops, and a Buddhist temple.
+
+![A random park in Xi'an](./xian_park_lights.jpeg "I can't remember the name of this park, but it was pristine")
+
+I can't remember much about the park, besides the fact that it was quite expensive to enter, pretty empty, and had a wonderful light/fountain show in the main lake.
+
+![Shopping in Xi'an](./xian_shopping_street.jpeg)
+
+As for the shops, there is this ridiculously over the top main street, with interactive artwork, public performances and at least a dozen electric car brand showrooms flanking either side of it.
+
+On the electric car topic, China is so full of such high quality electric cars that it boggles the western mind.
+
+We saw everything from small electic Jeep knockoffs for £8k (my favourite), to £25k Tesla-esque cars, all the way up to the wackiest £16k **car for babies**.
+I don't really know how to explain it, but they have built a car that is custom designed to fit 2 parents and a baby.
+The front seats turn around to view the kid, there is a camera in the back trained on the kid with a live view up front, and special baby bottle warmers under the arm rests.
+I don't necessarily think that it would be the best purchase decision, but they seemed to have some kind of leasing program where you graduate into a proper car after a few years, so I guess it works fine for whatever audience they are targeting...
+
+The temple we visited was pretty memorable, but only for childish reasons (I never seem to learn too much from my travels).
+
+![Giant Wild Goose Pagoda](./xian_buddhist_temple.jpeg "The Giant Wild Goose Pagoda")
+
+In the centre sat the Giant Wild Goose Pagoda, an impressive tower that bears no resemblance to a goose.
+
+In one of the surrounding buildings, an intricate wooden carving of [The Journey to the West](https://ia803001.us.archive.org/1/items/journeytothewestwuchengen1592/Journey%20to%20the%20West%20-%20Wu%20Cheng_en%201592.pdf).
+
+![Inside a temple](./xian_buddhist_temple_feiyang.jpeg "Culture is frankly lost on me")
+
+Feiyang tried her best to explain it to me, but I couldn't quite get over how some dude, a pig, a monkey and a horse could really get along with each other.
+
