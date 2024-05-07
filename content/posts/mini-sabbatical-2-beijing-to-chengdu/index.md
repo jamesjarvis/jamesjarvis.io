@@ -152,7 +152,7 @@ As we cycle back through Tiananmen Square to head back to the flat, I admire the
 
 ![Mao](./beijing_tiananmen_square_mao.jpeg "I wanted to get closer but honestly couldn't figure out how to traverse the square, I think I needed another WeChat booking")
 
-## Xi'an
+## Adventures in Xi'an
 
 I knew absolutely nothing about Xi'an (much as I did with the rest of China), but there are 2 things I will remember about Xi'an.
 The Wall, and the Statues.
@@ -215,3 +215,17 @@ In one of the surrounding buildings, an intricate wooden carving of [The Journey
 
 Feiyang tried her best to explain it to me, but I couldn't quite get over how some dude, a pig, a monkey and a horse could really get along with each other.
 
+## Disappointment in Chengdu
+
+Ever since first trying "proper" chinese food (according to Feiyang), I had fallen in love with the Sichuan pepper.
+
+As a direct result of this and the allure of seeing pandas where pandas are from, I made sure to extend our route all the way West to Chengdu, despite the considerable length of time we would be stuck on trains.
+
+Upon arriving in Chengdu however, I was unfortunately hit like a train by what I think was probably the O.G. of COVID-19 strains.
+
+This meant we had to sadly cancel our Panda visit, and I spent all day in bed at the hotel whilst Feiyang went cafe hopping, revising for her exams and reading her books.
+
+I did manage to crawl out of the hotel for just long enough to get a proper Sichuan hotpot at a Jay Chou themed restaurant.
+Boy was it spicy!
+
+![Jay Chou hotpot](./chengdu_spicy_hotpot.jpeg "Those are tears of joy, and a 50/50 blend of spicy/covid nose running")
