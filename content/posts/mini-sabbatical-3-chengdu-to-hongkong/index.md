@@ -154,6 +154,13 @@ Anyway, after a quick jaunt back to the hotel to set this up, I finally pay for 
 
 ![Hong Kong Skyline at night](./hongkong_skyline.jpeg "Probably the most impressive skyline in all of South East Asia. Looking from Kowloon to Victoria")
 
+On the way back, I suddenly got a Deja Vu of some of the scenes from one of my favourite cheesy films, Rush Hour 2.
+In that, Jackie Chan is seen crawling up and fighting on some of the famous Bamboo scaffolding surrounding the cities buildings.
+I was afraid that 22 years of health and safety regulations would have put an end to this scaffolding practise, or that it was a strange stereotype and bamboo scaffolding didn't actually exist, but no!
+The bamboo scaffolding is real!
+
+![Bamboo scaffolding](./hongkong_scaffolding.jpeg "Imagine Jackie Chan up this")
+
 We had two days in Hong Kong, so split it roughly into a day around Hong Kong Island, and a day around Lantau Island.
 
 ### Victoria Peak
@@ -186,7 +193,30 @@ We also managed to get apparently the best Dim Sum Feiyang has ever tried, but y
 
 ### Lantau Island
 
-///TODO
+Hong Kong is made up of over 200 islands, of which the bulk of what you might think of as "Hong Kong" is just contained within the Kowloon Peninsula, and Hong Kong Island.
+Outside of this, are the New Territories, a collection of landmass that were originally inhaled by the British as part of the now-expired 99 year lease, which actually makes up more than 86% of Hong Kong's total territory.
+
+Lantau Island is the location where you would find Disneyland, Hong Kong Airport (technically reclaimed land), and some beautiful beaches.
+
+We decided to visit because it is also the location of a large Buddha statue that seemed quite interesting to us.
+
+![Lantau Cable Car](./hongkong_cable_car.jpeg "~6km of Cable Car to avoid a half day of hiking, feels worth it")
+
+To get there, we took the Ngong Ping 360 cable car all the way to the top.
+This offers a "crystal" cabin (basically double the price) where you can see through the floor to the passers by below.
+Not sure it is worth the price delta, but it's certainly fun to see others in your cabin freak out!
+
+Arriving at the top, we found ourselves intruding on a kind of race event.
+There were 5k/10k/other races going on around the island, with each of them having to run up and down all of the stairs to the main Buddha statue.
+My hat goes off to some of these people, who are clearly double my age and twice as fit, so that put some things into perspective at least.
+They also had to contend with an already crowded staircase swarming with Aunties and clueless tourists alike, so I'm sorry if I got in the way of anyone's PB.
+
+![Buddha statue](./hongkong_buddha.jpeg "Feiyang or Buddha?")
+
+I wish we had more time on this island, and others, as there are supposedly some amazing hikes you could do!
+
+Lama Island to the South is apparently a bit like Pulau Ubin from Singapore, in that it has mostly been left untouched by technological progress, being kept in a stasis of dirt roads, no internet and simple housing.
+Whilst I don't know if this is true or not, the islands still hold some secrets that beg to be explored!
 
 ### Leaving
 
@@ -199,13 +229,21 @@ My own flight back to England is booked 20 days later, departing from Changi air
 I spent some time down by the Kowloon peninsula to think about what I wanted to get up to over the next few weeks.
 Also, I wanted to reflect on my time in Hong Kong.
 
-After spending some time in Singapore, and having known both were ex-British colonies, I was fully expecting Hong Kong to feel the same as Singapore.
+After [spending some time in Singapore]({{< ref "posts/reflections-on-singapore" >}}), and having known both were ex-British colonies, I was fully expecting Hong Kong to feel the same as Singapore.
 
 Yet, it felt different.
 
 Hong Kong was much more chaotic, feeling less safe.
-Despite it also being independent for less time than Singapore, it felt less Westernised.
+Despite it also being independent for less time than Singapore, it felt less "Westernised".
+Over 90% of the population of Hong Kong are Chinese according to the latest figures, so you don't get quite the same international mix as you do with Singapore.
 
-Whilst Singapore has most of it's duties performed in English, with a fairly strict but predictable government, Hong Kong felt very Chinese indeed.
-///continue.
-///note that the airports are the same.
+Whilst I can't speak for the population, some citizens we talked to did express some concerns about the new governance.
+Free speech is no longer as free as it once was, and some inhabitants are struggling to adapt to this power shift.
+Though the British lease ended over 20 years ago, I feel the nation is still struggling to find it's own place.
+Or, struggling to lose it.
+
+I would imagine that the working culture in Hong Kong is very similar to Singapore, but the living conditions appear to be less favourable by most metrics.
+It is a place I would like to experience fully, but not one that I would readily choose over a similar location, such as Singapore.
+
+That being said, the biggest similarity I felt was the airports.
+Both were absolutely marvellous.
