@@ -154,4 +154,58 @@ Anyway, after a quick jaunt back to the hotel to set this up, I finally pay for 
 
 ![Hong Kong Skyline at night](./hongkong_skyline.jpeg "Probably the most impressive skyline in all of South East Asia. Looking from Kowloon to Victoria")
 
-We had two days in Hong Kong, so split it roughly into a day around Victoria, and a day around 
+We had two days in Hong Kong, so split it roughly into a day around Hong Kong Island, and a day around Lantau Island.
+
+### Victoria Peak
+
+Starting out early, we looked up the top things to do in Hong Kong, and chose to travel up to Victoria Peak to get some good views of the city.
+
+I didn't quite appreciate this from the night before, but Hong Kong is incredibly hilly.
+We took the Peak Funicular up to the top, and I'd recommend this to anyone visiting, despite the fact we got lost a few times trying to find the start of it!
+
+Since Hong Kong is so hilly, and was kind of built by _whoever was in charge at the time_, the roads are a bit all over the place as they follow the contours of the land.
+We were stuck in Hong Kong park for a good 30 minutes before we could find the right exit, and made sure to swear our way through our clothes running up and down the same hills.
+
+![Peak Funicular](./hongkong_victoria_cable_car.jpeg "Feels more like a rollercoaster than a train")
+
+Once on the funicular, you get another dose of how steep Hong Kong can be, as you climb well over a 30% gradient up to the top.
+
+At the top, you get another glimpse at the density of Hong Kong.
+
+You would have been able to see the infamous Kowloon Walled City were it still standing, but regardless, Hong Kong is still one of the most densely inhabited places you can visit.
+Almost every building that can be built, has been built as a high rise apartment block.
+
+![Hong Kong from the top](./hongkong_victoria_peak.jpeg "Sorry for spoiling the view")
+
+There's a certain beauty to it, and it does remind me of a denser, hillier Singapore, but we'll get to that later.
+
+The rest of the day we spent pretty much just walking around, shopping and eating.
+
+I don't have any pictures, but we explored some of the famous night markets, where you can buy ay designer bag you want, for £5!
+We also managed to get apparently the best Dim Sum Feiyang has ever tried, but you'll have to ask her for the restaurant as I'm quite frankly useless when it comes to food.
+
+### Lantau Island
+
+///TODO
+
+### Leaving
+
+![Feiyang leaving back to Englang](./hongkong_bye_feiyang.jpeg "Bye, Feiyang! See you in 3 weeks")
+
+Feiyang left Hong Kong early in the morning, and I gave her most of my cash so she could get a taxi straight to the airport.
+Her flight was at 7am, mine not until 2pm, so we parted ways as she head back to England.
+My own flight back to England is booked 20 days later, departing from Changi airport, so I now have ~3 weeks to get from Hong Kong to Singapore on my own.
+
+I spent some time down by the Kowloon peninsula to think about what I wanted to get up to over the next few weeks.
+Also, I wanted to reflect on my time in Hong Kong.
+
+After spending some time in Singapore, and having known both were ex-British colonies, I was fully expecting Hong Kong to feel the same as Singapore.
+
+Yet, it felt different.
+
+Hong Kong was much more chaotic, feeling less safe.
+Despite it also being independent for less time than Singapore, it felt less Westernised.
+
+Whilst Singapore has most of it's duties performed in English, with a fairly strict but predictable government, Hong Kong felt very Chinese indeed.
+///continue.
+///note that the airports are the same.
