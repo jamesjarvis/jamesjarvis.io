@@ -2,19 +2,26 @@
 
 Welcome to jamesjarvis.io - my personal site, accessible at (you guessed it!) <https://jamesjarvis.io>
 
-This site is now a static website generated using Hugo.
+This site is now a static website generated using Hugo, mostly inheriting the [Congo theme](https://github.com/jpanther/congo) as it was closest to my previous site's look and feel.
 
-To test locally, clone the repo, then run the following:
+## How to write
+
+```bash
+hugo new content posts/your_post_here
+```
+
+## How to run locally
 
 ```bash
 hugo server
 ```
 
-If you want to copy this for yourself, its pretty simple to set it up completely for your own purposes.
-After you have cloned the repository, and would like to set up the github actions CI/CD on github pages, just follow these instructions:
-<https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-gatsby>
+## How to build
 
-Some small additions to that for this particular project:
+```bash
+hugo --minify --gc --logLevel debug
+```
 
-- There is CI/CD set up. It used to be run on circleci, but I have since moved it over to github actions because its just SO. DAMN. FRIENDLY.
-- I have a custom domain on github pages (🌟 to whoever guesses what it is), and as a result you have to enter a CNAME file with the custom domain.
+## How to host
+
+[Follow the guide here on gohugo.io](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
