@@ -1,7 +1,7 @@
 ---
 title: "🇻🇳 Mini-Sabbatical Part 4: Vietnam, from the North to the South"
-date: 2024-05-27
-draft: true
+date: 2024-05-26
+draft: false
 tags: ["travel", "mini-sabbatical"]
 summary: "Vietnam by Train"
 ---
@@ -13,7 +13,6 @@ Read more [here]({{< ref "/tags/mini-sabbatical" >}}).
 Audience: Travel blog with personal details? Or just a factual trip?
 I think travel blog with personal takes, but with factual information. Cut out irrelevant information.
 
-- Arriving in Hanoi, immediately rushed into a delivery car to ha long, arriving at midnight
 - In the morning, day trip around ha long bay, back to hanoi old quarter arriving at midnight again
 - Hostelworld app great way to find out what to do, booked onto walking tour in the morning where I met some cool travellers. Explored the city, something else? Then off to pub street in the evening. Banh Mi 47?
 - Day after checking out something else(?) then relax around the lake with aunties dancing, got on bike taxi where I got scammed by the Mafia. Met Harry
@@ -71,4 +70,43 @@ I sat in a cafe with an iced egg coffee (amazing btw), alone aside from a securi
 Strange place, but I can only imagine that the combination of coronavirus and my arrival during the off season were to blame.
 
 Still, I'm here for one reason: To see Ha Long Bay by boat.
-Sitting in the 
+At the ferry terminal I'm sat next to a group of uncles who tell me they are on holiday from China, I share some stories via google translate from my recent travels, we grab a selfie and then share an even more awkward seat together on the ferry around the islands.
+
+This tour around Ha Long Bay is much the same as one you can take around the Krabi islands of Thailand, with similar Flora, Fauna, caves and beaches.
+The only difference is that Ha Long Bay is much larger, covering over a thousand islets.
+
+In Top Gear, the trio ended their race at a floating fishing village.
+
+15 years later, I came to the realisation that a tourist's day tour of the bay would not be enough time to reach deep enough into the islands to see floating villages.
+I've been told that _the thing to do_ in Ha Long Bay is to go on a multi-day cruise around the islets, but I've been warned that these types of cruises are almost exclusively old couples, and I didn't fancy spending 1/3rd of my time in Vietnam feeling oppressively single.
+
+Still, I did have enough time on the boat to see some amazing sights, walk around a cave, climb to the top of an island, kayak around a lagoon and relax for a bit on the beach.
+
+No time to relax too much though, as I'm back in a "limo" bound for Hanoi as the sun dips below the horizon.
+
+## Hanoi
+
+I'm staying in the Old Quarter, the cultural heart of Hanoi, also where you will find a hefty number of me-clones.
+From this point onwards I feel on a well trodden path of 20-somethings finding themselves through a few weeks holiday through South East Asia.
+
+In the morning my hostel arranged a walking tour of Hanoi and I get to know a bunch of my fellow hostellers.
+
+- A married couple from England who sold everything to travel non-stop for the last year (one trained to be a travel agent to take advantage of the internal discounts, smart)
+- A New Zealander travelling after her last breakup
+- A Japanese guy on his first trip alone
+- A Californian girl wearing a concerning amount of Patagonia/Arcteryx
+
+I had a great time sharing stories with them as we wandered across train tracks and through the bustling Dong Xuan market, sharing tips of where the best fake North Face stall might be.
+
+Most of the travellers were in Vietnam for longer, and had just come down from the mountains after completing the Ha Giang Loop - a ~4 day motorbike trip in the breathtaking Vietnamese mountains bordering southern China.
+After hearing their stories I wished I had performed a bit more research other than watching a single 15 year old episode of british tv, but I'll save Ha Giang for next time I visit!
+
+Walking away from the market empty handed, we all bonded over our extra touristic [Banh Mi 25](https://banhmi25.net) sandwich.
+Whilst I can't say for sure that it's the _best_ Banh Mi in Hanoi, it's above the bar for me.
+I'm just grateful to finally be back in a country that has good bread!
+
+[Hoa Lo/Hanoi Hilton](https://en.wikipedia.org/wiki/Hỏa_Lò_Prison) offered a strangely depressing interlude to our day.
+I hadn't learnt about the Vietnamese war before this trip, so I frantically googled for information to counter the details presented in this museum (some museums can be [very one-sided]({{< ref "posts/mini-sabbatical-2-beijing-to-chengdu#museums" >}}), but I still don't know about this one. For more sad museums skip to "Ho Chi Minh").
+The guillotine and cramped cells were mostly in reference to conditions during the first Indochina war, with the American-Vietnam war mostly being consigned to a section berating the Americans (quite rightly) and detailing how much fun the American prisoners had during their stay at the Hilton (suspicious).
+
+
