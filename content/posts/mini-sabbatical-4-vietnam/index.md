@@ -109,4 +109,37 @@ I'm just grateful to finally be back in a country that has good bread!
 I hadn't learnt about the Vietnamese war before this trip, so I frantically googled for information to counter the details presented in this museum (some museums can be [very one-sided]({{< ref "posts/mini-sabbatical-2-beijing-to-chengdu#museums" >}}), but I still don't know about this one. For more sad museums skip to "Ho Chi Minh").
 The guillotine and cramped cells were mostly in reference to conditions during the first Indochina war, with the American-Vietnam war mostly being consigned to a section berating the Americans (quite rightly) and detailing how much fun the American prisoners had during their stay at the Hilton (suspicious).
 
+### Train Street
 
+Despite warnings from our morning tour guide saying that **"Train Street is closed to the public"**, we later learned that this was a bit of an untruth.
+
+"Train Street" has become synonymous with Vietnam in general, and therefore attracts a ridiculous number of tourists, all hoping to grab their shot of a train passing by.
+Clearly it would be both dangerous and a downright nuisance to the already struggling vietnamese rail system if the train had to plow through white people every few hours.
+
+So, the officials have "closed" the street.
+
+_Officially_, this means that tour guides and public notices spread the word that the street is closed, the entrance is blocked with gates and "nothing for you mr tourist" signs.
+
+_Unofficially_, you just need a whatsapp contact, or to wait outside these gates like a vampire until someone invites you in.
+Inside, you'll find that train street is well and truly open for business, though I believe each of the bars are part of a **train street cartel**.
+As we sat there with our noodles and beer, a lady wearing purple came over to take payment.
+She carried a wad of cash and didn't take no for an answer, routing from tourist to tourist like a mosquito in a hostel.
+Not just the bar we sat at, but every bar in the street, she was the cashier and the boss.
+
+The officials will come over and check that the street is "closed" every couple of hours.
+You'll know when they come because a whistle will blow, and you have 5 minutes to pick up your beer and head inside as the staff close up shop behind you, turn off the lights, and pay the policeman while he takes a photo of the now dark, empty street.
+
+Don't worry, give it another 5 minutes and the next whistle blow will turn the lights back on, open the shutters and bring the tourists back out in a stampede.
+
+I have to say, "Train Street" is a place you simply can't miss on your trip to Hanoi.
+
+Pub street however, is absolutely just a street with a bunch of pubs, so unless you are there just for the cheap beer and dodgy clubs I'd give that a miss.
+
+### Communist Architecture
+
+My last day in Hanoi I took it a bit slower, grabbing a "Grab" to the other side of town, where I hoped to walk back from.
+
+As an aside, Grab is another "must-have" app for south east asia.
+Highly recommend setting it up before you head off.
+
+My destination from the Grab was B-52 lake, so named after the American B52 bomber that fell into the lake during the American-Vietnamese war, where it stayed as neither side could be bothered to move it.
