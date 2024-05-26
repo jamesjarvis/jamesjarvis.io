@@ -1,7 +1,7 @@
 ---
 title: "🇻🇳 Mini-Sabbatical Part 4: Vietnam, from the North to the South"
-date: 2024-05-26
-draft: false
+date: 2024-05-27
+draft: true
 tags: ["travel", "mini-sabbatical"]
 summary: "Vietnam by Train"
 ---
