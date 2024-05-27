@@ -145,5 +145,56 @@ Highly recommend setting it up before you head off.
 My destination from the Grab was B-52 lake, so named after the American B52 bomber that fell into the lake during the American-Vietnamese war, where it stayed as neither side could be bothered to move it.
 It serves as one of the last untouched reminders of the war, but as it abstracts any of the actual atrocities, you can find a few very quiet cafes overlooking the lake.
 
-From there I walked through the botanical gardens and on to the Ho Chi Minh palace and mausoleum.
-This section of Hanoi has the most "communist" feel to it, with a large central square flanked by palaces, museums and even a garden where Ho Chi Minhs original [stilt house](https://vinpearl.com/en/ho-chi-minhs-stilt-house-hanoi-a-unique-simple-house-with-great-values) stands, defiant rom time.
+From there I strolled through the botanical gardens and on to the Ho Chi Minh palace and mausoleum.
+This section of Hanoi has the most "communist" feel to it, with a large central square flanked by palaces, museums and even a garden where Ho Chi Minhs original [stilt house](https://vinpearl.com/en/ho-chi-minhs-stilt-house-hanoi-a-unique-simple-house-with-great-values) stands, defiant from time.
+I took a route back to the old quarter along leafy streets flanked by large diplomatic residences in differing styles, and a lot of security guards.
+
+### Cycling Mafia
+
+I had a train to catch at 7 from Ga Hanoi, but had already been walking all day so looked at getting a grab for the ~2km journey.
+It was ~30k dong for a car, but the traffic meant the car wouldn't arrive for another few minutes, so I flagged down a cycle rickshaw.
+
+I had taken one of these in India a few years back and know they would cost less than a car, but I also assumed there would be some kind of tourist rate.
+The guy seemed nice enough however, and we had a pleasant chat for the ~15 minute cycle to the station.
+Since he was nice, I thought I'd be nice and give him a tip, so I gave him 50k dong, more than hiring an _entire car_.
+
+Bad move, he **demanded** 400k...
+Obviously I wasn't going to pay that, and just regretted not agreeing on the price beforehand.
+This guy then immediately started recruiting a local taxi driver and some other locals, clearly lying to them saying he had cycled me all day long.
+They seemed to not care too much, so I asked a lady at the train station how much she would pay for a 15 minute cycle taxi.
+Her reply? 1.5k dong...
+
+This guy kept yelling at me for a good 15 minutes more, yelling "mafia, mafia".
+I shouted back "I'm not a mafia!".
+
+Eventually the angry little man settled on 100k, and I went back to sitting outside the station.
+A couple minutes after he left, a local shop owner came up to me.
+
+"I'm sorry for that, _they are a mafia_ around here".
+
+Ah, that explains it...
+
+Still, I wasn't alone.
+Also waiting at the station for a train to Da Nang was another Software Engineer from the UK, Harry.
+
+Bit of a strange way to meet, but it gave us a good conversation starter and we got along pretty well thanks to basically being the same person.
+He was on a train to Da Nang an hour before mine (I accidentally arrived early, should've walked!), but we promised to meet up in Hoi An the next day.
+
+## Train from Hanoi to Hoi An
+
+If you are going to book a train around Vietnam, and you don't already speak the language, you really only have 1 option: [baolau.com](https://www.baolau.com/en/).
+However, you do have a few options to choose from whilst on the train itself: sitting upright, sleeping in a 6 berth and sleeping in a 4 berth.
+I'm happy to travel on a budget, but given the 17 hour travel time, I protected my sanity and dropped a cool 735k dong on a 4 berth bed.
+
+The train I was on had been refurbished a few years prior, so was really nice, and came with clean sheets due to Hanoi being the first stop (if you are joining in Da Nang it will already have been slept in, as I found out later).
+The main telltale sign that the rail network has seen better days was when travelling through the city, I could not believe a train was able to rock so much without coming off the tracks!
+
+I was hoping it would stop, or at least rock me back to sleep, but banging my head made sure to stop that, at least until we left the city.
+
+I did eventually fall asleep however, and woke up for the nicest bit of the journey: The Hai Van Pass.
+I wasn't aware at the time, but this stretch of the journey is classed as one of the prettiest train journeys of all time, and I could see why!
+
+You dangle over the cliff, along the hills, and around the beaches, you even pass by the same viewpoint as seen in Top Gear!
+
+{{< youtube O1zfuBgCUqY >}}
+
