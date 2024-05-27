@@ -143,3 +143,7 @@ As an aside, Grab is another "must-have" app for south east asia.
 Highly recommend setting it up before you head off.
 
 My destination from the Grab was B-52 lake, so named after the American B52 bomber that fell into the lake during the American-Vietnamese war, where it stayed as neither side could be bothered to move it.
+It serves as one of the last untouched reminders of the war, but as it abstracts any of the actual atrocities, you can find a few very quiet cafes overlooking the lake.
+
+From there I walked through the botanical gardens and on to the Ho Chi Minh palace and mausoleum.
+This section of Hanoi has the most "communist" feel to it, with a large central square flanked by palaces, museums and even a garden where Ho Chi Minhs original [stilt house](https://vinpearl.com/en/ho-chi-minhs-stilt-house-hanoi-a-unique-simple-house-with-great-values) stands, defiant rom time.
