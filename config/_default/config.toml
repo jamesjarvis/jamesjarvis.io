@@ -4,7 +4,7 @@
 baseURL = "https://jamesjarvis.io/"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
-paginate = 20
+paginate = 25
 summaryLength = 10
 colorScheme = "ocean"
 
