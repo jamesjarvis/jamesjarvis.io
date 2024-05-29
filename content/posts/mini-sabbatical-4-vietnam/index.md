@@ -194,7 +194,64 @@ I was hoping it would stop, or at least rock me back to sleep, but banging my he
 I did eventually fall asleep however, and woke up for the nicest bit of the journey: The Hai Van Pass.
 I wasn't aware at the time, but this stretch of the journey is classed as one of the prettiest train journeys of all time, and I could see why!
 
-You dangle over the cliff, along the hills, and around the beaches, you even pass by the same viewpoint as seen in Top Gear!
+You dangle over the cliff, along the hills, and around the beaches, you even pass by the same viewpoint as seen in Top Gear, which caused me to squint in disbelief.
 
 {{< youtube O1zfuBgCUqY >}}
+
+You get plenty of time to admire it, as this section of the journey is painfully slow, averaging jogging pace around the hills as the train rocks back and forth, threatening to send you and it down the cliffs.
+
+Some people stay in Da Nang attempting to catch some waves surfing (as Harry was hoping to), but I had my eyes set on one thing, so jumped in another grab for the short journey to Hoi An.
+
+## Hoi An
+
+I had chatted with the hostel host beforehand to sign myself up for a food tour shortly after arrival, but I had forgotten to mention that my friend (Harry) from outside the hostel also wanted to come.
+She was joking admonishing me as she was afraid there wouldn't be enough push bikes for everyone.
+
+Everything was fine in the end, but Harry was wondering why every time he saw me, someone was shouting at me!
+
+The food tour consisted of a series of pit stops at road side stalls, where we would balance on tiny plastic chairs.
+I can't recall the names of the food, but we had plenty of noodles, skewers and a bready snack filled with chocolate, all were quite nice!
+
+I said I had my eyes set on one thing, and that thing was a suit.
+Specifically, I wanted a **pink linen suit** that I could wear to my sister's wedding in 2024.
+
+Harry was down to have a look at suits as well, so we set out, first to have a look at the same tailors as Top Gear, and then to visit the tailors recommended by our hostel host.
+
+We only had 35 hours remaining in Hoi An, so tonight we had a fantastic time choosing the styles, colours and materials for our suits, along with some initial measurements.
+We were like kids in a candy shop, except now quarter aged men in a suit shop.
+Linen, Cashmere, Wool, Silk, in any colour and any combination it's no wonder that half the town is suit shops catering to tourists.
+An australian brother and sister we met at the hostel also partook, having a velvet smoking jacket and "designer" dress made.
+
+As for the price, it was pretty good but no doubt you could haggle a better price than me!
+
+For 2 linen shirts and 2 three-piece linen suits my total came to 15.5 _million_ Vietnamese Dong (~£500).
+I thought this was a great deal and I didn't want to spoil the moment with haggling, but talking to a friend from singapore, they managed to get a more classic 2 piece cashmere-wool suit for only ~£100 after knocking half off the price.
+Your results may vary!
+
+The next day we had a series of re-fittings for our suits to go to, so it was mostly a blur of riding our bikes between cafe, tailors, shop, tailors, bar, tailors, bar.
+Fantastic day!
+
+In the evening we picked up our suits, and went out to a "tiger tiger" bar with people from the hostel.
+Harry regretted staying in Da Nang, as he had to cling onto the back of a scooter for 45 mins with his suit, whilst not entirely sober.
+
+## Train from Hoi An to Saigon
+
+I'm told the north calls Saigon "Ho Chi Minh City", while the south calls Ho Chi Minh City "Saigon".
+I still can't tell which one is right.
+
+Anyway, I was back on the Vietnamese railway network for an 18.5 hour trip down the coast again.
+This time, as I'm getting on halfway through the train's route from Hanoi -> Ho Chi Minh City, the cabin/bed was a bit less clean, so something to be aware of if you make the journey yourself.
+
+In my cabin this time was a Scottish couple in their 60's, continuing their adventurous retirement.
+I chatted with them for a while, and they shared their plans to travel across Cambodia.
+I hadn't booked the next leg of my trip yet, so I took their advice and reserved some coaches using [12go.asia](https://12go.asia/en), apparently the most trustworthy website to use.
+Supposedly buses can really start to range in comfort around this area, so while I can't speak for all of them, I can say I used Giant Ibis and they were quite good.
+
+This couple reminded me a lot like my girlfriend and I's hero's of 2023: [Tony and Elaine](https://www.yorkshirepost.co.uk/arts-and-culture/film-and-tv/race-across-the-world-yorkshire-winners-of-travel-show-on-their-gap-decade-4583339).
+They had taken part on the BBC show [Race Across the World](https://www.bbc.co.uk/programmes/profiles/J5RczFz3CqyT1g80rV0HLV/elaine-and-tony), travelling from London to Singapore across 50 days on a budget of only £1329 each.
+
+I'm still working on convincing Feiyang to do this with me...
+
+## Ho Chi Minh City / Saigon
+
 
