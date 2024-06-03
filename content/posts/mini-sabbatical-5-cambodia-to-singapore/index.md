@@ -1,14 +1,15 @@
 ---
 title: "🇰🇭/🇹🇭/🇸🇬 Mini-Sabbatical Part 5: Final Stretch from Cambodia to Singapore"
-date: 2024-06-05
+date: 2024-06-07
+draft: true
 tags: ["travel", "mini-sabbatical"]
-summary: "Final Sprint"
+summary: "My last 12 days in Asia"
 ---
 
 This is part of the **mini-sabbatical** series.
 Read more [here]({{< ref "/tags/mini-sabbatical" >}}).
 
-## Scratch pad (DELETE BEFORE POSTING).
+<!-- Scratch pad (DELETE BEFORE POSTING).
 Audience: Travel blog with personal details? Or just a factual trip?
 I think travel blog with personal takes, but with factual information. Cut out irrelevant information.
 
@@ -22,6 +23,8 @@ I think travel blog with personal takes, but with factual information. Cut out i
 - Left for Koh Samui, where I did basically nothing for 5 days straight.
 - Back to Singapore for 1 night staying in Arab St. Met up with some coworkers as they started their own rotation in Singapore. We shared some stories. Saw another coworker who I thought was dead, has 9 lives it seems.
 - Last day was "black friday", I spent the whole day shopping for gifts for my family before flying back and meeting up with them for the first time in 117 days.
+
+-->
 
 
 ## 

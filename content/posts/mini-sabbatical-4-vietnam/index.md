@@ -1,6 +1,6 @@
 ---
 title: "🇻🇳 Mini-Sabbatical Part 4: Vietnam, from the North to the South"
-date: 2024-05-27
+date: 2024-06-03
 draft: true
 tags: ["travel", "mini-sabbatical"]
 summary: "Vietnam by Train"
@@ -212,6 +212,8 @@ Everything was fine in the end, but Harry was wondering why every time he saw me
 The food tour consisted of a series of pit stops at road side stalls, where we would balance on tiny plastic chairs.
 I can't recall the names of the food, but we had plenty of noodles, skewers and a bready snack filled with chocolate, all were quite nice!
 
+### Suit Up
+
 I said I had my eyes set on one thing, and that thing was a suit.
 Specifically, I wanted a **pink linen suit** that I could wear to my sister's wedding in 2024.
 
@@ -254,4 +256,53 @@ I'm still working on convincing Feiyang to do this with me...
 
 ## Ho Chi Minh City / Saigon
 
+We have just over 24 hours in Saigon, so what else to do besides of course, the Ho Chi Minh war remnants museum.
 
+### War Remnants Museum
+
+Harry and I spent a few hours here walking around sombrely, with it's harrowing honest portrayal of the effects of the war playing through our heads.
+Having never quite understood the impacts of "agent orange" before, I was horrified.
+The museum does a traumatically excellent job of conveying the human impact of such dioxins, and shows in graphic detail the deformations and destruction it has wrought upon all generations nearby.
+The inhumanity of this war, the indecency of the soldiers, the indiscriminate razing of _all life_ shocked me.
+I wept a bit.
+
+[This article](https://www.independent.co.uk/life-style/health-and-families/agentorangevietnamwarusdamirsagolj-a7664491.html) captures some of the essence of what the museum showed, but the in person experience is something that cannot be conveyed in this article, or any other so far detached.
+
+### Cu Chi Tunnels
+
+On the complete other end of the spectrum, the Cu Chi Tunnels.
+
+For this, we were granted a ridiculously cheerful tour guide, who insisted on singing his favourite American songs for the entire 2 hour journey to the tunnels.
+
+On arrival, it's quite what you would expect, with a medium density forest giving way to the odd stretch of dirt, and a couple holes for the tourists to peek / jump inside.
+
+Coming from the war remnants museum, this was a bit underwhelming, with the only _authentic_ part of the experience being the occasional **crack** of M16 rifle fire by an American (tourist, this time).
+
+### Bui Vien
+
+Our time in Saigon - Vietnam in general - was coming to a close.
+
+We caught back up with Alfonso (from the train ride earlier) for a few beers down in Bui Vien street.
+
+Whilst it's not the craziest scene in South East Asia, it's still enough to put you off western tourists, with the classic affair of cheap drinks and soft drugs fuelling a late night culture.
+
+We stayed for a bit, but after having our fill of food and Saigon beer and struggling to find a good rooftop bar with live music, we called it a night.
+
+## To Cambodia
+
+I left early the next day, with just enough time to grab a last Banh Mi with Harry before jumping on my first Bus of the trip.
+
+Bus stops aren't quite what you would expect, considering the prevalence of this mode of transport.
+
+I waited for my Giant Ibis coach from Ho Chi Minh to Phnom Penh outside a seemingly random cafe on a normal street.
+Only the dozen or so confused looking backpackers could give away it's true purpose.
+I was following in the footsteps of that scottish couple from before, and back to being alone.
+
+I had achieved a cross country trip in 8 days, the complete reverse of Top Gear from my youth.
+
+Writing this looking back now, I miss Vietnam, I mmissed it as soon as I left in truth.
+The chaos, the community, the suits.
+I know I'll be back for more of them all!
+
+Looking ahead, my flight to London leaves in 12 days from Singapore.
+I still have 2 more countries I want to see...
