@@ -10,10 +10,11 @@ defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
 enableSearch = true
-enableCodeCopy = false
+enableCodeCopy = true
 enableImageLazyLoading = true
 enableImageWebp = true
 enableImageLink = true
+enableQuickLink = true
 
 fingerprintAlgorithm = "sha256"
 
@@ -26,7 +27,7 @@ showTitle = true
 [footer]
 showCopyright = true
 showThemeAttribution = false
-showAppearanceSwitcher = false
+showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
