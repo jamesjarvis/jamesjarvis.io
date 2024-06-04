@@ -1,7 +1,7 @@
 ---
 title: ":map: Visualising location history"
 date: 2020-12-01
-tags: ["web-dev"]
+tags: ["projects"]
 summary: "Where did he come from, where did he go?"
 ---
 

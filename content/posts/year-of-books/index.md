@@ -1,7 +1,7 @@
 ---
 title: "📚 Year of books"
 date: 2024-01-02
-tags: ["book-review", "reflection"]
+tags: ["reading", "thoughts"]
 summary: "2023 was a year of reading"
 ---
 

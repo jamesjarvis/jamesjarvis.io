@@ -1,7 +1,7 @@
 ---
 title: "📈 Graphing Monzo Growth"
 date: 2020-03-01
-tags: ["web-dev"]
+tags: ["data"]
 summary: "Finally, a bank people don't hate"
 ---
 

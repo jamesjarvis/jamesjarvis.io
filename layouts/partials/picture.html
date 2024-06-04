@@ -52,7 +52,10 @@
         style="background-image:url(data:image/webp;base64,{{ $bg }});background-size:cover"
       {{ end }}
     >
-      {{ $resolutions := slice 330 660 1024 1320 1650 1980 2310 2640 2970 }}
+      {{ $resolutions := slice 660 1320 }}
+      {{ if (gt $maxSize 1320) }}
+        {{ $maxSize = 1320 }}
+      {{ end }}
       {{ if $webp }}
         <source
           srcset="
@@ -63,8 +66,6 @@
             {{- ($img.Resize (printf "%dx webp" $res)).RelPermalink }}
             {{ (printf "%dw" $res) }},
           {{ end }}
-          {{- ($img.Resize (printf "%dx webp" $maxSize)).RelPermalink }}
-          {{ (printf "%dw" $maxSize) }}
           "
           type="image/webp"
         />
@@ -83,10 +84,8 @@
             {{- ($img.Resize (printf "%dx" $res)).RelPermalink }}
             {{ (printf "%dw" $res) }},
           {{ end }}
-          {{- ($img.Resize (printf "%dx" $maxSize)).RelPermalink }}
-          {{ (printf "%dw" $maxSize) }}
           "
-          src="{{- ($img.Resize (printf "%dx" $maxSize)).RelPermalink }}"
+          src="{{- ($img.Resize (printf "%dx" $maxSize) ).RelPermalink }}"
           sizes="100vw"
       />
     </picture>

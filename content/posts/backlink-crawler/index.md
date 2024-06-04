@@ -1,7 +1,7 @@
 ---
 title: "⠪ Mapping the Internet (?)"
 date: 2020-10-04
-tags: ["go", "raspberry-pi"]
+tags: ["projects"]
 summary: "Links on links on links, man"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: ":umbrella: E-Ink Weather Dashboard"
 date: 2020-06-20
-tags: ["raspberry pi", "hardware"]
+tags: ["projects"]
 summary: "Fun little rarely updating dashboard."
 lastmod: 2023-06-30
 ---

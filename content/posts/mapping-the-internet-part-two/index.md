@@ -1,7 +1,7 @@
 ---
 title: "⠪ Mapping the Internet, part deux"
 date: 2021-02-05
-tags: ["raspberry-pi", "web-dev"]
+tags: ["projects"]
 summary: "Links on links on links with a UI, man"
 lastmod: 2023-06-30
 ---

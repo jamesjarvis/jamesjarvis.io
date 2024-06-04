@@ -1,7 +1,7 @@
 ---
 title: "📦 IPFS Web Hosting"
 date: 2020-05-02
-tags: ["raspberry-pi"]
+tags: ["projects"]
 summary: "I thought IPFS was supposed to be permament..."
 ---
 

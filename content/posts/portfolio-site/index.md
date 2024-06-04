@@ -1,7 +1,7 @@
 ---
 title: "🖥 Open Source Portfolio Website"
 date: 2019-02-02
-tags: ["web-dev"]
+tags: ["projects"]
 summary: "I wanted a personal website, I made a personal website."
 ---
 
