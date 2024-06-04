@@ -13,6 +13,7 @@ enableSearch = true
 enableCodeCopy = false
 enableImageLazyLoading = true
 enableImageWebp = true
+enableImageLink = true
 
 fingerprintAlgorithm = "sha256"
 

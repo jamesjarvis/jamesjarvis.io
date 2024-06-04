@@ -4,6 +4,7 @@
 {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
 {{ $webp := $.Page.Site.Params.enableImageWebp | default true }}
 {{ $lqip := $.Page.Site.Params.enableImageLqip | default true }}
+{{ $linkImage := $.Page.Site.Params.enableImageLink | default false }}
 
 <!-- get image URL from Markdown tag -->
 {{- $src := ( .Destination | safeURL ) -}}
@@ -15,9 +16,13 @@
 <!-- check if it exists as a page resource -->
 {{- with ($.Page.Resources.ByType "image").GetMatch ( printf "%s" $src ) -}}
   <figure>
-    <!-- <a href="{{ .RelPermalink }}"> -->
+    <a
+      {{ if $linkImage }}
+        href="{{- (.Process "q80" ).RelPermalink }}"
+      {{ end }}
+    >
       {{ partial "picture.html" (dict "img" . "alt" $altText "class" $class "lazy" $lazy "webp" $webp "lqip" $lqip ) }}
-    <!-- </a> -->
+    </a>
     {{ with $caption }}<figcaption class="text-center">{{ . | markdownify }}</figcaption>{{ end }}
   </figure>
 {{- end -}}
