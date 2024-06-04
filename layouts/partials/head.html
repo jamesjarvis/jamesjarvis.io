@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta name="theme-color" content="{{ .Site.Params.defaultThemeColor | default "#ffffff" }}" />
   {{/* Title */}}
   {{ if .IsHome -}}
     <title>{{ .Site.Title | emojify }}</title>
@@ -17,10 +17,9 @@
   {{ $jsAppearance = $jsAppearance | resources.Minify | resources.Fingerprint $algorithm }}
   <script
     type="text/javascript"
+    src="{{ $jsAppearance.RelPermalink }}"
     integrity="{{ $jsAppearance.Data.Integrity }}"
-  >
-    {{ $jsAppearance.Content }}
-  </script>
+  ></script>
   {{ $cssScheme := resources.Get (printf "css/schemes/%s.css" (lower .Site.Params.colorScheme | default "congo")) }}
   {{ if not $cssScheme }}
     {{ $cssScheme = resources.Get "css/schemes/congo.css" }}
@@ -120,6 +119,9 @@
   {{ end }}
   {{ with .Site.Params.verification.yandex }}
     <meta name="yandex-verification" content="{{ . }}" />
+  {{ end }}
+  {{ with $.Params.externalUrl }}
+    <meta http-equiv="refresh" content="0; url={{ . }}" />
   {{ end }}
   {{/* Social */}}
   {{ partial "opengraph.html" . }}
