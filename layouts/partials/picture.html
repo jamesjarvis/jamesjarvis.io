@@ -53,6 +53,9 @@
       {{ end }}
     >
       {{ $resolutions := slice 660 1320 }}
+      {{ if (gt $maxSize 1320) }}
+        {{ $maxSize = 1320 }}
+      {{ end }}
       {{ if $webp }}
         <source
           srcset="
@@ -82,7 +85,7 @@
             {{ (printf "%dw" $res) }},
           {{ end }}
           "
-          src="{{- ($img.Resize "1320x" ).RelPermalink }}"
+          src="{{- ($img.Resize (printf "%dx" $maxSize) ).RelPermalink }}"
           sizes="100vw"
       />
     </picture>
