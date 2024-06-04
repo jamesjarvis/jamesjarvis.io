@@ -14,7 +14,7 @@ enableCodeCopy = true
 enableImageLazyLoading = true
 enableImageWebp = true
 enableImageLink = true
-enableQuickLink = true
+enableQuickLink = false
 
 fingerprintAlgorithm = "sha256"
 
