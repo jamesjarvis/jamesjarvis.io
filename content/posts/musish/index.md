@@ -1,7 +1,7 @@
 ---
 title: "🎵 Musish: The Unofficial, Open Source Apple Music Web Player"
 date: 2018-12-12
-tags: ["web-dev"]
+tags: ["projects", "software"]
 summary: "How I was kinda developer-famous for 5 minutes"
 lastmod: 2023-06-30
 ---

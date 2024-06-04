@@ -1,7 +1,7 @@
 ---
 title: "🤔 Setting up for a Mini Sabbatical"
 date: 2024-01-17
-tags: ["reflection", "mini-sabbatical"]
+tags: ["thoughts", "mini-sabbatical"]
 summary: "Preparing for 117 days living, working and travelling in South East Asia"
 ---
 

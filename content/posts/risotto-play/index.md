@@ -1,7 +1,7 @@
 ---
 title: "🍲 Risotto Play"
 date: 2020-04-20
-tags: ["web-dev"]
+tags: ["projects"]
 summary: "Online playground for a useless programming language"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: ":pen: Git Art"
 date: 2019-02-05
-tags: ["web-dev", "bash"]
+tags: ["projects", "software"]
 summary: "Commit stuff, with _style_"
 ---
 

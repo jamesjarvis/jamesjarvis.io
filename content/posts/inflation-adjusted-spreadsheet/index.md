@@ -1,7 +1,7 @@
 ---
 title: "📉 Inflation adjusted net worth/salary spreadsheet"
 date: 2024-01-20
-tags: ["spreadsheets"]
+tags: ["data"]
 summary: "Money ain't what it used to be"
 ---
 

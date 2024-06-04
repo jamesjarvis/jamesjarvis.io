@@ -1,7 +1,7 @@
 ---
 title: "📆 WhatsUpKent: Everything happening at the University of Kent"
 date: 2019-11-04
-tags: ["web-dev"]
+tags: ["projects"]
 summary: "Finding out better lectures than the ones I was paying for"
 ---
 

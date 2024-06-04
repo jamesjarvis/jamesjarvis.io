@@ -1,7 +1,7 @@
 ---
 title: "👨‍🎓 Graduating in a Pandemic/Recession"
 date: 2020-08-01
-tags: ["reflection"]
+tags: ["thoughts"]
 summary: "Well, that was underwhelming..."
 ---
 
