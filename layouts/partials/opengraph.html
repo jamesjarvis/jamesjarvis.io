@@ -4,6 +4,13 @@
   <meta property="og:site_name" content="{{ . }}">
 {{- end }}
 
+{{ with .Site.Language.Params.Author.image }}
+  {{ $authorImage := resources.Get . }}
+  {{ if $authorImage }}
+    <meta property="og:logo" content="{{ ($authorImage.Resize "200x").Permalink }}">
+  {{ end }}
+{{ end }}
+
 {{- with or .Title site.Title site.Params.title | plainify}}
   <meta property="og:title" content="{{ . }}">
 {{- end }}
@@ -35,7 +42,7 @@
 
 {{- with partial "_funcs/get-page-images" . }}
   {{- range . | first 6 }}
-    <meta property="og:image" content="{{ (.Image.Resize "1320x webp").RelPermalink }}">
+    <meta property="og:image" content="{{ (.Image.Resize "660x").Permalink }}">
   {{- end }}
 {{- end }}
 
