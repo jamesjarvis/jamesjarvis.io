@@ -26,5 +26,22 @@ I think travel blog with personal takes, but with factual information. Cut out i
 
 -->
 
+## Bus across the Cambodian border
 
-## 
+
+
+## Phnom Penh
+
+### Tuol Sleng / S-21
+
+## Siem Reap
+
+### Temples
+
+### Markets
+
+## Bangkok
+
+## Koh Samui
+
+## Singapore; Farewell
