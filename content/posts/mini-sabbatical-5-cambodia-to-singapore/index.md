@@ -1,25 +1,13 @@
 ---
 title: "🇰🇭/🇹🇭/🇸🇬 Mini-Sabbatical Part 5: Final Stretch from Cambodia to Singapore"
-date: 2024-06-07
-draft: true
+date: 2024-06-10
+draft: false
 tags: ["travel", "mini-sabbatical"]
 summary: "My last 12 days in Asia"
 ---
 
 This is part of the **mini-sabbatical** series.
 Read more [here]({{< ref "/tags/mini-sabbatical" >}}).
-
-<!-- Scratch pad (DELETE BEFORE POSTING).
-Audience: Travel blog with personal details? Or just a factual trip?
-I think travel blog with personal takes, but with factual information. Cut out irrelevant information.
-
-- In the morning, talked with some of the other hostel goers before visiting a floating village/market. In the evening we met back up again to watch muay thai.
-- Another time, I walked around all of Bangkok, eventually visiting the Golden Temple. Sat for some food in an empty restaurant, overlooking the temple from a terrace. A couple in their 40s later sat down and started speaking with me. They had each independantly visited bangkok in their 20s many years ago and were recreating their trips together this time. As I left I discovered they had paid for my food.
-- Left for Koh Samui, where I did basically nothing for 5 days straight.
-- Back to Singapore for 1 night staying in Arab St. Met up with some coworkers as they started their own rotation in Singapore. We shared some stories. Saw another coworker who I thought was dead, has 9 lives it seems.
-- Last day was "black friday", I spent the whole day shopping for gifts for my family before flying back and meeting up with them for the first time in 117 days.
-
--->
 
 ## Bus across the Cambodian border
 
@@ -242,15 +230,13 @@ I'm grateful that I got to meet my girlfriend's family, that I got to meet some 
 I'm grateful that I continue to get to experience a more vivid life than I could previously afford, and that it feels like an option that remains open to me in the future, should I want it.
 
 For now though, I must head back to London.
-I met up with some coworkers, include ones who acted as my replacement in the company's rotation scheme (they say they have had a predictably chaotic time).
+I met up with some coworkers, including ones who acted as my replacement in the company's rotation scheme (they say they have had a predictably chaotic time).
 For a moment I forgot that I am still employed, and have to go back to work in only 2 days time.
 The thought unnerves me slightly, but I'm happy to return with a renewed clarity.
 
 For my last 5 hours, I visited 5 different Muji shops chasing a particular shirt to buy my Dad (and a final Acai bowl for me!), then I head for Changi International Airport.
 
-I want to come back, for longer.
+But I'll be back; there is more to see!
 
-The end?
-
-As I write this, I'm washing my clothes in preparation for another flight to China in a few days time.
+As I publish this, I'm washing my clothes in preparation for another flight to China in a few days time.
 So, Asia hasn't seen the last of me yet!
