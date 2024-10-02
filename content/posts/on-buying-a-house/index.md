@@ -72,6 +72,25 @@ However, my family all live in South East London, and it's _almost_ affordable, 
 
 One day, I'll move to some nice leafy suburb in the North West, but that goal is not achievable just yet...
 
+## Useful Resources for Finding a Property
+
+These are some fantastic resources I used to determine my ideal area, and to track down a house on the market:
+
+- [CrystalRoof](https://crystalroof.co.uk/report/postcode/DA51AA/overview)
+  - Offers insight into local crime reports, demographics, transport links, and amenities. Really helpful if you aren't sure about an area!
+- [HoodMaps](https://hoodmaps.com/london-neighborhood-map)
+  - Hilarious and vaguely useful community map for rating a location.
+- [Zoopla Travel Time](https://www.zoopla.co.uk/travel-time/)
+  - If you don't know where to start, but know you want to be able to commute to work by bike in less than 30 mins, this is a great tool.
+- [Zoopla](https://www.zoopla.co.uk/for-sale/map/property/kent/bexley/bexley-high-street/da5-1aa/?q=DA51AA&search_source=home)
+  - Probably the best home finding app.
+- [RightMove](https://www.rightmove.co.uk/property-for-sale/map.html?includeSSTC=false&keywords=&sortType=2&viewType=MAP&channel=BUY&index=0&radius=0.25&locationIdentifier=POSTCODE%5E215471)
+  - The most popular home finding app.
+- [OnTheMarket](https://www.onthemarket.com/for-sale/property/da5-1aa/?view=map-list)
+  - Also useful home finding app, covers some extra estate agents.
+- [Jitty](https://jitty.com)
+  - Honourable mention, has some interesting AI search features, like "period property with tall ceilings and a driveway".
+
 ## How buy?
 
 I had been living in rental accommodation for the last few years, with some "free" months [in Singapore]({{<ref "posts/reflections-on-singapore">}}), or staying with my parents.
