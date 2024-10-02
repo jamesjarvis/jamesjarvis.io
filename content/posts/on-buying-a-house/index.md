@@ -1,28 +1,23 @@
 ---
 title: "🏡 On Buying a House"
-date: 2024-11-01
+date: 2024-10-02
 tags: ["thoughts"]
-lastmod: 2024-09-14
+lastmod: 2024-10-02
 ---
 
 I have a bit of a confession to make.
 
 I am horribly, frustratingly, embarrassingly... _indecisive_.
 
-Anybody who knows me, is aware that for me to purchase something, I generally have to explore every possible opportunity, weighing up imaginary pros and cons in my own head for potentially _months_ before committing to exchanging my hard earned cash for the item.
-
-Unfortunately, I've always been like this.
-
 - It took me 4 months to decide on a new bike earlier this year, when I desperately needed one to commute.
 - It took me 3 months the year before that to decide on a new coat for the winter, when I had no waterproofs at all.
 - It took me over a month to decide on a replacement car when mine was crashed in to, and I was out of my most useful mode of transport.
 
-But these were comparatively _small_ purchases, all under £10k.
+But these were comparatively _small_ purchases.
 What if I were to continue acting the same, but apply this to the **largest financial decision of my entire life**?
 
 So, we arrive at March 2024.
 The beginning of my search.
-It'll take a while...
 
 ## Why buy?
 
@@ -52,7 +47,6 @@ You basically have a choice of:
 | Very sociable | House/Flat inside city | Flat inside city        |
 | Less sociable | House outside city     | House/Flat outside city |
 
-
 Whatever you buy though, watch out for the following:
 
 - Transportation links
@@ -70,22 +64,22 @@ I'll preface this by saying: I _love_ London.
 
 I'm also _from_ London, the South East.
 
-Now, the South East of London has without a doubt got the worst transport options out of all of London.
+Now, the South East of London has without a doubt got the **worst transport options** out of all of London.
 
 The city planners somehow forgot about the South when building out the underground network, and the government was quite happy with selling the national rail network to private companies, with no incentive for improvement.
 
 However, my family all live in South East London, and it's _almost_ affordable, so that's that.
 
-One day, I'll move to some nice leafy suburb in the North West, but that's not achievable just yet...
+One day, I'll move to some nice leafy suburb in the North West, but that goal is not achievable just yet...
 
 ## How buy?
 
-I had been living in rental accommodation for the last few years, with some "free" months in Singapore, or staying with my parents.
-I'm quite frugal in general, aside from the odd splurge on [flight tickets]({{< ref "tags/travel" >}}), so as a result I have managed to save approximately 30% of my income (around the same that goes to the taxman, grrr) over my first 6 years of work.
+I had been living in rental accommodation for the last few years, with some "free" months [in Singapore]({{<ref "posts/reflections-on-singapore">}}), or staying with my parents.
+I'm quite frugal in general, aside from the odd splurge on [flight tickets]({{<ref "tags/travel" >}}), so as a result I have managed to save approximately 30% of my income (around the same that goes to the taxman, grrr) over my first 6 years of work.
 
 By around March 2024, this looked like a good enough amount for a bank to take me seriously as I requested a mortgage offer, and so I started to look for places.
 
-If you have followed the writings of [Gary Stevenson](https://www.wealtheconomics.org), the evidence of rising inequality can provide an explanation of why housing is becoming more unaffordable, but since I'm in no position to change this, it's worth jumping in as soon as you can.
+If you have followed the writings of [Gary Stevenson](https://www.wealtheconomics.org), the evidence of rising inequality can provide an explanation of why housing is becoming more unaffordable, but since I'm in no position to change this, it's worth jumping in to the housing market as soon as you can.
 
 The process is fairly simple:
 
@@ -130,10 +124,13 @@ The process is fairly simple:
 7. **Negotiate with the sellers**
    Right before completion, you will want to negotiate with the sellers for any furniture or fittings left behind, as well as try to claw back some money for any surprises the survey may have picked up.
    If the house has a really cool but cumbersome cooker/pizza oven, or turns out you found the roof needs repairing, this is the point at which you want to perform a second round of negotiations.
-8. **Complete!**
+8. **Wait...**
+   This step is frustratingly inevitable. Any time you need to communicate with lawyers, or the Council, you lose both the will to live and a good chunk of your time.
+   Expect the total purchase process to take ~2-6 months.
+9. **Complete!**
    Completion day is one of those strange days in your life you'll remember for just being a bit odd.
    It is the day when your solicitor gets given £100k's from the bank, basically all of your savings, and you get the keys to your new place, all at once.
-   If you are in a chain, this day gets even more complicated, but let's pretend life is easy for a second and assume it would be fine.
+   If you are in a chain, this day gets even more complicated, but let's pretend life is easy for a second and ignore that.
 
 ## What next?
 
