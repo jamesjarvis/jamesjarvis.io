@@ -72,10 +72,31 @@ However, my family all live in South East London, and it's _almost_ affordable, 
 
 One day, I'll move to some nice leafy suburb in the North West, but that goal is not achievable just yet...
 
+![Bexley Area Overview](./crystalroof-screenshot.png "Overview of Bexley, by CrystalRoof. Sounds about right")
+
+## Useful Resources for Finding a Property
+
+These are some fantastic resources I used to determine my ideal area, and to track down a house on the market:
+
+- [CrystalRoof](https://crystalroof.co.uk/report/postcode/DA51AA/overview)
+  - Offers insight into local crime reports, demographics, transport links, and amenities. Really helpful if you aren't sure about an area!
+- [HoodMaps](https://hoodmaps.com/london-neighborhood-map)
+  - Hilarious and vaguely useful community map for rating a location.
+- [Zoopla Travel Time](https://www.zoopla.co.uk/travel-time/)
+  - If you don't know where to start, but know you want to be able to commute to work by bike in less than 30 mins, this is a great tool.
+- [Zoopla](https://www.zoopla.co.uk/for-sale/map/property/kent/bexley/bexley-high-street/da5-1aa/?q=DA51AA&search_source=home)
+  - Probably the best home finding app.
+- [RightMove](https://www.rightmove.co.uk/property-for-sale/map.html?includeSSTC=false&keywords=&sortType=2&viewType=MAP&channel=BUY&index=0&radius=0.25&locationIdentifier=POSTCODE%5E215471)
+  - The most popular home finding app.
+- [OnTheMarket](https://www.onthemarket.com/for-sale/property/da5-1aa/?view=map-list)
+  - Also useful home finding app, covers some extra estate agents.
+- [Jitty](https://jitty.com)
+  - Honourable mention, has some interesting AI search features, like "period property with tall ceilings and a driveway".
+
 ## How buy?
 
 I had been living in rental accommodation for the last few years, with some "free" months [in Singapore]({{<ref "posts/reflections-on-singapore">}}), or staying with my parents.
-I'm quite frugal in general, aside from the odd splurge on [flight tickets]({{<ref "tags/travel" >}}), so as a result I have managed to save approximately 30% of my income (around the same that goes to the taxman, grrr) over my first 6 years of work.
+I'm quite frugal in general, aside from the odd splurge on [flight tickets]({{<ref "/tags/travel" >}}), so as a result I have managed to save approximately 30% of my income (around the same that goes to the taxman, grrr) over my first 6 years of work.
 
 By around March 2024, this looked like a good enough amount for a bank to take me seriously as I requested a mortgage offer, and so I started to look for places.
 
@@ -138,5 +159,8 @@ Grab a paintbrush, a tapemeasure, and your worst clothes.
 Chances are that if you found a place within your budget, as I did, you have a lot of refurbishment / renovation to do.
 
 Even if it doesn't _need_ renovation, I'd recommend leaving your mark at least.
+
+As of writing this post, I'm in this stage.
+All I can say for now is, make sure you budget for it!
 
 Good luck!
