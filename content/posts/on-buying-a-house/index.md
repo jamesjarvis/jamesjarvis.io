@@ -72,6 +72,8 @@ However, my family all live in South East London, and it's _almost_ affordable, 
 
 One day, I'll move to some nice leafy suburb in the North West, but that goal is not achievable just yet...
 
+![Bexley Area Overview](./crystalroof-screenshot.png "Overview of Bexley, by CrystalRoof. Sounds about right")
+
 ## Useful Resources for Finding a Property
 
 These are some fantastic resources I used to determine my ideal area, and to track down a house on the market:
@@ -157,5 +159,8 @@ Grab a paintbrush, a tapemeasure, and your worst clothes.
 Chances are that if you found a place within your budget, as I did, you have a lot of refurbishment / renovation to do.
 
 Even if it doesn't _need_ renovation, I'd recommend leaving your mark at least.
+
+As of writing this post, I'm in this stage.
+All I can say for now is, make sure you budget for it!
 
 Good luck!
