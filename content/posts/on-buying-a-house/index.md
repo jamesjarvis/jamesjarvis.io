@@ -75,7 +75,7 @@ One day, I'll move to some nice leafy suburb in the North West, but that goal is
 ## How buy?
 
 I had been living in rental accommodation for the last few years, with some "free" months [in Singapore]({{<ref "posts/reflections-on-singapore">}}), or staying with my parents.
-I'm quite frugal in general, aside from the odd splurge on [flight tickets]({{<ref "tags/travel" >}}), so as a result I have managed to save approximately 30% of my income (around the same that goes to the taxman, grrr) over my first 6 years of work.
+I'm quite frugal in general, aside from the odd splurge on [flight tickets]({{<ref "/tags/travel" >}}), so as a result I have managed to save approximately 30% of my income (around the same that goes to the taxman, grrr) over my first 6 years of work.
 
 By around March 2024, this looked like a good enough amount for a bank to take me seriously as I requested a mortgage offer, and so I started to look for places.
 
