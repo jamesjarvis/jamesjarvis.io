@@ -25,6 +25,7 @@ links = [
 #   { link = "https://link-to-some-website.com/" },
 #   { codepen = "https://codepen.io/username" },
 #   { dev = "https://dev.to/username" },
+  { bluesky = "https://bsky.app/profile/developerjarvis.bsky.social" },
   { github = "https://github.com/jamesjarvis" },
 #   { google = "https://www.google.com/" },
 #   { instagram = "https://instagram.com/username" },
