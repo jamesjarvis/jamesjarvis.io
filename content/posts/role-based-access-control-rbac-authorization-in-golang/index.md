@@ -1,6 +1,7 @@
 ---
 title: "Role Based Access Control (RBAC) Authorisation in Golang with Permit.io"
 date: 2024-11-04
+lastmod: 2024-12-08
 tags: ["projects"]
 summary: "What is 'Authorisation', and how to implement a working solution with Permit.io"
 canonicalUrl: "https://www.permit.io/blog/role-based-access-control-rbac-authorization-in-golang"
@@ -12,9 +13,9 @@ That’s when “Authentication” (are you who you say you are?) and “Authori
 
 These are two similar but separate problems, each with their own challenges.
 
-Most developers don’t build their own authentication systems. It's not-secure, and more importantly -   not part of your products' core offering. Thus, it's just not worth the effort / time you'll spend building it. 
+Most developers don’t build their own authentication systems. It's not-secure, and more importantly - not part of your products' core offering. Thus, it's just not worth the effort / time you'll spend building it.
 
-Authorisation is something traditionally built by developers in-house (Just like authentication was a few years ago), but in recent years, there are  emerging options in the market that allow you to implement it without building it yourself.
+Authorisation is something traditionally built by developers in-house (Just like authentication was a few years ago), but in recent years, there are emerging options in the market that allow you to implement it without building it yourself.
 
 In this article we are going to focus on authorisation (authorization for my U.S. friends), covering a step by step integration and implementation with an example Key-Value service, written in the Go programming language.
 
@@ -24,12 +25,11 @@ We are going to build our own naive authorisation system to get a feel for how i
 
 At some point in the development of any "System" with "Users", you will need some method of determining:
 
-> Is this "User" *actually* *allowed* to do the *thing* they are trying to do?
-> 
+> Is this "User" _actually_ _allowed_ to do the _thing_ they are trying to do?
 
 This is inevitable, whether the "system" you are building is physical (i.e. a Hotel), or virtual (i.e. a Social Network website).
 
-For any sensitive action, we need to make sure that the person performing that action is *allowed* to do the action.
+For any sensitive action, we need to make sure that the person performing that action is _allowed_ to do the action.
 If the scenario is as simple as `if request.IsAuthenticated()`, then congrats, you can end here, you have "authorisation through authentication". **But**, this means that **any user who can authenticate into your system, is also authorised do to anything in your system**. For everything but a simple POC, this won't fly.
 
 If the scenario is more complex, i.e. `if request.GetUser() not in authorisedUsers`, then you are now able to **restrict access to parts of your system**, but you have now inherited a complexity: you need to **store and maintain a list of every single user allowed to perform every action in your system**.
@@ -45,14 +45,14 @@ Introducing the concept of "Roles": A label you can pin to a whole bunch of user
 Benefits:
 
 - Low cardinality
-    - You may have millions of users, but you'll rarely need more than a few dozen "roles"
-    - This is why the CIA has "security clearance levels", rather than granting access to information individually
+  - You may have millions of users, but you'll rarely need more than a few dozen "roles"
+  - This is why the CIA has "security clearance levels", rather than granting access to information individually
 - Easier to manage
-    - Easier to remove 1 "role" from 1 "user", than updating the 1000s of actions a "user" may have access to
-    - This is why the CIA has "security clearance levels", rather than granting access to information individually
-- *Semantically* relevant
-    - Wherever possible, as a developer your goal is to simplify the system
-    - Example: Seeing that a user has the roles of `["intern", "employee", "admin"]`, it is clearer to spot the problem than seeing a user with access to `["receptionDoor1", "receptionDoor2", "cafeDoor3", "floor4Door4", "floor2Door3"]`, if `"floor4Door4"` is your server room
+  - Easier to remove 1 "role" from 1 "user", than updating the 1000s of actions a "user" may have access to
+  - This is why the CIA has "security clearance levels", rather than granting access to information individually
+- _Semantically_ relevant
+  - Wherever possible, as a developer your goal is to simplify the system
+  - Example: Seeing that a user has the roles of `["intern", "employee", "admin"]`, it is clearer to spot the problem than seeing a user with access to `["receptionDoor1", "receptionDoor2", "cafeDoor3", "floor4Door4", "floor2Door3"]`, if `"floor4Door4"` is your server room
 
 Now that we understand the benefits of simplifying access control through the use of “Roles” users can be assigned to, let’s look at a demo application in Golang.
 
@@ -243,12 +243,12 @@ For our case, to provide a drop in replacement to our DIY solution, we are going
 The models in this API are:
 
 - "User"
-    - Identifiers for a given user to the system
+  - Identifiers for a given user to the system
 - "Action"
-    - The intent for a given call to "Check", in our case this will be "get" or "set"
+  - The intent for a given call to "Check", in our case this will be "get" or "set"
 - "Resource"
-    - The domain for which this action is being performed against
-    - In our simple example, we do not have a need for this "resource", as we only have a single map domain, but this allows for other rich customisations later on, such as namespaced maps with alternative access controls.
+  - The domain for which this action is being performed against
+  - In our simple example, we do not have a need for this "resource", as we only have a single map domain, but this allows for other rich customisations later on, such as namespaced maps with alternative access controls.
 
 Our wrapper:
 
@@ -276,10 +276,10 @@ If you want to dive deeper into the code, and run the application yourself (with
 Our test data includes the following users, and their roles:
 
 | UserID | Role: reader | Role: writer |
-| --- | --- | --- |
-| alice | Y | Y |
-| bob |  | Y |
-| charli | Y |  |
+| ------ | ------------ | ------------ |
+| alice  | Y            | Y            |
+| bob    |              | Y            |
+| charli | Y            |              |
 
 Our server is a HTTP server running on port `:8080`, so we can perform a simple test by setting a value "world" for key "hello" as user "alice":
 
@@ -313,7 +313,7 @@ $ curl -H "User: charli" -X GET <http://localhost:8080/v1/map/hello>
 
 ## Summary
 
-Authorisation is the challenge of answering “Is this User *actually* *allowed* to do the *thing* they are trying to do?”
+Authorisation is the challenge of answering “Is this User _actually_ _allowed_ to do the _thing_ they are trying to do?”
 
 By focusing on Roles, rather than Users (RBAC), application writers can greatly simplify both their application logic, and the operation of their application.
 
