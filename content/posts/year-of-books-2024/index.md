@@ -16,6 +16,8 @@ Now I didn't do _too badly_, writing 12 posts to this blog, but I'd like to see 
 
 The following has been extracted from a [short script]({{<ref "#appendix">}}) I co-authored with the help of ChatGPT, to export all of my reviews made in 2024.
 
+This year, I read and reviewed 20 books, a little down on last years 30, but I feel happy with it.
+
 ### The Lean Startup
 
 5/5 :star:
