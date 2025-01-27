@@ -52,7 +52,7 @@ showTableOfContents = true
 showTaxonomies = true
 showWordCount = false
 showComments = false
-sharingLinks = ["email", "twitter", "linkedin"]
+sharingLinks = ["email", "x-twitter", "linkedin", "bluesky", "mastodon", "threads"]
 
 [list]
 showBreadcrumbs = true
@@ -60,7 +60,7 @@ showSummary = true
 showTableOfContents = false
 showTaxonomies = true
 groupByYear = true
-paginationWidth = 1
+paginationWidth = 5
 
 [sitemap]
 changeFreq = "weekly"
