@@ -3,4 +3,4 @@ path = "github.com/jpanther/congo/v2"
 
 [hugoVersion]
 extended = true
-min = "0.114.1"
+min = "0.142.0"
