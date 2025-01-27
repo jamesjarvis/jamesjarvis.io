@@ -6,8 +6,6 @@ videos: ["https://youtu.be/QCvCP7k04H8"]
 lastmod: 2023-06-30
 ---
 
-{{< youtube QCvCP7k04H8 >}}
-
 From 23rd June 2022 to 23rd June 2023.
 
 This year has been an unfortunate reset.
@@ -23,3 +21,5 @@ Around this point, my Grandad’s Dementia has worsened to the point where we mo
 However, the year ends on a high with summer back in full swing! Dad retires just in time for us to spend mine and my sister’s birthday on a boat in the Norfolk Broads!
 
 My Mum has been our rock. Feiyang has been there for everything. I wish my parents the best start to their happy retirement. Stay tuned!
+
+{{< youtube QCvCP7k04H8 >}}

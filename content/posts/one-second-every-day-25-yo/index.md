@@ -6,8 +6,6 @@ videos: ["https://youtu.be/3zdOEcY4C6I"]
 lastmod: 2024-06-28
 ---
 
-{{< youtube 3zdOEcY4C6I >}}
-
 From 23rd June 2023 to 23rd June 2024.
 
 The year I went to Asia.
@@ -26,3 +24,5 @@ I became a “senior” software engineer at the company I continue to learn som
 I go to Ireland to dabble with saunas+sea swimming, I go to Seattle to “hike”, and before you know it I’m back in China enjoying hot pot with Feiyang’s parents.
 
 As I enter this next quarter of a century, I’m finding my own priorities, but leaving room for the occasional bit of adventure. I hope more fun challenges await!
+
+{{< youtube 3zdOEcY4C6I >}}
