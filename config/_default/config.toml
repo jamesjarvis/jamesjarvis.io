@@ -4,7 +4,6 @@
 baseURL = "https://jamesjarvis.io/"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
-paginate = 25
 summaryLength = 10
 colorScheme = "ocean"
 
@@ -15,6 +14,10 @@ home = ["HTML", "RSS", "JSON"]
 
 [permalinks]
 posts = '/posts/:year/:month/:title/'
+
+[pagination]
+path = 'page'
+pagerSize = '20'
 
 [privacy]
 
@@ -40,3 +43,13 @@ privacyEnhanced = true
 [imaging]
 quality = 75
 disableDate = true
+
+[minify]
+  minifyOutput = true
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      inline = true
+    [minify.tdewolff.html]
+      keepWhitespace = false
+    [minify.tdewolff.svg]
+      inline = true
