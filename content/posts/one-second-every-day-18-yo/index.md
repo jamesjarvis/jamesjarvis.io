@@ -4,6 +4,8 @@ date: 2017-06-23
 tags: ["one-second-everyday"]
 videos: ["https://youtu.be/2JItNd1gNx0"]
 lastmod: 2023-06-30
+aliases:
+  - /life/18/
 ---
 
 From 23rd June 2016 to 23rd June 2017.

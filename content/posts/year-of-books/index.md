@@ -3,6 +3,8 @@ title: "📚 Year of books"
 date: 2024-01-02
 tags: ["reading", "thoughts"]
 summary: "2023 was a year of reading"
+aliases:
+  - /reading/2023/
 ---
 
 {{< lead >}}

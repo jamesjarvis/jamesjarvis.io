@@ -4,6 +4,8 @@ date: 2022-06-23
 tags: ["one-second-everyday"]
 videos: ["https://youtu.be/yV09NppzBfA"]
 lastmod: 2023-06-30
+aliases:
+  - /life/23/
 ---
 
 From 23rd June 2021 to 23rd June 2022.
