@@ -1,5 +1,7 @@
 ---
 title: "One Second Every Day"
+aliases:
+  - /life/
 ---
 
 {{< lead >}} :movie_camera: {{< /lead >}}
