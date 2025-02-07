@@ -3,6 +3,8 @@ title: "📚 Year of books 2024"
 date: 2025-01-16
 tags: ["reading", "thoughts"]
 summary: "2024 I read a bit less"
+aliases:
+  - /reading/2024/
 ---
 
 Building on my last year getting properly back into reading, this is a continuation of my reflections.
