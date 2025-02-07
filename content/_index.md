@@ -5,7 +5,7 @@ description: "Personal website of James Jarvis"
 
 Hi, I'm James.
 
-Professionally, I am a Senior Software Engineer at [Thought Machine](https://www.thoughtmachine.net).
+Professionally, I am a Senior Software Engineer.
 
 Unprofessionally, I _do things_ and _write about them_ here.
 
