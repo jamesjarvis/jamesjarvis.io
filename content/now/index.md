@@ -1,15 +1,17 @@
 ---
 title: "Now"
-date: 2025-01-07
+date: 2025-05-27
 ---
 
 ## Professional
 
-I am currently a Senior Software Engineer at [Thought Machine](https://www.thoughtmachine.net), where for the last 4.5 years I have been helping build the world's best cloud-native Core Banking engine to power the next generation of banks.
+I am currently a Product Engineer at [incident.io](https://incident.io/), helping build the tool that helps engineers fix production faster.
 
 ## Unprofessional
 
 I have recently moved to the suburbs of London, where I am renovating a 1950's era house with my girlfriend and family.
+I'm almost finished now, only a couple rooms left!
+If you have any plumber/bathroom fitter recommendations, please email me!
 
 It's been a huge undertaking and I hope to share some of my experience through this blog.
 
