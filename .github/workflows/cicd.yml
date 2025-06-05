@@ -39,28 +39,6 @@ jobs:
           path: public
           retention-days: 2
 
-  lighthouse:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@master
-        with:
-          sparse-checkout: |
-            lighthouserc.json
-      - name: Download compiled site
-        uses: actions/download-artifact@v4
-        with:
-          name: site
-          path: public
-      - name: Run Lighthouse analysis
-        uses: treosh/lighthouse-ci-action@v9
-        with:
-          configPath: "./lighthouserc.json"
-          uploadArtifacts: true
-          temporaryPublicStorage: true
-          runs: 1
-
   deploy:
     needs: build
     runs-on: ubuntu-latest
