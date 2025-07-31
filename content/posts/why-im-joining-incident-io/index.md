@@ -4,6 +4,7 @@ date: 2025-07-31
 tags: ["thoughts"]
 lastmod: 2025-07-31
 canonicalUrl: "https://incident.io/blog/why-i-decided-to-join-incident-io-and-my-impressions-so-far"
+summary: "In May 2025 I joined the AI team here at [incident.io](http://incident.io), in search of new and exciting engineering challenges."
 ---
 
 ## Why I wanted to join incident.io 🔥
@@ -18,9 +19,9 @@ Fun fact: I've been interested in AI since I watched Iron Man 2 as a wee lad and
 
 I went on to university to take a bachelors in CS with an Artificial Intelligence specialism, though the dream plateaued there - owing to the heavily fintech oriented job market in London.
 
-Since GPT-3 dropped in late 2020, it's been increasingly obvious that generative AI is sooner or later going to be generating more *_stuff_* than humans ever could.
+Since GPT-3 dropped in late 2020, it's been increasingly obvious that generative AI is sooner or later going to be generating more _stuff_ than humans ever could.
 
-I believe the outcome of this is not that Software Engineers are *_going away_*, but that they will be shipping exponentially more code.
+I believe the outcome of this is not that Software Engineers are _going away_, but that they will be shipping exponentially more code.
 
 > Every engineer knows **more code == more bugs**, and **more bugs == more incidents**.
 
@@ -36,7 +37,7 @@ A personal goal of mine has been to write more, speak more, and ultimately just 
 
 Seeing how almost engineer has the experience, autonomy and support to not only build amazing things, but also share their experience online or at conferences, I was hooked - I want to learn as much as possible from these lot.
 
-Most of all, I want to *_be_* one of them.
+Most of all, I want to _be_ one of them.
 
 From how people in the London tech scene spoke of incident.io, it was also clear that the engineering team radiates Aura 🧑‍🌾, people spoke very highly of their achievements.
 
@@ -46,7 +47,7 @@ That's always a good sign.
 
 ### Rewarding
 
-I *_love_* working on a tangible project.
+I _love_ working on a tangible project.
 
 What that means, is I like to see the direct impact my input will have on something.
 
@@ -68,9 +69,9 @@ The hype is absolutely real.
 
 ### Competition is fierce
 
-The vision from above is crystal clear to others at the forefront of AI adoption, that as the rest of software development gets a massive boost in productivity, incident response needs an equivalent amount of love.  
+The vision from above is crystal clear to others at the forefront of AI adoption, that as the rest of software development gets a massive boost in productivity, incident response needs an equivalent amount of love.
 
-Whilst growth at incident.io is *_very_* good, the prospect of an AI SRE it too tempting for our competitors to just ignore - everyone is going after this goal at a breakneck pace.
+Whilst growth at incident.io is _very_ good, the prospect of an AI SRE it too tempting for our competitors to just ignore - everyone is going after this goal at a breakneck pace.
 
 The competition are well staffed, well funded, and have a similar focus.
 
@@ -131,6 +132,6 @@ I've been fortunate enough to have worked in 2 teams already at incident.io, and
 
 This does induce a healthy amount of imposters syndrome - nobody is entirely immune from this, and its healthy to admit. Though over the last couple of months of onboarding I’ve been ramping up on larger and larger projects, building back the confidence that drives my passion for engineering.
 
-I'm with some of the best engineers in my career, all heads down focusing on how we can build an industry leading product that can intercept and resolve production incidents as they come up, *_before you wake up_*.
+I'm with some of the best engineers in my career, all heads down focusing on how we can build an industry leading product that can intercept and resolve production incidents as they come up, _before you wake up_.
 
 If you also want to be a part of the future of incident response at incident.io, we are hiring!
