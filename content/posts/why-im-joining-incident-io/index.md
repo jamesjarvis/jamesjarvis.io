@@ -18,7 +18,7 @@ Fun fact: I've been interested in AI since I watched Iron Man 2 as a wee lad and
 
 I went on to university to take a bachelors in CS with an Artificial Intelligence specialism, though the dream plateaued there - owing to the heavily fintech oriented job market in London.
 
-Since GPT-3 dropped in late 2020, it's been increasingly obvious that generative AI is sooner or later going to be generating more *_stuff_* that humans ever could.
+Since GPT-3 dropped in late 2020, it's been increasingly obvious that generative AI is sooner or later going to be generating more *_stuff_* than humans ever could.
 
 I believe the outcome of this is not that Software Engineers are *_going away_*, but that they will be shipping exponentially more code.
 
