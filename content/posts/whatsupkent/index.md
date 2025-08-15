@@ -17,7 +17,7 @@ I also wanted to stretch my legs and learn a bit of Golang, Kubernetes, Typescri
 
 So, I decided to create a service that would gather all student's timetables and present the information in an easy to use dashboard, to offer students the opportunity to explore other courses in their spare time.
 
-Thanks to the university (accidentally?) publishing student timetables as publically accessible ical links, it proves fairly simple to just brute force and scrape all ical timetables from their website.
+Thanks to the university (accidentally?) publishing student timetables as publicly accessible ical links, it proves fairly simple to just brute force and scrape all ical timetables from their website.
 Of course, having to iterate through 50,000 timetables can be quite time consuming, so I chose [Golang](https://golang.org/) to write the server, thanks to it's remarkably easy multithreading syntax.
 
 Since the data being retrieved was fundamentally relational, I chose to store it in a [graph database called DGraph](https://dgraph.io/).

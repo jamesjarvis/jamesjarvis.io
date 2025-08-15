@@ -45,7 +45,7 @@ If I was building this to be an actual, scaleable service, then I'd have swallow
 
 ### Whack it in a DB table
 
-Another embarassing thing about the infra for this project is that I'm running the raspberry pi with an 8 year old 1TB external hard drive I had lying around.
+Another embarrassing thing about the infra for this project is that I'm running the raspberry pi with an 8 year old 1TB external hard drive I had lying around.
 
 It's not the fastest and is in fact the biggest performance bottleneck (if I could be bothered, I would have bought an SSD but this isn't worth £80 + dealing with this limitation is interesting enough).
 

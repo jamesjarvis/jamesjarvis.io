@@ -5,7 +5,6 @@ baseURL = "https://jamesjarvis.io/"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 summaryLength = 10
-colorScheme = "ocean"
 
 timeout = '3000s'
 
