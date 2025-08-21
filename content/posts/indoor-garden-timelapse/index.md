@@ -13,7 +13,7 @@ Another lockdown project!
 
 For some reason I've been getting into gardening over the lockdown, from building an automatic irrigation system for our newly built vegetable patch to taking part (and winning) a sunflower growing competition, it's about the most interesting thing I could think of doing whilst being stuck in my house during a great spell of weather.
 
-This year, for my birthday I recieved an [indoor vegetable garden](https://amzn.to/31Xp40r), and thought it would be fun to set up a timelapse camera to monitor the plants growing!
+This year, for my birthday I received an [indoor vegetable garden](https://amzn.to/31Xp40r), and thought it would be fun to set up a timelapse camera to monitor the plants growing!
 
 Since I'm currently also slightly addicted to Raspberry Pi's (now up to 4 in my collection!), I thought this would be a good use for one of them.
 
