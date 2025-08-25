@@ -1,7 +1,7 @@
 ---
 title: "🏡 On Buying a House"
 date: 2024-10-02
-tags: ["thoughts"]
+tags: ["thoughts", "personal-finance"]
 lastmod: 2024-10-02
 ---
 
