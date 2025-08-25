@@ -38,15 +38,15 @@ You'll recognise there's no "buffer/savings" section at the moment, 🤞 in a co
   - Income (25%)
   - Consumption/VAT (4%)
   - Council (2%)
-- Savings/Investments **(31%)**
-  - Pension (21%)
-  - House renovations (10%)
+- Savings/Investments **(21%)**
+  - Pension
 - Housing **(20%)**
   - Mortgage Interest (15%)
   - Mortgage Capital Repayments (5%)
-- Lifestyle **(3%)**
+- Lifestyle **(13%)**
   - Eating Out/Groceries
-  - This section has been _tight_ for a while now, and will increase after House Renovation (10%).
+  - House Renovation
+  - This section has been _tight_ for a while now, and will increase after House Renovation (~10%) has finished.
 - Bills **(2%)**
   - Gas/Electricity/Phone/Wifi
 - Transport **(1%)**
@@ -68,7 +68,7 @@ I haven't included:
 
 - Import tariffs
 - Road Tax
-- Any other erroneous tax on specific items that I didn't want to calulate
+- Any other erroneous tax on specific items that I didn't want to calculate
 
 Total Tax Burden as an individual: **~43%**
 Total Cost of Living: **~67%**
@@ -86,6 +86,8 @@ Disclaimer: I'm not an accountant, and this is a bit of a stretched example rely
 But the general idea of it is, if an expense is vital for a company, it should be deducted from the tax liability of that company.
 Whereas if an expense is vital for a person, it cannot be tax deductible.
 
+Interestingly, you could arguably question whether an employee's income tax should ultimately just fall as a consumption tax on human capital for a corporation (i.e. Employers NI), but as the incentive should be to have companies employing people, I think this is hard to justify.
+
 Tax burdens as a corporation: **~13%**
 Total Cost of Existence: **~36%**
 
@@ -99,12 +101,14 @@ Most people in the UK have absolutely no idea how much tax they are spending, or
 
 I am personally hoping for (though not expecting):
 
-- Simplification of the tax system + reducing barriers to growth
+- Simplification of the tax system + reducing regulatory barriers to growth
+  - See: [UK Foundations Whitepaper](https://ukfoundations.co/) outlines several blockers.
 - Better public understanding of the true cost of government
+  - Even better, a reduction in wasteful or too-generous public spending
 - Policies that address wealth inequality and social mobility
-- Investment in public services that provide real value
+  - See: [Fairer Share](https://fairershare.org.uk/) as one potential tax change targeting "council tax" reform.
 
-But my concern is that we'll see more of the same: hidden tax increases, corporate tax cuts, and a growing burden on the average worker.
+But my concern is that we'll see more of the same: hidden tax increases, blissful ignorance of state inefficiencies, corporate tax cuts, and a growing burden on the average worker.
 
 ---
 
