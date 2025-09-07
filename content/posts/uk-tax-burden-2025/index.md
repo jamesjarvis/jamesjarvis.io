@@ -2,7 +2,7 @@
 title: "💰 My UK Tax Burden in 2025: A Personal Finance Reality Check"
 date: 2025-08-24
 tags: ["thoughts", "personal-finance"]
-lastmod: 2025-08-24
+lastmod: 2025-09-07
 summary: "A deep dive into my personal tax burden in the UK for 2025, and concerns about the future of taxation for average UK taxpayers."
 ---
 
@@ -112,4 +112,4 @@ But my concern is that we'll see more of the same: hidden tax increases, blissfu
 
 ---
 
-_What's your experience with taxation? Is it fairer/worse in your country? I'd love to hear your thoughts on the current system and what changes you'd like to see. Better yet, message your MP._
+_What's your experience with taxation? Is it fairer/worse in your country? I'd love to hear your thoughts on the current system and what changes you'd like to see. Better yet, message your representative politicians._
