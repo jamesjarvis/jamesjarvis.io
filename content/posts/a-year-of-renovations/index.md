@@ -1,10 +1,15 @@
 ---
 title: "🏚️->🏠 A year of house renovations"
 date: 2025-11-01
-tags: ["thoughts"]
+tags: ["thoughts", "projects"]
 lastmod: 2025-11-02
+thumbnail: "kitchen-before-and-after.jpeg"
 summary: "Lessons learnt from a whole year of house renovations"
 ---
+
+![Kitchen before and after](./kitchen-before-and-after.jpeg)
+![Office before and after](./office-before-and-after.jpeg)
+![Bathroom before and after](./bathroom-before-and-after.jpeg)
 
 I bought my first house at the age of 26 in late October 2024, almost exactly 1 year ago.
 
@@ -57,6 +62,8 @@ Timing is also something not to be underestimated.
 
 ## How hard can it be?
 
+![How hard can it be?](./how-hard-can-it-be.jpeg "How hard can it be?")
+
 > "Fuck it, let's give it a go"
 
 This kind of attitude is the most important thing required (possibly more so than capital imho) when taking on a big project.
@@ -80,3 +87,5 @@ It has been a genuine pain in the ass sometimes, but I can't help but have a hug
 I'm not looking to repeat some of the stress of the last year (I almost lost my eyesight twice due to stress!) but I am looking forward to taking on more big projects like this in the future.
 
 Hopefully now, with a little more experience behind me!
+
+![No pirate builders here!](./me-pirate.jpeg "No pirate builders here...")
