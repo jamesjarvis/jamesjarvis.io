@@ -1,5 +1,5 @@
 module github.com/jamesjarvis/jamesjarvis.io
 
-go 1.20
+go 1.23
 
-require github.com/jpanther/congo/v2 v2.9.0 // indirect
+require github.com/jpanther/congo/v2 v2.13.0 // indirect
