@@ -4,6 +4,7 @@
   var showTimer = null;
   var hideTimer = null;
   var activeLink = null;
+  var showGeneration = 0;
   var cache = {};
   var fileExtRe = /\.(jpe?g|png|gif|webp|svg|pdf|css|js|xml|json|ico|webmanifest)$/i;
 
@@ -156,9 +157,10 @@
     var fetchUrl = toFetchableUrl(link);
     if (!fetchUrl) return;
     activeLink = link;
+    var gen = ++showGeneration;
 
     fetchPreview(fetchUrl, function (data) {
-      if (activeLink !== link) return;
+      if (gen !== showGeneration) return;
       if (!data.title && !data.contentHtml) return;
       tooltip = createTooltip(data);
       position(tooltip, link);
