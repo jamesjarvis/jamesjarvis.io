@@ -15,6 +15,7 @@ enableImageLazyLoading = true
 enableImageWebp = true
 enableImageLink = true
 enableQuickLink = false
+enableLinkPreviews = true
 
 fingerprintAlgorithm = "sha256"
 
