@@ -23,7 +23,7 @@
   }
 
   function isPreviewable(a) {
-    if (a.closest("header, footer")) return false;
+    if (a.closest("header, footer, .preview-tooltip")) return false;
     if (a.getAttribute("target") === "_blank") return false;
     var href = a.getAttribute("href");
     if (!href || href.startsWith("#") || href.startsWith("mailto:")) return false;
@@ -67,7 +67,7 @@
       var clone = container.cloneNode(true);
       clone
         .querySelectorAll(
-          ".toc, .not-prose, [aria-label='Anchor'], script, style, nav, details, .order-first"
+          ".toc, .not-prose, [aria-label='Anchor'], script, style, nav, details, .order-first, iframe, form"
         )
         .forEach(function (n) { n.remove(); });
       contentHtml = clone.innerHTML;
