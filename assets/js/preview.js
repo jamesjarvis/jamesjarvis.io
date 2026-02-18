@@ -5,94 +5,75 @@
   var hideTimer = null;
   var activeLink = null;
   var cache = {};
-
-  // File extensions that are definitely not pages
   var fileExtRe = /\.(jpe?g|png|gif|webp|svg|pdf|css|js|xml|json|ico|webmanifest)$/i;
 
-  function resolveHref(a) {
-    // Get the full resolved URL for any link (handles both relative and absolute)
+  // Cache the canonical origin so we don't query the DOM on every mouseover
+  var canonicalOrigin = (function () {
+    var el = document.querySelector("link[rel='canonical']");
+    if (!el) return null;
     try {
-      return new URL(a.getAttribute("href"), location.href);
+      return new URL(el.getAttribute("href")).origin;
     } catch (e) {
       return null;
     }
+  })();
+
+  function isSameOrigin(url) {
+    return url.origin === location.origin || url.origin === canonicalOrigin;
   }
 
   function isPreviewable(a) {
-    // Skip header/footer nav links
     if (a.closest("header, footer")) return false;
     if (a.getAttribute("target") === "_blank") return false;
     var href = a.getAttribute("href");
     if (!href || href.startsWith("#") || href.startsWith("mailto:")) return false;
 
-    var url = resolveHref(a);
-    if (!url) return false;
-
-    // Must be same site — compare against both the current origin (dev server)
-    // and the canonical site origin (production baseURL)
-    var sameAsCurrent = url.origin === location.origin;
-    var sameAsCanonical = false;
-    var canonical = document.querySelector("link[rel='canonical']");
-    if (canonical) {
-      try {
-        var canonicalOrigin = new URL(canonical.getAttribute("href")).origin;
-        sameAsCanonical = url.origin === canonicalOrigin;
-      } catch (e) {}
+    var url;
+    try {
+      url = new URL(href, location.href);
+    } catch (e) {
+      return false;
     }
-    if (!sameAsCurrent && !sameAsCanonical) return false;
 
-    // Must not be the current page
-    var targetPath = url.pathname.replace(/\/$/, "");
-    var currentPath = location.pathname.replace(/\/$/, "");
-    if (targetPath === currentPath) return false;
-
-    // Skip file links (images, assets, etc.)
+    if (!isSameOrigin(url)) return false;
+    if (url.pathname.replace(/\/$/, "") === location.pathname.replace(/\/$/, "")) return false;
     if (fileExtRe.test(url.pathname)) return false;
-
     return true;
   }
 
   function toFetchableUrl(a) {
-    // Convert the link href to a URL we can actually fetch from the current server
-    var url = resolveHref(a);
-    if (!url) return null;
-    // Always fetch from the current origin (works on both dev and prod)
-    return location.origin + url.pathname + url.search;
+    try {
+      var url = new URL(a.getAttribute("href"), location.href);
+      return location.origin + url.pathname + url.search;
+    } catch (e) {
+      return null;
+    }
   }
 
   function extractContent(doc) {
-    var title =
-      doc.querySelector("h1") ||
-      doc.querySelector("title");
-    var titleText = title ? title.textContent.trim() : "";
+    var titleEl = doc.querySelector("h1") || doc.querySelector("title");
+    var title = titleEl ? titleEl.textContent.trim() : "";
 
-    // For article pages: the main content is in section.prose, which contains
-    // a TOC sidebar and the actual body text in a child div.
-    // The header also has a .prose div that only wraps the feature image — skip it.
-    var content = null;
-    var sectionProse = doc.querySelector("section.prose");
-    if (sectionProse) {
-      // Clone so we can strip elements without affecting the cached doc
-      content = sectionProse.cloneNode(true);
-    } else {
-      // List/tag pages or other layouts — grab main content area
-      var main = doc.querySelector("main#main-content") || doc.querySelector("main");
-      if (main) content = main.cloneNode(true);
-    }
+    // Article pages have section.prose wrapping TOC + body text.
+    // The header's .prose only contains the feature image — skip it.
+    // List/tag pages fall back to main content area.
+    var container =
+      doc.querySelector("section.prose") ||
+      doc.querySelector("main#main-content") ||
+      doc.querySelector("main");
 
-    if (content) {
-      // Remove TOC, anchor links, non-prose elements, header elements
-      content
+    var contentHtml = "";
+    if (container) {
+      var clone = container.cloneNode(true);
+      clone
         .querySelectorAll(
-          ".toc, .not-prose, [aria-label='Anchor'], script, style, nav, " +
-          "details, .order-first"
+          ".toc, .not-prose, [aria-label='Anchor'], script, style, nav, details, .order-first"
         )
-        .forEach(function (n) {
-          n.remove();
-        });
+        .forEach(function (n) { n.remove(); });
+      contentHtml = clone.innerHTML;
     }
 
-    return { title: titleText, content: content };
+    return { title: title, contentHtml: contentHtml };
   }
 
   function fetchPreview(fetchUrl, cb) {
@@ -124,20 +105,15 @@
       el.appendChild(titleEl);
     }
 
-    if (data.content) {
+    if (data.contentHtml) {
       var bodyEl = document.createElement("div");
       bodyEl.className = "preview-tooltip-body";
-      bodyEl.innerHTML = data.content.innerHTML;
+      bodyEl.innerHTML = data.contentHtml;
       el.appendChild(bodyEl);
     }
 
-    el.addEventListener("mouseenter", function () {
-      clearTimeout(hideTimer);
-    });
-    el.addEventListener("mouseleave", function () {
-      hide();
-    });
-
+    el.addEventListener("mouseenter", function () { clearTimeout(hideTimer); });
+    el.addEventListener("mouseleave", function () { hide(); });
     return el;
   }
 
@@ -183,8 +159,7 @@
 
     fetchPreview(fetchUrl, function (data) {
       if (activeLink !== link) return;
-      if (!data.title && !data.content) return;
-
+      if (!data.title && !data.contentHtml) return;
       tooltip = createTooltip(data);
       position(tooltip, link);
     });
@@ -205,9 +180,7 @@
 
     clearTimeout(hideTimer);
     clearTimeout(showTimer);
-    showTimer = setTimeout(function () {
-      show(link);
-    }, 100);
+    showTimer = setTimeout(function () { show(link); }, 100);
 
     link.addEventListener(
       "mouseleave",
@@ -219,11 +192,10 @@
     );
   });
 
-  // Update tooltip theme when appearance changes
-  var observer = new MutationObserver(function () {
+  // Update tooltip theme when dark mode is toggled
+  new MutationObserver(function () {
     if (tooltip) applyTheme(tooltip);
-  });
-  observer.observe(document.documentElement, {
+  }).observe(document.documentElement, {
     attributes: true,
     attributeFilter: ["class"],
   });
