@@ -136,3 +136,26 @@
   height: auto;
   border-radius: 4px;
 }
+
+/* ── HMRC Wrapped tool: ensure prose doesn't override our card layouts ── */
+.hmrc-wrapped h2 {
+  border: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.hmrc-wrapped ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+}
+
+.hmrc-wrapped table {
+  display: table;
+  width: 100%;
+}
+
+.hmrc-wrapped input[type="number"],
+.hmrc-wrapped input[type="checkbox"],
+.hmrc-wrapped input[type="radio"] {
+  accent-color: #3b82f6;
+}

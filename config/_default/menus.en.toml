@@ -21,6 +21,11 @@
   weight = 20
 
 [[main]]
+  name = "HMRC Wrapped"
+  pageRef = "hmrc-wrapped"
+  weight = 30
+
+[[main]]
   identifier = "search"
   weight = 99
   [main.params]
