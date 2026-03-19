@@ -4,7 +4,7 @@ date: 2020-08-01
 tags: ["thoughts"]
 slug: "uni-memoirs"
 aliases:
-  - /posts/2021/02/graduating-in-a-pandemic/
+  - /posts/2020/08/graduating-in-a-pandemic/recession/
 summary: "Well, that was underwhelming..."
 ---
 
