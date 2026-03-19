@@ -6,8 +6,7 @@ summary: "Strap in and buckle up, it's (maybe) about to get dicey in the economy
 slug: "buckle-up"
 ---
 
-> [!tip]
-> **TL;DR**: Strap in and buckle up, it's (maybe) about to get dicey in the economy...
+**TL;DR**: Strap in and buckle up, it's (maybe) about to get dicey in the economy...
 
 With hindsight, you can see ups and downs in the markets, in the present you can _feel_ stresses in your life, or periods of time when you are flying high.
 But every so often you can just _tell_ when you are about to fly into a particularly turbulent patch of air.
