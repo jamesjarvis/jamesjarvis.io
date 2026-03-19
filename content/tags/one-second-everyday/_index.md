@@ -4,7 +4,7 @@ aliases:
   - /life/
 ---
 
-{{< lead >}} :movie_camera: {{< /lead >}}
+> :movie_camera:
 
 Since the 23rd June 2016, my 18th birthday, I have been recording one second of every day of my life.
 

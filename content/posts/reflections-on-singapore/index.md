@@ -13,10 +13,8 @@ Read more [here]({{< ref "/tags/mini-sabbatical" >}}).
 
 ## Preconception
 
-{{< lead >}}
-"Disneyland With the Death Penalty"
-William Gibson - [Wired, 1993](https://www.wired.com/1993/04/gibson-2/)
-{{< /lead >}}
+> "Disneyland With the Death Penalty"
+> William Gibson - [Wired, 1993](https://www.wired.com/1993/04/gibson-2/)
 
 ![Marina Bay Sands aerial view](./marina-top-down.jpeg "A billionaire's playground")
 
