@@ -2,6 +2,7 @@
 title: "📖 Blogging Site"
 date: 2023-07-10
 tags: ["projects"]
+slug: "blogging-site"
 summary: "Owning my place on the internet, like the good old days"
 ---
 

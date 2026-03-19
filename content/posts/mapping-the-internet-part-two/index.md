@@ -3,6 +3,9 @@ title: "⠪ Mapping the Internet, part deux"
 date: 2021-02-05
 tags: ["projects"]
 summary: "Links on links on links with a UI, man"
+slug: "mapping-the-internet-part-two"
+aliases:
+  - /posts/2021/02/mapping-the-internet-part-deux/
 lastmod: 2023-06-30
 ---
 

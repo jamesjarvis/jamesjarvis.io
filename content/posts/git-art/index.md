@@ -2,6 +2,9 @@
 title: ":pen: Git Art"
 date: 2019-02-05
 tags: ["projects"]
+slug: "git-art"
+aliases:
+  - /posts/2019/02/pen-git-art/
 summary: "Commit stuff, with _style_"
 ---
 

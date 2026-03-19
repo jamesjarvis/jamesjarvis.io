@@ -2,6 +2,9 @@
 title: "👨‍🎓 Graduating in a Pandemic/Recession"
 date: 2020-08-01
 tags: ["thoughts"]
+slug: "uni-memoirs"
+aliases:
+  - /posts/2021/02/graduating-in-a-pandemic/
 summary: "Well, that was underwhelming..."
 ---
 

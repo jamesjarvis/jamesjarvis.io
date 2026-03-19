@@ -2,6 +2,7 @@
 title: "🏚️->🏠 A year of house renovations"
 date: 2025-11-01
 tags: ["thoughts", "projects"]
+slug: "a-year-of-house-renovations"
 lastmod: 2025-11-02
 thumbnail: "kitchen-before-and-after.jpeg"
 summary: "Lessons learnt from a whole year of house renovations"

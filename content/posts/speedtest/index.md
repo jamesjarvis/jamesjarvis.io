@@ -3,8 +3,10 @@ title: ":lightning: Automated speedtest internet monitoring"
 date: 2020-01-10
 tags: ["data"]
 summary: "How to check if your broadband provider is lying to you"
+slug: "speedtest"
 aliases:
   - /projects/speedtest/
+  - /posts/2020/01/lightning-automated-speedtest-internet-monitoring/
 ---
 
 A quick monitoring project.

@@ -12,7 +12,7 @@ timeout = '3000s'
 home = ["HTML", "RSS", "JSON"]
 
 [permalinks]
-posts = '/posts/:year/:month/:title/'
+posts = '/posts/:year/:month/:slug/'
 
 [pagination]
 path = 'page'
