@@ -8,13 +8,11 @@ aliases:
 summary: "Money ain't what it used to be"
 ---
 
-{{< alert "lightbulb" >}}
-**TL;DR**
-
-You can copy the following spreadsheet and play around with the data yourself:
-[PUBLIC: Inflation adjusted personal finance](https://docs.google.com/spreadsheets/d/1ZdCkdBwqU7dHfWr3AUOXHwwyKrXEODSAca4LGXAxuOg/edit?usp=sharing)
-
-{{< /alert >}}
+> [!tip]
+> **TL;DR**
+> 
+> You can copy the following spreadsheet and play around with the data yourself:
+> [PUBLIC: Inflation adjusted personal finance](https://docs.google.com/spreadsheets/d/1ZdCkdBwqU7dHfWr3AUOXHwwyKrXEODSAca4LGXAxuOg/edit?usp=sharing)
 
 If you, like me, enjoy watching _number go up_ graphs, then you've probably also got some method of tracking basic financial metrics in a spreadsheet, or via some other sort of means.
 

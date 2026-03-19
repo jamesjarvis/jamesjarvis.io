@@ -8,9 +8,7 @@ aliases:
   - /reading/2023/
 ---
 
-{{< lead >}}
-'Classic’ – a book which people praise and don’t read
-{{< /lead >}}
+> 'Classic’ – a book which people praise and don’t read
 
 I personally think there is significant value in taking time to reflect upon your actions, and setting some intentions going forward.
 
@@ -314,7 +312,6 @@ Well worth a read, but be cautious of the survivorship bias of tech CEOs from th
 
 #### Affiliate Links
 
-{{< alert >}}
-This blog post contains affiliate links, which may earn me a small commission if used.
-You are more than welcome to not use these, but doing so helps support this blog.
-{{< /alert >}}
+> [!note]
+> This blog post contains affiliate links, which may earn me a small commission if used.
+> You are more than welcome to not use these, but doing so helps support this blog.
