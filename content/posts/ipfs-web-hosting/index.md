@@ -2,6 +2,7 @@
 title: "📦 IPFS Web Hosting"
 date: 2020-05-02
 tags: ["projects"]
+slug: "ipfs-web-hosting"
 summary: "I thought IPFS was supposed to be permament..."
 ---
 

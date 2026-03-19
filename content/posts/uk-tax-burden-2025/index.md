@@ -2,6 +2,9 @@
 title: "💰 My UK Tax Burden in 2025: A Personal Finance Reality Check"
 date: 2025-08-24
 tags: ["thoughts", "personal-finance"]
+slug: "uk-tax-burden-2025"
+aliases:
+  - /posts/2025/08/my-uk-tax-burden-in-2025-a-personal-finance-reality-check/
 lastmod: 2025-09-07
 summary: "A deep dive into my personal tax burden in the UK for 2025, and concerns about the future of taxation for average UK taxpayers."
 ---

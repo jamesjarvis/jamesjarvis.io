@@ -3,8 +3,10 @@ title: "🦠 COVID-19 (Coronavirus) automatic predictions"
 date: 2020-03-19
 tags: ["data"]
 summary: "Learning about pandas"
+slug: "predictions"
 aliases:
   - /projects/predictions/
+  - /posts/2020/03/covid-19-coronavirus-automatic-predictions/
 ---
 
 ![Confirmed COVID-19 cases prediction](https://raw.githubusercontent.com/jamesjarvis/corona-infection-prediction-uk/master/plots/logistical/confirmedcases/logistic-plot.png)

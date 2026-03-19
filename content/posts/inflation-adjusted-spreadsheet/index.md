@@ -2,6 +2,9 @@
 title: "📉 Inflation adjusted net worth/salary spreadsheet"
 date: 2024-01-20
 tags: ["data", "personal-finance"]
+slug: "inflation-adjusted-spreadsheet"
+aliases:
+  - /posts/2024/01/inflation-adjusted-net-worth/
 summary: "Money ain't what it used to be"
 ---
 

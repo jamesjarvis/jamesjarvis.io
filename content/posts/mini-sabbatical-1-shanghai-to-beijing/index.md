@@ -2,6 +2,9 @@
 title: "🇨🇳 Mini-Sabbatical Part 1: Shanghai to Beijing"
 date: 2024-04-03
 tags: ["travel", "mini-sabbatical", "china"]
+slug: "mini-sabbatical-1-shanghai-to-beijing"
+aliases:
+  - /posts/2024/04/mini-sabbatical-part-1-shanghai-to-beijing/
 summary: "Embarking on my mini-sabbatical, I must first enter China"
 ---
 

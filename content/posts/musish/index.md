@@ -4,8 +4,10 @@ date: 2018-12-12
 tags: ["projects"]
 summary: "How I was kinda developer-famous for 5 minutes"
 lastmod: 2023-06-30
+slug: "musish"
 aliases:
   - /projects/musish/
+  - /posts/2018/12/musish-the-unofficial-open-source-apple-music-web-player/
 ---
 
 ![Github Stars](https://img.shields.io/github/stars/Musish/Musish.svg?style=social)

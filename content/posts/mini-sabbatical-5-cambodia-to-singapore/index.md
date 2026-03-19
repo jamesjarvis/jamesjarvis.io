@@ -3,6 +3,9 @@ title: "🇰🇭/🇹🇭/🇸🇬 Mini-Sabbatical Part 5: Final Stretch from Ca
 date: 2024-06-10
 draft: false
 tags: ["travel", "mini-sabbatical"]
+slug: "mini-sabbatical-5-cambodia-to-singapore"
+aliases:
+  - /posts/2024/06/-mini-sabbatical-part-5-final-stretch-from-cambodia-to-singapore/
 summary: "My last 12 days in Asia"
 ---
 

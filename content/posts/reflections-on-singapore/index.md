@@ -2,6 +2,9 @@
 title: "🤔 Reflecting on 3 months living and working in Singapore"
 date: 2024-02-07
 tags: ["thoughts", "mini-sabbatical"]
+slug: "reflections-on-singapore"
+aliases:
+  - /posts/2024/02/reflecting-on-3-months-living-and-working-in-singapore/
 summary: "What I learned from my time working and living in the city-state of Singapore"
 ---
 

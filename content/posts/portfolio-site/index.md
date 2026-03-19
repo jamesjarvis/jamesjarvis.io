@@ -2,6 +2,9 @@
 title: "🖥 Open Source Portfolio Website"
 date: 2019-02-02
 tags: ["projects"]
+slug: "portfolio-site"
+aliases:
+  - /posts/2019/02/open-source-portfolio-website/
 summary: "I wanted a personal website, I made a personal website."
 ---
 

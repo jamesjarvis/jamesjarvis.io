@@ -2,6 +2,9 @@
 title: ":umbrella: E-Ink Weather Dashboard"
 date: 2020-06-20
 tags: ["projects"]
+slug: "eink-dashboard"
+aliases:
+  - /posts/2020/06/umbrella-e-ink-weather-dashboard/
 summary: "Fun little rarely updating dashboard."
 lastmod: 2023-06-30
 ---

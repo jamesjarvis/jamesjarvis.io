@@ -3,6 +3,7 @@ title: "📚 Year of books 2024"
 date: 2025-01-16
 tags: ["reading", "thoughts"]
 summary: "2024 I read a bit less"
+slug: "year-of-books-2024"
 aliases:
   - /reading/2024/
 ---

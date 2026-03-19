@@ -3,8 +3,10 @@ title: ":map: Visualising location history"
 date: 2020-12-01
 tags: ["projects"]
 summary: "Where did he come from, where did he go?"
+slug: "mappyboi"
 aliases:
   - /projects/mappyboi/
+  - /posts/2020/12/map-visualising-location-history/
 ---
 
 [Check it out on GitHub!](https://github.com/jamesjarvis/mappyboi)

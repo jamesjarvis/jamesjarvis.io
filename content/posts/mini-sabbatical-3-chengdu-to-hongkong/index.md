@@ -2,6 +2,9 @@
 title: "🇨🇳/🇭🇰 Mini-Sabbatical Part 3: Chengdu to Hong Kong"
 date: 2024-05-13
 tags: ["travel", "mini-sabbatical", "china"]
+slug: "mini-sabbatical-3-chengdu-to-hongkong"
+aliases:
+  - /posts/2024/05/-mini-sabbatical-part-3-chengdu-to-hong-kong/
 summary: "On the way out of China"
 ---
 

@@ -2,6 +2,7 @@
 title: "📸 Indoor Garden Timelapse"
 date: 2020-06-02
 tags: ["projects"]
+slug: "indoor-garden-timelapse"
 summary: "Watching plants grow"
 videos: ["https://youtu.be/DiBl9JMlBUI"]
 lastmod: 2023-06-30

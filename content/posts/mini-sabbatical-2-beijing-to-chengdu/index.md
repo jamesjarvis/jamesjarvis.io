@@ -2,6 +2,9 @@
 title: "🇨🇳 Mini-Sabbatical Part 2: Beijing to Chengdu"
 date: 2024-05-07
 tags: ["travel", "mini-sabbatical", "china"]
+slug: "mini-sabbatical-2-beijing-to-chengdu"
+aliases:
+  - /posts/2024/05/mini-sabbatical-part-2-beijing-to-chengdu/
 summary: "Travelling West to tick off bucket lists"
 ---
 
