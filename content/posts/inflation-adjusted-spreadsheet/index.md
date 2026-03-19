@@ -8,7 +8,6 @@ aliases:
 summary: "Money ain't what it used to be"
 ---
 
-> [!tip]
 > **TL;DR**
 > 
 > You can copy the following spreadsheet and play around with the data yourself:
