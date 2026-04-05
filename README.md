@@ -25,3 +25,12 @@ hugo --minify --gc --logLevel debug
 ## How to host
 
 [Follow the guide here on gohugo.io](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+
+## Annoying dependency pinning
+
+At some point hugo stopped building with a certain version of hugo.
+We now pin dependencies with [Mise](https://mise.jdx.dev/getting-started.html).
+
+```
+mise install
+```
