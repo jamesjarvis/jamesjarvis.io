@@ -8,7 +8,28 @@ summary: "An interactive simulator exploring what it would take to make UK housi
 
 ## The Housing Affordability Crisis
 
-If you've tried to buy a house in the UK recently, you already know the punchline: it's expensive. But *how* expensive, relative to what we actually take home after tax?
+If you've been following housing affordability in the uk already, you'll know that it's not exactly affordable.
+
+We are in the "find out" decade; after a decade of low interest rates that boosted the price of assets, the market is still adjusting back to a world of higher interest rates.
+
+The fun thing about the housing market is that it _really_ doesn't like price corrections:
+
+- Those on mortgages are incentivised to keep re-valuing their homes to easily reduce their "LTV" (Loan to Value) ratio for securing lower rate mortgages.
+- At the sign of trouble in the housing market, people may delay a decision to sell (to avoid falling into negative equity), which reduces market supply and thus keeps prices artificially higher.
+- The government is incentivised to keep prices higher to avoid the political fallout of a housing crash, hence pressuring to keep relaxing regulations on borrowing.
+
+The _general_ result is that prices are more or less monotonically increasing, so rather than correcting when they should, they tend to just stagnate until other conditions (like wages) catch up.
+
+Another interesting piece to this puzzle, is that right at the end of the zero interest rate era, we had a surge in activity in the housing market.
+
+1. Stamp duty holiday boosted demand temporarily
+2. WFH allowed people to move further out of cities, extending the reach of "city prices"
+3. Section 24 tax changes came into effect, reducing the supply of rental properties / raising rents and thus prices
+
+/// TODO: Fix up the below.
+
+- https://www.statista.com/statistics/463920/halifax-average-first-time-buyer-monthly-costs-of-buying-renting-property/
+- https://www.statista.com/statistics/285705/monthly-house-price-index-in-the-united-kingdom-uk/
 
 Between 2019 and 2025, three things happened simultaneously:
 
@@ -231,19 +252,22 @@ The 2019 baseline is calculated automatically from regional data, using 2019/20 
   <label for="sim-region">Region</label>
   <select id="sim-region" class="sim-select"></select>
 
-  <label for="sim-price">House Price</label>
+<label for="sim-price">House Price</label>
+
   <div class="slider-row">
     <input type="range" id="sim-price" min="50000" max="800000" step="5000">
     <span class="slider-value" id="sim-price-val"></span>
   </div>
 
-  <label for="sim-rate">Mortgage Rate (5-year fixed)</label>
+<label for="sim-rate">Mortgage Rate (5-year fixed)</label>
+
   <div class="slider-row">
     <input type="range" id="sim-rate" min="1" max="10" step="0.1">
     <span class="slider-value" id="sim-rate-val"></span>
   </div>
 
-  <label for="sim-salary">Annual Gross Salary</label>
+<label for="sim-salary">Annual Gross Salary</label>
+
   <div class="slider-row">
     <input type="range" id="sim-salary" min="15000" max="150000" step="500">
     <span class="slider-value" id="sim-salary-val"></span>
@@ -616,7 +640,7 @@ This is a simplification. It excludes property taxes (stamp duty, council tax), 
 
 Look at the numbers for your region. In most of the country, a median earner buying a median-priced home has gone from spending roughly 20-25% of their take-home on the mortgage in 2019, to spending 30-40%+ in 2025.
 
-The cruel irony is that NI rates actually *fell* from 12% to 8% between 2019 and 2025, meaning take-home pay improved slightly beyond raw salary growth. And it still wasn't enough to offset the combined hit of higher prices and higher rates.
+The cruel irony is that NI rates actually _fell_ from 12% to 8% between 2019 and 2025, meaning take-home pay improved slightly beyond raw salary growth. And it still wasn't enough to offset the combined hit of higher prices and higher rates.
 
 If you've read my [previous post on buying a house]({{<ref "posts/on-buying-a-house">}}), you'll know I went through this process myself. And if you've seen my [UK tax burden breakdown]({{<ref "posts/uk-tax-burden-2025">}}), you'll know that housing is already the second largest expense after tax for many of us.
 
@@ -626,4 +650,4 @@ The most realistic outcome is a slow grind: modest salary growth, gradually fall
 
 ---
 
-*Data sources: [ONS UK House Price Index](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/housepriceindex), [ONS ASHE](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours), [Bank of England mortgage rate data](https://www.bankofengland.co.uk/statistics/interest-rate-statistics), [HMRC income tax rates](https://www.gov.uk/income-tax-rates), [Scottish income tax rates](https://www.gov.scot/publications/scottish-income-tax-rates-and-bands/).*
+_Data sources: [ONS UK House Price Index](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/housepriceindex), [ONS ASHE](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours), [Bank of England mortgage rate data](https://www.bankofengland.co.uk/statistics/interest-rate-statistics), [HMRC income tax rates](https://www.gov.uk/income-tax-rates), [Scottish income tax rates](https://www.gov.scot/publications/scottish-income-tax-rates-and-bands/)._
