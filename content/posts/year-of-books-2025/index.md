@@ -1,6 +1,6 @@
 ---
 title: "📚 Year of books 2025"
-date: 2026-04-06
+date: 2026-04-05
 tags: ["reading", "thoughts"]
 summary: "2025 book reviews"
 slug: "year-of-books-2025"
