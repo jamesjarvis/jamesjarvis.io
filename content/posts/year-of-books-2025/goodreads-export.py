@@ -1,15 +1,15 @@
 """
 The following code was mostly written by ChatGPT 4 in January 2025, from a few back and
-forth chats and a little bit of manual intervention.
+forth chats and a little bit of manual intervention. Plus small tweaks in April 2026.
 Noting this to give a sense of how useful code generation is at the moment, and more for
 posterity, once this damn robot steals my job in the future!
 This script can be ran against the review.json export from goodreads, and currently
-filters for book reviews made in 2024, sorts them in date ASC, and then prints out in an
+filters for book reviews made in 2025, sorts them in date ASC, and then prints out in an
 opinionated markdown.
 
 The prompt was:
 
-given this data, write me a script that finds all reviews from 2024, and outputs each entry with the following template:
+given this data, write me a script that finds all reviews from 2025, and outputs each entry with the following template:
 ```
 ### {title}
 
