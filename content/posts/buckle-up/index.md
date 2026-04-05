@@ -66,7 +66,7 @@ A fun collection of recent, lighthearted and totally-not-depressing quotes from 
 
 > "Half of all entry-level white-collar jobs could be eliminated within the next one-to-five years" - Dario Amodei, CEO Anthropic
 
-> "10 times bigger than the Industrial Revolution – and maybe 10 times faster." - Demis Hassabis, CEO Anthropic
+> "10 times bigger than the Industrial Revolution – and maybe 10 times faster." - Demis Hassabis, CEO Deepmind
 
 > "Every job will be affected, and immediately. It is unquestionable… You’re not going to lose your job to an AI, but you’re going to lose your job to someone who uses AI." - Jensen Huang, CEO Nvidia
 
