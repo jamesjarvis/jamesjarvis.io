@@ -80,3 +80,10 @@ google = "qUT9bwH-WOAeZymmzvqBCmYdGu73nhhAPtRbBJbEabM"
 # bing = ""
 # pinterest = ""
 # yandex = ""
+
+[llms]
+enable = true
+enable_full = true
+include = []
+exclude = ["/categories/**"]
+

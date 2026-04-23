@@ -9,7 +9,11 @@ summaryLength = 10
 timeout = '3000s'
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home     = ["HTML", "RSS", "JSON", "llms", "llmsfull", "md"]
+page     = ["HTML", "md"]
+section  = ["HTML", "RSS", "md"]
+taxonomy = ["HTML", "RSS", "md"]
+term     = ["HTML", "RSS", "md"]
 
 [permalinks]
 posts = '/posts/:year/:month/:slug/'

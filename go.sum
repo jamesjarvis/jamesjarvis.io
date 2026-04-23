@@ -1,3 +1,5 @@
+github.com/gethugothemes/hugo-modules/llms-txt v0.0.0-20260413075351-1f929f6a07bb h1:6tC3VIwxezA+/wPLpvEfw1yr0h5t0eRCGH/KH/5gVHk=
+github.com/gethugothemes/hugo-modules/llms-txt v0.0.0-20260413075351-1f929f6a07bb/go.mod h1:NbshvI0tQlvBA7ZZrP8kik0M6g3b0Gr0ftEP3NV+9os=
 github.com/jpanther/congo/v2 v2.9.0 h1:mq1U8Zqw/F+9dk+AgH7W6Wl2M4LLiRP4v/BCTx4c01Y=
 github.com/jpanther/congo/v2 v2.9.0/go.mod h1:1S7DRoO1ZYS4YUdFd1LjTkdyjQwsjFWd8TqSfz3Jd+M=
 github.com/jpanther/congo/v2 v2.13.0 h1:kI73uW3e9aiPuN9so6lzZg+iEW8UVTmIPCNZvJ1cijI=
