@@ -33,7 +33,7 @@ jobs:
         run: bash scripts/post_build.sh
 
       - name: Upload built state
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: site
           path: public
