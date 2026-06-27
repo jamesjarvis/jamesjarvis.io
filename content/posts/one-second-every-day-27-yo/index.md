@@ -2,7 +2,7 @@
 title: "27 Years Old"
 date: 2026-06-23
 tags: ["one-second-everyday"]
-videos: ["https://youtu.be/HoqyTi2Siew"]
+videos: ["https://youtu.be/RvwSCmyFxB4"]
 lastmod: 2026-06-27
 aliases:
   - /life/27/
@@ -22,4 +22,4 @@ Trips round central Europe with Raphael, Istanbul, Beijing, Chengdu, Chongqing a
 
 As I enter into my proper late-20s era I'm looking forward to focusing on maximising risk and seeking exciting adventures again. It's been fun renovating the house but that project is nearly over (garden permitting), so my focus is turning back to a larger "misogi" for this year.
 
-{{< youtube HoqyTi2Siew >}}
+{{< youtube RvwSCmyFxB4 >}}
