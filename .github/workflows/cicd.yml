@@ -10,11 +10,10 @@ jobs:
         with:
           submodules: true
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.148.2'
-          extended: true
+      # Installs go + hugo-extended at the exact versions pinned in
+      # .mise.toml, so CI and local always use identical tooling.
+      - name: Setup tools (mise)
+        uses: jdx/mise-action@v2
 
       - name: Cache generated files
         id: cache-gen
