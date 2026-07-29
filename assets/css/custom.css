@@ -1,3 +1,9 @@
+/* Replaces `h-screen`, dropped from <body> in layouts/baseof.html — mf2 parses
+   any `h-*` class as a root. */
+body {
+  height: 100vh;
+}
+
 .preview-tooltip {
   position: fixed;
   z-index: 9999;
