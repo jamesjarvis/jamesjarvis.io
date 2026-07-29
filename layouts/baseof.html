@@ -1,7 +1,5 @@
-{{- /* Congo v2.14.0 baseof.html. Only change: Tailwind's `h-screen` is dropped
-  from <body> because microformats2 parsers treat any `h-*` class as a root,
-  which would wrap every h-entry in a bogus `h-screen` item. Height is restored
-  by the `body` rule in assets/css/custom.css. */ -}}
+{{- /* Congo v2.14.0 baseof.html; `h-screen` dropped from <body> — mf2 parses any
+  `h-*` class as a root. Height lives in assets/css/custom.css. */ -}}
 {{- partial "functions/warnings.html" .Site -}}
 {{- partial "functions/init.html" . -}}
 <!doctype html>

@@ -1,5 +1,4 @@
-{{- /* Congo v2.14.0 single.html, plus microformats2 h-entry markup so IndieWeb
-  readers can follow pages that have no RSS output of their own (e.g. /now/). */ -}}
+{{- /* Congo v2.14.0 single.html + mf2 h-entry, so IndieWeb readers can follow /now/. */ -}}
 {{ define "main" }}
   {{- $images := .Resources.ByType "image" }}
   {{- $cover := $images.GetMatch (.Params.cover | default "*cover*") }}
@@ -14,7 +13,7 @@
       <h1 class="p-name mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
         {{ .Title | emojify }}
       </h1>
-      {{- /* Machine-readable h-entry properties. Not rendered for humans. */}}
+      {{- /* h-entry properties, hidden from humans. */}}
       <a class="u-url" href="{{ .Permalink }}" hidden></a>
       {{ if not .Date.IsZero }}<time class="dt-published" datetime="{{ $published }}" hidden></time>{{ end }}
       {{ if ne $updated $published }}<time class="dt-updated" datetime="{{ $updated }}" hidden></time>{{ end }}

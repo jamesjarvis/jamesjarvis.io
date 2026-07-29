@@ -1,26 +1,17 @@
-{{- /* Prepares .Content for inclusion in an RSS feed.
-
-  Feed readers strip CSS and do not resolve relative URLs, so the rendered
-  page HTML needs cleaning first:
-    - heading anchor spans are CSS-hidden on the site, but show as a stray "#"
-    - <source>/srcset are responsive-image plumbing readers ignore
-    - the LQIP placeholder is a base64 blob worth kilobytes per image
-    - every URL in this site is relative (see _partials/picture.html)
-
-  Takes a page, returns an HTML string. */ -}}
+{{- /* Cleans .Content for RSS: readers strip CSS and don't resolve relative URLs. */ -}}
 {{- $base := strings.TrimSuffix "/" site.BaseURL -}}
 {{- $c := .Content -}}
 
-{{- /* Drop the hover "#" anchor appended to every heading. */ -}}
+{{- /* CSS-hidden on the site, a stray "#" in a reader. */ -}}
 {{- $c = replaceRE `<span class="absolute top-0 w-6[^"]*">\s*<a[^>]*>#</a>\s*</span>` "" $c -}}
 
-{{- /* Reduce <picture> plumbing to the plain <img> readers can render. */ -}}
+{{- /* <picture> plumbing down to a plain <img>; also drops the base64 LQIP. */ -}}
 {{- $c = replaceRE `<source[^>]*>` "" $c -}}
 {{- $c = replaceRE `\s+srcset="[^"]*"` "" $c -}}
 {{- $c = replaceRE `\s+sizes="[^"]*"` "" $c -}}
 {{- $c = replaceRE `\s+style="background-image:url\(data:image/[^"]*"` "" $c -}}
 
-{{- /* Relative -> absolute. The [^/] guard leaves //host URLs alone. */ -}}
+{{- /* [^/] guard leaves //host URLs alone. */ -}}
 {{- $c = replaceRE `(src|href|poster)="/([^/])` (printf `${1}="%s/${2}` $base) $c -}}
 
 {{- return $c -}}

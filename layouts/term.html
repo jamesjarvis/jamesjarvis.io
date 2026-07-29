@@ -1,4 +1,4 @@
-{{- /* Congo v2.14.0 term.html, plus an RSS subscribe link in the header. */ -}}
+{{- /* Congo v2.14.0 term.html + RSS subscribe link. */ -}}
 {{ define "main" }}
   {{ $toc := and (.Params.showTableOfContents | default (.Site.Params.list.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
   <header>

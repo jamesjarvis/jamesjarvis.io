@@ -1,6 +1,5 @@
-{{- /* Congo v2.14.0 search.html. Only change: `h-screen w-screen` dropped from
-  the wrapper. `fixed inset-0` already sizes it to the viewport, and `h-screen`
-  reads as a microformats2 root class, polluting every page's mf2 output. */ -}}
+{{- /* Congo v2.14.0 search.html; `h-screen w-screen` dropped — mf2 root collision,
+  and `fixed inset-0` already sizes it. */ -}}
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 z-50 flex cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"

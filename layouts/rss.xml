@@ -1,6 +1,4 @@
-{{- /* Based on Hugo's embedded rss.xml (v0.163.3).
-  Changes: home feed is limited to the posts section, items carry <category>
-  elements per tag, and the home channel uses the site title. */ -}}
+{{- /* Hugo's embedded rss.xml + posts-only home feed, <category>, full content. */ -}}
 {{- $authorEmail := "" }}
 {{- with site.Params.author }}
 	{{- if reflect.IsMap . }}
