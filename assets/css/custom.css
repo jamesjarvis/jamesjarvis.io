@@ -1,3 +1,11 @@
+/* Congo puts Tailwind's `h-screen` on <body>. layouts/baseof.html drops it
+   because microformats2 parsers read any `h-*` class as a root element, which
+   would nest every h-entry inside a bogus `h-screen` item. Same height, no
+   class-name collision. */
+body {
+  height: 100vh;
+}
+
 .preview-tooltip {
   position: fixed;
   z-index: 9999;
