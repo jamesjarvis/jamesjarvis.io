@@ -5,7 +5,7 @@ tags: ["thoughts", "personal-finance"]
 slug: "uk-tax-burden-2025"
 aliases:
   - /posts/2025/08/my-uk-tax-burden-in-2025-a-personal-finance-reality-check/
-lastmod: 2025-09-07
+lastmod: 2026-08-06
 summary: "A deep dive into my personal tax burden in the UK for 2025, and concerns about the future of taxation for average UK taxpayers."
 ---
 
@@ -23,7 +23,7 @@ Let me start by being completely transparent about my tax situation in 2025.
 I'm not going to share exact figures, but I will share the percentages and structure that make up my total tax burden.
 
 For the purposes of this breakdown, I am sampling an average month of the year, and counting "income" as any money that I am given by my employer in exchange for my labour.
-I'm not including an outlier month (like paying Stamp Duty or a Capital Gains tax )
+I'm not including an outlier month (like paying Stamp Duty or a Capital Gains tax)
 
 This particular month is representative of the last year I've been living in my house, where I've reduced my "lifestyle" spend quite a lot, and have been dumping money into my recent house purchase.
 You'll recognise there's no "buffer/savings" section at the moment, 🤞 in a couple months I can swap the "renovation" section with "savings", and I'll probably post an update in a couple years, but the taxation breakdown will likely remain the same.
@@ -100,7 +100,7 @@ At the time of writing, the UK is preparing itself for a further round of tax in
 
 Nobody knows quite what the expected tax increases will be, but they are generally expected to tip into the "too much" category, risking some civil unrest.
 
-Most people in the UK have absolutely no idea how much tax they are spending, or the inequality of taxation for an individual compared to a corporation - especially not to the extend that an individual with a certain level of wealth can engineers themselves into being taxed as a corporation, hence avoiding a 43% tax burden and decreasing their proportional cost of existence.
+Most people in the UK have absolutely no idea how much tax they are spending, or the inequality of taxation for an individual compared to a corporation - especially not to the extent that an individual with a certain level of wealth can engineer themselves into being taxed as a corporation, hence avoiding a 43% tax burden and decreasing their proportional cost of existence.
 
 I am personally hoping for (though not expecting):
 
@@ -112,6 +112,19 @@ I am personally hoping for (though not expecting):
   - See: [Fairer Share](https://fairershare.org.uk/) as one potential tax change targeting "council tax" reform.
 
 But my concern is that we'll see more of the same: hidden tax increases, blissful ignorance of state inefficiencies, corporate tax cuts, and a growing burden on the average worker.
+
+## Amendments (August 2026)
+
+Having re-checked the figures in this post against the actual 2025/26 rules, the arithmetic all holds up, but a few statements — particularly around the corporation comparison — deserve correction. In the spirit of transparency I've left the original text as written and noted the corrections here.
+
+**1. "Taxed as a corporation, hence avoiding a 43% tax burden" overstates the loophole.**
+Corporation tax only applies while profits stay _in_ the company. To actually live off that money you have to extract it, and dividend tax (8.75% / 33.75% / 39.35% in 2025/26) applies on top of corporation tax. For a higher-rate earner, 19% corporation tax followed by 33.75% dividend tax on the remainder works out to roughly 46% combined — comparable to PAYE, not an escape from it. The genuine advantages of the corporate wrapper are deferral, expense deductibility, and low rates on profits you retain and reinvest rather than spend — and IR35 exists specifically to stop regular employees from incorporating their salary anyway.
+
+**2. The chart assumes the 19% small profits rate.**
+The corporation tax slice in the chart above was calculated at the 19% small profits rate, which only applies to profits up to £50,000. Between £50,000 and £250,000, marginal relief applies (an effective average rate of roughly 20–22% in that band, with a 26.5% marginal rate), and above £250,000 the main rate is 25%. At the notional profit level implied by the chart, the corporation tax slice is therefore modestly understated.
+
+**3. The analogy leaks in a couple of other places.**
+A VAT-registered company reclaims the VAT on its inputs, so the "consumption" tax slice would in reality be lower than shown; and companies pay business rates rather than council tax, which the "council" slice stands in for. Neither changes the overall picture much, but worth stating.
 
 ---
 
