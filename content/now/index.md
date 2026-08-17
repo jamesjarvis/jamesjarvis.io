@@ -1,6 +1,6 @@
 ---
 title: "Now"
-date: 2026-07-24
+date: 2026-08-17
 ---
 
 ## Professional
@@ -11,12 +11,11 @@ I'm always open to new connections, if you want to chat about finances, AI, engi
 
 ## Unprofessional
 
-Just came back from a cruise around the coast of France and Spain with my family.
-Was lovely, and I got slightly sunburnt, but I think maybe we should do that outside of school holidays next time!
+I've been enjoying a beautiful - if a bit too dry - Summer mostly in the UK.
+I'm currently in Paris meeting with some old friends for the week.
 
-Back in London in the office this week, bought a new car yesterday (yay!) and still planning out my garden renovation - I need to buy/build some fences and get quotes for some paving, sigh, what a money pit!
-
-Hopefully going camping this weekend and next though, and planning a short trip to China in August, so lots to look forward to!
+Back home I have been absolutely loving our preowned VW ID3 we got a few weeks ago - brilliant value!
+And I still need to sort out my garden renovation 😅
 
 If you haven't seen, I have been recording a second of my life every day since I turned 18.
 You can see my experience here: [One Second Every Day]({{<ref "tags/one-second-everyday/">}})
