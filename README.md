@@ -107,6 +107,21 @@ Sign before granting Full Disk Access: re-signing changes the binary's cdhash, w
 matches on, so a grant made beforehand stops applying. After a major macOS upgrade, re-copy,
 re-sign, then remove and re-add the Full Disk Access entry.
 
+Whenever the plist changes, reinstall it before reloading. `launchctl` reads the copy in
+`~/Library/LaunchAgents`, not the one in this repo, so an unload/load cycle on its own silently
+keeps running the old definition:
+
+```bash
+launchctl unload ~/Library/LaunchAgents/io.jamesjarvis.content-sync.plist
+cp hosts/mac/io.jamesjarvis.content-sync.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/io.jamesjarvis.content-sync.plist
+launchctl print gui/$(id -u)/io.jamesjarvis.content-sync | grep -A3 arguments
+```
+
+That last line is the check that matters: the arguments must list `jj-agent-bash`. If they show
+the script alone, the stale plist is still loaded and the sync will keep failing with
+`Operation not permitted`.
+
 In the Syncthing GUI, share `~/development/jamesjarvis.io/content` as **Send Only**.
 
 Do not open `~/development/jamesjarvis.io/content` as an Obsidian vault. It is a mirror, rewritten
