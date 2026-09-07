@@ -145,6 +145,17 @@ Everything on the SSD, not the SD card.
    the Pi's shell and the Syncthing web UI without exposing anything to the internet.
 2. Clone this repo to `/srv/site/repo`, then `mise install`. The pins in `.mise.toml` resolve to
    arm64 builds.
+
+   The clone is shallow and single-branch, so `git pull` fails with "Need to specify how to
+   reconcile divergent branches" — the fetched commits share no visible ancestry with the local
+   tip. Update it with fetch and reset instead, which is right for a deploy clone that never
+   carries local changes:
+
+   ```bash
+   git fetch --depth 1 origin jamesjarvis/split-content-out && git reset --hard FETCH_HEAD
+   ```
+
+   `content/` and `resources/` are gitignored, so reset leaves both untouched.
 3. Install Syncthing (`sudo apt install syncthing`, then
    `sudo systemctl enable --now syncthing@pi`) and accept the shared folder as **Receive Only**,
    pointed at `/srv/site/repo/content`. **Do the first 4 GB sync on the LAN.**
@@ -159,8 +170,14 @@ Everything on the SSD, not the SD card.
 
    A cold build resizes 355 large JPEGs and takes over an hour on ARM. After seeding, builds are
    incremental. This persistent cache is the main reason the Pi beats CI.
-5. Write `/etc/site-deploy.env` from `hosts/site-deploy.env.example`, `chmod 600`.
-   The Pi does not back anything up, so it needs only the Cloudflare keys.
+5. Write `/etc/site-deploy.env` from `hosts/site-deploy.env.example`, then
+   `chown root:pi` and `chmod 640`. The Pi does not back anything up, so it needs only the
+   Cloudflare keys.
+
+   Group-readable rather than `600` on purpose. systemd reads `EnvironmentFile=` as root before
+   dropping to `User=pi`, so the timer works either way, but running `build-deploy.sh` by hand as
+   `pi` fails with a permission error on a root-only file. The `pi` user ends up holding the token
+   in its process environment during a deploy regardless, so group read costs nothing.
 6. Install the units:
 
    ```bash
