@@ -44,6 +44,22 @@ That is why `scripts/sync-icloud.sh` exists: it mirrors the vault into a plain l
 
 Mark the vault "Keep Downloaded" in Finder so eviction stops happening at all.
 
+## Drafts and templates
+
+`draft: true` in a post's front matter keeps it out of the build, as does a future `date`.
+
+Obsidian templates are a different problem. They live inside the vault, the vault is `content/`,
+and Obsidian's placeholder syntax is not valid YAML: a front matter line like
+`date: {{date:YYYY-MM-DD}}` starts a flow mapping, so Hugo fails to parse the file and **aborts the
+entire site build**, not just that page. A single template file takes the whole site down.
+
+`ignoreFiles = ['_templates/']` in `config/_default/config.toml` makes Hugo skip the directory
+before it parses anything, so templates can keep their raw placeholder syntax. Point Obsidian's
+template folder at `_templates` and put them there.
+
+They stay in the vault and the mirror, so restic still backs them up. They just never reach the
+build.
+
 ## Writing
 
 Create a post in the vault, not here:

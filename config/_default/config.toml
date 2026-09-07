@@ -8,6 +8,8 @@ summaryLength = 10
 
 timeout = '7200s'
 
+ignoreFiles = ['_templates/']
+
 [outputs]
 home     = ["HTML", "RSS", "JSON", "llms", "llmsfull", "md"]
 page     = ["HTML", "md"]
