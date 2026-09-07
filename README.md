@@ -69,7 +69,11 @@ scripts/sync-icloud.sh
 scripts/build-deploy.sh
 ```
 
-`build-deploy.sh` is host-agnostic and runs identically on the Mac and the Pi. It hashes the repo
+`build-deploy.sh` is host-agnostic and runs identically on the Mac and the Pi. It deploys with
+`bunx` where bun is installed and falls back to `npx` otherwise, which is what the Pi uses. It runs
+wrangler from `~/.cache/jamesjarvis.io-wrangler` rather than the repo, because bun installs into
+the working directory and would otherwise leave `package.json`, `bun.lock` and `node_modules` in
+the project on every deploy. It hashes the repo
 and content tree and exits without rebuilding when nothing changed. Useful flags:
 
 - `--force` — rebuild even if nothing changed

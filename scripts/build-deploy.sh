@@ -81,10 +81,17 @@ bash scripts/post_build.sh
 
 if [ "$deploy" = true ]; then
   stage="cloudflare deploy"
-  npx --yes wrangler@4 pages deploy public \
-    --project-name "$CF_PAGES_PROJECT" \
-    --branch main \
-    --commit-dirty=true
+  if command -v bunx >/dev/null 2>&1; then
+    runner=(bunx wrangler@4)
+  else
+    runner=(npx --yes wrangler@4)
+  fi
+  wrangler_dir="${XDG_CACHE_HOME:-$HOME/.cache}/jamesjarvis.io-wrangler"
+  mkdir -p "$wrangler_dir"
+  ( cd "$wrangler_dir" && "${runner[@]}" pages deploy "$REPO_DIR/public" \
+      --project-name "$CF_PAGES_PROJECT" \
+      --branch main \
+      --commit-dirty=true )
 fi
 
 echo "$state" > "$STATE_FILE"
