@@ -37,4 +37,6 @@ rsync -a --delete \
   --exclude '.git' \
   "$VAULT/" "$MIRROR/"
 
+date +%s > "$REPO_DIR/.last-sync"
+
 echo "sync-icloud: mirrored $VAULT -> $MIRROR"

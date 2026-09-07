@@ -15,14 +15,15 @@ deploy the site. The writing and photos live outside it.
                          │
  MacBook: iCloud vault ──┴──rsync──▶ ~/development/jamesjarvis.io/content
                                                     │
+                                                    ├──restic──▶ Backblaze B2
+                                                    │
                                               Syncthing (send-only)
                                                     ▼
  Pi:  /srv/site/repo/content  (receive-only)  +  /srv/site/repo  (this repo)
                                                     │
                                       systemd timer ─▶ hugo ─▶ wrangler
                                                     │
-                                                    ├─▶ Cloudflare Pages
-                                                    └─▶ restic ─▶ Backblaze B2
+                                                    └─▶ Cloudflare Pages
 ```
 
 The canonical copy is the iCloud vault at
@@ -108,6 +109,7 @@ Everything on the SSD, not the SD card.
    A cold build resizes 355 large JPEGs and takes over an hour on ARM. After seeding, builds are
    incremental. This persistent cache is the main reason the Pi beats CI.
 5. Write `/etc/site-deploy.env` from `hosts/site-deploy.env.example`, `chmod 600`.
+   The Pi does not back anything up, so it needs only the Cloudflare keys.
 6. Install the units:
 
    ```bash
@@ -116,7 +118,26 @@ Everything on the SSD, not the SD card.
    sudo systemctl enable --now site-build.timer site-backup.timer
    ```
 
-7. Initialise the backup repository once: `restic init`.
+## Backups
+
+Backups run on the **Mac**, not the Pi. The Mac is where everything flows through, and the mirror
+at `~/development/jamesjarvis.io/content` is byte-identical to the vault while living outside
+iCloud's protected storage — so the backup agent needs no Full Disk Access.
+
+```bash
+cp hosts/mac/io.jamesjarvis.content-backup.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/io.jamesjarvis.content-backup.plist
+```
+
+Credentials live in `~/.config/site-deploy.env`. Initialise the repository once with `restic init`
+before the first run.
+
+Because the backup reads the mirror rather than the vault, a broken `sync-icloud.sh` would mean
+silently backing up stale content. `sync-icloud.sh` writes a `.last-sync` stamp on success and
+`backup.sh` warns via ntfy if it is more than 24 hours old.
+
+**Keep the restic password somewhere outside this machine.** Without it the backups cannot be
+recovered.
 
 ## Administration
 
@@ -127,7 +148,8 @@ Everything on the SSD, not the SD card.
 | Build history and failures | `journalctl -u site-build` |
 | Why didn't my post appear? | `tail ~/Library/Logs/content-sync.log` on the Mac |
 | Force a publish | `scripts/build-deploy.sh --force` |
-| Restore content | `restic restore latest --target /tmp/restore` |
+| Restore content | `restic restore latest --target /tmp/restore` (on the Mac) |
+| Backup history | `tail ~/Library/Logs/content-backup.log`, or `restic snapshots` |
 
 Build and deploy failures push a notification to your phone via [ntfy.sh](https://ntfy.sh); set
 `NTFY_TOPIC` to enable it.
