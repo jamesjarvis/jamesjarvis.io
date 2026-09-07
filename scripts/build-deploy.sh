@@ -20,10 +20,12 @@ NTFY_TOPIC="${NTFY_TOPIC:-}"
 
 force=false
 deploy=true
+pull=false
 for arg in "$@"; do
   case "$arg" in
     --force) force=true ;;
     --no-deploy) deploy=false ;;
+    --pull) pull=true ;;
     *) echo "unknown argument: $arg" >&2; exit 2 ;;
   esac
 done
@@ -43,6 +45,18 @@ trap 'notify_failure "$stage"' ERR
 
 if command -v mise >/dev/null 2>&1; then
   eval "$(mise env -s bash)"
+fi
+
+if [ "$pull" = true ]; then
+  stage="git fetch"
+  if [ -n "$(git status --porcelain)" ]; then
+    echo "build-deploy: working tree has local changes, not pulling"
+  else
+    branch="$(git rev-parse --abbrev-ref HEAD)"
+    git fetch --depth 1 origin "$branch"
+    git reset --hard FETCH_HEAD
+    echo "build-deploy: updated to $(git rev-parse --short HEAD)"
+  fi
 fi
 
 stat_line() {

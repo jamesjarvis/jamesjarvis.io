@@ -94,6 +94,14 @@ and content tree and exits without rebuilding when nothing changed. Useful flags
 
 - `--force` — rebuild even if nothing changed
 - `--no-deploy` — build only, skip the upload to Cloudflare
+- `--pull` — fetch and reset to the tracked branch before building
+
+`--pull` is opt-in and only the Pi's systemd unit passes it, so running the script on the Mac
+never touches your working tree. It refuses to pull when the tree has local changes rather than
+discarding them, so an experiment left on the Pi is not silently destroyed.
+
+Note that this means a push to the tracked branch deploys itself within about five minutes, with
+no review step. That is the trade for not having to update the Pi by hand.
 
 Credentials come from `/etc/site-deploy.env` (Pi) or `~/.config/site-deploy.env` (Mac). See
 `hosts/site-deploy.env.example`.

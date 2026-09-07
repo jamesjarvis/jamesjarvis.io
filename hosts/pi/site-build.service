@@ -9,6 +9,6 @@ User=pi
 WorkingDirectory=/srv/site/repo
 Environment=PATH=/home/pi/.local/bin:/usr/local/bin:/usr/bin:/bin
 EnvironmentFile=/etc/site-deploy.env
-ExecStart=/srv/site/repo/scripts/build-deploy.sh
+ExecStart=/srv/site/repo/scripts/build-deploy.sh --pull
 TimeoutStartSec=4h
 Nice=10
