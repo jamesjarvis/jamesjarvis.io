@@ -1,0 +1,14 @@
+{{- $img := "" -}}
+{{- with partial "_funcs/get-page-images" . -}}
+  {{- with index . 0 -}}
+    {{- $img = (.Image.Resize "660x").Permalink -}}
+  {{- end -}}
+{{- end -}}
+<meta name="twitter:card" content="{{ if $img }}summary_large_image{{ else }}summary{{ end }}">
+<meta name="twitter:title" content="{{ .Title | plainify }}">
+{{- with (or .Description .Summary site.Params.description) }}
+  <meta name="twitter:description" content="{{ . | plainify | truncate 200 }}">
+{{- end }}
+{{- with $img }}
+  <meta name="twitter:image" content="{{ . }}">
+{{- end }}

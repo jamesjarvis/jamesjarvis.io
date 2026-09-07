@@ -1,0 +1,13 @@
+[Unit]
+Description=Trigger a jamesjarvis.io build when synced content changes
+After=network-online.target syncthing@pi.service
+Wants=network-online.target
+
+[Service]
+ExecStart=/srv/site/repo/scripts/watch-content.sh
+Restart=always
+RestartSec=10
+Nice=15
+
+[Install]
+WantedBy=multi-user.target

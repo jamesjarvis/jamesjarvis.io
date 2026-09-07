@@ -222,12 +222,18 @@ Everything on the SSD, not the SD card.
    dropping to `User=pi`, so the timer works either way, but running `build-deploy.sh` by hand as
    `pi` fails with a permission error on a root-only file. The `pi` user ends up holding the token
    in its process environment during a deploy regardless, so group read costs nothing.
-6. Install the units:
+6. Install `inotify-tools`, which the content watcher needs:
+
+   ```bash
+   sudo apt install inotify-tools
+   ```
+
+7. Install the units:
 
    ```bash
    sudo cp hosts/pi/*.service hosts/pi/*.timer /etc/systemd/system/
    sudo systemctl daemon-reload
-   sudo systemctl enable --now site-build.timer site-backup.timer
+   sudo systemctl enable --now site-build.timer site-watch.service site-backup.timer
    ```
 
 ## Backups
@@ -261,6 +267,21 @@ silently backing up stale content. `sync-icloud.sh` writes a `.last-sync` stamp 
 **Keep the restic password somewhere outside this machine.** Without it the backups cannot be
 recovered.
 
+## How quickly a change goes live
+
+`site-watch.service` watches the synced content directory with recursive inotify and starts a
+build once writes have been quiet for fifteen seconds. `site-build.timer` still runs every five
+minutes as a fallback, which also covers pushes to the repo, since those change nothing locally
+for inotify to see.
+
+A systemd `.path` unit is not usable here. Path units are not recursive: a change to
+`content/now/index.md` does not trigger a unit watching `content`, only a change to a direct child
+does, and every post lives in a nested directory. This was tested rather than assumed.
+
+End to end from saving on the Mac: up to sixty seconds for the iCloud mirror agent, a few seconds
+for Syncthing, fifteen for the debounce, and about two and a half minutes to build and deploy.
+Roughly four minutes worst case.
+
 ## Administration
 
 | Want | Do |
@@ -273,8 +294,19 @@ recovered.
 | Restore content | `restic restore latest --target /tmp/restore` (on the Mac) |
 | Backup history | `tail ~/Library/Logs/content-backup.log`, or `restic snapshots` |
 
-Build and deploy failures push a notification to your phone via [ntfy.sh](https://ntfy.sh); set
-`NTFY_TOPIC` to enable it.
+### Failure notifications
+
+Build, deploy and backup failures push to your phone via [ntfy.sh](https://ntfy.sh). Successes are
+silent, so any notification means something needs attention.
+
+Set `NTFY_TOPIC` in the env file on each machine. **The topic name is not in this repository and
+must not be**: this repo is public, and an ntfy.sh topic is unauthenticated, so anyone who knows
+the name can both read and publish to it. It lives only in the env files and in the private
+runbook note.
+
+Subscribe with the ntfy app (iOS and Android), server `ntfy.sh`, using the topic from the env
+file. Messages are cached for around twelve hours, so subscribing later still shows recent
+alerts.
 
 ## Hosting
 
