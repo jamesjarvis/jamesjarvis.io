@@ -176,8 +176,18 @@ cp hosts/mac/io.jamesjarvis.content-backup.plist ~/Library/LaunchAgents/
 launchctl load ~/Library/LaunchAgents/io.jamesjarvis.content-backup.plist
 ```
 
+```bash
+cp hosts/mac/io.jamesjarvis.content-backup-maintain.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/io.jamesjarvis.content-backup-maintain.plist
+```
+
 Credentials live in `~/.config/site-deploy.env`. Initialise the repository once with `restic init`
 before the first run.
+
+The nightly run does `backup` and `forget` only. `prune` and `check` download data from B2 and
+cost money, so they run weekly instead via `backup.sh --maintain`, which is what the second agent
+above is for. The password may be given as `RESTIC_PASSWORD`, or better as
+`RESTIC_PASSWORD_COMMAND` reading from the macOS Keychain so it is not sitting in a file.
 
 Because the backup reads the mirror rather than the vault, a broken `sync-icloud.sh` would mean
 silently backing up stale content. `sync-icloud.sh` writes a `.last-sync` stamp on success and

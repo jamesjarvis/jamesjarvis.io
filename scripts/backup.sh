@@ -15,7 +15,19 @@ for env_file in /etc/site-deploy.env "$HOME/.config/site-deploy.env"; do
 done
 
 : "${RESTIC_REPOSITORY:?RESTIC_REPOSITORY is not set}"
-: "${RESTIC_PASSWORD:?RESTIC_PASSWORD is not set}"
+
+if [ -z "${RESTIC_PASSWORD:-}" ] && [ -z "${RESTIC_PASSWORD_COMMAND:-}" ] && [ -z "${RESTIC_PASSWORD_FILE:-}" ]; then
+  echo "backup: set RESTIC_PASSWORD, RESTIC_PASSWORD_COMMAND or RESTIC_PASSWORD_FILE" >&2
+  exit 1
+fi
+
+maintain=false
+for arg in "$@"; do
+  case "$arg" in
+    --maintain) maintain=true ;;
+    *) echo "unknown argument: $arg" >&2; exit 2 ;;
+  esac
+done
 
 NTFY_TOPIC="${NTFY_TOPIC:-}"
 
@@ -39,15 +51,27 @@ else
   notify "no sync stamp found, mirror freshness unknown"
 fi
 
+if [ "$maintain" = true ]; then
+  restic forget \
+    --tag jamesjarvis.io-content \
+    --keep-daily 14 \
+    --keep-weekly 8 \
+    --keep-monthly 24 \
+    --prune
+  restic check --read-data-subset=1%
+  echo "backup: maintenance done"
+  exit 0
+fi
+
 restic backup "$CONTENT_DIR" \
   --tag jamesjarvis.io-content \
-  --exclude '.DS_Store'
+  --exclude '.DS_Store' \
+  --exclude-caches
 
 restic forget \
   --tag jamesjarvis.io-content \
   --keep-daily 14 \
   --keep-weekly 8 \
-  --keep-monthly 24 \
-  --prune
+  --keep-monthly 24
 
-restic check --read-data-subset=1%
+echo "backup: done"
