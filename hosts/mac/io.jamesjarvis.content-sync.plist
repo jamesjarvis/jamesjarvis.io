@@ -7,6 +7,7 @@
 
     <key>ProgramArguments</key>
     <array>
+        <string>/usr/local/bin/jj-agent-bash</string>
         <string>/Users/jamesjarvis/development/jamesjarvis.io/scripts/sync-icloud.sh</string>
     </array>
 

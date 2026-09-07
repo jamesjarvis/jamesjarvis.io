@@ -84,11 +84,26 @@ Credentials come from `/etc/site-deploy.env` (Pi) or `~/.config/site-deploy.env`
 
 ```bash
 mise install
+brew install syncthing && brew services start syncthing
+sudo cp /bin/bash /usr/local/bin/jj-agent-bash
 cp hosts/mac/io.jamesjarvis.content-sync.plist ~/Library/LaunchAgents/
 launchctl load ~/Library/LaunchAgents/io.jamesjarvis.content-sync.plist
 ```
 
-Then install Syncthing and share `~/development/jamesjarvis.io/content` as **Send Only**.
+Then grant **Full Disk Access** to `/usr/local/bin/jj-agent-bash` in System Settings → Privacy &
+Security → Full Disk Access.
+
+LaunchAgents do not inherit Full Disk Access, and `~/Library/Mobile Documents` is protected by
+macOS, so without this the agent fails with `Operation not permitted` even though the same script
+runs fine from your terminal. The agent uses a dedicated copy of bash so the grant applies only to
+it, rather than to every bash script on the machine. Re-copy and re-grant after a major macOS
+upgrade.
+
+In the Syncthing GUI, share `~/development/jamesjarvis.io/content` as **Send Only**.
+
+Do not open `~/development/jamesjarvis.io/content` as an Obsidian vault. It is a mirror, rewritten
+by `rsync --delete` every five minutes, so edits made there are destroyed on the next sync. Edit
+the iCloud vault instead.
 
 ### Raspberry Pi
 
