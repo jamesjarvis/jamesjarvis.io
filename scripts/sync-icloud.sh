@@ -2,7 +2,7 @@
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-VAULT="${CONTENT_VAULT:-$HOME/Library/Mobile Documents/com~apple~CloudDocs/jamesjarvis.io-content}"
+VAULT="${CONTENT_VAULT:-$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/jamesjarvis.io-content}"
 MIRROR="${CONTENT_DIR:-$REPO_DIR/content}"
 STUB_WAIT_SECONDS="${STUB_WAIT_SECONDS:-300}"
 

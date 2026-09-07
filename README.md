@@ -30,7 +30,7 @@ There are three copies of the content and only one of them matters.
 
 | Copy | Role |
 |---|---|
-| `~/Library/Mobile Documents/com~apple~CloudDocs/jamesjarvis.io-content` | **Canonical.** The only copy anyone should ever edit |
+| `~/Library/Mobile Documents/iCloud~md~obsidian/Documents/jamesjarvis.io-content` | **Canonical.** The only copy anyone should ever edit |
 | `~/development/jamesjarvis.io/content` on the Mac | A mirror of the vault. Disposable |
 | `/srv/site/repo/content` on the Pi | A copy of that mirror. Disposable |
 
@@ -97,7 +97,7 @@ build.
 Create a post in the vault, not here:
 
 ```bash
-hugo new content posts/your_post_here --contentDir "$HOME/Library/Mobile Documents/com~apple~CloudDocs/jamesjarvis.io-content"
+hugo new content posts/your_post_here --contentDir "$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/jamesjarvis.io-content"
 ```
 
 ## Running locally
