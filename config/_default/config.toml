@@ -8,7 +8,7 @@ summaryLength = 10
 
 timeout = '7200s'
 
-ignoreFiles = ['_templates/']
+ignoreFiles = ['_templates/', 'sync-conflict']
 
 [outputs]
 home     = ["HTML", "RSS", "JSON", "llms", "llmsfull", "md"]
