@@ -19,3 +19,7 @@ content/
 
 # Sync stamp
 .last-sync
+
+# Never commit credentials
+*.env
+!hosts/*.env.example
