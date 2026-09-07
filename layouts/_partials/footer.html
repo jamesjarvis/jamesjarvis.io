@@ -1,3 +1,5 @@
+{{ $buildStamp := now.Format "2 January 2006, 15:04 MST" | resources.FromString "build.txt" }}
+{{ $buildStamp.Publish }}
 <footer class="py-10 print:hidden">
   {{/* Footer menu */}}
   {{ if .Site.Menus.footer }}
@@ -87,7 +89,7 @@
           {{- else }}
             &copy;
             {{ now.Format "2006" }}
-            <span class="last-updated" title="Last updated {{ .Lastmod.Format "2 January 2006, 15:04 MST" }}">{{ .Site.Language.Params.Author.name | markdownify | emojify }}</span>
+            <span class="last-updated">{{ .Site.Language.Params.Author.name | markdownify | emojify }}</span>
           {{- end }}
         </p>
       {{ end }}
@@ -139,3 +141,16 @@
     {{ partial "extend-footer.html" . }}
   {{ end }}
 </footer>
+<script>
+  (function () {
+    var el = document.querySelector(".last-updated");
+    if (!el || !window.fetch) return;
+    var load = function () {
+      fetch("/build.txt", { cache: "no-store" })
+        .then(function (r) { return r.ok ? r.text() : null; })
+        .then(function (t) { if (t) el.title = "Last updated " + t.trim(); })
+        .catch(function () {});
+    };
+    if (window.requestIdleCallback) { requestIdleCallback(load); } else { setTimeout(load, 1200); }
+  })();
+</script>

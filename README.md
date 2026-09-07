@@ -44,6 +44,26 @@ That is why `scripts/sync-icloud.sh` exists: it mirrors the vault into a plain l
 
 Mark the vault "Keep Downloaded" in Finder so eviction stops happening at all.
 
+## The footer timestamp
+
+Hovering the author name in the footer shows when the site was last built.
+
+The timestamp is deliberately not in the HTML. Rendering `now` into a page would change all 138
+pages on every build, invalidating every cached page and making each deploy re-upload the whole
+site. Instead the build writes a single `build.txt` at the root and a small script in
+`layouts/_partials/footer.html` fetches it on idle. Two consecutive builds differ by that one
+file and nothing else.
+
+`layouts/_partials/footer.html` is a copy of the theme's, so it needs reconciling if Congo changes
+its footer.
+
+## Building on the Mac while `hugo server` runs
+
+Don't. `hugo server` continuously rewrites `public/` with a livereload script injected, and
+`build-deploy.sh` builds into the same directory before uploading it. Running both at once can
+publish a build carrying a livereload tag pointing at localhost. Stop the server first, or let the
+Pi do the deploy.
+
 ## Drafts and templates
 
 `draft: true` in a post's front matter keeps it out of the build, as does a future `date`.

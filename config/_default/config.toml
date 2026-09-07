@@ -10,9 +10,6 @@ timeout = '7200s'
 
 ignoreFiles = ['_templates/']
 
-[frontmatter]
-lastmod = ['lastmod', ':fileModTime', ':default']
-
 [outputs]
 home     = ["HTML", "RSS", "JSON", "llms", "llmsfull", "md"]
 page     = ["HTML", "md"]
