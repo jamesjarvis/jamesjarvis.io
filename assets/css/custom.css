@@ -142,3 +142,7 @@ body {
   height: auto;
   border-radius: 4px;
 }
+
+.last-updated {
+  cursor: help;
+}
