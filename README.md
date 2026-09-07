@@ -128,6 +128,11 @@ Do not open `~/development/jamesjarvis.io/content` as an Obsidian vault. It is a
 by `rsync --delete` every five minutes, so edits made there are destroyed on the next sync. Edit
 the iCloud vault instead.
 
+`sync-icloud.sh` excludes `.stfolder`, `.stversions` and `.stignore` from the mirror. Syncthing
+creates `.stfolder` in the folder root and the vault has no such file, so without those excludes
+`rsync --delete` removes the marker on every run and Syncthing reports the folder as missing and
+stops syncing. If that happens, `mkdir content/.stfolder` restores it.
+
 ### Raspberry Pi
 
 Everything on the SSD, not the SD card.

@@ -35,6 +35,9 @@ rsync -a --delete \
   --exclude '.obsidian' \
   --exclude '.DS_Store' \
   --exclude '.git' \
+  --exclude '.stfolder' \
+  --exclude '.stversions' \
+  --exclude '.stignore' \
   "$VAULT/" "$MIRROR/"
 
 date +%s > "$REPO_DIR/.last-sync"
