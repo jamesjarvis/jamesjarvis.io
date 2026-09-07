@@ -26,10 +26,22 @@ deploy the site. The writing and photos live outside it.
                                                     └─▶ Cloudflare Pages
 ```
 
-The canonical copy is the iCloud vault at
-`~/Library/Mobile Documents/com~apple~CloudDocs/jamesjarvis.io-content`. Edit it with Obsidian on
-the Mac or the phone. Everything downstream is one-way, so there is never a sync conflict to
-resolve.
+There are three copies of the content and only one of them matters.
+
+| Copy | Role |
+|---|---|
+| `~/Library/Mobile Documents/com~apple~CloudDocs/jamesjarvis.io-content` | **Canonical.** The only copy anyone should ever edit |
+| `~/development/jamesjarvis.io/content` on the Mac | A mirror of the vault. Disposable |
+| `/srv/site/repo/content` on the Pi | A copy of that mirror. Disposable |
+
+Edit the vault with Obsidian, on the Mac or the phone. Both downstream copies are rebuilt from it
+and can be deleted at any time without losing anything: delete the mirror and the next sync
+recreates it, delete the Pi's copy and Syncthing refills it from the mirror.
+
+The flow is one-way, so nothing downstream ever needs merging back. It is not immune to conflicts
+though: if a downstream copy is modified locally, Syncthing writes a `.sync-conflict-` file rather
+than silently discarding it. Hugo ignores those, so a conflict cannot break a build, but it does
+mean something wrote where it should not have.
 
 Content prior to the split remains in this repository's git history.
 
@@ -98,7 +110,7 @@ hugo server
 
 ## Publishing
 
-The Pi does this on its own every five minutes. To publish by hand from the Mac:
+The Pi rebuilds within seconds of content changing, and polls every five minutes as a fallback. To publish by hand from the Mac:
 
 ```bash
 scripts/sync-icloud.sh
@@ -173,7 +185,7 @@ the script alone, the stale plist is still loaded and the sync will keep failing
 In the Syncthing GUI, share `~/development/jamesjarvis.io/content` as **Send Only**.
 
 Do not open `~/development/jamesjarvis.io/content` as an Obsidian vault. It is a mirror, rewritten
-by `rsync --delete` every five minutes, so edits made there are destroyed on the next sync. Edit
+by `rsync --delete` every minute, so edits made there are destroyed on the next sync. Edit
 the iCloud vault instead.
 
 `sync-icloud.sh` excludes `.stfolder`, `.stversions` and `.stignore` from the mirror. Syncthing
