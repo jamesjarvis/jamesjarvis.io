@@ -190,13 +190,13 @@ Everything on the SSD, not the SD card.
 2. Clone this repo to `/srv/site/repo`, then `mise install`. The pins in `.mise.toml` resolve to
    arm64 builds.
 
-   The clone is shallow and single-branch, so `git pull` fails with "Need to specify how to
+   The clone is shallow and single-branch (`master`), so `git pull` fails with "Need to specify how to
    reconcile divergent branches" — the fetched commits share no visible ancestry with the local
    tip. Update it with fetch and reset instead, which is right for a deploy clone that never
    carries local changes:
 
    ```bash
-   git fetch --depth 1 origin jamesjarvis/split-content-out && git reset --hard FETCH_HEAD
+   git fetch --depth 1 origin master && git reset --hard FETCH_HEAD
    ```
 
    `content/` and `resources/` are gitignored, so reset leaves both untouched.
