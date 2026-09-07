@@ -86,6 +86,7 @@ Credentials come from `/etc/site-deploy.env` (Pi) or `~/.config/site-deploy.env`
 mise install
 brew install syncthing && brew services start syncthing
 sudo cp /bin/bash /usr/local/bin/jj-agent-bash
+sudo codesign --force --sign - /usr/local/bin/jj-agent-bash
 cp hosts/mac/io.jamesjarvis.content-sync.plist ~/Library/LaunchAgents/
 launchctl load ~/Library/LaunchAgents/io.jamesjarvis.content-sync.plist
 ```
@@ -96,8 +97,15 @@ Security → Full Disk Access.
 LaunchAgents do not inherit Full Disk Access, and `~/Library/Mobile Documents` is protected by
 macOS, so without this the agent fails with `Operation not permitted` even though the same script
 runs fine from your terminal. The agent uses a dedicated copy of bash so the grant applies only to
-it, rather than to every bash script on the machine. Re-copy and re-grant after a major macOS
-upgrade.
+it, rather than to every bash script on the machine.
+
+The re-signing step is not optional. `/bin/bash` is a platform binary whose signature is validated
+against the kernel trust cache, so a plain copy is killed on launch with SIGKILL and no useful
+error. `codesign --force --sign -` replaces it with an ad-hoc signature that is valid anywhere.
+
+Sign before granting Full Disk Access: re-signing changes the binary's cdhash, which is what TCC
+matches on, so a grant made beforehand stops applying. After a major macOS upgrade, re-copy,
+re-sign, then remove and re-add the Full Disk Access entry.
 
 In the Syncthing GUI, share `~/development/jamesjarvis.io/content` as **Send Only**.
 
