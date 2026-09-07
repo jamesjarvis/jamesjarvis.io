@@ -141,8 +141,12 @@ Everything on the SSD, not the SD card.
    the Pi's shell and the Syncthing web UI without exposing anything to the internet.
 2. Clone this repo to `/srv/site/repo`, then `mise install`. The pins in `.mise.toml` resolve to
    arm64 builds.
-3. Install Syncthing and accept the shared folder as **Receive Only**, pointed at
-   `/srv/site/repo/content`. **Do the first 3.7 GB sync on the LAN.**
+3. Install Syncthing (`sudo apt install syncthing`, then
+   `sudo systemctl enable --now syncthing@pi`) and accept the shared folder as **Receive Only**,
+   pointed at `/srv/site/repo/content`. **Do the first 4 GB sync on the LAN.**
+
+   Debian 12 ships Syncthing 1.19.2 against 2.x on the Mac. That pair is verified working, so
+   there is no need to add the upstream apt repository.
 4. Seed the image cache before the first build, so the Pi does not have to re-encode every photo:
 
    ```bash
