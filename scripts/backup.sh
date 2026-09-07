@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+export PATH
+
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 CONTENT_DIR="${CONTENT_DIR:-$REPO_DIR/content}"
 STAMP_FILE="${STAMP_FILE:-$REPO_DIR/.last-sync}"
