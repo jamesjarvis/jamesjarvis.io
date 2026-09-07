@@ -6,7 +6,7 @@ DEBOUNCE_SECONDS="${DEBOUNCE_SECONDS:-15}"
 BUILD_UNIT="${BUILD_UNIT:-site-build.service}"
 
 exec inotifywait -r -m -q \
-  -e modify -e create -e delete -e move \
+  -e close_write -e modify -e create -e delete -e move -e attrib \
   --exclude '(/\.stfolder|/\.stversions|/\.syncthing\.|\.tmp$)' \
   --format '%w%f' "$CONTENT_DIR" |
 while read -r _; do
