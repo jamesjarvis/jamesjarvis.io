@@ -8,5 +8,11 @@ _gen/
 # Output files
 public/
 
+# Content is synced in from iCloud/Syncthing, not tracked here. See README.
+content/
+
+# Local build state
+.build-state
+
 .obsidian
 .claude

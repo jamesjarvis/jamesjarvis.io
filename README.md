@@ -1,36 +1,144 @@
 # jamesjarvis.io
 
-Welcome to jamesjarvis.io - my personal site, accessible at (you guessed it!) <https://jamesjarvis.io>
+My personal site, at <https://jamesjarvis.io>. A static site built with [Hugo](https://gohugo.io),
+inheriting the [Congo theme](https://github.com/jpanther/congo).
 
-This site is now a static website generated using Hugo, mostly inheriting the [Congo theme](https://github.com/jpanther/congo) as it was closest to my previous site's look and feel.
+**This repository contains only the code**: layouts, assets, config, and the scripts that build and
+deploy the site. The writing and photos live outside it.
 
-## How to write
+## Where the content lives
 
-```bash
-hugo new content posts/your_post_here
+`content/` is gitignored and populated from outside. The chain is:
+
+```
+ iPhone  ──iCloud Drive──┐
+                         │
+ MacBook: iCloud vault ──┴──rsync──▶ ~/development/jamesjarvis.io/content
+                                                    │
+                                              Syncthing (send-only)
+                                                    ▼
+ Pi:  /srv/site/repo/content  (receive-only)  +  /srv/site/repo  (this repo)
+                                                    │
+                                      systemd timer ─▶ hugo ─▶ wrangler
+                                                    │
+                                                    ├─▶ Cloudflare Pages
+                                                    └─▶ restic ─▶ Backblaze B2
 ```
 
-## How to run locally
+The canonical copy is the iCloud vault at
+`~/Library/Mobile Documents/com~apple~CloudDocs/jamesjarvis.io-content`. Edit it with Obsidian on
+the Mac or the phone. Everything downstream is one-way, so there is never a sync conflict to
+resolve.
+
+Content prior to the split remains in this repository's git history.
+
+### Syncthing must not watch the iCloud folder
+
+iCloud evicts files it thinks you don't need to zero-byte `.name.ext.icloud` placeholders. Sharing
+the vault directly would replicate those placeholders to the Pi and silently publish a site with
+missing images.
+
+That is why `scripts/sync-icloud.sh` exists: it mirrors the vault into a plain local directory and
+**refuses to run** if any file is still evicted. Syncthing shares the mirror, never the vault.
+
+Mark the vault "Keep Downloaded" in Finder so eviction stops happening at all.
+
+## Writing
+
+Create a post in the vault, not here:
 
 ```bash
+hugo new content posts/your_post_here --contentDir "$HOME/Library/Mobile Documents/com~apple~CloudDocs/jamesjarvis.io-content"
+```
+
+## Running locally
+
+```bash
+mise install
+scripts/sync-icloud.sh
 hugo server
 ```
 
-## How to build
+## Publishing
+
+The Pi does this on its own every five minutes. To publish by hand from the Mac:
 
 ```bash
-hugo --minify --gc --logLevel debug
+scripts/sync-icloud.sh
+scripts/build-deploy.sh
 ```
 
-## How to host
+`build-deploy.sh` is host-agnostic and runs identically on the Mac and the Pi. It hashes the repo
+and content tree and exits without rebuilding when nothing changed. Useful flags:
 
-[Follow the guide here on gohugo.io](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+- `--force` — rebuild even if nothing changed
+- `--no-deploy` — build only, skip the upload to Cloudflare
 
-## Annoying dependency pinning
+Credentials come from `/etc/site-deploy.env` (Pi) or `~/.config/site-deploy.env` (Mac). See
+`hosts/site-deploy.env.example`.
 
-At some point hugo stopped building with a certain version of hugo.
-We now pin dependencies with [Mise](https://mise.jdx.dev/getting-started.html).
+## Machine setup
 
-```
+### MacBook
+
+```bash
 mise install
+cp hosts/mac/io.jamesjarvis.content-sync.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/io.jamesjarvis.content-sync.plist
 ```
+
+Then install Syncthing and share `~/development/jamesjarvis.io/content` as **Send Only**.
+
+### Raspberry Pi
+
+Everything on the SSD, not the SD card.
+
+1. Install [Tailscale](https://tailscale.com) on the Pi, MacBook and phone. This is how you reach
+   the Pi's shell and the Syncthing web UI without exposing anything to the internet.
+2. Clone this repo to `/srv/site/repo`, then `mise install`. The pins in `.mise.toml` resolve to
+   arm64 builds.
+3. Install Syncthing and accept the shared folder as **Receive Only**, pointed at
+   `/srv/site/repo/content`. **Do the first 3.7 GB sync on the LAN.**
+4. Seed the image cache before the first build, so the Pi does not have to re-encode every photo:
+
+   ```bash
+   rsync -a ~/development/jamesjarvis.io/resources/ pi:/srv/site/repo/resources/
+   ```
+
+   A cold build resizes 355 large JPEGs and takes over an hour on ARM. After seeding, builds are
+   incremental. This persistent cache is the main reason the Pi beats CI.
+5. Write `/etc/site-deploy.env` from `hosts/site-deploy.env.example`, `chmod 600`.
+6. Install the units:
+
+   ```bash
+   sudo cp hosts/pi/*.service hosts/pi/*.timer /etc/systemd/system/
+   sudo systemctl daemon-reload
+   sudo systemctl enable --now site-build.timer site-backup.timer
+   ```
+
+7. Initialise the backup repository once: `restic init`.
+
+## Administration
+
+| Want | Do |
+|---|---|
+| Shell on the Pi from anywhere | `ssh pi` over Tailscale |
+| Is the Pi's content up to date? | Syncthing web UI over Tailscale |
+| Build history and failures | `journalctl -u site-build` |
+| Why didn't my post appear? | `tail ~/Library/Logs/content-sync.log` on the Mac |
+| Force a publish | `scripts/build-deploy.sh --force` |
+| Restore content | `restic restore latest --target /tmp/restore` |
+
+Build and deploy failures push a notification to your phone via [ntfy.sh](https://ntfy.sh); set
+`NTFY_TOPIC` to enable it.
+
+## Hosting
+
+Cloudflare Pages, in Direct Upload mode — the Pi pushes builds with `wrangler pages deploy`, so
+there is no Git integration to configure. DNS is already on Cloudflare.
+
+## Dependency pinning
+
+Hugo is fussy about versions, so Go, Node and hugo-extended are pinned in `.mise.toml` with
+[mise](https://mise.jdx.dev/getting-started.html). Every machine runs `mise install` and gets the
+same toolchain.

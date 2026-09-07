@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 summaryLength = 10
 
-timeout = '3000s'
+timeout = '7200s'
 
 [outputs]
 home     = ["HTML", "RSS", "JSON", "llms", "llmsfull", "md"]

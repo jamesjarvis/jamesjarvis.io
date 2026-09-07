@@ -1,0 +1,14 @@
+[Unit]
+Description=Build and deploy jamesjarvis.io
+After=network-online.target syncthing@jamesjarvis.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=jamesjarvis
+WorkingDirectory=/srv/site/repo
+Environment=PATH=/home/jamesjarvis/.local/bin:/usr/local/bin:/usr/bin:/bin
+EnvironmentFile=/etc/site-deploy.env
+ExecStart=/srv/site/repo/scripts/build-deploy.sh
+TimeoutStartSec=4h
+Nice=10

@@ -1,3 +1,4 @@
 [tools]
 go = "1.24.4"
+node = "22"
 "aqua:gohugoio/hugo/hugo-extended" = "0.163.3"
