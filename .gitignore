@@ -22,4 +22,5 @@ content/
 
 # Never commit credentials
 *.env
+.env.*
 !hosts/*.env.example
