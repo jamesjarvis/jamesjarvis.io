@@ -170,39 +170,18 @@ Everything on the SSD, not the SD card.
    ```bash
    sudo cp hosts/pi/*.service hosts/pi/*.timer /etc/systemd/system/
    sudo systemctl daemon-reload
-   sudo systemctl enable --now site-build.timer site-watch.service site-backup.timer
+   sudo systemctl enable --now site-build.timer site-watch.service
    ```
 
 ## Backups
 
-Backups run on the **Mac**, not the Pi. The Mac is where everything flows through, and the mirror
-at `~/development/jamesjarvis.io/content` is byte-identical to the vault while living outside
-iCloud's protected storage — so the backup agent needs no Full Disk Access.
+Backups run on the **Mac**, not the Pi, from the mirror at `~/development/jamesjarvis.io/content`.
+The script, its launchd agents and the B2 bucket live in the
+[infra repo](https://github.com/jamesjarvis/infra) under `hosts/mac/` and `terraform/backblaze/`;
+see "MacBook backups" in its README.
 
-```bash
-cp hosts/mac/io.jamesjarvis.content-backup.plist ~/Library/LaunchAgents/
-launchctl load ~/Library/LaunchAgents/io.jamesjarvis.content-backup.plist
-```
-
-```bash
-cp hosts/mac/io.jamesjarvis.content-backup-maintain.plist ~/Library/LaunchAgents/
-launchctl load ~/Library/LaunchAgents/io.jamesjarvis.content-backup-maintain.plist
-```
-
-Credentials live in `~/.config/site-deploy.env`. Initialise the repository once with `restic init`
-before the first run.
-
-The nightly run does `backup` and `forget` only. `prune` and `check` download data from B2 and
-cost money, so they run weekly instead via `backup.sh --maintain`, which is what the second agent
-above is for. The password may be given as `RESTIC_PASSWORD`, or better as
-`RESTIC_PASSWORD_COMMAND` reading from the macOS Keychain so it is not sitting in a file.
-
-Because the backup reads the mirror rather than the vault, a broken `sync-icloud.sh` would mean
-silently backing up stale content. `sync-icloud.sh` writes a `.last-sync` stamp on success and
-`backup.sh` warns via ntfy if it is more than 24 hours old.
-
-**Keep the restic password somewhere outside this machine.** Without it the backups cannot be
-recovered.
+`sync-icloud.sh` writes the `.last-sync` stamp that the backup checks, and warns via ntfy if it is
+more than 24 hours old.
 
 ## How quickly a change goes live
 
@@ -229,7 +208,7 @@ Roughly four minutes worst case.
 | Why didn't my post appear? | `tail ~/Library/Logs/content-sync.log` on the Mac |
 | Force a publish | `scripts/build-deploy.sh --force` |
 | Restore content | `restic restore latest --target /tmp/restore` (on the Mac) |
-| Backup history | `tail ~/Library/Logs/content-backup.log`, or `restic snapshots` |
+| Backup history | `tail ~/Library/Logs/content-backup.log`, or `restic snapshots` (see infra) |
 
 ### Failure notifications
 

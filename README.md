@@ -19,7 +19,7 @@ For how the site is built, deployed and backed up, and how to set up the machine
 | `assets/` | CSS, icons and images processed by Hugo's asset pipeline |
 | `static/` | Files copied to the site root verbatim, without processing |
 | `archetypes/posts/` | Front matter template for `hugo new content` |
-| `scripts/` | Sync, build, deploy and backup scripts. Host-agnostic |
+| `scripts/` | Sync, build and deploy scripts. Host-agnostic. Backups live in the infra repo |
 | `hosts/` | LaunchAgent plists, systemd units and the env file example |
 | `content/` | **Gitignored.** Mirrored in from the vault. See below |
 | `public/`, `resources/` | **Gitignored.** Build output and Hugo's image cache |
