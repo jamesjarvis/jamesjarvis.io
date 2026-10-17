@@ -176,9 +176,8 @@ Everything on the SSD, not the SD card.
 ## Backups
 
 Backups run on the **Mac**, not the Pi, from the mirror at `~/development/jamesjarvis.io/content`.
-The script, its launchd agents and the B2 bucket live in the
-[infra repo](https://github.com/jamesjarvis/infra) under `hosts/mac/` and `terraform/backblaze/`;
-see "MacBook backups" in its README.
+The script and its launchd agents live in the
+[infra repo](https://github.com/jamesjarvis/infra) under `hosts/mac/`; see "MacBook backups" in its README.
 
 `sync-icloud.sh` writes the `.last-sync` stamp that the backup checks, and warns via ntfy if it is
 more than 24 hours old.
